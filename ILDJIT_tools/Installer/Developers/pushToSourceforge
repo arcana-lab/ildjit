@@ -1,0 +1,24 @@
+#!/bin/bash
+
+host=bzr+ssh://campanoni@ildjit.bzr.sourceforge.net/bzrroot/ildjit
+declare localModules=`cat listOfModulesToKeepLocal`
+
+for i in `cat listOfAllModules`
+do
+	cd $i
+	if test -d .bzr ; then
+		found=0
+		for j in $localModules ; do
+			if test $i == $j ; then
+				found=1
+				break
+			fi
+		done
+		if test $found -eq 0 ; then
+			echo "Pushing $i"
+			bzr push $host/$i
+		fi
+	fi
+	cd ..
+done
+echo All done

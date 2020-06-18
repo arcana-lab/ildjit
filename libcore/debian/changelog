@@ -1,0 +1,12 @@
+iljit (0.3.0-2) unstable; urgency=low
+
+  * Remove configuration file, library, plugins, garbage collector pluginslocations locations dependency FROM PREFIX.
+  * Add default location for CIL Libraries to ILDJIT_PATH environment variable.
+
+ -- Leonardo Mino' <oaexpert@gmail.com>  Thu, 22 Jul 2010 12:18:10 +0200
+
+iljit (0.3.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Leonardo Mino' <oaexpert@gmail.com>  Tue, 06 Jul 2010 16:37:10 +0200

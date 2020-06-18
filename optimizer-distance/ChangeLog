@@ -1,0 +1,56 @@
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-11-24  Luca  <luca@ops-notebook>
+
+	first commit
+

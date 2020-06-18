@@ -1,0 +1,126 @@
+%{
+
+/*
+ * Copyright (C) 2006 Campanoni Simone
+ *
+ * iljit - This is a Just-in-time for the CIL language specified with the ECMA-335
+ * 
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+
+#include <base_symbol.h>
+#include <general_tools.h>
+#include <exception_manager.h>
+#include <runtime.h>
+
+extern t_system *ildjitSystem;
+
+typedef struct _CompilerNativeCall{
+	char *name;
+	void *pointer;
+} CompilerNativeCall;
+
+%}
+%define hash-function-name compilerNativeCallHash
+%define lookup-function-name compilerNativeCallLookUp
+%struct-type
+%readonly-tables
+%enum
+%includes
+%null-strings
+%omit-struct-type
+CompilerNativeCall
+%%
+setCurrentThreadException, setCurrentThreadException
+updateTheStackTrace, updateTheStackTrace
+isConstructed, isConstructed
+setConstructed, setConstructed
+fetchTheRightConstructor, fetchTheRightConstructor
+get_OutOfMemoryException, get_OutOfMemoryException
+runtime_canCast, runtime_canCast
+BuildDelegate, BuildDelegate
+%%
+
+static inline ir_value_t compilerNativeCallManagerResolve (ir_symbol_t *symbol){
+	ir_value_t value;
+	
+	/* Initialize the variables				*/
+	JITINT8 *name = (JITINT8 *)symbol->data;
+	assert(name != NULL);
+	const CompilerNativeCall *call=compilerNativeCallLookUp((char *)name,STRLEN(name));
+	assert(call != NULL);
+	
+	value.v = (IR_ITEM_VALUE)(JITNUINT) call->pointer;
+	return value;
+}
+
+static inline void compilerNativeCallManagerSerialize (ir_symbol_t * symbol, void **mem, JITUINT32 *memBytesAllocated){
+	JITINT8 	*name;
+	JITUINT32	bytesWritten;
+
+	/* Fetch the name.
+	 */
+	name 			= (JITINT8 *)symbol->data;
+	assert(name != NULL);
+
+	/* Allocate the memory.
+	 */
+	(*memBytesAllocated)	= STRLEN(name) + 1;
+	(*mem)			= allocFunction(*memBytesAllocated);
+
+	/* Serialize the name of the method.
+	 */
+	bytesWritten		= ILDJIT_writeStringInMemory(*mem, 0, *memBytesAllocated, name, JITFALSE);
+	(*memBytesAllocated)	= bytesWritten;
+
+	return ;
+} 
+
+static inline void compilerNativeCallManagerDump(ir_symbol_t *symbol, FILE *fileToWrite){
+	
+	/* Initialize the variables				*/
+	JITINT8 *name = (JITINT8 *)symbol->data;
+	assert(name != NULL);
+	
+	fprintf(fileToWrite, "Compiler Helper %s", name);
+}
+
+ir_symbol_t *COMPILERCALL_getSymbol(JITINT8 *name){
+	ir_symbol_t *symbol;
+	
+	/* Initialize the variables				*/
+	symbol = IRSYMBOL_createSymbol(COMPILER_CALL_SYMBOL, (void *) name);
+	
+	/* Return				*/
+	return symbol;
+}
+
+ir_symbol_t * compilerNativeCallManagerDeserialize (void *mem, JITUINT32 bytesRead){
+	JITINT8	 	*methodName;
+	ir_symbol_t	*s;
+
+	ILDJIT_readStringFromMemory(mem, 0, &methodName);
+	assert(methodName != NULL);
+	
+	s	= COMPILERCALL_getSymbol(methodName);
+
+	return s;
+}
+
+void init_compilerCallManager(void){
+	IRSYMBOL_registerSymbolManager(COMPILER_CALL_SYMBOL, compilerNativeCallManagerResolve, compilerNativeCallManagerSerialize, compilerNativeCallManagerDump, compilerNativeCallManagerDeserialize);
+
+	return ;
+}

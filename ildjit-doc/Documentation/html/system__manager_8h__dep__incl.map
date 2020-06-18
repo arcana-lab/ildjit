@@ -1,0 +1,8 @@
+<map id="system_manager.h" name="system_manager.h">
+<area shape="rect" id="node2" href="$cil__ir__translator_8h.html" title="CIL&#45;&gt;IR translator. " alt="" coords="5,80,125,107"/>
+<area shape="rect" id="node3" href="$code__generator_8h_source.html" title="code_generator.h" alt="" coords="150,80,271,107"/>
+<area shape="rect" id="node4" href="$garbage__collector__interactions_8h.html" title="garbage_collector_interactions.h" alt="" coords="296,80,504,107"/>
+<area shape="rect" id="node5" href="$iljit__plugin__manager_8h_source.html" title="iljit_plugin_manager.h" alt="" coords="528,80,675,107"/>
+<area shape="rect" id="node6" href="$loader_8h.html" title="loader.h" alt="" coords="699,80,765,107"/>
+<area shape="rect" id="node7" href="$runtime_8h_source.html" title="runtime.h" alt="" coords="789,80,864,107"/>
+</map>

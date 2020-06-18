@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@/iljit
+includedir=@includedir@/iljit
+
+Name: libiljit
+Description: Core module of ILDJIT dynamic compiler.
+Version: @VERSION@
+Libs: -L${libdir} -liljit
+Cflags: -I${includedir}/iljit

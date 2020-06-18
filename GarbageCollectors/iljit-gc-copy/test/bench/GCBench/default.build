@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<project name="Garbage Collector Bench" default="build" basedir=".">
+
+  <target name="build" description="compile source code">
+    <compile target="exe" output="GCBench.exe">
+      <sources>
+        <includes name="Sources/*.cs"/>
+      </sources>
+    </compile>
+  </target>
+  
+  <target name="clean" description="remove all generated files">
+    <delete file="GCBench.exe"/>
+  </target>
+
+</project>

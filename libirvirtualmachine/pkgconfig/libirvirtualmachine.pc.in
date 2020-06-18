@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@/iljit
+includedir=@includedir@/iljit
+
+Name: libirvirtualmachine
+Description: Implementation of the IR virtual machine
+Version: @VERSION@
+Libs: -L${libdir} -L@libdir@ -lirvirtualmachine
+Cflags: -I${includedir} -I@includedir@

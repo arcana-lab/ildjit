@@ -1,0 +1,23 @@
+Source: libirvirtualmachine
+Priority: extra
+Maintainer: Leonardo Mino' <oaexpert@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libglib2.0-0, libgl1-mesa-glx, mime-support, m4, libc6-i686, flex, libiljitir-dev, libxan-dev, libiljitu-dev, libcompilermemorymanager-dev, libiljitiroptimizer-dev, locales, libasound2, pkg-config, libpcre3, gawk
+Standards-Version: 3.8.3
+Section: libs
+Homepage: http://ildjit.sourceforge.net
+
+Package: libirvirtualmachine-dev
+Section: libdevel
+Architecture: any
+Depends: libirvirtualmachine (= ${binary:Version}), libjit-for-ildjit-dev
+Description: Libirvirtualmachine
+ This is an implementation of the virtual machine of the
+ IR language defined within the ILDJIT project.
+
+Package: libirvirtualmachine
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libjit-for-ildjit (>=0.1.3)
+Description: Libirvirtualmachine
+ This is an implementation of the virtual machine of the
+ IR language defined within the ILDJIT project.

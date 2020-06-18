@@ -1,0 +1,28 @@
+#!/bin/bash
+
+make clean &> /dev/null
+make distclean &> /dev/null
+rm -rf `find ./ -name autom4te.cache`
+rm -f `find ./ -name Makefile.in`
+rm -f `find ./ -name config.h.in`
+rm -f `find ./ -name config.h.in~`
+rm -f `find ./ -name aclocal.m4`
+rm -f `find ./ -name aclocal.m4~`
+rm -f `find ./ -name acinclude.m4`
+rm -f `find ./ -name acinclude.m4~`
+rm -f `find ./ -name configure`
+rm -f `find ./ -name depcomp`
+rm -f `find ./ -name stamp-h.in`
+rm -f `find ./ -name stamp-h1`
+rm -f `find ./ -name stamp-h`
+rm -f `find ./ -name ltmain.sh`
+rm -f `find ./ -name ylwrap`
+rm -f `find ./ -name config.log`
+rm -f `find ./ -name config.guess`
+rm -f `find ./ -name config.sub`
+rm -fr m4
+rm -f config.sub config.guess configure mkinstalldirs depcomp libtool config.status ylwrap missing install-sh
+rm -rf build-aux doc/iljit.info 
+if test -d include ; then 
+	rm -f `find ./include -name *.h`
+fi

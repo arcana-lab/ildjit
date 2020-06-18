@@ -1,0 +1,35 @@
+2009-06-08  Luca Rocchini, Luca Sisler
+	* optimizer-aliasanalyzer: Initial version
+
+-------------------------------- 0.0.1
+2010-03-11  Simone Campanoni  <simo.xan@gmail.com>
+	* src/optimizer_alias.c: Improve the speed of the function compute_flow_alias.
+	* src/optimizer_alias.c: Fix the bug within the function trans for the case of pointer arithmetics.
+
+2010-03-12  Simone Campanoni  <simo.xan@gmail.com>
+	* src/optimizer_alias.c: Bug fixing.
+
+2010-03-13  Simone Campanoni  <simo.xan@gmail.com>
+	* src/optimizer_alias.c: Implemented a more accurate analysis to identify which variables can store a pointer.
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+	* src/optimizer_alias.c: Adapt the plugin with the new interface
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+	* src/*.c: Adapt the code for the remotion of the 4-th IR parameter of IR instructions.
+
+2010-4-26  Simone Campanoni  <simo.xan@gmail.com>
+	* configure.in: Rename the file to configure.ac
+        * configure.ac: Fixed a bug that prevented CFLAGS to be modified using the corresponding environment variable.
+
+-------------------------------- 0.3.0
+2010-5-27  Simone Campanoni  <simo.xan@gmail.com>
+	* src/optimizer_alias.c: Added the analysis for the IRALLOCA instruction type.
+
+2010-07-07  Simone Campanoni  <simo.xan@gmail.com>
+	* src/optimizer_alias.c: Add the IRLIBRARYCALL case.
+
+2010-08-24 Simone Campanoni <simo.xan@gmail.com>
+	* src/*.c: Use the new API of Libiljitir.
+
+-------------------------------- 0.3.1

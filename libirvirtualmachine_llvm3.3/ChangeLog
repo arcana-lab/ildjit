@@ -1,0 +1,997 @@
+2014-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the IR*ELEM instructions
+
+2014-03-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2014-03-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2014-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed to handle cases where getPointerToFunction is called while generating bitcode of another method.
+
+2014-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled new options
+
+2014-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2014-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not call getPointerToFunction as not necessary.
+
+2014-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2014-01-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Take advantage of the new API provided by utilities.cpp to transform IR variables to LLVM variables
+
+2014-01-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: do not get the address of a global unless it has been specified by the IR
+
+2014-01-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the general solution for library paths
+
+2014-01-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used wrapper for malloc to always initialize new memory.
+
+2014-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use direct functions rather than wrappers.
+
+2014-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2014-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: Do not load a valuetype for conversions
+
+2014-01-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2014-01-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adjusted to use the new IR API.
+
+2014-01-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed an old function that does not belong to the IR API anymore.
+
+2014-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Translate globals before any translation to bitcode.
+
+2014-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Defined the signature of ILDJIT_quit properly.
+
+2014-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2014-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Invoke ILDJIT to quit the execution instead of the function exit.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link objects with libraries by using g++.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Translate IRGETADDRESS properly.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new routine provided by utilities
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Always translate indirect calls to methods into LLVM calls.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump IR code when bitcode is dumped
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IRFPOINTER values for static compilation.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a function to fetch the C function name.
+
+2013-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2013-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new routine
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved a function. Removed deadcode.
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new abstraction of translating IR items to LLVM values.
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new utility to load LLVM values
+
+2013-12-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Better handle of globals for binary operations
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Load before use values on calls
+
+2013-12-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use ir_malloc for now
+
+2013-12-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle globals for binary operations.
+
+2013-12-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not handle static objects as special data. The rest of ILDJIT will take care of mapping them to IR globals.
+
+2013-12-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used proper IR API
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed. Globals need to be loaded before their usage
+
+2013-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Group together LLVM variables, IR variables, and IL variables.
+
+2013-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a hack
+
+2013-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Load the value when globals are accessed
+
+2013-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Extend the API to create globals to use IR data types during creation of LLVM globals.
+
+2013-12-18  Glenn Holloway  <holloway@eecs.harvard.edu>
+
+	Simone enabled exceptions by overriding llvm-config output.
+	I changed object file dumping for --static to skip the rest of object finalization
+	after the relocatable object file has been written.
+
+2013-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enabled exceptions by overriding llvm-config output
+
+2013-12-18  Glenn Holloway  <holloway@eecs.harvard.edu>
+
+	After dumping an object file, skip the rest of finalizeObject
+
+2013-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enabled exceptions
+
+2013-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IR globals
+
+2013-12-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed about creating globals for embedding CIL files
+
+2013-12-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a message printing
+
+2013-12-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Created globals for CIL files
+
+2013-12-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use symbols for acceeses to global variables instead of actual addresses.
+
+2013-12-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use LLVM functions created from function names rather than actual address of binary methods
+
+2013-12-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Define new functions based on function names
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the libc strlen
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed a memory corruption. Use libc functions instead of the internal wrappers
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle differently aot and static compilations.
+
+2013-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Compile only what is available on static compilation
+
+2013-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2013-12-10  Glenn Holloway  <holloway@rb22.int.seas.harvard.edu>
+
+	Fix comment to reflect putting globals in common
+
+2013-12-10  Glenn Holloway  <holloway@rb22.int.seas.harvard.edu>
+
+	Make global variables 'common' for --static
+
+2013-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use AM_PROG_AR for new autotools.
+
+2013-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump the module bitcode when the relative option is set.
+
+2013-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set the program name properly.
+
+2013-12-10  Glenn Holloway  <holloway@rb22.int.seas.harvard.edu>
+
+	Add name to global variable for --static
+
+2013-12-10  Glenn Holloway  <holloway@rb22.int.seas.harvard.edu>
+
+	Assimilate Simone's event listener updates
+
+2013-12-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2013-12-10  Glenn Holloway  <holloway@rb22.int.seas.harvard.edu>
+
+	For --static: create globals, close module, dump object file, translate to target code
+
+2013-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Minor changes toward the final behavior (MCJIT, JIT)
+
+2013-12-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Default: no MCJIT. Disable DataLayout for FPM and MPM. Do not generate machine code at static time before all bitcode has been generated.
+
+2013-12-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Glenn's changes to allow compilation with LLVM 3.3
+
+2013-12-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the all option of llvm-config
+
+2013-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2013-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the new IR API
+
+2013-11-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Split program optimization with start execution phase.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled IRLOG10
+
+2013-09-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a comment
+
+2013-08-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Hack to have perlbmk
+
+2013-06-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented some IR instructions without using LLVM intrinsics. Fixed a bogus assertion.
+
+2013-06-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the internal functions of LLVM intrinsics.
+
+2013-06-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove optimization flags coming from llvm-config.
+
+2013-06-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Create the common function
+
+2013-06-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-06-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed about cloned methods.
+
+2013-04-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an alternative implementation of IRMEMCPY
+
+2013-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle vararg properly
+
+2013-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2013-03-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle a possible empty basic block at the end
+
+2013-03-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed.
+
+2013-03-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2013-03-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2013-03-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Convert results of the new instructions.
+
+2013-03-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle a new instruction.
+
+2013-03-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled new IR instructions
+
+2013-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API.
+
+2013-02-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the alignment
+
+2013-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump code before optimizing it
+
+2013-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added additional checks.
+
+2012-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.2
+
+2012-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-11-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing to use LLVM available in Ubuntu.
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IRMULOVF
+
+2012-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2012-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle llvm-config-3.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Check that BASIC_BLOCK_IDENTIFIER has been enabled
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Replaced IRSTORE with IRMOVE
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the new instruction IRCEIL.
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the translation
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-09-27  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-24  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers to insert and lookup from XanHashTable.
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-09-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed.
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-08-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reenabled the module optimizations.
+
+2012-08-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed some memory leaks.
+
+2012-08-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed.
+
+2012-08-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory corruption.
+
+2012-07-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed some memory leaks.
+
+2012-07-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2012-07-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed some memory leaks.
+
+2012-05-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion.
+
+2012-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Translate the new instructions
+
+2012-03-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Translate IRALLOCALIGN.
+	Bugs fixing for math operations.
+	Improve the utilities.
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use volatile information
+
+2012-03-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-03-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the utilities
+
+2012-03-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IRSTRING
+
+2012-03-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimized conditional branches.
+
+2012-03-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2012-03-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the correct integer type for pointers.
+
+2012-03-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Translate the new instruction IRBITCAST
+
+2012-03-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2012-03-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle more properly conversions between integers and pointers.
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of xanlib
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IRREALLOC
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Translate IREXP
+
+2012-02-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2012-02-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the method inlining
+
+2012-02-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2012-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing.
+	LLVM requires an entry point with no predecessors.
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing inside translation of IRLOADREL: LLVM considers differently JITNINT and pointers!
+	Adapt the code to remove several internal assertions in LLVM.
+
+2012-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new files.
+
+2012-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enabled LLVM code optimization algorithms.
+
+2012-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Shutdown the LLVM
+
+2012-02-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Changed the linking type
+
+2012-02-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the remaining instructions.
+	Reorganized the code.
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some casting
+
+2012-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing.
+	All SPEC benchmarks works now.
+
+2012-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cover different return types
+
+2012-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing.
+	Implemented some of the exception handling instructions
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing.
+	Used the new IR
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removing the hacking
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new set of ISA
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the walk stalking.
+
+2012-02-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-02-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Completed the dynamic compilation scheme.
+
+2012-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle value types inside IRCONV
+
+2012-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing.
+	Implemented IRALLOCA
+
+2012-02-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on IRNEG.
+	Do not generate useless code for IRLOADREL.
+
+2012-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing.
+	Implemented the instruction profiler.
+
+2012-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Return after IREXIT
+
+2012-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged the code
+
+2012-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Restructure the code
+
+2012-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Restructure the code
+
+2012-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Restructuring the code
+
+2012-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented finally blocks.
+	Free the memory used for previous translations.
+
+2012-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on get function pointers and library calls.
+	Added function names to native and library calls.
+
+2012-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented IRVCALL.
+	Organize call instructions together.
+
+2012-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+	Code cleaning
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRTYPEDREF
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRTYPEDREF.
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented IRSIZEOF and IREXIT.
+	Temporarily implemented throw instructions.
+	Removed the not-anymore-necessarily patch to add return instructions.
+
+2012-02-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing.
+	Setting the full method name
+
+2012-02-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented IRVM_startEntryPointExecution
+
+2012-02-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Split functions to different files
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented IRMEMCPY
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Started the implementation of IRMEMCPY
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented IRNEWOBJ.
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented IRICALL and IRINITMEMORY
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented bitwise IR instructions.
+	Bugs fixing on binary operations.
+	Improved the IRCONV translation.
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented bitwise IR instructions.
+	Bugs fixing
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle more IR types
+
+2012-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented native call IR instructions.
+	Handled more IR variable types.
+
+2012-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented some instructions
+
+2012-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented IRLOADREL, comparison instructions and  introduced IRARRAYLENGTH.
+	Resolved IRSYMBOLs.
+	Handled constant pointers.
+
+2012-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new ILDJIT API.
+	Implemented IRLOADREL.
+	Forward arguments to runFunction.
+
+2012-01-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-01-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set the name of the parameter
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved coverage of IR instructions
+
+2012-01-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	First end-to-end compilation of a trivial program!!! YES! :)
+
+2012-01-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handling the initialization of LLVM properly.
+
+2012-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented correctly IRADD, IRSUB and IRSTORE.
+
+2012-01-19  Glenn Holloway  <holloway@fox.eecs.harvard.edu>
+
+	Setup locals array for method being translated, but LLVM parameters still need work
+
+2012-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the utilities file.
+	Started the implementation of IRADD and IRSUB
+
+2012-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Comment an incompatible call with LLVM 3.0
+
+2011-08-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented IRVM_run
+
+2011-08-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the backend
+
+2011-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the backend
+
+2011-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented IRVM_isANativeFunction
+
+2011-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Align the function names
+
+2011-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the backend
+
+2011-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the translation
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed linker options
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Comment inclusions
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	First compilable version
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Functions renaming
+
+2011-08-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

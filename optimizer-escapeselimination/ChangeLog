@@ -1,0 +1,164 @@
+2014-05-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reduced the number of instructions to get addresses.
+
+2014-03-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the code uniform.
+
+2014-03-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed. Handle conservatively cases where the variable that contains the address is copied.
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the inline keyword.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy
+
+2014-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed deadcode
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2013-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the optimization to transform IRMEMCPY to IRSTOREREL when escaped variables are involved. This transformation will help to remove IRGETADDRESS instructions even more.
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use IRMOVE instead of IRSTORE
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-09-27  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-09-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed a wrong assertion
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapted the plugin to the new codetool API.
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the algorithm
+
+2012-03-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the algorithm.
+	Bugs fixing.
+
+2012-03-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the optimization
+
+2012-03-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the optimization
+
+2012-03-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the algorithm
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the last functions
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the algorithm
+
+2011-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed a bug within the optimization for value types.
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-13  
+Committer:
+Luca  <luca@turbo>
+
+
+	adapt to new IR API
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Return the right job ID
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the misc files
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

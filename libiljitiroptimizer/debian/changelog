@@ -1,0 +1,11 @@
+libiljitiroptimizer (0.3.0-2) unstable; urgency=low
+
+  * Remove PREFIX dependency from location of the optimizers.
+
+ -- Leonardo Mino' <oaexpert@gmail.com>  Thu, 22 Jul 2010 11:47:35 +0200
+
+libiljitiroptimizer (0.3.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Leonardo Mino' <oaexpert@gmail.com>  Mon, 05 Jul 2010 13:28:16 +0200

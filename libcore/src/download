@@ -1,0 +1,581 @@
+#!/bin/bash
+
+if test $# -lt 2 ; then
+        echo "Usage: `basename $0` SOURCE_DIRECTORY INSTALLATION_DIRECTORY <options>"
+	echo -e "\nPossible <options>:"
+	echo "  --no-download         Use already-downloaded packages instead of"
+	echo -e "                        downloading new ones\n"
+	echo "  --download-only       Download the packages only"
+        exit 1
+fi
+
+clear ;
+echo "#####################################################################################"
+echo "                                  ILDJIT"
+echo "#####################################################################################"
+echo "	Release version : 2.0.0"
+echo "	Release name    : Sloth-merge"
+echo ""
+echo "-------------------------------------------------------------------------------------"
+
+####################### Options
+CURR_DIR=`pwd`
+if ! test -d $2 ; then
+	mkdir -p $2
+fi
+cd $2
+INSTALL_DIR=`pwd`
+cd $CURR_DIR
+if ! test -d $1 ; then
+	mkdir -p $1 ;
+fi
+cd $1
+SOURCE_DIR=`pwd`
+cd $CURR_DIR
+
+###################### Platform
+echo -e "Platform detected: "
+if test `uname -m` = "arm"; then
+	echo "ARM"
+	PLATFORM_CONFIG_OPTIONS="CFLAGS=\"-mcpu=arm920 -msoft-float -mapcs-frame\""
+elif test `uname -m` = "x86_64"; then
+	echo "x86_64"
+	PLATFORM_CONFIG_OPTIONS="CFLAGS=\"-m32\" CXXFLAGS=\"-m32\""
+else
+	echo "`uname -m`"
+	PLATFORM_CONFIG_OPTIONS=""
+fi
+echo ""
+echo "-------------------------------------------------------------------------------------"
+
+###################### Configure
+CONFIGURE_OPTIONS="--prefix=$INSTALL_DIR $PLATFORM_CONFIG_OPTIONS"
+echo -e "./configure will have the following options:\n$CONFIGURE_OPTIONS\n\n"
+download=1
+toinstall=1
+if test $# -ge 3 ; then
+	if test "$3" == "--no-download" ; then
+		download=0
+	fi
+	if test $3 = "--download-only" ; then
+		toinstall=0
+	fi
+fi	
+echo "-------------------------------------------------------------------------------------"
+		
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$INSTALL_DIR:$INSTALL_DIR/lib:$INSTALL_DIR/lib/iljit
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$INSTALL_DIR/lib/pkgconfig
+
+LOGFILE=$SOURCE_DIR/install.log
+echo "In case of problems during the installation, look at $LOGFILE for hints about what went wrong."
+echo ""
+echo "-------------------------------------------------------------------------------------"
+
+####################### Components to install
+LibxanVersion="2.0.0"
+IldjitTesterVersion="1.0.0"
+cilLibs="1.0.0"
+let index=0
+
+name[$index]="libplatform"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libcompilermemorymanager"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libiljitu"
+version[$index]="1.0.2"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libpluginmanager"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libiljitsm"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libiljitmm"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libiljitil"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libilbinary"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libirmanager"
+version[$index]="1.0.2"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libiljitiroptimizer"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libiljitgc"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libirvirtualmachine"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libirvirtualmachine_llvm"
+version[$index]="1.0.2"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libclimanager"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libdla"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libmanfred"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libcore"
+version[$index]="1.0.2"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="ildjit"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="iljit-ecmasoft-decoder"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="iljit-gc-allocator"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimization_levels_default"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="libdominance"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="clrbase"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-algebraic_simply"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-availableexpressions"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-basicblockidentifier"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-branchpredictor"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-cdg"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-constantpropagation"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-copypropagation"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-cse"
+version[$index]="1.0.2"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-deadcode"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-distance"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-dotprinter"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-dummy"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-escapes"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-escapeselimination"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-inductionvariablesidentification"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-irchecker"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-liveness"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-loopidentificator"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-loopinvariantsidentification"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-mergeconversions"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-nativemethods"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-nullcheckremoval"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-postdominators"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-predominators"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-reachingdefinitions"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-reachinginstructions"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-ssa-convert"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-tracescheduler"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+name[$index]="optimizer-variable_renaming"
+version[$index]="2.0.0"
+components[$index]="${name[$index]}-${version[$index]}"
+index=`expr $index + 1`
+
+
+
+
+####################### Directory checking
+if ! test -d $INSTALL_DIR ; then
+        if test -e $INSTALL_DIR ; then
+                echo "ERROR: The installation directory $INSTALL_DIR is a file" ;
+                exit 1
+        fi 
+        mkdir -p $INSTALL_DIR
+fi
+
+if ! test -d $SOURCE_DIR ; then
+        if test -e $SOURCE_DIR ; then
+                echo "ERROR: The installation directory $SOURCE_DIR is a file" ;
+                exit 1
+        fi 
+        mkdir -p $SOURCE_DIR
+fi
+
+
+###################### #Downloading
+if test $download -eq 0; then
+	echo -e "\nDownload disabled: using local packages\n"
+else
+	echo "Downloading"
+	echo ""
+
+	cd $SOURCE_DIR
+
+	# XanLib
+	echo "XanLib" ;
+	fileName="libxan-$LibxanVersion.tar.gz"
+	echo "	Downloading $fileName"
+	if ! test -e $fileName ; then
+		wget http://sourceforge.net/projects/xanlib/files/libxan/libxan-$LibxanVersion.tar.gz &> $LOGFILE
+	fi
+	if ! test -e $fileName ; then
+	        echo "Error on downloading $fileName" ;
+	        exit 1 ;
+	fi
+
+	# ILDJIT
+	echo "ILDJIT" ;
+	for ((i=0 ; i < ${#components[@]} ; i++)) ;
+	do
+		fileName=${components[$i]}.tar.gz 
+		echo "	Downloading $fileName"
+		for d in `seq 1 10` ; do 
+			if ! test -e $fileName ; then
+				wget http://sourceforge.net/projects/ildjit/files/${name[$i]}/${components[$i]}.tar.gz &> $LOGFILE
+			fi
+			if test -e $filename ; then
+				break
+			fi
+		done
+		if ! test -e $fileName ; then
+			echo "Error on downloading $fileName" ;
+	                exit 1 ;
+	        fi
+	done
+	
+	cd ..
+fi
+
+if test $download -ne 0; then
+	cd $SOURCE_DIR
+	name="ILDJITRegressionTest-$IldjitTesterVersion.tar.bz2"
+	if ! test -e $name ; then
+		echo "	Downloading $name"
+		wget http://sourceforge.net/projects/ildjit/files/ildjittester/$name &> $LOGFILE
+		if ! test -e $name ; then
+			echo "Error on downloading $name" ;
+			exit 1 ;
+		fi
+	fi
+
+	name="ildjit-doc.tar.gz"
+	if ! test -e $name ; then
+		echo "	Downloading $name"
+		wget http://sourceforge.net/projects/ildjit/files/ildjit-doc/$name &> $LOGFILE
+		if ! test -e $name ; then
+			echo "Error on downloading $name" ;
+			exit 1 ;
+		fi
+	fi
+
+	name="cil-$cilLibs.tar.gz"
+	if ! test -e $name ; then
+		echo "	Downloading $name"
+		wget http://sourceforge.net/projects/ildjit/files/CIL/$name &> $LOGFILE
+		if ! test -e $name ; then
+			echo "Error on downloading $name" ;
+			exit 1 ;
+		fi
+	fi
+
+	cd ..
+fi
+
+####################### Installing
+if test $toinstall -eq 0; then
+	echo -e "\nInstallation disabled\n"
+else
+	echo "*******************************************************************************************************************"
+	echo "                                          INSTALLING                                                               "
+	echo "*******************************************************************************************************************"
+
+	cd $SOURCE_DIR
+
+	# Platform
+	echo "Platform" ;
+	echo -e "Installing ${components[0]}"
+	if ! test -d ${components[0]} ; then
+		tar xfz ${components[0]}.tar.gz ;
+	fi
+	cd ${components[0]} ;
+	if ! test -e Makefile ; then
+		if test -e bootstrap ; then
+			./bootstrap &> $LOGFILE
+		fi
+		eval ./configure $CONFIGURE_OPTIONS &> $LOGFILE
+		if ! test $? -eq 0 ; then
+			echo "Error on configuring ${components[0]}" ;
+			exit 1 ;
+		fi 
+	fi
+	make &> $LOGFILE
+	if ! test $? -eq 0 ; then
+		echo "Error on compiling ${components[0]}" ;
+		exit 1 ;
+	fi
+	make install &> $LOGFILE
+	if ! test $? -eq 0 ; then
+		echo "Error on installing ${components[0]}" ;
+		exit 1 ;
+	fi
+	cd ..
+
+	echo -e "Installing XanLib" ;
+	fileName="libxan-$LibxanVersion"
+	if ! test -d $fileName ; then
+		tar xfz $fileName.tar.gz ;
+	fi
+	cd $fileName ;
+	if ! test -e Makefile ; then
+		if test -e bootstrap ; then
+			./bootstrap &> $LOGFILE
+		fi
+		eval ./configure $CONFIGURE_OPTIONS &> $LOGFILE
+		if ! test $? -eq 0 ; then
+			echo "Error while configuring $fileName" ;
+			exit 1 ;
+		fi 
+	fi
+	make &> $LOGFILE
+	if ! test $? -eq 0 ; then
+		echo "Error on compiling $fileName" ;
+		exit 1 ;
+	fi
+	make install &> $LOGFILE
+	if ! test $? -eq 0 ; then
+		echo "Error on installing $fileName" ;
+		exit 1 ;
+	fi
+	cd ..
+
+	for ((i=1 ; i < ${#components[@]} ; i++)) ;
+	do
+		echo -e "Installing ${components[$i]}:                                        \c"
+
+		# Uncompressing
+		if ! test -d ${components[$i]} ; then
+			echo -e "\rInstalling ${components[$i]}: uncompressing                \c"
+			tar xfz ${components[$i]}.tar.gz ;
+		fi
+		cd ${components[$i]} ;
+
+		# Configuring
+		if ! test -e Makefile ; then
+			echo -e "\rInstalling ${components[$i]}: configuring                  \c"
+			if test -e bootstrap ; then
+				./bootstrap &> $LOGFILE
+			fi
+			eval ./configure $CONFIGURE_OPTIONS &> $LOGFILE
+			if ! test $? -eq 0 ; then
+				echo "" ;
+				echo "Error on configuring ${components[$i]}" ;
+				exit 1 ;
+			fi 
+		fi
+
+		# Compiling
+		echo -e "\rInstalling ${components[$i]}: compiling                             \c"
+		make &> $LOGFILE
+		if ! test $? -eq 0 ; then
+			echo "" ;
+			echo "Error on compiling ${components[$i]}" ;
+			exit 1 ;
+		fi
+
+		# Installing
+		echo -e "\rInstalling ${components[$i]}: installing the binary                  \c"
+		make install &> $LOGFILE
+		if ! test $? -eq 0 ; then
+			echo "" ;
+			echo "Error on installing ${components[$i]}" ;
+			exit 1 ;
+		fi
+		echo -e "\rInstalling ${components[$i]}:                                        \c"
+		echo "";
+		cd ..
+	done
+
+	cd $SOURCE_DIR
+	if ! test -d ILDJITRegressionTest-$IldjitTesterVersion ; then
+		echo "Installing the regression tests" ;
+		name="ILDJITRegressionTest-$IldjitTesterVersion.tar.bz2"
+		tar xfj $name ;
+		rm $name ;
+	fi
+
+	name="ildjit-doc.tar.gz"
+	if test -e $name ; then
+		echo "Installing ILDJIT documentation" ;
+		tar xfz $name ;
+		rm $name ;
+	fi
+
+	name="cil-$cilLibs.tar.gz"
+	if test -e $name ; then
+		currDir=`pwd`
+		cd $INSTALL_DIR/lib
+		echo "Installing CIL libraries" ;
+		tar xfz $SOURCE_DIR/$name ;
+		rm $currDir/$name
+	fi
+fi
+
+# Exit
+echo "OK"
+exit 0

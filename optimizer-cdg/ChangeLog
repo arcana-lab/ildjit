@@ -1,0 +1,173 @@
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new xanbit
+
+2012-06-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added symbols
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2010-12-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use allocFunction and freeFunction
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt the plugin with the new interface
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with the debian package work.
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-04-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-04-29  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	configure.in recovered
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	CFLAGS fixing
+
+2010-04-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Use XanBitSet instead of the custom bitset
+
+2010-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete the system.h reference
+
+2010-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Michy's work
+
+2010-04-01  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	adapted to new 64-bit plugin interface
+
+2010-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move the optimization IDs to 64 bits
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Michele Tartara 2010-02-09 Introduced support for a single exit node in the CFG
+
+2010-02-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Introduced support for a single exit node in the CFG
+
+2009-08-18  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* src/optimizer_cdg.c: plugin modified to work with the output of the new postdominance plugin
+
+2009-07-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	removed:
+	src/config.h
+	modified:
+	src/optimizer_cdg.c
+	unknown:
+	clean
+
+2009-07-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	added:
+	AUTHORS
+	COPYING
+	ChangeLog
+	INSTALL
+	Makefile.am
+	NEWS
+	README
+	bootstrap
+	configure.in
+	src/
+	src/Makefile.am
+	src/bitset.c
+	src/bitset.h
+	src/config.h
+	src/optimizer_cdg.c
+	src/optimizer_cdg.h
+

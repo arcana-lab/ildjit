@@ -1,0 +1,5 @@
+optimizer-copypropagation (0.3.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Leonardo Mino' <oaexpert@gmail.com>  Thu, 08 Jul 2010 17:20:34 +0200

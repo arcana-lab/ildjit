@@ -1,0 +1,4 @@
+<map id="XanNode" name="XanNode">
+<area shape="rect" id="node2" href="$struct_xan_list.html" title="Doubly linked listDoubly linked list containing pointers to user data with the ability to iterate ove..." alt="" coords="19,127,85,153"/>
+<area shape="rect" id="node3" href="$struct_xan_list_item.html" title="List elementElement stored inside the XanList list. " alt="" coords="5,7,99,33"/>
+</map>

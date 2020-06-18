@@ -1,0 +1,14 @@
+XanLib:STANDARD
+libcompilermemorymanager:STANDARD
+libiljitu:STANDARD
+libiljitsm:STANDARD
+libiljitmm:STANDARD
+libiljitir:STANDARD
+libiljitiroptimizer:STANDARD
+libirvirtualmachine:STANDARD
+libclimanager:STANDARD
+libiljitirprofiler:STANDARD
+libdla:STANDARD
+iljit:STANDARD
+iljit-ecmasoft:STANDARD
+iljit-gc-allocator:STANDARD

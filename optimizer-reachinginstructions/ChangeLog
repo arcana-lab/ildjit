@@ -1,0 +1,32 @@
+2014-05-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: this codetool doesn't invalidate anything.
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy.
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2013-11-28  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Prevent reaching instructions crossing back edges, if required.
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Free memory used on previous invocations
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-10-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

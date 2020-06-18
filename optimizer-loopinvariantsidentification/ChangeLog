@@ -1,0 +1,173 @@
+2014-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IR*ELEM instructions
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy
+
+2014-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cached some information
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API.
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Switch to the new name circuit_t
+
+2013-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the analysis
+
+2013-01-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the accuracy of the analysis
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the new instruction IRCEIL.
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks
+
+2012-06-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing: no dependences does not mean invariant.
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2011-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-12-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on the identification of derived loop invariants of IRSTORE instructions.
+
+2011-11-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-11-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing for the case load operations where their addresses might change.
+
+2011-11-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the algorithm
+
+2011-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the identification
+
+2011-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean the code
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2010-12-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt the plugin with the new interface
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	added:
+	configure.ac
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+	
+	
+	removed:
+	configure.in
+	modified:
+	ChangeLog
+	unknown:
+	configure.ac
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	CFLAGS fixing
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Micky's work
+
+2010-03-06  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* src/*.c: Adapted to new ir_method interface
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimization IDs 64 bits
+
+2010-01-15  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Initial commit
+

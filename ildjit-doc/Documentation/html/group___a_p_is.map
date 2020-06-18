@@ -1,0 +1,9 @@
+<map id="APIs" name="APIs">
+<area shape="rect" id="node1" href="$group___i_r_optimizer_interface.html" title="How to interact with codetools. " alt="" coords="120,5,219,32"/>
+<area shape="rect" id="node2" href="$group___xan_lib_doc.html" title="Data structures. " alt="" coords="105,56,233,83"/>
+<area shape="rect" id="node3" href="$group___p_l_a_t_f_o_r_m___a_p_i.html" title="Abstraction of the underlying platform. " alt="" coords="121,107,217,133"/>
+<area shape="rect" id="node5" href="$group___input_language.html" title="Abstraction of supported input languages. " alt="" coords="104,157,235,184"/>
+<area shape="rect" id="node6" href="$group___i_r_language.html" title="Understand and manipulate the IR language. " alt="" coords="139,208,199,235"/>
+<area shape="rect" id="node7" href="$group___system_a_p_i.html" title="ILDJIT system interface. " alt="" coords="124,259,215,285"/>
+<area shape="rect" id="node8" href="$group___compiler_memory.html" title="How to manage the memory. " alt="" coords="123,309,216,336"/>
+</map>

@@ -1,0 +1,5022 @@
+2014-05-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed about the IL type
+
+2014-05-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Specify the tool to use
+
+2014-04-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation.
+
+2014-04-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation.
+
+2014-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generate IRSTOREREL instead of IRSTOREELEM for the last case where the latter is generated.
+
+2014-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generate IRSTOREREL instead of IRSTOREELEM for one of the cases where the latter is generated.
+
+2014-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generate IRLOADREL instead of IRLOADELEM
+
+2014-04-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Invoke the intialization and the shutdown of CLRs
+
+2014-04-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Minimize the time between invoking system_shutdown and shutting down codetools.
+
+2014-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2014-03-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: makes the argument array CIL-compliant.
+
+2014-03-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Changed a warning message.
+
+2014-03-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	When the execution is disabled, do not run cctors
+
+2014-03-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Compile the wrapper of the entry point before starting the execution.
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not generate multiple times the bitcode
+
+2014-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the tracer options for library native methods
+
+2014-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the method name if the signature is not available.
+
+2014-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Print the new options on the help page.
+
+2014-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new option
+
+2014-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Inline all IR symbols into the binary.
+
+2014-02-03  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Remove includes to missing files.
+
+2014-01-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2014-01-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Serialize a symbol only if absolutely necessary.
+
+2014-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Restructure the code to share the code to initialize the system.
+
+2014-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the new IR API
+
+2014-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Exploiting the new IR API to cache serialization of symbols to remove the dependence of dumped binaries with IR files.
+
+2014-01-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Deserialize symbols from memory rather than from files.
+
+2014-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API to serialize symbols in memory instead of in files.
+
+2014-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warnings.
+
+2014-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warnings.
+
+2014-01-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented a missed case. Removed compilation warnings.
+
+2014-01-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2014-01-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed old comments
+
+2014-01-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed old comments
+
+2014-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generate all IR symbol files required to later dump machine code.
+
+2014-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2014-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generate the wrapper after invoking code tools to hide it.
+
+2014-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a compilation warning.
+
+2014-01-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not add methods that may require cctor executions
+
+2014-01-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Tag all methods reachable by virtual calls.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed gloFP
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Include all types that have been layout to the list of ones to translate into globals
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Force the layout of necessary classes
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Force the creation of symbols
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initialize virtual tables.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not store functions to the virtual table if they are not provided by the current implementation of the CLR.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Create globals with names of the type they refer to.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: Handle FUNCTION_POINTER_SYMBOL properly.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Translate symbols into globals only if an identifier exist (i.e., the file exist)
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: Do not take the address for globals that are not valuetypes.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function to CLR manager.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Changed mode
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IL API.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Save the program after all symbols and methods have been generated.
+
+2013-12-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed root sets
+
+2013-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: do not recreate the main function
+
+2013-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	The second argument of main is char *.
+
+2013-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new CLR API
+
+2013-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new routine to CLRs.
+
+2013-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cleaned some comments
+
+2013-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used -g
+
+2013-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Translate symbols to globals for call parameters as well.
+
+2013-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump virtual tables.
+
+2013-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: the second parameter of makeArrayDescriptor is the rank and not the length of the array.
+
+2013-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Compile the wrapper in dynamic compilation schemes before starting the execution.
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Forwarded virtual tables to object and array allocation routines.
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Create globals for virtual tables
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Pre-layout type descriptors of array descriptors
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved where the layout is computed
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cached some pointers
+
+2013-12-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions.
+
+2013-12-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle some new symbols
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Stored the name of the compiled program as a global.
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled the standalone binary case where the freeObject pointer has not been set.
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Map IR new operations to the GC API that avoid invoking the layout manager to minimize overhead at run time.
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions to allocate objects.
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions to allocate objects.
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Destroy memory only if it has been allocated
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Destroy memory only if it has been allocated
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable layout virtual tables for standalone binaries
+
+2013-12-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: properly set the initial values of globals used to store static memories
+
+2013-12-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle field descriptors for static compilations
+
+2013-12-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved a comment
+
+2013-12-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on allocating string array arguments. Handle static objects properly by mapping to globals
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a field to cache the string array version of the input arguments
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not disable static constructors for static compilation.
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function to set the input arguments
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not pre-layout when binary is dumped
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Properly store the name of CIL files into their respective blobs. Added decoded binaries to the global list. Updated globals for handling TYPE and CLR symbols in the IR code. Bug fixed about pre-layout classes. Removed a memory leak.
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Setup the garbage collector by also handling the case of avoiding any garbage collection.
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function to translate a symbol number to a pointer
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed initialization of root sets
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a wrong assertion
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2013-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Embedded CIL binaries into the object file. Mapped embedded CIL binaries to FILE when the standalone binary starts. Create ILBinary from CIL FILE. Decode CIL FILE when the standalone binary starts.
+
+2013-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new decoder API
+
+2013-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Export function to allocate and initialize the system.
+
+2013-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IL API
+
+2013-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fetch the decoders
+
+2013-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Start adding IR code to decode embedded CIL files
+
+2013-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	First create the wrapper of the entry point and then start the precompilation
+
+2013-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cleaned the comments
+
+2013-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions needed by standalone binaries
+
+2013-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved the allocation to libilbinary
+
+2013-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API from libilbinary. Used the new API from libclimanager.
+
+2013-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link with the new library libilbinary.
+
+2013-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean the code a little bit
+
+2013-12-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2013-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not use the front end if onlyPrecompilation flag is set
+
+2013-12-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the gap from normal main to CIL main in IR.
+
+2013-12-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new API
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new commandline option
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new semantic of AOT compilation
+
+2013-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Split the initialization of exception manager in two: loading metadata and allocating the out-of-memory object
+
+2013-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak
+
+2013-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2013-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Destroy the out of memory object only it has been allocated.
+
+2013-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2013-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2013-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the new code generator for static compilation schemes to avoid mixing compilation and execution phases. This is required for MCJIT of LLVM 3.3.
+
+2013-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Changed a function pointer to a normal method. Implemented the static memory symbol table
+
+2013-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2013-12-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function to static memory.
+
+2013-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Preserve the order of cctors execution
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cache the result before returning it
+
+2013-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Compile directly referenced methods first, in static compilations
+
+2013-11-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cache the layout for static compilation schemes
+
+2013-11-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved the initialization of exceptions after loading the IR.
+
+2013-11-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved the data type layout phase
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed useless comments
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2013-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	New autotools
+
+2013-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cache some information
+
+2013-10-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2013-10-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the help page
+
+2013-06-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2013-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed.
+
+2013-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2013-05-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2013-05-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new public function.
+
+2013-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle vararg properly
+
+2013-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle ILDJIT_MACHINECODE_PATH
+
+2013-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump the signature
+
+2013-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved an error message
+
+2013-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed about PInvokes. Now we handle varargs
+
+2013-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2013-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation errors when compiled in printing mode
+
+2013-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2013-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2013-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib.
+
+2013-01-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not call startExecution if the execution is disabled
+
+2012-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the '-m' option
+
+2012-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks.
+
+2012-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak
+
+2012-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak
+
+2012-11-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warnings
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.2
+
+2012-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed: generate the machine code in the static compilation schemes even for anonymous methods.
+
+2012-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing: consider anonymous methods as well.
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new Manfred API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warnings
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation.
+
+2012-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Replaced IRSTORE with IRMOVE
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Replaced IRSTORE with IRMOVE
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the doc
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added links
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new option
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Exported the call to the optimizer to the code generator module.
+
+2012-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed an use of getSystem.
+
+2012-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed deadcode
+
+2012-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the levels
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added Glenn:
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the tracer options.
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed: postAot can generate machine code, we need to cache them
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added getName to the CLR interface
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Transform iljit to be a library
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warnings
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warnings
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Simplified internal_calls* files
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Simplified includes of internal_calls*.c files
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Export static_memory.h
+	Iterate over CLRs to find the method.
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Simplified ildjit_system.h
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed getMethods
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Split system_manager.h in ildjit_system.h and system_manager.h
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the loader/unloader of CLRs
+
+2012-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Prepare the sources to move the internal_calls* files outside
+
+2012-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Prepare the sources to move the internal_calls* files outside
+
+2012-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Prepare the sources to move the internal_calls* files outside
+
+2012-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Prepare the sources to move the internal_calls* files outside
+
+2012-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename the binary to ildjit
+
+2012-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed dependences to general_tools.h
+
+2012-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed dependences to general_tools.h
+
+2012-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed dependences to general_tools.h
+
+2012-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed dependences to general_tools.h
+
+2012-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed dependences to general_tools.h
+
+2012-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed dependences to general_tools.h
+
+2012-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added ILDJIT_quit
+
+2012-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Making lib_internalCall.gperf independent to iljit
+
+2012-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed deadcode
+
+2012-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the pinvoke manager
+
+2012-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	removed some dependence
+
+2012-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reorganize the code to move internal_calls* files outside
+
+2012-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Started the transition to move outside internal_calls* files
+
+2012-10-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the IL documentation
+
+2012-10-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed related to ilParamsDescriptor
+
+2012-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used ildjitSystem rather than getSystem
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the documentation to the new API
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move didt files to a new directory
+
+2012-09-27  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers in XanHashTable.
+
+2012-09-26  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointer accesses to XanHashTable insert and lookup functions,
+	as well as some lock and unlock calls.
+
+2012-09-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-09-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks
+
+2012-09-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cleaned the code
+
+2012-09-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the help message
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-08-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warnings. Bugs fixed during the shutdown of ILDJIT.
+
+2012-07-30  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Free the manfred structure after saving profiling information.
+
+2012-07-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Call Manfred for shutting down
+
+2012-07-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the -s option.
+
+2012-07-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable just the execution.
+
+2012-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of libxan.
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	First call IROPTIMIZER and then "execute"
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+	Call IROPTIMIZER_startExecution
+
+2012-05-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-05-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Anticipate the call to shutdown of plugins as early as possible
+
+2012-05-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move out as much code as possible from the executor thread.
+
+2012-04-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the molecool integration.
+
+2012-04-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the command line short options
+
+2012-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the sequential pipeline for LLVM
+
+2012-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.1
+
+2012-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libmanfred
+
+2012-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed on parallel translation pipeline.
+
+2012-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed on the parallel translation pipeline.
+	Improved the -P1 --static case.
+
+2012-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the help message
+
+2012-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing thanks to Filippo.
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Formatting the output.
+
+2012-03-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some newlines
+
+2012-03-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanStack API
+
+2012-03-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-03-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing: do not generate the machine code before the end of PostAOT optimization level.
+	Do not add methods to the profiler of manfred if not necessary.
+	Created the unique code generator module.
+	Adding the possibility of delaying the machine code generation task.
+	Adding the possibility of resetting the static memory manager.
+	Used the new API of libmanfred.
+
+2012-03-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enabled the possibility of using multiple options of the same type
+
+2012-03-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump the information about optimizationleveltools.
+
+2012-03-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the copyright
+
+2012-03-12  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Merge with latest version
+
+2012-03-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the output
+
+2012-03-08  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanQueue API
+
+2012-03-08  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanVar API
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2012-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improve the getProgramName API
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the version
+
+2012-02-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Layout types before starting the execution in case a static compilation scheme is used.
+	Remove warnings.
+
+2012-02-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API to create methods
+
+2012-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed warnings
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IRLOADREL
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2012-02-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new ISA
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRCALLINDIRECTCCTOR
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-02-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-02-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-02-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Wrong assertion
+
+2012-02-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove wrong assertions
+
+2012-02-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the sequential translation pipeline.
+	Bugs fixing on the static memory manager.
+
+2012-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on the generation of IRICALL instructions
+
+2012-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2012-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2012-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2012-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the trace message
+
+2012-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the execution tracer
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRTYPEDREF
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added Glenn as developer
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the year
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the doc
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Free the memory when it is not used anymore.
+	
+	Improved the doc
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the module platform independent
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed useless code
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed platform-dependent code
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed platform-dependent code
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a wrong assertion
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove platform-dependent code.
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cleaning code
+
+2012-02-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR backend API
+
+2012-02-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing for binary operations
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on the front end
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on type conversions
+
+2012-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new instruction.
+	Bugs fixing
+
+2012-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work.
+	Bug fixing
+
+2012-01-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Merged with multi-platform patch
+
+2012-01-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Applied patch for multi-platform support.
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-01-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixing the command line
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2012-01-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-01-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump the compilation information about codetools
+
+2011-12-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link to libpluginmanager
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on loading IR
+
+2011-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2011-12-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the dumping
+
+2011-12-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the dumping method
+
+2011-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the partial static compilation schemes
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR API
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an option
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Print codetools
+
+2011-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set the name of the release
+
+2011-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Skip DLA module in JIT scheme
+
+2011-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a deadlock
+
+2011-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing for 64 bits machine
+
+2011-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2011-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work
+
+2011-12-01  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Updated my bio.
+
+2011-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the help message
+
+2011-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new option
+
+2011-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle every execution model
+
+2011-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new options
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the version
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the XanLib documentation
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-11-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Run post AOT optimizations even if the execution has been disabled.
+
+2011-10-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-10-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Call Molecool properly
+
+2011-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of xanlib
+
+2011-09-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change Molecool API
+
+2011-08-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove useless includes
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Follow the new file names
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new APIs
+
+2011-08-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-08-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the static compilation scheme
+
+2011-08-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not add cctors to the profile
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Prepare for static compilation.
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the statistics
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libcompilermemorymanager
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Minimize the private code between single and multi apps
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Diego's work
+
+2011-08-03  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Improved conditional compilation (single vs multi application)
+
+2011-08-02  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-08-01  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Iljit loader now forwards received signals to the instance which is running the code
+
+2011-07-29  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Improved generator behavior by removing wrapper process and using a thread instead
+
+2011-07-29  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch + improvements to binaries loader
+
+2011-07-26  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Added conditional compilation for multi application support
+
+2011-07-11  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-06-15  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-06-14  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Fixed a couple of small bugs related to loader and profiler
+
+2011-05-23  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Merge with main branch
+
+2011-04-20  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Fixed a potential bug in delegates/pinvoke compilation
+
+2011-04-20  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Re-enabled DLA and IROptimization pipeline's stages
+
+2011-04-15  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Renamed ildjit multiapp binaries
+
+2011-04-15   Committer: Luca  <luca@turbo> 
+
+	Add Compilation of loader
+
+2011-04-15   Committer: Luca  <luca@turbo> 
+
+	Diego's Works
+
+2011-04-15  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Disabled plugins unload
+
+2011-04-13   Committer: Luca  <luca@turbo> 
+
+	Diego's works
+
+2011-04-13  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Fixed a bug in the loader
+
+2011-04-10   Committer: Luca  <luca@turbo> 
+
+	Diego Works
+
+2011-04-10  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Enabled CIL->IR translation to be performed by a different instance of iljit
+
+2011-04-10   Committer: Luca  <luca@turbo> 
+
+	Nothing
+
+2011-04-10   Committer: Luca  <luca@turbo> 
+
+	Merge Xan's Works
+
+2011-03-11  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Adaptation to work with shared/private memory pool
+
+2011-01-25  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Added shared and private memory pool and generator behavior of iljit
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.6.0
+
+2011-08-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility of enabling the LLVM backend
+
+2011-08-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove backend-dependent code
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine.
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-08-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libirvirtualmachine
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Revert to the last correct version
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added threadHashFunction in garbage collector interactions rootSets. Normalized platform API header inclusion.
+
+2011-07-29  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-07-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Merge
+
+2011-07-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Merge
+
+2011-07-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-14  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-06  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Corrected env var read bug in WIN. Updated waitMethodSet and TranslatingSet HashTables keys: now they are (pthread*), needed by WinPthreads32 compatibility
+
+2011-07-06  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Corrected env var read bug in WIN. Updated waitMethodSet and TranslatingSet HashTables keys: now they are (pthread*), needed by WinPthreads32 compatibility
+
+2011-07-03  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-07-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added internal calls
+
+2011-07-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some runtime checks
+
+2011-07-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented new internal methods of the Mono BCL.
+
+2011-07-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove dependences with t_system.
+
+2011-07-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-07-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some functions
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning.
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set profile mode at optimization level 0
+
+2011-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-07-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed not useful assertions
+
+2011-07-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the code cache cleaning command.
+
+2011-07-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed on memory address alignments.
+
+2011-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Pietro's work
+
+2011-06-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Wrapped all the paths for Windows. Moved ENV_VAR_SEPARATOR and SHARED_LIB_FILE_EXTENSION defines into jitsystem.h
+
+2011-06-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Wrapped all the paths for Windows. Moved ENV_VAR_SEPARATOR and SHARED_LIB_FILE_EXTENSION defines into jitsystem.h
+
+2011-06-20  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[merge]
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-14  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-05-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-05-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-06-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-06-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-06-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean the code
+
+2011-06-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of Libirvirtualmachine.
+
+2011-06-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use IRVM API instead of Libjit API.
+
+2011-06-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing inside the function Platform_TaskMethods_GetEnvironmentValue.
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2011-06-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use ildjitSystem instead of getSystem
+
+2011-06-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not use getSystem
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful calls
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move functions to the module if they are used by it only.
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the threads manager.
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove the delegate manager.
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the function System_Runtime_InteropServices_Marshal_SizeOf.
+
+2011-06-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitir.
+
+2011-06-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the iljit_translateIRMethod function.
+
+2011-06-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2011-06-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-06-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not include always stropts.h
+
+2011-06-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-06-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-06-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed some warnings
+
+2011-06-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-06-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the CIL dumper
+
+2011-05-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-05-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-05-17   Committer: Luca  <luca@turbo> 
+
+	Update Documentation
+
+2011-05-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Minimize general_tools.c
+
+2011-05-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Some runtime checks have to be performed in every condition.
+
+2011-05-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable the DLA within the partial AOT
+
+2011-05-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not disable CIL checks within libraries (this is necessary for C programs translated by GCC4CLI).
+
+2011-05-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not translate any method in case of AOT and we have already compiled the necessary methods.
+
+2011-05-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Print information of libmanfred
+
+2011-05-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the aot + pgc
+
+2011-05-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the aot + pgc behaviour.
+
+2011-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the molecool file
+
+2011-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	New interface of Molecool
+
+2011-05-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some internal methods related to UNIX environment.
+
+2011-05-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-04-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-04-22  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	fixed file open bug in windows, wrapped env var separator for WIN, wrapped plugin extension to '.dll'
+
+2011-04-20  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added plugins loading capabiliy for WIN
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the networking work
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Luca's work
+
+2011-04-15   Committer: Luca  <luca@turbo> 
+
+	Xan's works
+
+2011-04-14   Committer: Luca  <luca@turbo> 
+
+	Xan's Works
+
+2011-04-13   Committer: Luca  <luca@turbo> 
+
+	Modularization on translation Pipeline
+
+2011-04-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Removed pthread check fromconfigure.ac. Removed lib inclusion (nsl and dl) from src/makefile.am by minGW incompatibility. Added multi-platform support for functions getProcessorsNumber, strsep, S_ISLNK, get_current_dir_name, nanosleep, clock_gettime.
+
+2011-04-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed wrong prints
+
+2011-04-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump the IR type in string rather than the value
+
+2011-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not compile anonymous methods after PostAOT because some of those could have been deleted
+
+2011-04-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Unregister methods when they are destroyed by libiljitir
+
+2011-04-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete not useful linking options
+
+2011-03-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility to disjoint compiler and code executor threads.
+
+2011-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-03-29  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Fixed some mingw-compiling errors.
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added Pposix_memalign() support in libplatform API (Linux only)
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-03-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the variables notification
+
+2011-03-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the molecool project
+
+2011-03-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Shutdown the pipeline in AOT after everything is available in machine code.
+
+2011-03-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use IRNUINT for pointers instead of IRNINT
+
+2011-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Work around for the cctor problems
+
+2011-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-03-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Removed all commented platform-dependent includes
+
+2011-03-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-18  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Merge
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some memory barriers.
+
+2011-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Compile only methods that need to be compiled after PostAOT optimizations.
+
+2011-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix the race condition within the AOT
+
+2011-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt to the new API of Libiljitir
+
+2011-02-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dear Ettore,
+	me and Luca have fixed your bug within your thread module.
+	We know that your module works great, but it is not bug-free! :D
+
+2011-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Return IR method even if its body is not in IR
+
+2011-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of xanlib
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link to libplatform.
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-16  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	removed all PLATFORM-dependent headers.
+
+2011-02-15  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added multi PLATFORM support for getOptArg (getopt.h); dlopen, dlclose, dlsym, dlerror (dlfcn.h); regfree, regexec, regcomp, re_compile_pattern, re_set_syntax (regex.h)
+
+2011-02-14  Stefano Pasquali  <icedream85@msn.com>
+
+	open() calls redirected to libplatform
+
+2011-02-14  Stefano Pasquali  <icedream85@msn.com>
+
+	[Merge]
+
+2011-02-12  Stefano Pasquali  <icedream85@msn.com>
+
+	[Merge]
+
+2011-02-10  Stefano Pasquali  <icedream85@msn.com>
+
+	[Merge]
+
+2011-02-06  Stefano Pasquali  <icedream85@msn.com>
+
+	[Merge]
+
+2011-02-05  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-02-05  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-02-03  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-01-31  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-01-30  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-01-29  Stefano Pasquali  <icedream85@msn.com>
+
+	Merge
+
+2011-02-14  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	changed PLATFORM_* names for functions PLATFORM_getPlatformInfo (ex uname), PLATFORM_openDir, PLATFORM_closeDir, PLATFORM_readDir
+
+2011-02-13  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-11   Committer: Luca  <luca@turbo> 
+
+	adapt to new ir optimizer API
+
+2011-02-12  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-10   Committer: Luca  <luca@turbo> 
+
+	remove specializer
+	remove IRInstructionProfiler
+	update symbols
+
+2011-02-10  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add some assertions
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libirvirtualmachine
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libirvirtualmachine
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir.
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the culture manager.
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Read directly the next field of the XanListItem data structure.
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not run Post-AOT optimizations if the execution has been disabled.
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility of disabling the execution of the produced code.
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initialize manfred just before CLIManager
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed not useful files
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved out some functions from here to libclimanager
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved out Manfred
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-08  Luca  <luca@ops-notebook>
+
+	Improve iljit dumper. Now dump cctor methods to call and list of locals of method
+	Fix locals setup while method is loading
+	Trace message now is displayed on standard error stream
+
+2011-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-07  Luca  <luca@ops-notebook>
+
+	Fixing various problem in memphis
+
+2011-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the iterations of anonymous methods.
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for setFileLock (using fcntl) 
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	merge
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	merge with Luca's work
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	Adapt executor module for deserialization
+	BugFix NOPARAM translation in memphis parser
+	Remove Flex debug info 
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add 1 thread to the optimization stage if ILDJIT is running in AOT.
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	removed erros from conflicting versions
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed some not useful calls to getSystem
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	Merge Xan's
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	Add new Serdes support (Memphis) to repository
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	fixed new warnings
+
+2011-02-04  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	fixed multi-PLATFORM support warnings. Renamed multi-PLATFORM Thread Functions.
+
+2011-02-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the ability to profile the pipes of the translation pipeline.
+
+2011-02-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Erased stacked variables
+
+2011-02-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Erased stacked variables
+
+2011-02-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Erased stacked variables
+
+2011-02-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Erases a stacked type used within a IRLOADREL instruction
+
+2011-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Introduced the t_system variable as a global variable.
+
+2011-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function waitEmptyPipelineThread where the signal could be lost between the unlock and lock calls.
+
+2011-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the pipeline due to broadcasting the signal without being within a critical section.
+
+2011-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function waitEmptyPipelineThread.
+
+2011-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_getUserName, PLATFORM_getUserPassword
+
+2011-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support omitted in pthread function
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for functions pthread_create, pthread_join, pthread_self, pthread_once, pthread_equal, pthread_attr_init, pthread_attr_setscope, pthread_attr_setstacksize, pthread_attr_setinheritsched, pthread_attr_setschedparam, pthread_attr_setschedpolicy, pthread_mutex_init, pthread_mutexattr_init, pthread_mutexattr_settype, pthread_mutex_destroy, pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock, pthread_cond_init, pthread_cond_wait, pthread_cond_signal, pthread_cond_broadcast, pthread_cond_destroy (all in pthread.h)
+
+2011-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for functions regfree, regcomp (regex.h); sched_get_priority_max, sched_get_priority_min (in sched.h); uname (in sys/utsname.h);utime (in utime.h); opendir, closedir, readdir (in dirent.h); dirname (in libgen.h)
+
+2011-01-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for functions chdir, close, cuserid, ftruncate, geteuid, gethostname, isatty, lseek, rmdir, write, unlink, symlink, readlink (all in unistd.h), getpwuid (in pwd.h)
+
+2011-01-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for functions stat, fstat, lstat, chmod, umask, mkdir (sys/stat.h)
+
+2011-01-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for function stat
+
+2011-01-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added PLATFORM_ support for function pthread_create
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Forwarded the time spent by the execution of the input program to the codetools.
+
+2011-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the copyright
+
+2011-01-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function waitEmptyPipelineThread to avoid its busy waiting behavior.
+
+2011-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the translateIRMethod function.
+	Removed the automatically produced file lib_compilerNativeCall.gperf.
+
+2011-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation.
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-01-18  Luca  <luca@ops-notebook>
+
+	bugfix ir dumper
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-01-17  Luca  <luca@ops-notebook>
+
+	Continue working on symbol
+
+2011-01-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the policy to grow exponentially the cctor threads and reduce them to the minimum every time the pipeline is empty.
+
+2011-01-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-01-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Unregister the cctor thread waiting for a method only if it has registered itself before.
+
+2011-01-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Write some comments
+
+2011-01-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+
+2011-01-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+
+2011-01-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+
+2011-01-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+
+2011-01-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-01-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+	Use IRFLOAT64 instead of IRNFLOAT for the CIL bytecode conv.r.un.
+
+2011-01-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+
+2011-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function translate_cil_conv to explicit perform conversions any time is necessary.
+
+2011-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+
+2011-01-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+
+2010-12-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+
+2010-12-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+
+2010-12-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-28  Luca  <luca@ops-notebook>
+
+	Adapt to support IR Dumping
+	Add support to Anonymous Methods
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+
+2010-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2010-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+
+2010-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the usages of the callGraph field.
+	Set differently the number of threads for the various pipeline stages.
+
+2010-12-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improve the help messages
+
+2010-12-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-13  Luca  <luca@ops-notebook>
+
+	fix IR Dumper
+
+2010-12-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-12  Luca  <luca@ops-notebook>
+
+	Remove unreachable code
+
+2010-12-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-12  Luca  <luca@ops-notebook>
+
+	Devirtualize non virtual vcall
+
+2010-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added conversion (if necessary) before returning values
+
+2010-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Insert the translate_cil_ret function
+
+2010-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing due to the unification of value and fvalue fields of ir_item_t.
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Luca  <luca@ops-notebook>
+
+	Xan's works
+
+2010-12-05  Luca  <luca@ops-notebook>
+
+	Atomic operation on WaitFor CCTOR graph
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-03  Luca  <luca@ops-notebook>
+
+	resolved conflict
+
+2010-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the code.
+
+2010-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-01  Luca  <luca@ops-notebook>
+
+	bugfix method erroneous reinsertion in pipeline after method compilation completed
+	bugfix abort in ticket priority change
+
+2010-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Luca's work
+
+2010-11-26  Luca  <luca@ops-notebook>
+
+	Bugfix AOT
+
+2010-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Insert the right symbols within the binary for profiling purpose
+
+2010-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Free the array used for vararg after the call.
+
+2010-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Free the memory pointed by the methods field of t_system.
+
+2010-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cached some pointers
+
+2010-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reduced the objects header
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on multiple trampolines definitions
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-11-24  Luca  <luca@ops-notebook>
+
+	bugfix translation pipeline
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the aot single-threaded mode
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-11-24  Luca  <luca@ops-notebook>
+
+	update pthread lock init code
+	add DLAScheduler
+	update Translation Pipeline
+	update Tracer code
+
+2010-11-04  Luca  <luca@ops-notebook>
+
+	Remove useless function in general_tools.c
+	Use priority Queue in translation pipeline
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of Libiljitir
+
+2010-11-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move the handling labels piece of code in the new function internal_insertLabels.
+
+2010-11-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move the handling labels piece of code in the new function internal_insertLabels.
+
+2010-11-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the finallyLabels as a stack
+
+2010-11-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not insert labels to the ``labels to insert'' list whenever is not necessary.
+
+2010-11-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-11-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added printing error message within the isStackCorrect function
+
+2010-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the profile information
+
+2010-10-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-27  Luca  <luca@ops-notebook>
+
+	bugfix AOT compilation
+
+2010-10-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the new API of Libiljitir
+
+2010-10-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix the internal type of the parameters of IRVCALL instructions
+
+2010-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-26  Luca  <luca@ops-notebook>
+
+	update to new metadata system
+
+2010-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean correctly the labels
+
+2010-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Free the labels
+
+2010-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed some memory leaks.
+
+2010-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-24  Luca  <luca@ops-notebook>
+
+	Fix AOT compilation
+
+2010-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Force the computation of the virtual table every time a CIL type is analyzed in AOT mode.
+
+2010-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the function internal_getReachableMethods
+
+2010-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-23  Luca  <luca@ops-notebook>
+
+	#
+
+2010-10-23  Luca  <luca@ops-notebook>
+
+	Fix race condition on method getState
+	Fix AOT compilation
+
+2010-10-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function iljit_getCompatibleMethods
+
+2010-10-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not correct assertions
+
+2010-10-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the AOT
+
+2010-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Profile the wall time of the compilation perceived
+
+2010-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on conversion to unsigned values
+
+2010-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-10-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/Makefile.am
+
+2010-10-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-11  Luca  <luca@ops-notebook>
+
+	update dumper to IRSIGNATURE
+	update to new DLA
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.4.0
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-10-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-09  Luca  <luca@ops-notebook>
+
+	wrong cast in profiler module
+
+2010-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable some assertions
+
+2010-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/system_manager.c
+
+2010-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-08  Luca  <luca@ops-notebook>
+
+	resolve race condition
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Exploit the function IRVM_getFunctionPointer
+
+2010-10-07  Luca  <luca@ops-notebook>
+
+	resolve race condition
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/translation_pipeline.c
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete race condition on callGraph field of Method 
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+	Fix a deadlock in translation_pipeline.c during the system shutdown
+
+2010-10-07  Luca  <luca@ops-notebook>
+
+	remove recursive pthread
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-10-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the access to the executionDistance field thread-safe
+
+2010-10-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/internal_calls_vararg.c
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-02  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-10-02  Luca  <luca@ops-notebook>
+
+	remove wrong assertion
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-02  Luca  <luca@ops-notebook>
+
+	bugfix new DLA extension
+
+2010-10-02  Luca  <luca@ops-notebook>
+
+	export virtual method implementation to ir interface
+
+2010-10-01  Luca  <luca@ops-notebook>
+
+	remove RPC server
+	add support to t_ir_local
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/internal_calls_math.h
+
+2010-09-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the DLA
+
+2010-09-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/cil_ir_translator.c
+
+2010-09-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the usage of the third parameter of IREQ instructions.
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/cil_ir_translator.c
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-29  Luca  <luca@ops-notebook>
+
+	cleanup
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-28  Luca  <luca@ops-notebook>
+
+	Support ldvirt opcode
+	adapt new to struct method
+
+2010-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the case where the method has not body in CIL.
+
+2010-09-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-25  Luca  <luca@ops-notebook>
+
+	cleanup code
+
+2010-09-24  Luca  <luca@ops-notebook>
+
+	add missing internal call
+	add error message in lib pinvoke
+
+2010-09-24  Luca  <luca@ops-notebook>
+
+	Update internal call subsystem
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix an assertion
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful directory
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful code
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed not correct assertions
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-20  Luca  <luca@ops-notebook>
+
+	remove glib dep in label computation
+
+2010-09-20  Luca  <luca@ops-notebook>
+
+	support interface generic method in aot
+	support getcurrentmethod internal call
+
+2010-09-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing.
+	Added a new command line option
+
+2010-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir.
+
+2010-09-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+
+2010-09-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed some unuseful dependencies with Libjit
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the TODO file
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new opcode IRCONVOVF
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Avoid the not useful reoptimizations of methods
+
+2010-09-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on the try/block blocks
+
+2010-09-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing for the IRSTARTFINALLY and IRSTARTFILTER instructions.
+
+2010-09-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the inline methods inside the list of optimizations
+
+2010-09-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Recompile the method optimized in AOT mode.
+
+2010-09-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disabled the catcher blocks when -R is used.
+	Run the AOT optimizations
+
+2010-09-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the not CLI-compliant translation.
+
+2010-09-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the order of shutdown of modules to prevent memory corruptions
+
+2010-09-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing for the memory pointed by element stored within the callParameters list.
+
+2010-09-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added debug instructions to check if the stack top is the same before and after calling the function translate_Test*.
+
+2010-09-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable runtime checks if the correspondent flag is set.
+
+2010-09-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the flag to disable runtime checks.
+	Remove the Morpheus code.
+
+2010-09-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on the CIL switch operator, which cause problems on some SPEC benchmarks.
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/system_initializer.c
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/static_memory.c
+	unknown:
+	src/tags
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing about header size of both array and objects.
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within PDEBUG statements
+
+2010-08-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation.
+	Add the -disable-optimizations option.
+
+2010-08-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-08-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation.
+	Use the new API of Libiljitir
+
+2010-08-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Update the documentation
+
+2010-08-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Memory leaks fixing
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of both Libiljitir and Libiljitiroptimizer
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir.
+	Update the documentation
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Update the documentation
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-23  Luca  <luca@ops-notebook>
+
+	remove some unused definition
+
+2010-08-16  Luca  <luca@ops-notebook>
+
+	use new fast subtype checking for exception handling
+
+2010-08-16  Luca  <luca@ops-notebook>
+
+	adapt runtime_canCast to new metadata method name
+
+2010-08-10  Luca  <luca@ops-notebook>
+
+	Bugfix in reflection on Assembly
+
+2010-08-08  Luca  <luca@ops-notebook>
+
+	Bugfix in local init
+
+2010-08-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the variables renaming and custom plugins to command line.
+
+2010-08-05  Luca  <luca@ops-notebook>
+
+	bugfix
+
+2010-08-04  Luca  <luca@ops-notebook>
+
+	small change in profiler output
+
+2010-08-04  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-08-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-08-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing.
+
+2010-08-03  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-08-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-08-03  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-08-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-08-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt with the new API of Libiljitir
+
+2010-08-03  Luca  <luca@ops-notebook>
+
+	change bool size to IRINT32
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	merge works
+
+2010-07-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove some of unuseful accesses to t_system structure.
+
+2010-07-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug and warning fix
+
+2010-07-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Debian packages works merged.
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Merge with upstream
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Removed dependence on the PREFIX compile-time variable
+
+2010-07-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	PInvoke merge.
+
+2010-07-27  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Added P/Invoke support
+
+2010-07-27  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Added P/invoke support
+
+2010-07-27  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Added Pinvoke support
+
+2010-07-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add initialization instruction for IRVALUETYPEs
+
+2010-07-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the initialization instructions for valuetype local variables
+
+2010-07-23  Luca  <luca@ops-notebook>
+
+	fix bug in ldobj translation
+	fix bug several bug of reflection module
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	Adapt to new TypeDescriptor
+
+2010-07-08  Luca  <luca@ops-notebook>
+
+	Xan works 
+	Change to offsetof to compute offset of field of struct
+
+2010-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt with the new libiljitir interface
+
+2010-07-08  Luca  <luca@ops-notebook>
+
+	Bugfix in traslation of ldobj
+
+2010-07-02  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-07-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/executor.c
+
+2010-07-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Interface adaptation
+
+2010-07-01  Luca  <luca@ops-notebook>
+
+	new casting meccanism
+
+2010-06-18  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-06-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	API adaptation
+
+2010-06-03  Luca  <luca@ops-notebook>
+
+	Xan Works
+
+2010-06-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a bug for the wrongly usage of buffer for some CIL opcodes.
+
+2010-06-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the translate_cil_switch function
+
+2010-06-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a bug for the wrongly usage of buffer for some CIL opcodes.
+
+2010-06-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete the unusefull IRALLOCA instructions
+
+2010-06-03  Luca  <luca@ops-notebook>
+
+	Implement Interface method table
+
+2010-05-31  Luca  <luca@ops-notebook>
+
+	Xan Works
+
+2010-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+
+2010-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a bug for the wrongly usage of buffer for the CIL opcode LDARG_S_OPCODE and  LDARGA_S_OPCODE
+
+2010-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a bug for the wrongly usage of buffer for the CIL opcode STARG_S_OPCODE LDLOC_S_OPCODE
+
+2010-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a wrongly usage of buffer for the STLOCA_S_OPCODE CIL opcode.
+
+2010-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a wrongly usage of buffer for the LDLOCA_S_OPCODE CIL opcode.
+
+2010-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add some assertions inside the funciton translate_cil_ldloca
+
+2010-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove unuseful usages of t_system inside the function translate_cil_ldarg
+
+2010-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix bugs within the cil_ir_translator.c about usages of buffer variable.
+
+2010-05-31  Luca  <luca@ops-notebook>
+
+	Xan Works
+
+2010-05-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove some uses of t_system inside the translation CIL->IR
+
+2010-05-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/cil_ir_translator.c
+	unknown:
+	src/tags
+
+2010-05-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/cil_ir_translator.c
+
+2010-05-30  Luca  <luca@ops-notebook>
+
+	Speed Up interface Call
+
+2010-05-13  Luca  <luca@ops-notebook>
+
+	Various works
+
+2010-05-10  Luca  <luca@ops-notebook>
+
+	Xan Works
+
+2010-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Revert
+
+2010-05-09  Luca  <luca@ops-notebook>
+
+	Xan Works
+
+2010-05-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a bug within the computation of the wall-time
+
+2010-05-09  Luca  <luca@ops-notebook>
+
+	Convert to new descriptor cache system
+
+2010-04-29  Luca  <luca@ops-notebook>
+
+	micky works
+
+2010-04-29  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Enabling/disabling of Memphis is now complete
+
+2010-04-28  Luca  <luca@ops-notebook>
+
+	re-enable jit function dumper
+
+2010-04-27  Luca  <luca@ops-notebook>
+
+	adapt to new XanHashTable iterator
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release candidate 0.3.0
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning and update of documentation
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	unknown:
+	src/memphis_scanner.h
+	pending merges:
+	help 2010-04-25 modified:
+
+2010-04-25  help
+
+	modified:
+	src/memphis_load.c*
+	src/memphis_parser.y*
+	src/memphis_scanner.lex*
+	unknown:
+	src/memphis_scanner.h
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-04-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Memphis
+
+2010-04-23  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Merge with upstream
+
+2010-04-23  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	New macro-defined activation for Memphis
+
+2010-04-19  Francesco Fiduccia  <crypt@ubuntu>
+
+	Memphis Release Finale
+
+2010-04-19  Francesco Fiduccia  <crypt@ubuntu>
+
+	Memphis Release
+
+2010-04-13  Francesco Fiduccia  <crypt@ubuntu>
+
+	memphis load
+
+2010-04-12  Francesco Fiduccia  <crypt@ubuntu>
+
+	Merge
+
+2010-04-12  Francesco Fiduccia  <crypt@ubuntu>
+
+	Merge
+
+2010-04-12  Francesco Fiduccia  <crypt@ubuntu>
+
+	Before an update
+
+2010-04-12  Francesco Fiduccia  <crypt@ubuntu>
+
+	memphis load: descriptor_tables
+
+2010-04-08  Francesco Fiduccia  <crypt@ubuntu>
+
+	IRSTRING IRFPOINTER
+
+2010-04-07  Francesco Fiduccia  <crypt@ubuntu>
+
+	Merge Fies
+
+2010-04-07  Francesco Fiduccia  <crypt@ubuntu>
+
+	Hashtable Fixes
+
+2010-04-07  Francesco Fiduccia  <crypt@ubuntu>
+
+	Bug Hunting
+
+2010-04-07  Francesco Fiduccia  <crypt@ubuntu>
+
+	TypeDescriptorsTable
+
+2010-04-01  crypt  <crypt@soya>
+
+	Merge
+
+2010-04-01  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Before The Merge
+
+2010-03-31  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Fixing the IRMETHOD Formal Parameters
+
+2010-03-28  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Refactoring of the code on the way
+
+2010-03-28  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	refactoring of files completed
+
+2010-03-28  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Refactoring
+
+2010-03-27  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Before fixing memphis_semantic
+
+2010-03-26  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Backup
+
+2010-03-26  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	One step after another
+
+2010-03-17  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Fixed mmulti proc bug
+
+2010-03-17  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Space 1999
+
+2010-03-12  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	primo passo per il load static
+
+2010-03-12  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	primo passo per il load static
+
+2010-03-12  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	lib delegates fixato
+
+2010-03-09  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	There's light at the end of the tunnel
+
+2010-03-08  Francesco Fiduccia  <crypt@ubuntu>
+
+	Push Pelosi
+
+2010-03-05  Francesco Fiduccia  <crypt@ubuntu>
+
+	Debugging
+
+2010-03-04  Francesco Fiduccia  <crypt@ubuntu>
+
+	Uncommited
+
+2010-03-04  Francesco Fiduccia  <crypt@ubuntu>
+
+	Uncommited
+
+2010-03-04  Francesco Fiduccia  <crypt@ubuntu>
+
+	Uncommited
+
+2010-03-04  Francesco Fiduccia  <crypt@ubuntu>
+
+	Debugging
+
+2010-03-04  Francesco Fiduccia  <crypt@ubuntu>
+
+	Debugging Parser II and Dumper II
+
+2010-03-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within lib_delegates module
+
+2010-02-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the AOT compiler
+
+2010-03-04  Francesco Fiduccia  <crypt@ubuntu>
+
+	Pre Fix di simone
+
+2010-03-02  Francesco Fiduccia  <crypt@ubuntu>
+
+	Parser II is in debugging
+
+2010-03-02  Francesco Fiduccia  <crypt@ubuntu>
+
+	Switching to a simpler parser
+
+2010-03-02  Francesco Fiduccia  <crypt@ubuntu>
+
+	Some Fix, Some Bug IRLOADREL IRGETADDRESS
+
+2010-03-01  Francesco Fiduccia  <crypt@ubuntu>
+
+	Memphis Dump ByRef
+
+2010-03-01  Francesco Fiduccia  <crypt@ubuntu>
+
+	Some Fix to the memphis_parser and the memphis_semantic
+
+2010-02-26  Francesco Fiduccia  <crypt@ubuntu>
+
+	Merge fix
+
+2010-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.1
+
+2010-02-26  Francesco Fiduccia  <crypt@ubuntu>
+
+	Refactoring
+
+2010-02-26  Francesco Fiduccia  <crypt@ubuntu>
+
+	Refactoring the memphis_internal_load_program
+
+2010-02-25  Francesco Fiduccia  <crypt@ubuntu>
+
+	Refactoring and Cleaning up
+
+2010-02-20  Francesco Fiduccia  <crypt@ubuntu>
+
+	Something is wrong along the line of threading
+
+2010-02-18  Francesco Fiduccia  <crypt@ubuntu>
+
+	after big phat merge
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	New IRLIBRARYCALL and IRNATIVECALL instructions
+
+2010-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	AOT improvements as well as bug fixing in CIL,IR translator.
+	
+	
+	modified:
+	ChangeLog
+	src/cil_ir_translator.c
+	src/internal_calls_initializer.c
+	src/internal_calls_runtime.c
+	src/internal_calls_runtime.h
+	src/translation_pipeline.c
+	unknown:
+	clean
+
+2010-02-18  Francesco Fiduccia  <crypt@ubuntu>
+
+	bho
+
+2010-02-18  Francesco Fiduccia  <crypt@ubuntu>
+
+	Before the Storm
+
+2010-02-17  Francesco Fiduccia  <crypt@ubuntu>
+
+	Refactoring of the Parser: it compiles
+
+2010-02-17  Francesco Fiduccia  <crypt@ubuntu>
+
+	Parser Refactoring Almost Done
+
+2010-02-17  Francesco Fiduccia  <crypt@ubuntu>
+
+	Backup
+
+2010-02-16  Francesco Fiduccia  <crypt@ubuntu>
+
+	Before Refactoring
+
+2010-02-16  Francesco Fiduccia  <crypt@ubuntu>
+
+	Valuetype / Get_Address param_1.internal_type 
+
+2010-02-15  Francesco Fiduccia  <crypt@ubuntu>
+
+	compiles!
+
+2010-02-11  Francesco Fiduccia  <crypt@ubuntu>
+
+	Accorpamenti Enormi
+
+2010-02-10  Francesco Fiduccia  <crypt@ubuntu>
+
+	Added the parser scanner and semantic files
+
+2010-02-10  Francesco Fiduccia  <crypt@ubuntu>
+
+	Import
+
+2010-04-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Wall-time computation added
+
+2010-04-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/Makefile.am
+	src/internal_calls_vararg.c
+
+2010-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Switching to SINGLE_THREAD_PIPE every time we run the AOT compiler.
+
+2010-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove some of unusefull accesses to t_system structure.
+
+2010-04-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove some unusefull accesses to system
+
+2010-04-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-04-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix pipeline issues
+
+2010-04-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/translation_pipeline.c
+
+2010-04-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Avoid duplicates insertions within the hash table "functionsEntryPoint"
+
+2010-04-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adding assertions
+
+2010-04-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete a wrong assertion
+
+2010-04-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Luca's work
+
+2010-04-14  Luca  <luca@ops-notebook>
+
+	add support for generic virtual call
+	bugfix initobj instruction
+	completed constrained prefix
+
+2010-04-13  Luca  <luca@ops-notebook>
+
+	#
+
+2010-04-12  Luca  <luca@ops-notebook>
+
+	#
+
+2010-04-12  Luca  <luca@ops-notebook>
+
+	initial change to support generic virtual call
+
+2010-04-10  Luca  <luca@ops-notebook>
+
+	bugfix constrained prefix instruction
+
+2010-04-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Micky's work
+
+2010-04-12  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Adapt to the new name of the IRDumper_PrintIRType() function
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the IR parameter 4
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove unusefull accesses to t_system structure.
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove system references
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/cil_ir_translator.c
+	unknown:
+	Makefile
+	Makefile.in
+	aclocal.m4
+	autom4te.cache/
+	build-aux/
+	config.log
+	config.status
+	configure
+	libtool
+	doc/Makefile
+	doc/Makefile.in
+	etc/Makefile
+	etc/Makefile.in
+	include/Makefile
+	include/Makefile.in
+	include/ildjit_callbacks.h@
+	pkgconfig/Makefile
+	pkgconfig/Makefile.in
+	pkgconfig/iljit.pc
+	src/.libs/
+	src/Makefile
+	src/Makefile.in
+	src/config.h
+	src/config.h.in
+	src/iljit
+	src/optimizers_conf_scanner.c
+	src/optimizers_conf_scanner.h
+	src/stamp-h1
+	src/tags
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/cil_ir_translator.c
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change locks order
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Luca's work
+
+2010-04-09  Luca  <luca@ops-notebook>
+
+	commit micky works
+
+2010-04-09  Luca  <luca@ops-notebook>
+
+	bugfixing for translate_cil_unbox_any
+
+2010-04-08  Luca  <luca@ops-notebook>
+
+	Implement constrained prefix for callvirt
+
+2010-04-07  Luca  <luca@ops-notebook>
+
+	Clean up and Implement new instruction
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Micky's work
+
+2010-04-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Centralized dump of IR Types
+
+2010-04-08  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Simone's work
+
+2010-04-07  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Added IRFPOINTER and IRSTRING type
+
+2010-04-07  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Added IRFPOINTER type
+
+2010-04-07  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	IRSTRING type added
+
+2010-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Micky's work
+
+2010-04-07  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Fixed IRNATIVECALL and IREXITNODE dumpers
+
+2010-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/executor.c
+	src/translation_pipeline.c
+
+2010-03-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-03-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning 
+
+2010-03-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Local CIL types propagation
+
+2010-03-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Propagate parameter CIL types
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Last merge with previous work
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Previous work
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/cil_ir_translator.c
+	src/iljit_dumper.c
+	src/lib_delegates.c
+	src/profiler.c
+	src/system_manager.c
+	src/translation_pipeline.c
+
+2010-03-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Luca's work
+
+2010-03-29  Luca  <luca@ops-notebook>
+
+	Fix a bug in System.Assembly.GetType internal call
+
+2010-03-24  Luca  <luca@ops-notebook>
+
+	#
+
+2010-03-24  Luca  <luca@ops-notebook>
+
+	#Adapt code to new metadata manager
+
+2010-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+	
+	
+	modified:
+	ChangeLog
+	configure.ac
+	src/cil_ir_translator.c
+	src/internal_calls_IO.c
+	src/internal_calls_initializer.c
+	src/internal_calls_manager.c
+	src/internal_calls_reflection.c
+	src/internal_calls_runtime.c
+	src/internal_calls_string.c
+	src/internal_calls_utilities.c
+	src/lib_delegates.c
+	src/lib_thread.c
+	src/loader.c
+	src/plugin_manager.c
+	src/static_memory.c
+	src/system_initializer.c
+	src/system_manager.c
+	src/translation_pipeline.c
+	unknown:
+	clean
+
+2010-01-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/cil_ir_translator.c
+	unknown:
+	clean
+
+2010-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete uses of IRUPOINTER type
+	
+	
+	modified:
+	ChangeLog
+	src/cil_ir_translator.c
+	src/garbage_collector_interactions.c
+	src/iljit_dumper.c
+	src/internal_calls_initializer.c
+	src/internal_calls_utilities.c
+	src/lib_delegates.c
+	unknown:
+	clean
+
+2010-01-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete unusefull conversions.
+	
+	
+	modified:
+	ChangeLog
+	src/cil_ir_translator.c
+	src/system_manager.c
+	src/translation_pipeline.c
+	unknown:
+	clean
+
+2010-01-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a race condition in the AOT compiler
+	
+	
+	modified:
+	ChangeLog
+	src/static_memory.c
+	src/translation_pipeline.c
+	unknown:
+	clean
+
+2010-01-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/system_manager.c
+	src/translation_pipeline.c
+	unknown:
+	clean
+
+2010-01-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/internal_calls_manager.c
+	src/internal_calls_runtime.c
+	src/system_manager.c
+	src/translation_pipeline.c
+	unknown:
+	clean
+
+2010-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/exception_manager.c
+	src/executor.c
+	src/garbage_collector_interactions.c
+	src/internal_calls_delegate.c
+	src/internal_calls_reflection.c
+	src/internal_calls_utilities.c
+	src/lib_culture.c
+	src/lib_thread.c
+	src/recompiler.c
+	src/system_manager.c
+	src/system_manager.h
+	src/translation_pipeline.c
+	unknown:
+	clean
+
+2010-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move from glib to xanlib
+	
+	
+	modified:
+	ChangeLog
+	src/cil_ir_translator.c
+	unknown:
+	clean
+
+2010-01-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	AOT fix
+	
+	
+	modified:
+	ChangeLog
+	src/system_manager.c
+	src/translation_pipeline.c
+	unknown:
+	clean
+
+2010-01-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+	
+	
+	modified:
+	ChangeLog
+	src/internal_calls_IO.c
+	src/internal_calls_IO.h
+	src/internal_calls_charinfo.c
+	unknown:
+	clean
+
+2010-01-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+	
+	
+	modified:
+	ChangeLog
+	src/cil_ir_translator.c
+	src/internal_calls_array.c
+	src/internal_calls_utilities.c
+	src/runtime.c
+	src/system_manager.c
+	src/system_manager.h
+	unknown:
+	clean
+
+2010-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move some code to the libclimanager library
+	
+	
+	removed:
+	src/generic_manager.c
+	src/generic_manager.h
+	src/lib_decimal.c
+	src/lib_decimal.h
+	modified:
+	ChangeLog
+	src/Makefile.am
+	src/executor.c
+	src/internal_calls_decimal.c
+	src/internal_calls_initializer.c
+	src/internal_calls_manager.c
+	src/system_manager.c
+	src/system_manager.h
+	unknown:
+	clean
+
+2010-01-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code optimization.
+
+2010-01-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	removed:
+	src/lib_stringBuilder.c
+	src/lib_stringBuilder.h
+	src/lib_vararg.c
+	src/lib_vararg.h
+	modified:
+	ChangeLog
+	src/Makefile.am
+	src/executor.c
+	src/internal_calls_initializer.c
+	src/internal_calls_string.c
+	src/internal_calls_vararg.c
+	src/system_manager.h
+	unknown:
+	clean
+
+2010-01-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/cil_ir_translator.c
+	src/internal_calls_delegate.c
+	src/system_manager.c
+	src/system_manager.h
+	src/translation_pipeline.c
+	unknown:
+	clean
+
+2010-01-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/system_manager.c
+
+2010-01-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the new library libclimanager
+	
+	
+	removed:
+	src/cil_stack.c
+	src/cil_stack.h
+	src/ilmethod.c
+	src/ilmethod.h
+	src/layout_manager.c
+	src/layout_manager.h
+	src/lib_array.c
+	src/lib_array.h
+	src/lib_reflect.c
+	src/lib_reflect.h
+	src/lib_runtimehandle.c
+	src/lib_runtimehandle.h
+	src/lib_string.c
+	src/lib_string.h
+	src/lib_typedReference.c
+	src/lib_typedReference.h
+	src/value_type_manager.c
+	src/value_type_manager.h
+	modified:
+	ChangeLog
+	configure.ac
+	src/Makefile.am
+	src/cil_ir_translator.c
+	src/exception_manager.c
+	src/executor.c
+	src/garbage_collector_interactions.c
+	src/general_tools.c
+	src/general_tools.h
+	src/iljit.c
+	src/internal_calls_IO.c
+	src/internal_calls_array.c
+	src/internal_calls_charinfo.c
+	src/internal_calls_currentsystemtimezone.c
+	src/internal_calls_delegate.c
+	src/internal_calls_environment.c
+	src/internal_calls_initializer.c
+	src/internal_calls_manager.c
+	src/internal_calls_object.c
+	src/internal_calls_reflection.c
+	src/internal_calls_runtime.c
+	src/internal_calls_string.c
+	src/internal_calls_thread.c
+	src/internal_calls_utilities.c
+	src/internal_calls_vararg.c
+	src/lib_culture.c
+	src/lib_decimal.c
+	src/lib_delegates.c
+	src/lib_stringBuilder.c
+	src/lib_thread.c
+	src/lib_vararg.c
+	src/loader.c
+	src/profiler.c
+	src/runtime.c
+	src/system_manager.c
+	src/system_manager.h
+	src/translation_pipeline.c
+
+2010-01-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/ilmethod.c
+
+2010-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+	
+	
+	modified:
+	ChangeLog
+	configure.ac
+	src/Makefile.am
+	src/cil_ir_translator.c
+	src/exception_manager.c
+	src/garbage_collector_interactions.c
+	src/general_tools.c
+	src/general_tools.h
+	src/iljit_dumper.c
+	src/ilmethod.c
+	src/ilmethod.h
+	src/internal_calls_initializer.c
+	src/internal_calls_string.c
+	src/internal_calls_utilities.c
+	src/layout_manager.c
+	src/lib_runtimehandle.c
+	src/lib_runtimehandle.h
+	src/loader.c
+	src/loader.h
+	src/profiler.c
+	src/system_manager.c
+	unknown:
+	clean
+
+2010-01-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/ilmethod.c
+	src/layout_manager.c
+	unknown:
+	clean
+	src/old/
+
+2010-01-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs and warning fixing.
+	
+	
+	modified:
+	ChangeLog
+	src/cil_stack.c
+	src/internal_calls_IO.c
+	src/internal_calls_array.c
+	src/internal_calls_reflection.c
+	src/lib_string.c
+	unknown:
+	clean
+	src/old/
+
+2010-01-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed bugs within IO functions.
+	
+	
+	modified:
+	ChangeLog
+	src/internal_calls_IO.c
+	src/internal_calls_IO.h
+
+2010-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/internal_calls_reflection.c
+
+2009-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/internal_calls_delegate.c
+	src/internal_calls_delegate.h
+	src/internal_calls_initializer.c
+	src/internal_calls_security.c
+	src/internal_calls_thread.c
+	src/lib_delegates.c
+	src/lib_delegates.h
+
+2009-12-24  Speziale Ettore  <ettore@mars>
+
+	Implemented asynchronous delegates output parameters handling.
+
+2009-12-23  Speziale Ettore  <ettore@mars>
+
+	Implemented asynchronous delegates thought synchronous delegates.
+
+2009-12-22  Speziale Ettore  <ettore@mars>
+
+	Modularized some code inside the delegates library.
+
+2009-12-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/garbage_collector_interactions.c
+	src/general_tools.c
+	src/general_tools.h
+	src/internal_calls_reflection.c
+	src/internal_calls_runtime.c
+
+2009-12-15  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Simone's Work and ARM modifications
+
+2009-12-10  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Release 0.1.4
+
+2009-12-15  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Merged Simone's work
+
+2009-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/cil_ir_translator.c
+	src/executor.c
+	src/internal_calls_IO.c
+	src/internal_calls_decimal.c
+	src/internal_calls_reflection.c
+	src/internal_calls_string.c
+	src/lib_decimal.c
+	src/lib_decimal.h
+	src/translation_pipeline.c
+
+2009-12-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/cil_ir_translator.c
+	src/internal_calls_decimal.c
+	src/internal_calls_decimal.h
+	src/internal_calls_delegate.c
+	src/internal_calls_initializer.c
+	src/internal_calls_vararg.c
+	src/internal_calls_vararg.h
+	src/layout_manager.c
+	src/lib_array.c
+	src/lib_array.h
+	src/lib_decimal.c
+	src/lib_decimal.h
+	src/lib_typedReference.c
+	src/lib_typedReference.h
+
+2009-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/cil_ir_translator.c
+	src/layout_manager.c
+	unknown:
+
+2009-12-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Merged Simone's Work
+
+2009-12-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/internal_calls_manager.c
+	src/system_initializer.c
+
+2009-12-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Some modifications for ARM
+	
+	* src/cil_ir_translator.c src/layout_manager.c: Recovered some modifications inadvertently removed while merging different development branches
+
+2009-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/executor.c
+	src/internal_calls_manager.c
+	src/lib_runtimehandle.c
+	src/lib_runtimehandle.h
+	src/lib_string.c
+	src/profiler.c
+	src/system_manager.h
+
+2009-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/translation_pipeline.c
+
+2009-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	unknown:
+	clean
+	doc/iljit.info
+	include/ildjit_callbacks.h@
+	src/tags
+
+2009-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/static_memory.c
+	src/translation_pipeline.c
+	src/translation_pipeline.h
+
+2009-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/cil_ir_translator.c
+	src/layout_manager.c
+
+2009-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/cil_ir_translator.c
+	src/layout_manager.c
+	unknown:
+	src/tags
+	pending merges:
+	Michele Tartara 2009-11-24 * Some memory alignment related modifications to allow ILDJIT to work on ARM hardware
+
+2009-11-24  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* Some memory alignment related modifications to allow ILDJIT to work on ARM hardware
+
+2009-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/static_memory.c
+	src/translation_pipeline.c
+
+2009-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/internal_calls_manager.c
+	src/translation_pipeline.c
+
+2009-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/iljit.h
+	src/internal_calls_initializer.c
+	src/internal_calls_manager.c
+	src/internal_calls_reflection.c
+	src/internal_calls_reflection.h
+	src/internal_calls_runtime.c
+	src/internal_calls_runtime.h
+	unknown:
+	src/tags
+
+2009-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/internal_calls_enum.c
+	src/internal_calls_enum.h
+	src/internal_calls_initializer.c
+	src/internal_calls_manager.c
+	src/internal_calls_manager.h
+	src/internal_calls_reflection.c
+	src/internal_calls_reflection.h
+	src/internal_calls_runtime.c
+	src/internal_calls_runtime.h
+	src/translation_pipeline.c
+
+2009-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/internal_calls_initializer.c
+	unknown:
+	src/tags
+
+2009-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/internal_calls_IO.c
+	src/internal_calls_IO.h
+	src/internal_calls_delegate.c
+	src/internal_calls_delegate.h
+	src/internal_calls_initializer.c
+	src/internal_calls_manager.c
+	src/internal_calls_manager.h
+	src/internal_calls_security.c
+	src/internal_calls_security.h
+	src/internal_calls_thread.c
+	src/internal_calls_thread.h
+	unknown:
+	src/tags
+
+2009-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/internal_calls_IO.h
+	src/internal_calls_initializer.c
+	unknown:
+	src/tags
+
+2009-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/internal_calls_initializer.c
+	src/internal_calls_manager.c
+	src/internal_calls_manager.h
+	unknown:
+	src/tags
+
+2009-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/iljit.h
+	src/internal_calls_initializer.c
+	src/internal_calls_manager.c
+	src/internal_calls_manager.h
+	src/internal_calls_reflection.c
+	src/internal_calls_runtime.c
+	src/internal_calls_runtime.h
+
+2009-11-18  Speziale Ettore  <ettore@mars>
+
+	Initial import into Bazaar.
+

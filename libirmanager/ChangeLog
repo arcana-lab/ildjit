@@ -1,0 +1,3288 @@
+2014-07-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2014-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IRGETADDRESS properly.
+
+2014-06-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Minor changes to comments
+
+2014-05-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2014-05-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the case where metadata is NULL
+
+2014-05-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the documentation.
+
+2014-05-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Check whether we have the DDG information before using it.
+
+2014-05-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the documentation.
+
+2014-04-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IR*ELEM instructions
+
+2014-04-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not delete metadata
+
+2014-04-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Shrink the buffer if necessary.
+
+2014-04-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not consider calls as exit
+
+2014-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: handle cases where there is a finally block without a caller.
+
+2014-03-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not resolve the symbol to fetch the IR Method called.
+
+2014-03-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the code uniform.
+
+2014-03-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Export a functionality to an external function.
+
+2014-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bring out fetching a loop.
+
+2014-03-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: include the exit node as well.
+
+2014-03-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimized a function.
+
+2014-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing: spaced out a value.
+
+2014-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2014-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function.
+
+2014-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new codetool
+
+2014-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimized the function to check escaped variables.
+
+2014-01-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warnings
+
+2014-01-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Always serialize a symbol if requested.
+
+2014-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented IRMETHOD_getNativeMethodName
+
+2014-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the ability of caching the serialization of symbols.
+
+2014-01-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Changed the API to deserialize symbols from memory rather than from files.
+
+2014-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the computation of successors of instructions. Improved the documentation. Added a new function called IRMETHOD_getAllVariableDefinitions.
+
+2014-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Changed the API for serialize symbols to use memory instead of files.
+
+2014-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2014-01-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved some comments
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the identifier of the symbol.
+
+2013-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation.
+
+2013-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion.
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generate the static library as well.
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2013-12-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dumped the internal type of globals
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions. Duplicate the name of the global
+
+2013-12-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Duplicate the name of globals
+
+2013-12-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled globals. Added a global pointer within the static object symbol data structure.
+
+2013-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2013-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions about symbols and globals. Removed memory leaks.
+
+2013-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle globals
+
+2013-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the IR globals. Make code analysis and code transformation sections in the documentation symmetric
+
+2013-12-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IRLIBRARYCALL as well on IRMETHOD_getNameOfCalledMethod
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename the function to initialize the signature.
+
+2013-12-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added few assertions
+
+2013-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the signature to initialize IRLib to allow the pointer of the pointer of the symbol table.
+
+2013-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the static memory symbol table
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Changed the comments in the new format.
+
+2013-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2013-11-28  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	New API call to get the data dependence between two instructions.
+
+2013-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Print internal type even for symbols
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions about direct reference methods.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed a couple of assertions
+
+2013-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled IRLOG10
+
+2013-11-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed implementation of IRMETHOD_getInstructionsThatCanBeReachedFromPosition()
+
+2013-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new codetool
+
+2013-10-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2013-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved some code from libchiara to here
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename prefix to IRLOOP
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed a bug
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved some code from libchiara
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved some code from libchiara
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added loops.
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use circuit instead of loop when appropriate.
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename t_loop into circuit_t
+
+2013-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the API.
+
+2013-10-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new data flow APIs and a new codetool type.
+
+2013-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function.
+
+2013-10-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename functions to reflect the name of the package.
+
+2013-08-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed. The cloned method has to be an exact copy of the original one.
+
+2013-08-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2013-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions.
+
+2013-08-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2013-08-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed. Delete metadata before destroying the instruction.
+
+2013-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2013-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2013-06-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-06-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions. Improved the documentation about data dependences and memory aliases.
+
+2013-06-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation.
+
+2013-06-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-06-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-05-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not rely on liveness analysis when it is not necessary.
+
+2013-05-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2013-05-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2013-05-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the doc
+
+2013-05-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Abort if there is an error.
+
+2013-05-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Revert
+
+2013-05-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not check the last instruction.
+
+2013-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new flag for varargs
+
+2013-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle NULL argument
+
+2013-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Invalidate information more accurately
+
+2013-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename functions
+
+2013-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-03-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-03-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle a new instruction.
+
+2013-03-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled new IR instructions
+
+2013-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2013-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions.
+
+2013-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2013-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved a function
+
+2013-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib.h
+
+2013-01-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented a common case optimization
+
+2013-01-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-01-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed about printing NOPARAM. Do not dump pointer values for function pointers.
+
+2012-12-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the case where ID is NULL
+
+2012-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks.
+
+2012-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.2
+
+2012-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the doc
+
+2012-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved a function
+
+2012-11-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the doc
+
+2012-11-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the doc
+
+2012-11-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the doc
+
+2012-11-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2012-11-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the doc
+
+2012-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed: check the array size first
+
+2012-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2012-11-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the API homogeneous
+
+2012-11-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the API homogeneous
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the doc
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the API homogeneous.
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the API homogeneous.
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Extended the IR API
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Made the API homogeneous
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2012-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRSYMBOL_storeSymbolToIRItem to the IR API
+
+2012-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added DDG_PROFILE
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a file
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Makes the API homogeneous.
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Makes the API homogeneous.
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Makes the API homogeneous. Added new functions
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Makes the API homogeneous. Added new functions
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation. Added new functions
+
+2012-10-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed function IRMETHOD_getIRTypeInString
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed tabs
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the doc
+
+2012-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2012-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2012-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the variables analysis
+
+2012-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IRMETHOD_setInstructionResultValue
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Replaced IRSTORE with IRMOVE
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new xanbit
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename a function
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the access time to data dependences.
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added two functions
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename the parameters
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed.
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the new instruction IRCEIL.
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function.
+	Improved the documentation.
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation.
+	Rename a function
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation. Rename the symbol API. Added new symbol API.
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation:
+
+2012-10-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Free the method name
+
+2012-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed for comparing signatures: input language data cannot be part of that.
+	Improved accuracy for compatible methods.
+
+2012-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the function ir_instr_is_a_jump_instruction. Bugs fixed within the function IRMETHOD_getCompatibleMethods.
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the deletion of all instructions
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reduced the memory used.
+	Added the function IRMETHOD_getIRVariables.
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions to free loops memory.
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some examples of usage
+
+2012-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation. Added new functions
+
+2012-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove all function pointers from ir_method_t
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use allocFunction when the pointer is NULL
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the system API
+
+2012-10-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-10-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed related to ilParamsDescriptor
+
+2012-10-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks.
+
+2012-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved a field in ir_method_t
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Expose the linking option to the IR API
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename a function. Improved the documentation
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the documentation to the new API
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new set of API
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename a function.
+	Added a new function
+
+2012-09-27  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-26  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Merged with Simone's work.
+
+2012-09-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed on the identification of loop invariants.
+
+2012-09-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-09-24  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Merged with Simone's work.
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_getInstructionPositions.
+	Improved the documentation of existing functions.
+	Used the new API of xanlib.
+
+2012-09-24  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Remove function pointer accesses in XanHashTable to insert and lookup.
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added few functions
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the mapping from instructions to basic blocks.
+
+2012-08-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the deletion of DDG when all metadata are destroyed.
+
+2012-07-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Memory memory leaks.
+
+2012-07-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function.
+
+2012-07-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2012-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2012-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added two functions
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-07-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2012-06-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2012-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Minor changes
+
+2012-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on the predecessor relation
+
+2012-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-05-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2012-05-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented a new function
+
+2012-05-23  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Add the function IRMETHOD_getBranchFallThrough() and add BRANCHIFPCNOTINRANGE
+	to the instructions dealt with in IRMETHOD_getBranchDestination() as the
+	documentation says.
+
+2012-05-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2012-05-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Restructure the code to avoid too conservartive assertions.
+
+2012-05-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed on the functions just added
+
+2012-05-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions.
+
+2012-05-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-05-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2012-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the new instructions.
+
+2012-05-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2012-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-04-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-04-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some functions.
+	Optimize the function ir_instr_is_a_predominator.
+
+2012-04-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation.
+
+2012-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the titles of the documentation
+
+2012-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation.
+
+2012-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-29  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed errors with deleting instruction data dependences and deleting
+	instructions.
+
+2012-03-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation.
+
+2012-03-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-03-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation.
+
+2012-03-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-03-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Create new subgroups
+
+2012-03-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the documentation
+
+2012-03-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing.
+	Added the function IRMETHOD_getSizeOfIRType.
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a function.
+	Fixed the documentation
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the documentation
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation.
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the documentation
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge distance and flags.
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility of declaring flags per instruction
+
+2012-03-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the documentation
+
+2012-03-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IRBITCAST.
+	Added IRMETHOD_getIRTypeName
+
+2012-03-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IRPHI
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-03-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IRREALLOC
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the new IR ISA.
+	Consider bitwise instructions as Math
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the memory alias API.
+	Adde the codetool types information.
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some instructions
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-02-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a function.
+	Remove warnings.
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing about successor/predecessor of instructions that can throw exceptions.
+
+2012-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a function
+
+2012-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Included IRNATIVECALL as instruction that can throw exceptions
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new ISA
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRCALLINDIRECTCCTOR
+
+2012-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove a wrong assertion
+
+2012-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2012-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some functions
+
+2012-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2012-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IRMETHOD_getCallersOfFinallyBlock
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRTYPEDREF.
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the doc
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IRMETHOD_isAPlatformDependentType
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the doc
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the doc
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the doc
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the doc
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed bug
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IRSIZEOF.
+	Removed redundancy on the mapping <instruction_type, instruction_name>
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IRMETHOD_getSizeOfObject
+
+2012-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix English errors
+
+2012-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new instruction
+
+2012-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix English errors on the API
+
+2012-01-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed English errors
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the documentation
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the API uniform
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the API consistent
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Unified the API
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the parameters descriptor
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed english errors from the API
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the API consistent
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Extended the API
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some functions
+
+2012-01-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a function
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixing the documentation
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Create a new subsection inside the documentation
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Create a new submodule inside the documentation
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the order of methods inside the documentation
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new subsection inside the documentation
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set the position of new basic blocks
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan.
+	Update the public API.
+	Added new functions to the public API.
+	Explicitaly store the storing position of basic blocks.
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2011-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set the flag
+
+2011-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2011-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work
+
+2011-11-30  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed unintentional bug introduced during documentation.
+
+2011-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-11-30  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Updates to documentation
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API
+
+2011-11-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Prioritize ir_item_t with full type information
+
+2011-11-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work
+
+2011-11-17  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Added back in asserts that were mistakenly commented out.
+
+2011-11-17  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Added lots of functions.
+	
+	IRMETHOD_removeInstructionDataDependence
+	IRMETHOD_isAPredecessorInstruction
+	IRMETHOD_isASuccessorInstruction
+	IRMETHOD_isABranchInstruction
+	IRMETHOD_isABranchInstructionType
+	IRMETHOD_getBasicBlockPosition
+	IRMETHOD_getTheBasicBlockIncludesInstructionID
+
+2011-11-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_canInstructionPerformAMemoryLoad.
+
+2011-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-10-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing.
+	Extended the API
+
+2011-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean
+
+2011-10-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the induction variables description
+
+2011-10-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_getNumberOfInstructionsOfTypeWithinBasicBlock.
+
+2011-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions IRMETHOD_addNativeCallInstructionsBeforeEveryInstructionWithThemAsParameter and IRMETHOD_addNativeCallInstructionsBeforeEveryInstruction.
+
+2011-09-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-09-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on free memory
+
+2011-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Exported the API to C++ modules
+
+2011-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename BasicBlock to IRBasicBlock
+
+2011-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_canInstructionPerformAMemoryStore
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the API for C++ programs
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libcompilermemorymanager
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libcompilermemorymanager
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Diego's work
+
+2011-08-03  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-08-02  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-07-29  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Mutexes and conditional variables are now process shared only if multi application support is enabled
+
+2011-07-26  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Added conditional compilation for multi application support
+
+2011-07-11  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-06-15  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-05-23  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Merge with main branch
+
+2011-04-15  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Removed debug print
+
+2011-04-13  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Fixed a missing sharedAllocFunction
+
+2011-04-10  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Enabled CIL->IR translation to be performed by a different instance of iljit
+
+2011-03-11  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Adaptation to work with shared/private memory pool
+
+2011-01-25  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Added shared and private memory pool and generator behavior of iljit
+
+2011-08-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_getCalledNativeMethod.
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the function IRMETHOD_setResultType
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.6.0
+
+2011-08-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Normalized platform API header inclusion
+
+2011-07-29  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-14  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-06  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-03  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-14  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-05-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Provided a function to destroy the library. Destroy deeply IR methods.
+
+2011-07-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set profile mode at optimization level 0
+
+2011-07-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-07-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not optimize the code in PROFILE mode
+
+2011-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_deleteLoopsInformation.
+	Remove some memory handling references.
+
+2011-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the dumpIRItem function
+
+2011-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2011-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_getInstructionsOfBasicBlock.
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions IRMETHOD_getInstructionsOfType, IRMETHOD_getLabelInstructions and IRMETHOD_substituteLabelInAllBranches.
+
+2011-06-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing inside the function IRMETHOD_destroyMethod.
+
+2011-06-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_tagMethodAsProfiled.
+
+2011-06-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-06-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_hasMethodLoops.
+
+2011-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the case of ID = 0
+
+2011-05-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the IREXIT
+
+2011-05-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing for the case there is no loop
+
+2011-05-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_hasMethodInstructions.
+
+2011-05-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_newNativeCallInstruction.
+	Inserted a NOP instruction when a method is initialized.
+
+2011-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within cloneMethod
+
+2011-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the IRMETHOD_cloneMethod and IRMETHOD_destroyMethod.
+
+2011-04-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a wrong assertion
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions.
+	Reorganize the cloneMethod function.
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-04-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the signatures
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Luca's work
+
+2011-04-15   Committer: Luca  <luca@turbo> 
+
+	BugFixing
+
+2011-04-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_getIRTypeInString.
+
+2011-04-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_isAMethodEntryPoint.
+
+2011-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2011-04-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function IRMETHOD_destroyMethod: the method has to be unregistered as well.
+
+2011-03-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_newBranchToLabelBefore
+
+2011-03-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_setInstructionToANewLabel
+
+2011-03-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function IRMETHOD_getLoopInvariants: we need to check subloops as well.
+	Added the functions IRMETHOD_getNestedLoops and IRMETHOD_newLabelBefore.
+
+2011-03-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions IRMETHOD_newLabelAfter and IRMETHOD_newBranchToLabelAfter.
+
+2011-03-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the computation of free label IDs
+
+2011-03-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function IRMETHOD_addInstructionDataDependence.
+
+2011-03-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_scheduleInstructionBefore.
+	Add only new outside instructions within the function ir_instr_add_data_dependency.
+
+2011-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions IRMETHOD_newNativeCallInstructionBefore and IRMETHOD_newNativeCallInstructionAfter.
+
+2011-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the IRMETHOD_setInstructionParameter* functions where the f field was used even if the item was a variable.
+
+2011-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-03-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Removed all commented platform-dependent includes
+
+2011-03-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-13  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-12  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-10  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	merge
+
+2011-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_hasIRBody.
+
+2011-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speed it up the function IRMETHOD_shiftVariableIDs.
+
+2011-02-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility to specify the outsideInstructions
+
+2011-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility to specify inter-procedural data dependencies.
+
+2011-02-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Erase the valid_optimization flag when the extra memory is allocated.
+
+2011-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_saveProgram.
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link to libplatform.
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename irLib to ir_library.
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-11   Committer: Luca  <luca@turbo> 
+
+	Merge Xan's work
+
+2011-02-10   Committer: Luca  <luca@turbo> 
+
+	nothing
+
+2011-02-10   Committer: Luca  <luca@turbo> 
+
+	update documentation
+	Update symbol
+
+2011-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions IRMETHOD_addInstructionCallParameter, IRMETHOD_getRunningMethod and IRMETHOD_getCallerOfMethodInExecution.
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_addInstructionCallParameter.
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved functions from ir_method_t to IRMETHOD_* kind.
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	Merge Xan's
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	Add list of IR keyword
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-04  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	fixed multi-PLATFORM support warnings. Renamed multi-PLATFORM Thread Functions.
+
+2011-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for functions pthread_create, pthread_join, pthread_self, pthread_once, pthread_equal, pthread_attr_init, pthread_attr_setscope, pthread_attr_setstacksize, pthread_attr_setinheritsched, pthread_attr_setschedparam, pthread_attr_setschedpolicy, pthread_mutex_init, pthread_mutexattr_init, pthread_mutexattr_settype, pthread_mutex_destroy, pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock, pthread_cond_init, pthread_cond_wait, pthread_cond_signal, pthread_cond_broadcast, pthread_cond_destroy (all in pthread.h)
+
+2011-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_setInstructionParameterWithANewVariable.
+
+2011-01-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions IRMETHOD_newInstructionOfType* and IRMETHOD_isAn*Instruction*.
+
+2011-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the signature of IRMETHOD_resolveSymbolFromIRItem.
+
+2011-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation.
+
+2011-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle symbols
+
+2011-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_substituteVariableInsideInstructionWithItem.
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions IRMETHOD_getDeclaredVariableILType and IRMETHOD_getDeclaredVariableType.
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions IRMETHOD_eraseInstructionParameter, IRMETHOD_resolveSymbolFromIRItem.
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-01-18  Luca  <luca@ops-notebook>
+
+	add new method to dump ir_item
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Luca's work
+
+2011-01-17  Luca  <luca@ops-notebook>
+
+	Continue working on symbol
+
+2011-01-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Michy's work
+
+2011-01-16  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	SSA support added
+
+2011-01-05  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-12-24  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-12-20  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-12-17  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-12-17  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-12-14  mickey85  <mickey4fun@gmail.com>
+
+	changed the XanList used by SSA conversion plugin into one JITBOOLEAN
+
+2010-12-09  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-12-09  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-12-06  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-11-29  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-11-22  mickey85  <mickey4fun@gmail.com>
+
+	little bugfix
+
+2010-11-22  mickey85  <mickey4fun@gmail.com>
+
+	added the list of pointers to the phi functions in the method code in the ir_method_t structure
+
+2011-01-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use IRALLOCA only if there is nothing else to use within the IRMETHOD_getIRVariable function.
+
+2011-01-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the functions IRMETHOD_isInstructionParameterAVariable and IRMETHOD_isInstructionCallParameterAVariable.
+	Rename IRMETHOD_translateToMachineCode to IRMETHOD_translateMethodToMachineCode.
+
+2011-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the function IRMETHOD_isTheVariableAMethodDeclaredVariable.
+
+2011-01-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Returned the later use of a variable within the function IRMETHOD_getIRVariable for instructions IRTHROWNEXCEPTIONOBJECT.
+
+2010-12-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the function IRMETHOD_getInstructionTypeName.
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+	Added some functions
+
+2010-12-28  Luca  <luca@ops-notebook>
+
+	Add symbol support
+
+2010-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2010-12-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions IRMETHOD_getInstructions and IRMETHOD_isASignedType.
+	Moved functions from ir_method_t to IRMETHOD_* kind.
+	Updated the documentation.
+
+2010-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on the data-flow memory allocation functions.
+
+2010-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_setInstructionCallParameter.
+
+2010-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_substituteUsesOfVariableInsideInstruction.
+	Moved functions from ir_method_t to IRMETHOD_* kind.
+
+2010-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved functions from ir_lib_t to IRMETHOD_* kind.
+
+2010-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_setInstructionParameter.
+
+2010-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved functions from ir_method_t to IRMETHOD_* kind.
+	Updated the documentation.
+
+2010-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Redirect every calls to internal methods by avoiding indirect calls.
+
+2010-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_cpInstructionParameter.
+
+2010-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Xan's work
+
+2010-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-15  Luca  <luca@ops-notebook>
+
+	Add function to clone IRMethod
+
+2010-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean correctly the metadata memory.
+
+2010-12-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-12-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Inserted the functions IRMETHOD_cloneMethod and IRMETHOD_newMethod.
+	Updated the documentation.
+
+2010-12-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the documentation
+
+2010-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved functions from ir_method_t to IRMETHOD_* kind.
+	Updated the documentation.
+
+2010-12-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Insert the functions IRMETHOD_substituteVariableInsideInstruction and IRMETHOD_substituteVariable.
+
+2010-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_getProgramName.
+
+2010-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reduced the size of both data structures ir_item_t (down to 16 Bytes) and t_ir_instruction (down to 88 Bytes).
+
+2010-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved functions from ir_method_t to IRMETHOD_* kind.
+	Updated the documentation.
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved information about IR instructions within a substructure of t_ir_instruction called metadata.
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing due to the unification of value and fvalue fields of ir_item_t.
+
+2010-12-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved functions from ir_method_t to IRMETHOD_* kind.
+	Updated the documentation.
+	Group together value and fvalue fields of ir_item_t.
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved functions from ir_method_t to IRMETHOD_* kind.
+	Updated the documentation.
+	Removed internal structures of ir_item_t.
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions IRMETHOD_getNextInstruction and IRMETHOD_getPrevInstruction.
+	Removed the field isByref from the structure ir_item_t.
+
+2010-12-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-03  Luca  <luca@ops-notebook>
+
+	correct assertion
+
+2010-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the predecessors/successors relation for call instructions, IRDIV and IRREM which can throw exceptions.
+
+2010-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the code.
+
+2010-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the free of escapes variables information
+
+2010-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function  ir_method_escapes_alloc.
+
+2010-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions IRMETHOD_hasCatchBlocks and IRMETHOD_getVariableUses.
+
+2010-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_hasCatchBlocks.
+
+2010-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Call directly internal functions
+
+2010-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Michele's work
+
+2010-11-26  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	IrMetadata type field updated
+
+2010-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Call directly the internal functions within the external API
+
+2010-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix the compilation flags for profile
+
+2010-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function ir_instrcall_par_move
+
+2010-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-11-24  Luca  <luca@ops-notebook>
+
+	update pthread lock init code
+	add IRMetadata structure
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved function to the new API
+
+2010-11-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the function IRMETHOD_getBranchDestination.
+
+2010-11-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the function IRMETHOD_setBranchDestination.
+
+2010-11-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function IRMETHOD_isAJumpInstruction.
+
+2010-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_substituteLabels
+
+2010-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the functions IRMETHOD_getInstructionSuccessors and IRMETHOD_getInstructionPredecessors.
+
+2010-10-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-10-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_getFunctionPointer
+
+2010-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-26  Luca  <luca@ops-notebook>
+
+	update to new metadata system
+
+2010-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed some memory leaks.
+
+2010-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function IRMETHOD_getLoopInvariants
+
+2010-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-23  Luca  <luca@ops-notebook>
+
+	Bugfix getCallableMethod
+
+2010-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_getCallableIRMethods
+
+2010-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the IRTYPEDREF data type to the IRMETHOD_getSizeOfType function
+
+2010-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the IRVOID data type to the IRMETHOD_getSizeOfType function
+
+2010-10-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API
+
+2010-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the ir_instr_get_predecessor instruction for the IRLABEL case when the previous instruction is a branch and the current one is its target label.
+
+2010-10-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove the abort for the default case of IRMETHOD_getCallableMethods.
+
+2010-10-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the IRSIGNATURE
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the IRSIGNATURE
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-11  Luca  <luca@ops-notebook>
+
+	add new method to API
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.4.0
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API.
+	Updated the documentation
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IR types within the function IRMETHOD_getSizeOfType
+
+2010-10-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-10-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-10-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_isTheVariableATemporary.
+
+2010-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API.
+	Updated the documentation
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-07  Luca  <luca@ops-notebook>
+
+	Xan Works
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API.
+	Updated the documentation
+
+2010-10-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_getLoopInductionVariables, IRMETHOD_isAnInductionVariable, IRMETHOD_newLabel, IRMETHOD_newBranchToLabel and IRMETHOD_getLoopInvariants.
+
+2010-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-02  Luca  <luca@ops-notebook>
+
+	add new method to analyze virtual call
+
+2010-10-01  Luca  <luca@ops-notebook>
+
+	add t_ir_local structure
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API
+
+2010-10-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_getCalledMethod
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation.
+	Improved the API.
+
+2010-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added functions.
+	Improved the API.
+	Updated the documentation
+
+2010-09-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed a typo error
+
+2010-09-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-25  Luca  <luca@ops-notebook>
+
+	cleanup code
+
+2010-09-24  Luca  <luca@ops-notebook>
+
+	Change Method Signature API
+
+2010-09-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed a bug within the IRMETHOD_getTheMoreNestedLoopOfInstruction function.
+
+2010-09-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the case where the successor of a IRCALLFINALLY is the correspondent IRSTARTFINALLY instruction within the function IRMETHOD_canTheNextInstructionBeASuccessor.
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Michy's work
+
+2010-09-22  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Merge with Simone's work
+
+2010-09-22  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Automatic dependency solving for optimizers
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove old wrong assertions
+
+2010-09-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API
+
+2010-09-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API.
+	Updated the documentation
+
+2010-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_translateToMachineCode and IRMETHOD_getIRMethods
+
+2010-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-09-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRMETHOD_canTheNextInstructionBeASuccessor.
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new opcode IRCONVOVF.
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-09-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on successor/predecessor relations.
+	Improve the API.
+	Updated the documentation.
+
+2010-09-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing for getPredecessor of IRSTARTFINALLY
+
+2010-09-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API.
+	Updated the documentation
+
+2010-09-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a signature
+
+2010-09-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API.
+	Updated the documentation
+
+2010-09-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the method IRMETHOD_doesMethodBelongToTheBaseClassLibrary.
+
+2010-09-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API
+
+2010-09-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Free deeply the memory used by callParameters
+
+2010-09-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API.
+	Improved the documentation
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API.
+	Updated the documentation
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API.
+	Updated the documentation
+
+2010-08-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improve the API.
+	Updated the documentation
+
+2010-08-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improve the API
+
+2010-08-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API.
+	Updated the documentation.
+
+2010-08-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improve the API.
+	Updated the documentation
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove memory leaks due to escaped variables and bytecode-level locals information
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improve the API
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improve the API
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improve the API
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improve the API.
+	Update the documentation.
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Update the documentation and improve the API
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the API
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the API
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge Luca's work
+
+2010-08-16  Luca  <luca@ops-notebook>
+
+	update API with new method to check if type is assignable
+
+2010-08-03  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	Adapt to new TypeDescriptor
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Update the documentation
+
+2010-08-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Convert the function lock and unlock of ir_method_t to the new API
+
+2010-07-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Debian packages merged
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-07-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions IRMETHOD_getOutermostLoops, IRMETHOD_getPostDominators and IRMETHOD_getPreDominators.
+
+2010-07-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove the Morpheus project
+
+2010-07-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function IRMETHOD_doesInstructionBelongsToMethod for the case where the instruction given as input is not a correct memory address.
+
+2010-07-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	API extension
+
+2010-07-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	API extension and bug fixing.
+
+2010-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	API extension
+
+2010-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Assertions added.
+
+2010-07-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	API extension
+
+2010-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on reallocation of memory used to store data-flow values.
+
+2010-06-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	API extension
+
+2010-06-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Managed the case where the lists of data-dependencies are NULL.
+
+2010-06-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Extended the API
+
+2010-06-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2010-06-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing.
+
+2010-05-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	API extension and mayAlias bug fixing.
+
+2010-05-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	API extension
+
+2010-04-27  Luca  <luca@ops-notebook>
+
+	adapt to new XanHashTable iterator
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release candidate 0.3.0
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Define HEAVY_DEBUG
+
+2010-04-23  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Merge with upstream
+
+2010-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+
+2010-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	CFLAGS bug fixing
+
+2010-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Function name change
+
+2010-04-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/ir_method.c
+
+2010-04-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the function IRMETHOD_getImmediatePredominator
+
+2010-04-19  Francesco Fiduccia  <crypt@ubuntu>
+
+	Memphis Release Finale
+
+2010-04-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the function IRMETHOD_shiftVariableIDsHigherThanThreshold
+
+2010-04-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Ensure reflexive property of both the pre and post dominance relation
+
+2010-04-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete the wrong mutex-unlock operation of the mutex of the method within the function ir_method_delete
+
+2010-04-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/ir_method.c
+
+2010-04-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Micky's work
+
+2010-04-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a bug within the function ir_method_liveness_alloc when liveness blocks were previously allocated.
+
+2010-04-19  Francesco Fiduccia  <crypt@ubuntu>
+
+	Memphis Release, added the configure script --enable-memphis-heavy-debug
+
+2010-04-13  Francesco Fiduccia  <crypt@ubuntu>
+
+	memphis load
+
+2010-04-12  Francesco Fiduccia  <crypt@ubuntu>
+
+	Merge
+
+2010-04-12  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Bugfix and function name cleanup
+	
+	* Renamed two functions to fit within the new naming scheme
+	* Bug fixed in the computation of the control dependencies bitset
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the fourth IR parameter
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Micky's work
+
+2010-04-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Merge Simone's Work
+
+2010-04-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Added IRInstruction_GetControlDependenciesBitset() function
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Micky's work
+
+2010-04-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	new centralized IRDumper_PrintIRType() function added
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add IR functions
+
+2010-04-12  Francesco Fiduccia  <crypt@ubuntu>
+
+	IRFPOINTER Merge
+
+2010-04-07  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Wrong assertion removed
+
+2010-04-01  crypt  <crypt@soya>
+
+	Merge
+
+2010-03-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change getIRMethod signature
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Extend the t_loop structure
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	configure.ac
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2010-03-29  Luca  <luca@ops-notebook>
+
+	#
+
+2010-03-24  Luca  <luca@ops-notebook>
+
+	#Adapt code to new metadata manager
+
+2010-04-01  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Before The Merge
+
+2010-03-31  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Fixing the IRMETHOD Formal Parameters
+
+2010-03-01  Francesco Fiduccia  <crypt@ubuntu>
+
+	Fix Assert in ir_method.c while debug is enabled
+
+2010-02-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function ir_instr_may_alias
+
+2010-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	configure.ac
+	unknown:
+	clean
+
+2010-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.1
+
+2010-02-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a bug within the function isAPredominator due to the introduction of the new exit node.
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add uses of IRLIBRARYCALL and IRNATIVECALL instructions
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Michele
+
+2010-02-16  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Solved a bug with IRLABEL preceeding IRSTARTCATCHER
+
+2010-02-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* src/ir_method.[ch]: New single exit node introduced in the CFG
+
+2010-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing plus functions added.
+
+2010-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	added:
+	configure.ac
+	unknown:
+	clean
+
+2010-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+	
+	
+	removed:
+	configure.in
+	modified:
+	ChangeLog
+	src/ir_method.c
+	unknown:
+	clean
+	configure.ac
+
+2010-01-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/ir_method.c
+	src/ir_method.h
+	unknown:
+	clean
+	pending merges:
+	Michele Tartara 2010-01-25 * src/ir_method.[ch]: exported new function for adding data dependencies to instructions
+
+2010-01-25  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* src/ir_method.[ch]: exported new function for adding data dependencies to instructions
+
+2010-01-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete uses of char
+	
+	
+	modified:
+	ChangeLog
+	src/ir_lib.c
+	src/ir_method.c
+	src/ir_method.h
+	src/ir_method_rpc.c
+	unknown:
+	clean
+
+2010-01-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/ir_method.c
+	unknown:
+	clean
+
+2010-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/Makefile.am
+	unknown:
+	clean
+
+2010-01-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/ir_method.c
+	unknown:
+	clean
+
+2009-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	unknown:
+	clean
+	pending merges:
+	Michele Tartara 2009-12-16 Available expressions interface
+
+2009-12-16  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Available expressions interface
+
+2009-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	configure.in
+	src/ir_method.c
+	src/ir_method.h
+	unknown:
+	clean
+	pending merges:
+	Michele Tartara 2009-12-15 [merge] Revision 0.1.4
+	Michele Tartara 2009-12-10 Release 0.1.4
+	Michele Tartara 2009-12-14 Available expressions functions exported
+
+2009-12-15  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Revision 0.1.4
+
+2009-12-10  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Release 0.1.4
+
+2009-12-14  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Available expressions functions exported
+
+2009-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/ir_method.h
+
+2009-11-30  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* Another slight modification to the t_ir_instruction interface
+
+2009-11-27  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Method interface changed
+	
+	* All static analysis function pointer have been removed and substituted by functions with prefix
+
+2009-11-18  Speziale Ettore  <ettore@mars>
+
+	Initial import into Bazaar.
+

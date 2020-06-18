@@ -1,0 +1,2 @@
+min_address	= minimum offset from the begin of the file where you can find the first section.
+max_address	= maximum offset from the begin to the file by which you cannot will find one section again after that.

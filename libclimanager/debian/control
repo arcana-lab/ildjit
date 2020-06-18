@@ -1,0 +1,21 @@
+Source: libclimanager
+Priority: extra
+Maintainer: Leonardo Mino' <oaexpert@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libiljitu-dev, libxan-dev, libirvirtualmachine-dev, libglib2.0-0, libiljitsm-dev, libgl1-mesa-glx, mime-support, locales, libc6-i686, libasound2, pkg-config, libpcre3, libiljitmm-dev, gawk, libiljitir-dev
+Standards-Version: 3.8.3
+Section: libs
+Homepage: http://ildjit.sourceforge.net
+
+Package: libclimanager-dev
+Section: libdevel
+Architecture: any
+Depends: libclimanager (= ${binary:Version})
+Description: Libclimanager
+ This library provides the translation from CIL language to the IR language of ILDJIT
+
+Package: libclimanager
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Libclimanager
+ This library provides the translation from CIL language to the IR language of ILDJIT

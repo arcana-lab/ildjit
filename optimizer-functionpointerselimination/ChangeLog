@@ -1,0 +1,127 @@
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy
+
+2014-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2013-10-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the identification of function pointers.
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use IRMOVE instead of IRSTORE
+
+2012-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Starts from the entry point
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use libchiara API
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-13  
+Committer:
+Luca  <luca@turbo>
+
+
+	adapt to new IR API
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of Libiljitir
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2010-12-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-10-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful assertions
+
+2010-10-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Porting with the new interface
+
+2010-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

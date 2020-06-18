@@ -1,0 +1,14 @@
+#!/bin/bash
+
+benchName=$1 ;
+
+grep ENTER $benchName > $benchName.data
+
+./methods_study $benchName.data > $benchName.filter ;
+
+methodsInvoked=`cat $benchName.filter | wc -l` ;
+
+methodsDefined=`sort -u $benchName.filter | wc -l`;
+
+echo "Methods defined: $methodsDefined";
+echo "Methods invoked: $methodsInvoked";

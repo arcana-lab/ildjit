@@ -1,0 +1,50 @@
+2007-11-23  Simone Campanoni  <simo.xan@gmail.com>
+	* iljit-gc-markandsweep: initial version.
+
+-------------------------------- 0.0.2
+2008-05-02  Simone Campanoni  <simo.xan@gmail.com>
+	* src/*.c: Adapt the GC to the new interface.
+	
+-------------------------------- 0.0.2.1
+2008-05-17  Simone Campanoni  <simo.xan@gmail.com>
+	* src/*.c: Adapt the GC to the new interface.
+
+-------------------------------- 0.0.2.2
+2008-08-05  Simone Campanoni  <simo.xan@gmail.com>
+	* src/*.c: upgraded to support a new interface of the garbage collector to be able to resize a live object.
+
+-------------------------------- 0.0.2.3
+2008-10-22  Michele Tartara  <mikyt@users.sourceforge.net>
+        * configure.in: Fixed a bug that prevented CFLAGS to be modified using
+	the corresponding environment variable.
+		
+2009-01-27  Simone Campanoni  <simo.xan@gmail.com>
+	* src/*.[ch]: Fix warnings.
+
+-------------------------------- 0.0.2.4
+2009-03-26  Simone Campanoni  <simo.xan@gmail.com>
+	* src/system.h: File deleted.
+	* src/*.[ch]: Delete references on system.h
+
+-------------------------------- 0.0.3
+2009-05-12  Simone Campanoni  <simo.xan@gmail.com>
+	* src/*.c: Files updated for the new diff_time interface.
+
+-------------------------------- 0.0.3.1
+2009-05-18  Simone Campanoni  <simo.xan@gmail.com>
+	* src/memory_manager.c: Fix a bug within the resizeMemory function.
+
+2009-05-20  Simone Campanoni  <simo.xan@gmail.com>
+	* src/memory_manager.c: Improved the mark phase of the collection.
+
+2009-05-22  Simone Campanoni  <simo.xan@gmail.com>
+	* src/memory_manager.c: Add the call of the finalizers of objects collected.
+
+-------------------------------- 0.0.4
+2009-06-14  Simone Campanoni  <simo.xan@gmail.com>
+	* configure.in src/Makefile.am: Add the linking instruction for the libirvirtualmachine library.
+
+2009-07-10  Simone Campanoni  <simo.xan@gmail.com>
+	* src/iljit_gc_markandsweep.c: Change the default heap size to 80 MBytes.
+
+-------------------------------- 0.1.0

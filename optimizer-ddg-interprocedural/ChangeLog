@@ -1,0 +1,1301 @@
+2014-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle new functions
+
+2014-05-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set the DDG flags for all methods.
+
+2014-04-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IR*ELEM instructions
+
+2014-04-29  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Merge with Simone
+
+2014-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added more functions
+
+2014-04-29  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Remove some dependences on known library calls.
+
+2014-03-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the code uniform.
+
+2014-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Merge
+
+2014-03-04  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed bug in dependence printing
+
+2014-02-27  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Dump instruction dependences via their instruction IDs from the instruction dictionary
+
+2014-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Rework abstract address sets and try to cut down on analysis time.
+
+2014-02-21  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Remove abstract address sets as bitsets
+
+2014-02-20  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Don't include globals in the transfer list from callees, at least for now.
+
+2014-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the main as entry point if it exists.
+
+2014-02-20  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed bug in transferring read and write sets from callee methods
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy
+
+2014-01-09  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Don't allocate memory with size 0.  Don't try popping of a stack if we didn't put things on it.
+
+2013-12-06  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Free abstract address sets that were forgotten.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled new libc functions
+
+2013-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled new functions
+
+2013-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixes
+
+2013-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new library call
+
+2013-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled new library functions.
+
+2013-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle new functions
+
+2013-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the dependence with libchiara
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2013-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed by Tim. The bug affected crafty.
+
+2013-10-02  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Mark fopen() calls as returning a pointer.
+
+2013-08-27  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add a flag for optimized debug compilation.
+
+2013-08-27  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Ensure that cloning a method doesn't increase the number of instructions.
+
+2013-08-06  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fix invalid read on abstract addresses when finishing the types module.
+
+2013-08-02  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Sometimes there is no mapping from ssa to original instruction.  Deal with this.
+
+2013-07-03  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fix bug with known library calls and IRCALL instructions.  Allow
+	extended debug printing for a single method only via an environment
+	variable.
+
+2013-07-02  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add support for the qsort known library call.
+
+2013-07-01  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Always run the DDG when called.  Create special uivs for std file streams
+	and assign them to known library calls that implicitly use them.  Also,
+	correct the use of call parameters that always assumes they are variables
+	and instead allow them to be symbols or globals too.
+
+2013-06-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Re-insert a comment to not dump not-handled library calls.
+
+2013-06-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle new libc functions.
+
+2013-06-27  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Destroy memory alias information before running IP pointer analysis.  Default don't rerun.
+
+2013-06-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Run the DDG analysis if methods have changed, even if run before.
+
+2013-06-24  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Direct calls link to a single call site and not a set of them.
+
+2013-06-20  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add in the check for the environment variable to control the use of
+	type_infos information.
+
+2013-06-20  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add in checks on parameter type_infos fields to guide dependence
+	elimination.
+
+2013-06-19  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Use the small hash table type everywhere, instead of XanHashTable.
+
+2013-06-19  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add a knob to turn off the use of known library call information.
+
+2013-06-19  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add a configure option to enable small lib assertions.
+
+2013-06-19  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Use a small, memory efficient hash table for sets.
+
+2013-06-18  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Remove extra instructions for simplifying loads and stores.
+
+2013-06-15  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Make variable abstract address sets into an array.  Remove dead code.
+
+2013-06-14  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Update how aliases of known calls are calculated.
+
+2013-06-14  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Alter debug printing output to be more structured.
+
+2013-06-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2013-06-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled new library functions
+
+2013-06-10  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Don't use XanBitSet abstract address sets by default.
+
+2013-06-10  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Remove warnings when compiling without debugging.
+
+2013-06-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup flushing out the table
+
+2013-06-05  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Allow XanBitSet representations of abstract address sets.
+
+2013-06-05  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add library calls for open() and close().
+
+2013-06-04  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Implement more library functions (clock(), sprintf(), rewind() and fgetc()).
+
+2013-06-04  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added support for a number of extra library calls.
+
+2013-06-03  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Enable callgrind profiling at configuration time.
+
+2013-05-31  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added support for more known library calls.
+
+2013-05-30  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added support for recognising sscanf() library calls.
+
+2013-05-30  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Recognise library calls with known semantics and deal with them appropriately.
+	This means that when a known library call only reads or writes to a specific
+	set of abstract addresses, we can check for dependences only on those sets
+	and mark dependences accordingly, rather than simply saying that the library
+	call can read or write to anywhere in memory.
+
+2013-05-29  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Only use critical error handler if requested.
+
+2013-05-29  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Update dependence printing so that it works again.
+
+2013-05-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Changes necessary to implement special library calls.
+
+2013-05-24  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Order call instructions and methods called when constructing the SCCs.
+	This means that two runs should be identical and not be subject to
+	an ordering that is dependent on pointer values.
+
+2013-05-24  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Alter names of functions to print out memory usage.
+
+2013-05-24  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Removed some debug printing for when dependences are identified.
+
+2013-05-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Checking if SSA can be computed.
+
+2013-05-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Abort if SSA transformation didn't succeed.
+
+2013-04-03  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add in analysis for additional string and memory instructions.
+
+2013-04-02  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Tidied up alias checking code to factor out some commonalities.
+
+2013-03-27  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Get the correct write set for a generic instruction which is just the
+	variable written to, if escaped.
+
+2013-03-27  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add some extra debugging information
+
+2013-02-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Moved various functions around to make things more logically separated.
+
+2013-02-25  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Init memory instructions create abstract address merges to identify
+	missed aliases.
+
+2013-02-19  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Remove the local merge map from a mapped abstract address set.
+
+2013-02-19  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Move all non-variable parameters from stores into a variable when
+	simplifying analysis.
+
+2012-11-30  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Only compute instructions causing data dependences from called methods
+	if the computeOutsideInsts constant is JITTRUE.  This should save both
+	time and memory.
+
+2012-11-30  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Alter set holders to vllpa item holders and change memory printing when
+	debugging slightly.
+
+2012-11-16  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Only compute mapping between variables when actually required.
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable a macro
+
+2012-11-02  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Function pointers now identified correctly.
+
+2012-11-02  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Free memory properly.  Alter function pointer identification.
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Fix bug introduced with IRMOVE instructions.  Alter code to allow debugging
+	of memory use again.
+
+2012-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Replace IRSTORE with IRMOVE
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new xanbit
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reduced the time spent in computeLibraryCallMemoryDependences
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the new instruction IRCEIL.
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-19  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Implement abstract address sets and field uiv holders.  Split into
+	different files to help modularity.
+
+2012-10-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not delete the method name; libiljitir takes care of that.
+
+2012-10-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an option to the algorithm
+
+2012-09-27  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-09-20  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Reduce time taken for computations.  Now caches sets that are freed
+	and stores uivs in their sets with a key for quick access.
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-07-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2012-07-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks.
+
+2012-07-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2012-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed a memory corruption due to an expansion of an hash table while the code is iterating over it.
+
+2012-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of libxan.
+
+2012-07-06  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Use XanHashTable instead of SmallHashTable
+
+2012-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Switch the hash table data structure to use due to memory corruptions.
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapted the plugin to the new codetool API.
+
+2012-06-21  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Before adding mappings for memcpy instructions to the memory abstract
+	address sets, make sure that they wouldn't merge into existing sets.
+	This prevents continually adding mappings and ensures termination of the
+	algorithm.
+
+2012-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Allow the analysis to spend more time
+
+2012-06-08  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	VLLPA: Transfer abstract address sets from calls when creating points-to
+	relations within each method, rather than waiting until the interprocedural
+	analysis stage.
+
+2012-05-29  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	An empty read or write set for a generic instruction that accesses an
+	escaped variable should have an abstract address based on that variable
+	in it.
+
+2012-05-16  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Call instruction read and write sets were not being populated.
+
+2012-05-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warnings.
+	Use the new API
+
+2012-05-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed: the memory allocated was not enough.
+
+2012-05-01  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Check mappings from ssa instructions to the originals before creating
+	dependences.
+
+2012-04-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added missing memory dependences from escaped variables.
+
+2012-04-23  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed bug with conversion of possible dependences to definite.
+
+2012-04-20  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed bug in calculating possible dependences.
+
+2012-03-29  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixes for removing instruction data dependences
+
+2012-03-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanStack API
+
+2012-03-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove some warnings
+
+2012-03-16  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Enable function pointer identification.
+
+2012-03-16  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fix mapping between instructions in the SSA form of a method to their
+	counterparts in the original method.  Also fix bugs on the mapping of
+	SSA method variables to their counterparts from the original method.
+
+2012-03-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the full API
+
+2012-03-15  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Use parameter 2 for IRICALL function pointer, not 3.
+
+2012-03-13  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Calculate variable to variable mappings for escaped variables.  Also
+	disable function pointer resolution for now.
+
+2012-03-13  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed alias information computing.  The maps from variable to variable
+	were not being created correctly, leading to assertion errors.  These
+	have been fixed.
+
+2012-03-12  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Calculate aliases through variables within the VLLPA pass.
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IRREALLOC
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the new IREXP
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the memory aliases declaration.
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitir.
+	Removed warnings when it is compiled for 64 bits architectures.
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work
+
+2011-11-17  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Use new XanList api.  Propagate variable definitions up the CFG to
+	identify WAR dependences correctly.
+
+2011-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove false data dependences due to not escaped global variables.
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Compute the necessary information
+
+2011-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Tim's work
+
+2011-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work.
+	Use the new API of xanlib
+
+2011-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the high level macro
+
+2011-09-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-09-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-09-01  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add constraints on the abstract address offsets and uninitialised value
+	nesting levels.  By default, constrain completely.
+
+2011-09-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-08-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-08-30  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Get this pass to work with some difficult benchmarks by merging
+	abstract addresses within their sets using global merges for each
+	method.
+
+2011-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitir
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new APIs
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-08-15  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Altered the type of a set to XanHashTable rather than XanList.  Provided
+	an abstraction layer so that it can be changed again more easily if
+	necessary.
+	
+	Fixed a couple of issues with abstract address merging so that if an
+	abstract address is the target of a merge, it will not always be merged
+	away itself.
+
+2011-08-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-08-05  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Prevent creating memory for and writing to the updated array for a
+	memory abstract address set map when there are no callers of the method.
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work
+
+2011-07-30  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added memory leak profiling so that the total amount of memory that is
+	allocated is tracked.  Also tracking the allocation of hash tables too.
+
+2011-07-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work
+
+2011-07-19  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Turn off timing calculations.
+
+2011-07-19  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Avoid trying to transfer abstract address sets from callees to callers
+	when the sets haven't been updated and nor have the mappings from callee
+	uivs to callers abstract addresses.
+	
+	Also added some timing variables too, so that the time taken in different
+	parts of the analysis can be computed.
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-07-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the execution of the plugin
+
+2011-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR API
+
+2011-06-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-06-21  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added support for identifying memory allocation definitions.  These
+	definitions are tracked from callees to callers.  As a final step, each
+	load and store to memory is identified and a list of instructions that
+	define the memory it accesses is built, if it accesses allocated (i.e.
+	not global) memory.
+	
+	Whilst we're at it, tidy up the uiv methods and remove some code that
+	is no longer needed.
+
+2011-06-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-06-17  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Propagate library call information down the call stack.  We need to know
+	whether a method called by a particular call instruction could call a
+	library itself, or if one of its callees could.  Add this information to
+	each method information structure and use it when calculating memory
+	dependences.
+
+2011-06-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-06-17  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Prevent get_address instructions from being part of RAW dependences
+	since they don't read their variables.
+
+2011-06-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initialize a structure before its usage
+
+2011-05-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work
+
+2011-05-31  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed compiler errors when not debugging.
+
+2011-05-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-05-31  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Exit early from the function that creates mappings between the original
+	method's instructions and the ssa method's instructions.  Exit early if
+	there are no basic blocks to be analysed.  This allows the assertions on
+	instructions analysed to be kept at the end of the function.
+
+2011-05-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work
+
+2011-05-30  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Several changes.  First make all uivs and abstract addresses global
+	across the application, rather than specific to each method.  Alter
+	uivs from constant additions to global symbols to distinguish between
+	them and avoid false aliases.  Also, fix a bug in the function pointer
+	propagation pass where a method with no instructions could have been
+	made a callee of another.  This is no longer allowed.
+
+2011-05-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-05-27  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Merge with Simone's work
+
+2011-05-27  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Minor fixes
+
+2011-05-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-05-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Merge sets of abstract addresses when computing method read / write sets.
+
+2011-05-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-05-25  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Created new macros for debugging fixed point loop iterations so that
+	they terminate properly.  Print the sets that change when creating read
+	and write sets for each method.
+
+2011-05-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-05-25  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Make bail outs depend on the size of the SCC each time.
+
+2011-05-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-05-25  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	The sets of all abstract addresses for variables should be merged
+	before being stored.  Also increase the number of iterations each SCC
+	can be analysed before bailing out.
+
+2011-05-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-05-25  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Moved initialisation of uivs and abstract addresses for each method out
+	of the main loop, because they never change after their first
+	invocation.  This should speed up the main loop a bit.
+
+2011-05-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-05-24  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Allow more iterations round each strongly-connected component to reach a
+	fixed point before bailing out and assuming an error.  This was needed
+	for vortex to work correctly.
+
+2011-05-24  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixes to the algorithm to prevent infinite running.  Now, when intraprocedural
+	analysis is performed, a separate set is kept for each variable in addition
+	to the main set.  The analysis is considered complete when these shadow sets
+	no longer increase.
+	
+	For interprocedural analysis, when augmenting the memory abstract address sets
+	in the caller method, a check is first performed on the key abstract address
+	to see if the set that will be added could be merged with any other set using
+	the same uiv in their abstract address key.  This should only allow information
+	to be propagated between methods when it adds something new to the caller.
+
+2011-05-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-05-20  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Removed unnecessary debugging assertion.
+
+2011-05-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-05-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle empty methods
+
+2011-05-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-05-16  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Altered the way that abstract address sets were appended to each other so
+	that changes are detected properly.  This was causing a bug when
+	augmenting the caller's memory abstract address sets in a recursive call
+	to the same method.  This should now be fixed.
+
+2011-05-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-05-13  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixes the DDG pass so that outside instructions are computed correctly.
+	Also, certain merges performed during the pass are stored for use later
+	to correctly identify pointers into the middle of an array.
+
+2011-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful computation of escapes variables
+
+2011-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Recompute escapes variables
+
+2011-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Recompute the variable escapes information when needed.
+
+2011-05-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-04-30  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Bug fixes!  Still parser and mesa don't work though :-(
+
+2011-04-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-04-21  Timothy M Jones  <tjones1@littlemill>
+
+	Fix printing when abstract address set is NULL
+
+2011-04-21  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixes to parser and debugging output
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Recompute the escapes variables
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work
+
+2011-04-15  Timothy M Jones  <tjones1@littlemill>
+
+	Merge with repo
+
+2011-04-15  Timothy M Jones  <tjones1@littlemill>
+
+	Fixes for infinite loops in mesa
+
+2011-04-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work
+
+2011-04-13  Timothy M Jones  <tjones1@littlemill>
+
+	Altered the algorithm to use David August's CGO analysis.  At the moment,
+	function pointer resolution is disabled.
+
+2011-03-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-03-10  Timothy M Jones  <tjones1@littlemill>
+
+	Added the ability to pass lists of instructions when generating
+	dependences.  These are generated if one of the dependence instructions
+	is a call and the list contains the instructions from within the callee
+	method that create the dependence.
+
+2011-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function freeAPToAPListHashTable.
+
+2011-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-03-01  Timothy M Jones  <tjones1@littlemill>
+
+	Merge with main repository.
+
+2011-03-01  Timothy M Jones  <tjones1@littlemill>
+
+	Update to new API.
+	
+	This commit is a work in progress but allows the optimisation to be
+	compiled with the new API for adding dependences between instructions.
+	Functionally it is no different to before.
+
+2011-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2011-02-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with TIm's work
+
+2011-02-28  Timothy M Jones  <tjones1@littlemill>
+
+	Fix points-to relation generation.
+	
+	This fixes a bug where the points-to relations could be created without
+	removing recursion from the target access path.  This could then lead to
+	infinite access paths being generated and added to the points-to set.  Now
+	recursion is stripped from the target as the points-to relation is created.
+
+2011-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-02-23  Timothy M Jones  <tjones1@littlemill>
+
+	Removed define of DEBUGMEMUSE in the pass file.
+
+2011-02-23  Timothy M Jones  <tjones1@littlemill>
+
+	Fixed memory leaking and memory runaway.
+	
+	* Altered the way that access paths are created so that the number of owners
+	(or structures that have pointers to the access path) are tracked.  This
+	makes it easier to only free a path when there are no owners.  This also
+	gives the ability to share access paths between structures, only cloning
+	them when they need altering, thus saving memory.  There is a performance
+	increase too, since far fewer clones need to be made.
+	* Fixed a couple of points in the pass where access paths should have been
+	freed but weren't.
+	* Added a couple of functions that can be used to ensure that all access
+	paths that have been allocated are reachable from the methods information
+	table, which means that there are no leaks.  They can be enabled using
+	-DDEBUGMEMUSE or enabling the definition in the file.
+
+2011-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-02-21  Timothy M Jones  <tjones1@littlemill>
+
+	* Fixed infinite loop error where a list of access paths were being deleted
+	erroneously.
+	* Altered functions so that when passing information between methods in an
+	SCC, only the SCC methods are considered.
+	+ Added environment variable to stop execution after DDG computuation.
+	* Fixed minor changes to ILDJIT internals.
+
+2011-02-21  Timothy M Jones  <tjones1@littlemill>
+
+	+ Added support for variable pointers with internal type IRTYPEDREF
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of XanLib
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-13  
+Committer:
+Luca  <luca@turbo>
+
+
+	adapt to new IR API
+
+2011-02-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-02-11  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	* Fixed bugs to do with memory allocation and freeing for access paths.
+
+2011-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Consider the case of call instructions to libraries.
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2010-12-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-11-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of XanLib
+
+2010-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable temporarily the memory frees 
+
+2010-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the case of not reachable methods
+
+2010-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-10-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the IRMETHOD_getCallableMethods
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new method IRMETHOD_getCallableMethods for the IRICALL instruction
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of LibChiara
+
+2010-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Exploit LibChiara
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a bug for the dependencies declaration
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt with the new interface
+
+2010-09-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-07-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Indirect calls
+
+2010-06-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-06-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	AUTHORS
+	src/optimizer_ddg.c
+
+2010-05-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Print information only when PRINTDEBUG is set
+
+2010-05-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

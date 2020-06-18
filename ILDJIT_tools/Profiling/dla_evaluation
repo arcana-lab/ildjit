@@ -1,0 +1,49 @@
+#!/bin/bash
+
+declare big_set;
+declare hit;
+declare miss;
+
+if test $# -lt 3 ; then
+	echo "Usage: `basename $0` METHODS_COMPILED_FILE DLA_COMPILED_FILE METHODS_NOT_COMPILED_IN_ADVANCE_OUTPUT_FILE"
+	exit 1
+fi
+
+big_set="$1" ;
+filename="$2" ;
+notMatched="$3" ;
+
+hit=`expr 0`;
+miss=`expr 0`;
+linesNumber=`expr 0`;
+
+rm -f $notMatched
+
+while read line ; do
+	echo "$line" > tmpTmp
+	grep -F -q ".cctor" tmpTmp
+	if ! test $? -eq 0 ; then 
+		grep -F -q "$line" $filename
+		if test $? -eq 0 ; then 
+			let hit=$hit+1 ;
+		else
+			echo $line >> $notMatched
+		fi
+	else
+		let hit=$hit+1 ;
+	fi
+	rm -f tmpTmp
+	let linesNumber=$linesNumber+1 ;
+done < "$big_set"
+  
+while read line ; do
+	grep -F -q "$line" $big_set
+	if test $? -gt 0 ; then
+		let miss=$miss+1 ;
+	fi   
+done < "$filename"
+
+echo "$j	$hit	$miss" >> dla_results
+
+echo "Methods compiled in advance: $hit / $linesNumber"
+echo "Unusefull Methods compiled: $miss"

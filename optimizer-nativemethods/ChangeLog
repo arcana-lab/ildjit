@@ -1,0 +1,152 @@
+2014-04-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	libstd.exit cannot be substitute with IREXIT: libc caches data written into files.
+
+2014-04-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generate IREXIT
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added log10
+
+2013-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled more functions
+
+2013-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle Pinvoke as well as new library functions. This change will allow a better integration with Visual studio.
+
+2013-09-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Commented IREXIT
+
+2013-09-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled new functions.
+
+2013-03-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed useless printing
+
+2013-03-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle a new instruction.
+
+2013-03-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Restructured the code. Exploited new IR instructions.
+
+2013-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added more methods
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the new instruction IRCEIL.
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapted the plugin to the new codetool API.
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generate IRREALLOC
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IREXP
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IRARRAYLENGTH
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-05-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IREXIT
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-13  
+Committer:
+Luca  <luca@turbo>
+
+
+	adapt to new IR API
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2010-12-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-11-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added methods to inline
+
+2010-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the IRALLOC case
+
+2010-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the inline algorithm
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir.
+	Added other library calls
+
+2010-10-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Write the authors
+
+2010-10-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

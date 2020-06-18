@@ -1,0 +1,13 @@
+<map id="ir_method_t" name="ir_method_t">
+<area shape="rect" id="node2" href="$structir__signature__t.html" title="The signature of a method. " alt="" coords="225,578,325,605"/>
+<area shape="rect" id="node3" href="$struct_xan_list.html" title="Doubly linked listDoubly linked list containing pointers to user data with the ability to iterate ove..." alt="" coords="434,127,501,153"/>
+<area shape="rect" id="node6" href="$structir__instruction__t.html" title="An IR instruction. " alt="" coords="350,578,457,605"/>
+<area shape="rect" id="node7" href="$structir__instruction__metadata__t.html" title="Metadata of an instruction. " alt="" coords="91,333,259,360"/>
+<area shape="rect" id="node12" href="$struct_xan_node.html" title="Node of a generic tree.The XanNode structure implements a generic N&#45;ary tree. " alt="" coords="573,451,649,478"/>
+<area shape="rect" id="node4" href="$struct_xan_list_item.html" title="List elementElement stored inside the XanList list. " alt="" coords="421,7,514,33"/>
+<area shape="rect" id="node5" href="$struct_i_r_basic_block.html" title="A basic block that contains IR instructions. " alt="" coords="727,578,829,605"/>
+<area shape="rect" id="node8" href="$struct_xan_hash_table.html" title="Hash tableThis structure implements the closed hash table. The equals, hash functions can be customiz..." alt="" coords="19,127,127,153"/>
+<area shape="rect" id="node9" href="$struct_xan_hash_table_item.html" title="Element of the hash table. " alt="" coords="5,7,140,33"/>
+<area shape="rect" id="node10" href="$structir__item__t.html" title="An IR item is a parameter to an instruction that can be a variable, constant or symbol. " alt="" coords="283,333,355,360"/>
+<area shape="rect" id="node11" href="$unionir__value__t.html" title="An ir value holds either a float or non&#45;float value. " alt="" coords="153,127,232,153"/>
+</map>

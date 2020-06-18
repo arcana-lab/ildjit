@@ -1,0 +1,314 @@
+2014-05-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Style rewrite to reduce the number of code indentations.
+
+2014-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the IR*ELEM instructions
+
+2014-03-17  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Enable print debugging without needing debug
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy
+
+2014-01-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not cache values that will never be used
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-11-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed. Avoid accessing a data structure just freed.
+
+2013-10-23  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Enable optimised debugging compilation.
+
+2013-10-21  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed typo
+
+2013-10-21  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Reimplemented pass.  Should be much more simple and faster.
+
+2013-10-14  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Remove bad test when identifying prior definers of a variable.
+
+2013-10-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: do not check an integer value as a floating point one
+
+2013-09-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the effectiveness of the transformation.
+
+2013-09-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the effectiveness of the algorithm.
+
+2013-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2013-04-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fully remove instructions that are exact duplicates.
+	
+	Check whether instructions are exact duplicates and that there are no
+	other definitions of source or destination parameters.  If this is the
+	case then the second instruction can be totally removed, without adding
+	any instructions.
+
+2013-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the commented IRMOVE
+
+2013-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cached the output of IRMETHOD_getInstructionsNumber
+
+2013-03-22  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Removed a couple of debugging lines.
+
+2013-03-08  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add environment variables to control method sizing.
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.2
+
+2012-11-12  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Fix two bugs.  First, don't alter parameters for IRMOVE instructions
+	(since this is no longer required).  Second, ensure that when checking
+	two instructions that are duplicates, the one that is going to be removed
+	can't have one of its source variables defined by the other instruction
+	(that will stay) since it will obtain the wrong value for it.
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the printing
+
+2012-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove a tab
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use IRMOVE instead of IRSTORE
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapted the plugin to the new codetool API.
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-04-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove useless assertion
+
+2012-03-27  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Modifications to allow redundant loads to be removed.
+
+2012-03-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanStack API
+
+2012-03-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove a wrong assertion
+
+2012-03-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the full API
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of IR
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the efficiency of a check.
+
+2012-02-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove wrong assertions
+
+2012-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new IR
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove useless instructions
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-05-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Propagate the CIL types
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing for both stores to memory and the case where there is no duplications.
+
+2010-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Free the memory
+
+2010-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added every expressions
+
+2010-11-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of Libiljitir
+
+2010-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove dump CFG instructions
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with the Tim's work.
+	Adapt the plugin with the new interface
+
+2010-09-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not consider bits that do not correspond to any IR instruction.
+
+2010-08-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

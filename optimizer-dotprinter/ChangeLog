@@ -1,0 +1,495 @@
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Solide lines for backedges
+
+2013-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed useless code
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API.
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Switch to the new name circuit_t
+
+2012-11-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump everything
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak
+
+2012-08-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Print the volatile flag
+
+2012-04-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the backedge information if it is available.
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the output by coloring backedgs.
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR API
+
+2012-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitir
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove useless instructions
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitir
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR API
+
+2011-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the IREXIT node
+
+2011-03-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Increased the buffer size
+
+2011-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the default settings
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-13   Committer: Luca  <luca@turbo> 
+
+	adapt to new IR API
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixing the name of the file to use to dump
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-01-18  Luca  <luca@ops-notebook>
+
+	Adapt to support symbol
+
+2011-01-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Michy's work
+
+2011-01-10  mickey85  <mickey4fun@gmail.com>
+
+	fixed the method locals printing
+
+2011-01-10  mickey85  <mickey4fun@gmail.com>
+
+	added instructions for printing phi functions
+
+2011-01-10  mickey85  <mickey4fun@gmail.com>
+
+	bugfix in liveness printing
+
+2010-12-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the IRFREEOBJ instruction
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of Libiljitir
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Print the class name by default
+
+2010-11-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the IRFREE
+
+2010-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use allocFunction and freeFunction
+
+2010-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the instruction type IRALLOCALIGN
+
+2010-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the shape of start and exit nodes
+
+2010-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the IRALLOC
+
+2010-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the IRSIGNATURE data type
+
+2010-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility to use different prefix
+
+2010-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the support for the new math IR instructions
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the math instructions
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of Libiljitir
+
+2010-09-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful core to other plugins
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful calls to external plugins
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt the plugin with the new interface
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump the new opcode IRCONVOVF
+
+2010-09-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change to the new API of Libiljitir
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add spaces between call parameters.
+	Defined PRINT_BYTECODE_CLASS_NAMES.
+
+2010-08-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of both Libiljitir and Libiljitiroptimizer
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Leonardo's work
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/dot_printer.c
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	pending merges:
+	Michele Tartara 2010-04-27 Fix CFLAGS
+
+2010-04-27  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Fix CFLAGS
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	CFLAGS fixing
+
+2010-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt with the new IR interface
+
+2010-04-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/dot_printer.c
+	pending merges:
+	Michele Tartara 2010-04-14 Merge Simone's Work
+	Michele Tartara 2010-04-14 [merge] Merge Simone's Work
+	Michele Tartara 2010-04-14 Old filename format restored
+
+2010-04-14  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Merge Simone's Work
+
+2010-04-14  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Merge Simone's Work
+
+2010-04-14  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Old filename format restored
+
+2010-04-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/dot_printer.h
+
+2010-04-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/dot_printer.c
+	src/dot_printer.h
+	pending merges:
+	Michele Tartara 2010-04-12 Adapt to the new name of the IRDumper_PrintIRType() function
+
+2010-04-12  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Adapt to the new name of the IRDumper_PrintIRType() function
+
+2010-04-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add printing instruction for CLI data types.
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing of IRSTRING
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/dot_printer.c
+	pending merges:
+	Michele Tartara 2010-04-09 Centralized IR type print function
+
+2010-04-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Centralized IR type print function
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt the code for the remotion of the 4-th IR parameter of IR instructions
+
+2010-04-01  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Adapted to new interface by Luca
+
+2010-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Printing improvement for not-CIL methods
+
+2010-03-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Michele's work
+
+2010-03-04  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* May_alias relation updated.* IRTYPEDREF now printed
+
+2010-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.1
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Michele Tartara 2010-02-09 Introduced support for a single exit node in the CFG
+
+2010-02-16  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* src/dot_printer.c: Other modifications for single exit node
+
+2010-02-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Introduced support for a single exit node in the CFG
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimization IDs 64 bits
+
+2010-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+	
+	
+	modified:
+	ChangeLog
+	configure.ac
+	unknown:
+	clean
+
+2010-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/dot_printer.c
+	src/dot_printer.h
+
+2010-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete uses of IRUPOINTER 
+	
+	
+	modified:
+	ChangeLog
+	src/dot_printer.c
+	unknown:
+	clean
+
+2010-01-15  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Initial commit
+

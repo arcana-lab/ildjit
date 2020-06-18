@@ -1,0 +1,431 @@
+2014-03-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy
+
+2014-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Take advantage of the new IR API.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IRLOG10
+
+2013-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API.
+
+2013-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed in the constant folding algorithm about transforming unconditional branches to conditional ones.
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use IRMOVE instead of IRSTORE
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the new instruction IRCEIL.
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-09-27  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the API to compute native type size
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapted the plugin to the new codetool API.
+
+2012-04-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-04-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved the constant propagation algorithm to a separated file.
+
+2012-04-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on the constant folding algorithm.
+	Extract the constant folding algorithm from the main file of the codetool.
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2012-03-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the constant folding.
+
+2012-03-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the constant folding to handle IRBITCAST.
+
+2012-03-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the full API
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the constant folding algorithm
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the constant folding algorithm.
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the new IREXP
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitir.
+	Removed warnings when it is compiled for 64 bits architectures.
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle correctly the IR symbols
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of Libiljitir
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2011-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2011-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on constant folding during conversion from integer to floating point constants
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cleaned and improved the algorithms.
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing due to the unification of value and fvalue fields of ir_item_t.
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the constant folding algorithm
+
+2010-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the constant folding algorithm
+
+2010-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the constant folding algorithm
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the constant propagation and constant folding algorithms for the new IR math instructions.
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of Libiljitir
+
+2010-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-24  Luca  <luca@ops-notebook>
+
+	Use the new API of Libiljitir
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Michy's work
+
+2010-09-22  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Merge with Simone's work
+
+2010-09-22  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Automatic dependency solving for optimizers
+
+2010-09-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the PROFILE option correctly
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of both Libiljitir and Libiljitiroptimizer
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-08  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-08-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-08-03  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-08-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with the debian package work.
+
+2010-07-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-07-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Destroy all the memory used
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	merge works
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Merge with upstream
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-07-01  Luca  <luca@ops-notebook>
+
+	Xan Works
+
+2010-06-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improve the constant folding by adding the IRREM operation
+
+2010-05-09  Luca  <luca@ops-notebook>
+
+	set initial hashtable size to prime number
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/constant_propagation.c
+	pending merges:
+	Luca 2010-04-27 adapt to new XanHashTable iterator
+
+2010-04-27  Luca  <luca@ops-notebook>
+
+	adapt to new XanHashTable iterator
+
+2010-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed CFLAGS
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt the code for the remotion of the 4-th IR parameter of IR instructions
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Forward CIL type
+
+2010-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.1
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add uses of IRLIBRARYCALL instruction type
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	IDs 64 bit
+
+2010-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+	
+	
+	modified:
+	configure.ac
+	unknown:
+	clean
+
+2010-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/constant_propagation.c
+	unknown:
+	clean
+
+2010-01-14  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Initial commit
+

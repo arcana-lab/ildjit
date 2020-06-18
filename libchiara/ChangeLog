@@ -1,0 +1,2314 @@
+2014-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Detect the INPUT_OUTPUT data dependences
+
+2014-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new type of dependences
+
+2014-05-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2014-05-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new type of dependences.
+
+2014-05-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Consider IRINITMEMORY as well.
+
+2014-05-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the identification of loop-carried dependences by caching the set of definitions within loops of variables.
+
+2014-05-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2014-05-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Analyze the average and variance of loop invocations.
+
+2014-05-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enhance the API
+
+2014-05-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enhanced the vectorization.
+
+2014-04-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IR*ELEM instructions
+
+2014-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the information about executed instructions when available
+
+2014-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enhance the API to forward executed instructions information
+
+2014-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the accuracy of loop-carried data dependence identification analysis.
+
+2014-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Boost the performance of post-ddg analyses by caching loop information.
+
+2014-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed dead code
+
+2014-04-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2014-03-31  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Don't have print debugging compiled in normally.
+
+2014-03-31  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Repeat loop if block skip mappings are added.
+
+2014-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a function to create a DDG out of a list of dependences
+
+2014-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimize the identification of loop-carried data dependencies.
+
+2014-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimized METHODS_addEmptyBasicBlocksJustBeforeInstructionsWithMultiplePredecessors
+
+2014-03-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Start from main rather than the entry point.
+
+2014-03-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the code uniform.
+
+2014-03-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the performance of a code scheduling analysis by caching information.
+
+2014-03-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimize SCHEDULE_findInstsToCloneWhenMoving
+
+2014-03-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the code scheduler by caching some information.
+
+2014-03-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2014-03-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the case where loopDict is NULL.
+
+2014-03-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the code uniform with the rest of the codebase
+
+2014-03-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the case where loopDict is NULL.
+
+2014-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the code uniform with the rest of the codebase
+
+2014-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the analysis of loop-carried data dependences.
+
+2014-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cached some information.
+
+2014-02-27  Niall Murphy  <nedm2@cam.ac.uk>
+
+	Fixed loop_IDs parser bug where loop names beginning with underscore or digit were not matching
+
+2014-02-18  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Don't filter loops based on ID if there is no loop dictionary.
+
+2014-02-17  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Alter loop loading and filter loops.
+
+2014-02-06  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Changed name of loop_lex to loop_id_lex
+
+2014-02-05  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Implement a function to load in a list of loops and IDs from a file.
+
+2014-02-05  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Compile the function MISC_loadInstructionDictionary() correctly
+
+2014-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the documentation
+
+2014-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the scanner for instruction dictionary.
+
+2014-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a user data field
+
+2013-12-06  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Free some structures that were forgotten about.
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2013-11-28  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	New code scheduler
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new category for data dependences.
+
+2013-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the accuracy of post-processing the DDG.
+
+2013-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a useless constant
+
+2013-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API.
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved some code to libirmanager
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved some code to libirmanager
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved some code to libirmanager
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API.
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Switch to the new name circuit_t
+
+2013-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed. Handle the recursion.
+
+2013-10-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new filter to DDG
+
+2013-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new input parameter.
+
+2013-10-09  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Prevent blocked regions from being added to the region of instructions
+	to consider when code scheduling.
+
+2013-10-09  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Merge with Simone's work on dependences
+
+2013-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed about categorization of dependences.
+
+2013-10-09  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add a new function for profiling instructions.
+
+2013-10-09  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed a code scheduling bug.
+
+2013-09-27  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Make a function globally visible again.
+
+2013-09-25  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Updated the dependences profiler so that it profiles sequential segments
+	for dependences.
+
+2013-09-21  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Finally fixed testCodeScheduler17 and subsequent failed tests.
+
+2013-09-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Extended the memory renaming support.
+
+2013-09-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added GLOBAL_VARIABLE
+
+2013-09-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable temporarily the code optimizations.
+
+2013-09-03  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fix a bug that calculates where instructions can move up to when scheduling.
+
+2013-08-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the loop names parser
+
+2013-08-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed. Compute the liveness analysis before using variable liveness information.
+
+2013-08-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Exported the functionality of finding loop-carried data dependences.
+
+2013-08-17  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Code scheduler: Don't skip blocks that branch out of the region.
+
+2013-08-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility of reusing escaped methods and reachable methods among different calls.
+
+2013-08-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speed up several code analyses.
+
+2013-08-12  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Move instructions within the block only if there is a dependence.
+
+2013-08-12  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Calculate loop exit instructions which finding loops.
+
+2013-08-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speed up the method inlining phase.
+
+2013-08-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new functions
+
+2013-07-31  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Update some assertions that no longer hold.
+
+2013-07-20  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Allow instructions to be moved as high as possible in the CFG without
+	moving any other instructions.
+
+2013-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the analysis of loops.
+
+2013-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new data dependence type.
+
+2013-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed useless types of data dependences.
+
+2013-07-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions.
+
+2013-07-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup a code analysis.
+
+2013-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the outsideInstructions field.
+
+2013-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the analysis of loops.
+
+2013-06-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the accuracy of post-analysis of ddg.
+
+2013-06-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the analysis.
+
+2013-06-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the computation of loop intra- and inter-dependences
+
+2013-06-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the computation of loop-carried data dependences.
+
+2013-06-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimized the computation of loop-carried data dependences.
+
+2013-06-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed. Now testInductiveVariables10 works.
+
+2013-06-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2013-06-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the ddg analysis.
+
+2013-06-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-05-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the localization analysis.
+
+2013-05-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle different instructions
+
+2013-05-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed useless assertions
+
+2013-05-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new struct.
+
+2013-05-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed about input of loops.
+
+2013-05-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IR instructions to allocate memory.
+
+2013-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added LOOPS_getDataDependenciesWithinMethod
+
+2013-04-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Returned the list of profiles
+
+2013-04-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code refucturing
+
+2013-04-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new parameter
+
+2013-04-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new assertions
+
+2013-03-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a wrong assertion
+
+2013-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the localization analysis.
+
+2013-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the DDG analysis
+
+2013-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the base address + offset instead of final address
+
+2013-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API.
+
+2013-02-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the analysis to determinate the type of dependences
+
+2013-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a wrong analysis
+
+2013-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed about code localization
+
+2013-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed about code localization: both simmetric dependences can be removed or none of them.
+
+2013-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed loop-carried data dependences satisfied by code localization.
+
+2013-02-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the accuracy of the localization analysis
+
+2013-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some comments
+
+2013-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2013-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generalize a profile function. Bugs fixed: do not notify the beginning of iterations at exit paths of loops.
+
+2013-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib.
+
+2013-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the dependence category FALSE_MEMORY_MANAGEMENT.
+
+2013-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added MEMORY_WAW_REASSOCIATION
+
+2013-01-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the ddg analysis
+
+2013-01-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the ddg analysis
+
+2013-01-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the ddg analysis
+
+2013-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Better reorganize the code in a loop.
+
+2013-01-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Boost the performance of two profilers
+
+2013-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Split a loop into two loops
+
+2012-12-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enabled the variable localization
+
+2012-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the accuracy of DDG
+
+2012-11-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a wrong assert
+
+2012-11-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Extend the parameters of profileLoops
+
+2012-11-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the checking for dominance: they are unnecessary
+
+2012-11-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the doc
+
+2012-11-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Create a new category for data dependences
+
+2012-11-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the liveOutExitPoint function
+
+2012-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added PROGRAM_profileStartExecutionByUsingSymbol
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimized
+
+2012-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enabled the floating point register reassociations
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the accuracy of the analysis about reachable methods.
+
+2012-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the inlining
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API. Replaced IRSTORE with IRMOVE
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Made the analysis deterministic
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Allocate the memory only if it is necessary.
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the number of instructions as parameter to internal_isInstructionADominator
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new xanbit
+
+2012-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new xanlib API
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the new instruction IRCEIL.
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed wrong assertions
+
+2012-10-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a useless check.
+	Use the new xanlib API.
+
+2012-10-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed an assertion
+
+2012-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed conservative choices.
+
+2012-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added FLOATINGPOINT_REGISTER_REASSOCIATION
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Group common code
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed about inlining empty methods.
+	Reenabled inlining empty methods.
+	Bugs fixed about computing the set of methods needed by the program.
+
+2012-10-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug avoidance. Inlining empty methods is bogus right now.
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added few functions
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-09-27  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR API
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of xanlib
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-09-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added LOOPS_profileLoopsWithNames
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility of inlining empty methods
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-08-18  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Implement a number of different functions.
+	
+	METHODS_inlineCalledMethodsNoRecursion()
+	METHODS_getCallableIRMethods()
+	METHODS_getCallableIRMethodsFromMethod()
+	METHODS_getCallableIRMethodsMap()
+	METHODS_getCallableByIRMethodsMap()
+	METHODS_destroyCallableIRMethodsMap()
+	METHODS_getStronglyConnectedComponentsList()
+	METHODS_getStronglyConnectedComponentsMap()
+	METHODS_destroyStronglyConnectedComponentsList()
+	METHODS_destroyStronglyConnectedComponentsMap()
+
+2012-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Forcing predecessors and successors to be given as parameter.
+
+2012-07-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks.
+
+2012-07-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-07-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reanabled the localization optimization.
+
+2012-07-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a function to get the memory used.
+
+2012-07-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the dependence due to a define of an output induction variable.
+
+2012-07-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed. WAW dependences through registers that are live outside the loop must be kept.
+
+2012-07-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2012-07-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the scheduler. Removed some memory leaks. Disable temporarly the variables localization optimization.
+
+2012-07-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on the localization algorithm
+
+2012-07-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added more checking to localization transformation.
+
+2012-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of libxan.
+
+2012-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed a memory corruption due to double free a data structure
+
+2012-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the scheduler
+
+2012-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the code scheduling.
+
+2012-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the code scheduling
+
+2012-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the code scheduling
+
+2012-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the code scheduling algorithm by caching the predecessor instructions relation
+
+2012-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed.
+	Speedup the algorithm
+
+2012-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the scheduler
+
+2012-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed printing if not necessary.
+
+2012-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2012-07-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-06-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed some wrong assertions
+
+2012-06-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak
+
+2012-06-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2012-06-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed on identifing real data dependences.
+	
+	TO DO:Check mesa because its speedup moved from 85 to 69
+
+2012-06-18  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Remove two constraints on scheduling.  Instructions can now move down
+	the CFG and they don't have to be in the same basic block as each other.
+
+2012-06-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-06-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the accuracy of the analysis
+
+2012-06-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the analysis
+
+2012-06-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the scheduler by caching the calls to dominance-related API of libiljitir
+
+2012-06-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-06-13  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Merge with Simone's alterations.
+
+2012-06-13  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Fix infinite loop that can occur when searching through successor blocks.
+
+2012-06-02  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Merge with Simone's changes.
+
+2012-05-31  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Merge with Simone's changes.
+
+2012-05-29  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Scheduler: Add a check on the instruction ID to ensure it's within the
+	bitset being used.
+
+2012-06-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the frame to fix the bug about real data dependences identification
+
+2012-06-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the scheduling by caching the postdominance relation
+
+2012-06-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a wrong assertion
+
+2012-05-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not localize variables that are floating point
+
+2012-05-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the UNIQUE_VALUE_PER_ITERATION data dependences analysis.
+
+2012-05-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented new functions
+
+2012-05-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-05-24  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Schedule: Check instruction ID to ensure it's in range when added to a
+	bit set.
+
+2012-05-24  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Schedule: Don't patch branches if the schedule will fail.
+
+2012-05-24  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Merged with Simone's changes.
+
+2012-05-24  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Restore function that adds branches that leave the region to those being
+	cloned.  Mistakenly removed in a previous change.
+
+2012-05-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-05-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Revert to the previous state 
+
+2012-05-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-05-23  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Fix some bugs related to moving instructions downwards.  Patching fall
+	throughs of branches incorrectly used the branch target when it should
+	have been the old fall through instruction.
+
+2012-05-23  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Fix bug adding loops to a region of interest when scheduling.
+
+2012-05-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the analysis for localizable variables.
+
+2012-05-23  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Add back moving downwards constraint.
+
+2012-05-22  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Another fix on testing for the exit node when looking at successors.
+
+2012-05-21  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Remove constraint on moving downwards.  Add guards against the exit node
+	when obtaining instruction successors and fix bug in marking clone
+	locations for blocks moving downwards.
+
+2012-05-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Extended the API
+
+2012-05-17  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Fix bug with patching branches that are outside the region but target a
+	block inside the region that will be moved.
+
+2012-05-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-05-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make it more general
+
+2012-05-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the analysis to identify loop-carried data dependences.
+
+2012-05-14  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Alter debugging level of a statement.
+
+2012-05-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-05-12  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Fix compile bug.
+
+2012-05-12  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Altered the debugging level for more clarity.  Now 0 is very high level
+	info and fails, 1 is general info, 2 is detailed info and 3 is lists of
+	blocks and instructions.
+
+2012-05-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-05-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2012-05-11  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Work around a bug detecting the branches to clone.
+
+2012-05-11  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added to names of instructions.
+
+2012-05-11  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Free a bitset in the correct place.
+
+2012-05-11  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Add a flag to specify when a test should fail.
+
+2012-05-11  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Set the debugging print level with an environment variable.
+
+2012-05-11  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Altered debugging printing so that different levels can be specified.
+
+2012-05-11  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed memory leaks in code scheduling.
+
+2012-05-10  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Don't abort on a loop within a region, but fail instead.
+
+2012-05-10  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Make sure all instructions are marked for moving in blocks that are also
+	marked to be moved.
+
+2012-05-10  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Don't include loops initially when building region instructions.
+
+2012-05-09  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Try to fix choosing conditional branches to clone.  Prevent scheduling
+	if moving downwards.
+
+2012-05-09  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Ignore the exit node when considering successors for fake edges.
+
+2012-05-09  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Alter code scheduling constraints.
+
+2012-05-08  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Added more constraints on instructions to be moved.
+
+2012-05-08  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Only move instructions that are within the same basic block as the instruction
+	to move next to.
+
+2012-05-07  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Update comment for not scheduling instructions downwards.
+
+2012-05-07  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Don't move instructions downwards, for now.  Fix finding clone locations
+	when edges lie in the middle of basic blocks.
+
+2012-05-06  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Fix creating blocked regions.
+
+2012-05-06  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Schedule: Deal with blocked regions correctly and patched branches.
+
+2012-05-04  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Fake edges not created if already existing.
+
+2012-05-04  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Deal with blocked instructions correctly when building block clone
+	locations moving downwards.
+
+2012-05-04  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	When determining clone locations for blocks, make sure instructions in
+	the middle of blocked instructions are treated correctly.
+
+2012-05-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Profile loop iterations as well.
+
+2012-05-03  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Schedule: Clone edge map created if there are any blocks to clone from.
+
+2012-05-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-05-01  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Changes to fix bugs, getting the regressions to all work.
+
+2012-04-27  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fixed bug with infinite loop when removing conditional branches.
+
+2012-04-27  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Don't move certain conditional branches.
+
+2012-04-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed on the data dependences analysis.
+
+2012-04-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Extracted code relative to IR profiliation.
+
+2012-04-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-04-12  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	When patching up branches, ensure that any edges containing those branches
+	are also patched so that they are consistent when cloning occurs.
+
+2012-04-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not inline a callee where new loops in the call graph are created due to previous inlining.
+
+2012-04-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Increased the aggressivness of the inlining.
+
+2012-03-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed wrong assertions.
+
+2012-03-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanStack API
+
+2012-03-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Extended the API.
+	Avoid including any method if they belong to any call recursion loop.
+	Remove some compilation warnings.
+
+2012-03-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing: do not consider IREXITNODE as a successor of a loop.
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitir
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not consider instructions that throw exceptions as exit points of the loop.
+	Added some printing
+
+2012-03-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove too conservative assertions
+
+2012-03-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the API of xanlib in assertions
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new ISA
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRCALLINDIRECTCCTOR
+
+2012-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitir
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-01-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-01-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimize the code
+
+2012-01-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing.
+	Speedup the profiler of loop iterations and instructions.
+
+2012-01-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-01-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the public API
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2012-01-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing for the analysis of loops 
+
+2011-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dumped the error message
+
+2011-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-12-14  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Allow code to be moved correctly down the CFG when other paths join
+	between the point being moved from and the point being moved to.
+	
+	Misc updates to XanList API.
+
+2011-12-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle limitations on memory and number of files open at the same time.
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of xanlib
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove useless instructions
+
+2011-11-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an error message
+
+2011-11-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some sanity checks
+
+2011-11-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-11-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-11-17  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Initial version of code scheduling functions and utility functions.
+
+2011-11-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-11-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove useless code
+
+2011-11-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on the computation of the number of loop iterations.
+
+2011-11-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an error message.
+
+2011-11-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-11-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the profiler for loop invocations.
+
+2011-11-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on the iterations/instructions loops profiler
+
+2011-11-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle forest trees that do not fit on memory.
+
+2011-11-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the analysis
+
+2011-11-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup a profiler.
+
+2011-11-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Parametrized the CPI of executed instructions.
+
+2011-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the accuracy of the computation of loop-carried data dependences.
+
+2011-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan.
+	Implemented MISC_dumpString.
+	Dump information of the invocation profiler instead of keeping in memory.
+
+2011-11-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-11-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the invocations profiler
+
+2011-11-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-10-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved register reassociations
+
+2011-10-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on building LIFT.
+	Remove warnings on 64 bits platforms.
+
+2011-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Run flex asap
+
+2011-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the information about the father invocation
+
+2011-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the loader of the graph
+
+2011-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Split output file only at the beginning of a new node
+
+2011-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on loops invocations trees profiler.
+
+2011-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added LOOPS_loadLoopsInvocationsForestTrees
+
+2011-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump multiple files
+
+2011-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Switch to 32 bits values instead of 64
+
+2011-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the loops invocations forest trees profiler.
+	Cleaned the code.
+	Remove some warnings.
+
+2011-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean the code
+
+2011-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Recognize induction variables-based data dependence between memory store instructions
+
+2011-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the file for code scheduling
+
+2011-10-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added PROGRAM_profileStartExecution
+
+2011-10-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility of caching loops names
+
+2011-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of xanlib
+
+2011-09-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Constraint the output
+
+2011-09-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-09-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the loop iterations profiler
+
+2011-09-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimized the runtime
+
+2011-09-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimize the runtime
+
+2011-09-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the accuracy of the data forwarded profiler
+
+2011-09-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the loads
+
+2011-09-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reduce the memory used
+
+2011-09-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing during the reallocation of memories
+
+2011-09-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-09-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the data transfering profiler
+
+2011-09-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful assertions
+
+2011-09-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the profiler for data transfering between iterations
+
+2011-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitir
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new APIs
+
+2011-08-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on the loop iterations profiler
+
+2011-08-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rollback
+
+2011-08-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make the baseline more precise
+
+2011-08-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added TIME_getClockTicksBaseline
+
+2011-08-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the profiler
+
+2011-08-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the baseline
+
+2011-08-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-08-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-08-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-08-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the profiler
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the profiler
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the baseline for the loops profiler
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the category FALSE_REGISTER_REASSOCIATION
+
+2011-07-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API to analyze loop invariants.
+
+2011-07-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2011-07-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2011-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the hash function for loops.
+	Remove several memory handling problems.
+
+2011-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Destroy the loops
+
+2011-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the analysis.
+	Do not consider loops as subloop of another one if the latter predominates them.
+
+2011-06-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the data structure to describe the memory allocation relation
+
+2011-06-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some new printing messages.
+	Do not consider data dependences where the instruction that produced value predominates the one that uses it as loop-carried data dependences.
+	Bug fixing inside the methods inliner.
+
+2011-06-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some loops analysis functions.
+	Added the loop peeling algorithm of Tim
+
+2011-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Consider call within loop that can lead to IREXIT as exits of that loop.
+
+2011-05-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Consider exit instructions the call to method that can execute IREXIT
+
+2011-05-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2011-05-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove wrong assertions
+
+2011-05-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Exploit the new API of IR
+
+2011-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2011-05-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-05-01  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Dependences profiler:  Don't call the loop finish function at the end of
+	execution if we're not already in a loop.
+
+2011-04-30  Timothy M Jones  <tjones1@littlemill>
+
+	Alter profiling of header and finish of loops to be correct.
+
+2011-04-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the profiler of nesting levels of loops
+
+2011-04-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions LOOPS_getProgramLoops and LOOPS_profileNestingLevelsOfLoops.
+
+2011-03-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function LOOPS_getProgramSubLoopsMayBeAtNestingLevelFromParentLoops
+
+2011-03-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the concept of "boundaries" to loop-carried data dependences.
+
+2011-03-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the computation of loop-carried data dependences.
+
+2011-03-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-03-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-03-22  Timothy M Jones  <tjones1@littlemill>
+
+	Added fix to prevent loops being printed on non-printdebug runs.
+
+2011-03-22  Timothy M Jones  <tjones1@littlemill>
+
+	Updates to the DoPipe profiler.  Now it works even if a loop's method is
+	called from the call graph within the loop, or multiple loops from the
+	same method need profiling.
+
+2011-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the loops profiler: do not include a native call per loop iteration if it is not necessary.
+
+2011-03-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the program profiler
+
+2011-03-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function LOOPS_getSuccessorsAndPredecessorsOfLoops.
+	Exploit this new function to every loops profiler.
+
+2011-03-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function LOOPS_profileOutermostLoopsEnd to notify the end of the program execution.
+	Optimized the profiler for the outermost loops.
+
+2011-03-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the end function for the profiler of the total execution time of nested loop (function LOOPS_profileTotalExecutionTimeOfSubloopsAtNestingLevelEnd).
+	Optimized this profiler.
+
+2011-03-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function LOOPS_addProgramSubLoopsMayBeAtNestingLevels.
+	Added the profiler LOOPS_profileTotalExecutionTimeOfSubloopsAtNestingLevel.
+
+2011-03-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function METHODS_addEmptyBasicBlocksJustBeforeInstructionsWithMultiplePredecessors.
+	Handle the case where loop successors has predecessors that do not belong to the loop (within the function internal_profileLoop).
+
+2011-03-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-03-18  Timothy M Jones  <tjones1@littlemill>
+
+	Added support for profiling DoPipe parallelism.
+
+2011-03-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the time file
+
+2011-03-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions TIME_getClockTicks and TIME_toSeconds.
+
+2011-03-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions LOOPS_getProgramSubLoopsMayBeAtNestingLevel and LOOPS_profileDataDependenciesWithinLoopsEnd.
+	Fix a memory leak within loops profiler.
+
+2011-03-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-03-10  Timothy M Jones  <tjones1@littlemill>
+
+	Removed the check on how many loops are left to profile.
+
+2011-03-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-03-09  Timothy M Jones  <tjones1@littlemill>
+
+	Added support for failing gracefully when out of memory.
+
+2011-03-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-03-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function LOOPS_getSubLoopsMayBeAtNestingLevel.
+	Added the profiler of nested loops (by adding the function LOOPS_profileSubloopsAtNestingLevel).
+	Share code as much as possible across loops profilers.
+
+2011-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-03-02  Timothy M Jones  <tjones1@littlemill>
+
+	Add basic profile function for each instruction.
+
+2011-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Translate methods only if they have IR bodies
+
+2011-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function METHODS_translateProgramToMachineCode
+
+2011-02-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-02-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the profiler for data read by single loop iterations.
+
+2011-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility to set the minimum number of callers for the inlining.
+	Considered the escaped variables within the profiler for data forwarded across loop iterations.
+
+2011-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enabled the IRALLOC and IRALLOCALIGN instructions
+
+2011-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable IRALLOC instructions for the data forwarded profiler (it is not handled correctly)
+
+2011-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IRMEMCPY and IRINITMEMORY within the profiler LOOPS_profileDataForwardedAcrossLoopsIterations.
+
+2011-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function LOOPS_profileDataForwardedAcrossLoopsIterations.
+
+2011-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility of specify inter-procedural dependences
+
+2011-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-02-24  Timothy M Jones  <tjones1@littlemill>
+
+	Added code to use environment variables to control profiling
+
+2011-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Try to merge contiguous blocks of memories
+
+2011-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function LOOPS_profileDataForwardedAcrossLoopsIterations.
+
+2011-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the not usefull check to inline a method based on his name.
+
+2011-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions METHODS_inlineCalledMethodsNotInSubloops, METHODS_getMethodsCallerGraph and METHODS_destroyMethodsCallerGraph.
+	Added the possibility to inline methods only if they have more than n callers.
+
+2011-02-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Go deeply within the methods inlining
+
+2011-02-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the inline methods function.
+
+2011-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the profiler for loop iterations at specified nesting level due to a list given by the caller, which will be destroyed before its future uses.
+	Free the memory for loops iterations profilers.
+
+2011-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions LOOPS_getProgramLoopsMayBeAtNestingLevel, LOOPS_getLoopsMayBeAtNestingLevel and LOOPS_profileSubloopsIterationsAtNestingLevel.
+	Do not include clones within the function LOOPS_getSuccessorsOfLoop.
+	Added the possibility to add the pre-header of loops by using cached predecessors.
+	Disable the inlining of the following methods: fclose, __io_ftable_close_all and Obj?27?__do__atexit.
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of XanLib
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function LOOPS_profileOutermostLoops.
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-13  
+Committer:
+Luca  <luca@turbo>
+
+
+	adapt to new IR API
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-02-15  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	* Added support for extra compile-time flags.  These include profiling
+	all memory instructions and printing the dependence information.
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the profiler for loop iterations.
+
+2011-02-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Increase the verbosity of internal_METHODS_isReachableWithoutGoingThroughAMethod.
+	Bug fixing within the function internal_METHODS_isReachableWithoutGoingThroughAMethod.
+
+2011-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the PRINTDEBUG version
+
+2011-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function LOOPS_getMayBeOutermostLoops.
+	Improve the information on loops profiling by adding the structure loop_profile_data_t.
+	Enable the notification of the end of the program executing by exporting the function LOOPS_profileLoopsEnd.
+	Handle the case where the program calls the "exit" function within the loop.
+
+2011-02-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implement the function LOOPS_getOutermostProgramLoops by exploiting LOOPS_getOutermostLoops.
+	Implement the function LOOPS_isASelfCalledLoop.
+	Fix some bugs within the function LOOPS_getImmediateParentsOfLoop.
+	Updated the documentation.
+
+2011-02-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the accuracy of METHODS_isReachableWithoutGoingThroughMethods and LOOPS_getOutermostLoops.
+
+2011-02-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions LOOPS_isASubLoop, LOOPS_getImmediateParentsOfLoop and METHODS_isReachableWithoutGoingThroughAMethod.
+
+2011-02-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed some assertions
+
+2011-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within loops analysis
+
+2011-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the global loop nesting tree.
+
+2011-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Consider every methods instead of the callable ones (due to a bug within the function IRMETHOD_getCallableMethods).
+
+2011-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete not escaped or reachable methods
+
+2011-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions METHODS_getCallableMethods and METHODS_getEscapedMethods.
+
+2011-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function LOOPS_getInstructionLoopNesting.
+	Improved the function internal_analyze_method to consider any kind of call.
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the dumping of the loops profiled
+
+2011-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function MISC_sortProfiledLoops
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of Libiljitir
+
+2011-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2011-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the loops profile
+
+2011-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the profiler of loops
+
+2011-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the profiler of loops
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not remove methods from the inlining list because they have catch blocks a priori.
+
+2010-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimize the code in profile mode
+
+2010-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of XanLib
+
+2010-11-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of XanLib
+
+2010-11-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-11-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some initialization of fields
+
+2010-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Included the ALL_DD type of data dependence
+
+2010-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on the function LOOPS_computeLoopInformation.
+
+2010-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-11-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function LOOPS_getSuccessorsOfLoop
+
+2010-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2010-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing 
+
+2010-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on the data dependencies computation
+
+2010-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on the loop code transformation
+
+2010-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the ir_lib_t parameter to the function LOOPS_profileDataDependenciesWithinLoops
+
+2010-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function LOOPS_profileDataDependenciesWithinLoops
+
+2010-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function _LOOPS_computeLoopInformation
+
+2010-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the function internal_remove_nested_loops_with_same_header
+
+2010-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on merging loops.
+	Added some assertions to check loops.
+	Removed the not useful function internal_remove_nested_loops_with_same_header.
+	Bug fixing on the function internal_analyze_method.
+	Added the function LOOPS_numberOfBackedges.
+	Added the function LOOPS_getDataDependenciesWithinLoop.
+	Added the function METHODS_getReachableMethods.
+
+2010-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2010-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function LOOPS_getMethods
+
+2010-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function LOOPS_removeLibraryLoops
+
+2010-10-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2010-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the profiler
+
+2010-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-10-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function LOOPS_transformToHeaderBodyLoop
+
+2010-10-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added functions
+
+2010-10-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added functions for code transformations
+
+2010-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added functions for loops
+
+2010-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add categorization of data dependencies
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the dependencies analysis
+
+2010-10-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some LOOPS functions
+
+2010-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on the return value of the function METHODS_inlineCalledMethods
+
+2010-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the methods inlining algorithms
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the system header file
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the intra- and inter-procedural analysis.
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

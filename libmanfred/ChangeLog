@@ -1,0 +1,474 @@
+2014-04-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks.
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Included jitsystem as a first thing.
+
+2014-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed about loading anonymous methods.
+
+2014-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion.
+
+2014-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the IR API to load a symbol
+
+2014-01-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use a variable
+
+2014-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Exploiting the new IR API to cache serialization of symbols
+
+2014-01-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Deserialize symbols from memory rather than from files.
+
+2014-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API to serialize symbols in memory instead of in files.
+
+2014-01-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Check whether or not files have been created properly.
+
+2014-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Completed the grammar to allow method, class, and string symbols.
+
+2014-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the ILDJIT prefix for printing in verbose mode.
+
+2014-01-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Print the full error message.
+
+2014-01-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Mask EEXIST errors when mkdir is invoked.
+
+2014-01-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use internal_mkdir always
+
+2014-01-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not abort if the directory already exist.
+
+2014-01-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Check intermediate status
+
+2014-01-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump all methods tagged even if they have not been compiled.
+
+2013-12-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Create the directory recursively
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Load all symbols when the program is loaded.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set the identifier of symbols.
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the IR API to get the name of the program in compilation
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: erase memory reallocated
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not resolve type symbols.
+
+2013-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle allocation of symbols even without calling MANFRED_loadProgram
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API.
+
+2013-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use -g instead of -ggdb
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Allow instruction name with numbers
+
+2013-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the testing string.
+
+2013-10-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion.
+
+2013-09-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2013-09-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added more checking
+
+2013-08-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimized the computation of the precompilation condition
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2012-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing during loading anonymous methods.
+
+2012-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-11-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a useless function from the manfred API
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not allocate the list of call parameters if there are none.
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-09-27  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks.
+
+2012-07-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Destroy the lists in a safe way to prevent double calls.
+
+2012-07-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks.
+
+2012-07-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2012-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the name MEMPHIS
+
+2012-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.1
+
+2012-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved out every function from the data structure.
+
+2012-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not abort if there is no profile.
+
+2012-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Makes the behaviour repeatable
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move some functions outside the data structure.
+	Remove compilation warnings.
+	Do not add multiple times the same method.
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump and reload the flags of instructions
+
+2012-03-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not dump methods without body
+
+2012-03-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the case there is no file
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-02-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Tag methods as callable externally to be conservative.
+
+2012-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some messages on verbose mode.
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility of specifying the cache directory with ILDJIT_CACHE
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Diego's work
+
+2011-08-03  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-08-02  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-07-11  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.6.0
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Normalized platform API header inclusion
+
+2011-07-03  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new Platform API
+
+2011-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Pietro's work
+
+2011-06-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	updated 'scandir()' in 'PLATFORM_scandir()'
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-05-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on missing file closing
+
+2011-06-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing 
+
+2011-06-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove some warnings
+
+2011-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-05-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added standard functions
+
+2011-05-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove the directory before saving the program
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-04-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a missing file
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Luca's work
+
+2011-04-15   Committer: Luca  <luca@turbo> 
+
+	Update Mandred
+
+2011-03-29  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added multi-platform support for mkdir() and scandir()
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-03-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the dumping of IR within sub-directories.
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-03-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Removed all commented platform-dependent includes
+
+2011-03-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility to choose the directory to use to save the program.
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link to libplatform.
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-16  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added multi-platform support for getUserDir()
+
+2011-02-16  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	removed all PLATFORM-dependent headers.
+
+2011-02-10  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-10   Committer: Luca  <luca@turbo> 
+
+	update symbols
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Create the ~/.ildjit/manfred directory if it does not exist
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

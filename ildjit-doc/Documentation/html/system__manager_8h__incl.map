@@ -1,0 +1,13 @@
+<map id="system_manager.h" name="system_manager.h">
+<area shape="rect" id="node2" href="$ildjit__system_8h_source.html" title="ildjit_system.h" alt="" coords="2546,80,2650,107"/>
+<area shape="rect" id="node4" href="$compiler__memory__manager_8h.html" title="compiler_memory_manager.h" alt="" coords="252,304,443,331"/>
+<area shape="rect" id="node40" href="$ir__virtual__machine_8h_source.html" title="ir_virtual_machine.h" alt="" coords="2529,155,2667,181"/>
+<area shape="rect" id="node48" href="$translation__pipeline_8h_source.html" title="translation_pipeline.h" alt="" coords="2295,304,2437,331"/>
+<area shape="rect" id="node50" href="$static__memory_8h_source.html" title="static_memory.h" alt="" coords="2501,304,2618,331"/>
+<area shape="rect" id="node7" href="$private__memory__pool_8h.html" title="private_memory_pool.h" alt="" coords="155,379,310,405"/>
+<area shape="rect" id="node38" href="$shared__memory__pool_8h.html" title="shared_memory_pool.h" alt="" coords="385,379,539,405"/>
+<area shape="rect" id="node8" href="$platform___a_p_i_8h.html" title="This file contains all the functions written to gain multi&#45;platform support to ILDJIT. " alt="" coords="1415,453,1523,480"/>
+<area shape="rect" id="node41" href="$xanlib_8h.html" title="Structure of the XanLib. " alt="" coords="2623,379,2688,405"/>
+<area shape="rect" id="node42" href="$ir__optimizer_8h.html" title="ir_optimizer.h" alt="" coords="2717,229,2815,256"/>
+<area shape="rect" id="node43" href="$ir__method_8h.html" title="ir_method.h" alt="" coords="2744,304,2833,331"/>
+</map>

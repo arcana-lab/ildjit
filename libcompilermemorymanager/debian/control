@@ -1,0 +1,21 @@
+Source: libcompilermemorymanager
+Priority: extra
+Maintainer: Leonardo Mino' <oaexpert@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libglib2.0-0, libgl1-mesa-glx, mime-support, locales, libc6-i686, libasound2, pkg-config, libpcre3, libxan-dev, gawk
+Standards-Version: 3.8.3
+Section: libs
+Homepage: http://ildjit.sourceforge.net/
+
+Package: libcompilermemorymanager-dev
+Section: libdevel
+Architecture: any
+Depends: libcompilermemorymanager (= ${binary:Version})
+Description: Libcompilermemorymanager
+ This library provides the management of the memory needed by the compiler ILDJIT
+
+Package: libcompilermemorymanager
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Libcompilermemorymanager
+ This library provides the management of the memory needed by the compiler ILDJIT

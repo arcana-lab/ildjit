@@ -1,0 +1,8 @@
+
+iljit-gc-copy is a plugin for iljit dynamic compiler that implements a simple
+copy garbage collector. To try it you must install with classical sequence
+./configure, make, make install and then run iljit by passig Copy to -C command
+line option. Several benchmarks are distribuited in test/bench directory. You
+can try running benchmarks by typing make check in top level directory.
+
+Documentation is distributed in doxygen html format.

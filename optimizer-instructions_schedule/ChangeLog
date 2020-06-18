@@ -1,0 +1,28 @@
+2008-02-08  Simone Campanoni  <simo.xan@gmail.com>
+	* optimizer-dummy: Initial version
+
+-------------------------------- 0.0.1
+2009-03-26  Simone Campanoni  <simo.xan@gmail.com>
+	* src/*.[ch]: Adapt the plugin in order to use the
+	libcompilermemorymanager library.
+
+-------------------------------- 0.0.3
+2009-06-05  Simone Campanoni  <simo.xan@gmail.com>
+	* src/*.[ch]: Make the functions static and inlinable.
+	* configure.in: Renamed to configure.ac
+	* configure.ac: Add AC_CONFIG_MACRO_DIR([m4])
+	* Makefile.am: Add ACLOCAL_AMFLAGS=-I m4
+
+-------------------------------- 0.0.4
+2010-01-15  Michele Tartara  <mikyt@users.sourceforge.net>
+	* *.*: Some modifications before the migration from CVS to Bzr
+
+-------------------------------- 0.2.0
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+	* src/*.c: Move the optimization IDs to 64 bits
+
+-------------------------------- 0.2.1
+2010-4-21  Simone Campanoni  <simo.xan@gmail.com>
+        * configure.in: Fixed a bug that prevented CFLAGS to be modified using the corresponding environment variable.
+
+-------------------------------- 0.3.0

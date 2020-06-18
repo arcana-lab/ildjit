@@ -1,0 +1,5 @@
+usr/include/iljit/*
+usr/lib/pkgconfig/*
+usr/lib/iljit/lib*.a
+usr/lib/iljit/lib*.so
+usr/lib/iljit/*.la

@@ -1,0 +1,611 @@
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/ildjit_profiler.h:21: warning: the name `profiler.h' supplied as the second argument in the \file statement is not an input file
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/iljit_plugin_manager.h:21: warning: the name `plugin_manager.h' supplied as the second argument in the \file statement is not an input file
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:42: warning: documentation for unknown define LDARG0_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:49: warning: documentation for unknown define LDARG1_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:56: warning: documentation for unknown define LDARG2_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:63: warning: documentation for unknown define LDARG3_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:70: warning: documentation for unknown define LDLOC0_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:77: warning: documentation for unknown define LDLOC1_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:84: warning: documentation for unknown define LDLOC2_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:91: warning: documentation for unknown define LDLOC3_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:98: warning: documentation for unknown define STLOC0_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:105: warning: documentation for unknown define STLOC1_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:112: warning: documentation for unknown define STLOC2_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:119: warning: documentation for unknown define STLOC3_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:245: warning: documentation for unknown define LDC_I4_s_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:252: warning: documentation for unknown define LDC.I4_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:259: warning: documentation for unknown define LDC.I8_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:266: warning: documentation for unknown define LDC.R4_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/cil_opcodes.h:273: warning: documentation for unknown define LDC.R8_OPCODE found.
+
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2390: warning: documented symbol `string parameter begin with the suffix pointed by the var suffix parameter' was not declared or defined.
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:30: warning: found more than one \mainpage comment block! Skipping this block.
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2636: warning: Found unknown command `\cr'
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2532: warning: Found unknown command `\dest'
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/cil_ir_translator.h:41: warning: argument 'stack' of command @param is not found in the argument list of translate_method_from_cil_to_ir(t_system *system, Method method)
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/cil_ir_translator.h:41: warning: The following parameters of translate_method_from_cil_to_ir(t_system *system, Method method) are not documented:
+  parameter 'system'
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/cil_ir_translator.h:41: warning: return type of member translate_method_from_cil_to_ir is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:123: warning: parameters of member architecture_ID_to_string are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:123: warning: return type of member architecture_ID_to_string is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:147: warning: parameters of member blob_index_is_32 are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:147: warning: return type of member blob_index_is_32 is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:135: warning: parameters of member cli_flags_to_string are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:135: warning: return type of member cli_flags_to_string is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:171: warning: parameters of member get_metadata_start_point are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:171: warning: return type of member get_metadata_start_point is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:192: warning: return type of member getBestClockID is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:159: warning: parameters of member guid_index_is_32 are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:159: warning: return type of member guid_index_is_32 is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:111: warning: parameters of member il_read are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:111: warning: return type of member il_read is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:217: warning: parameters of member libiljituCompilationFlags are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:223: warning: parameters of member libiljituCompilationTime are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:211: warning: return type of member libiljituVersion is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:96: warning: parameters of member print_binary_offset are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:129: warning: parameters of member section_characteristic_to_string are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:129: warning: return type of member section_characteristic_to_string is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:117: warning: parameters of member seek_within_file are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:117: warning: return type of member seek_within_file is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:165: warning: parameters of member set_metadata_start_point are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:184: warning: parameters of member setupPrefixFromPath are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:184: warning: return type of member setupPrefixFromPath is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:153: warning: parameters of member string_index_is_32 are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:153: warning: return type of member string_index_is_32 is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:177: warning: parameters of member to_float are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:177: warning: return type of member to_float is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:141: warning: parameters of member unroll_file are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/iljit-utils.h:141: warning: return type of member unroll_file is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/initial_checker.h:34: warning: parameters of member initial_checker are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/initial_checker.h:34: warning: return type of member initial_checker is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitiroptimizer/src/ir_optimizer.h:380: warning: parameters of member libiljitiroptimizerCompilationFlags are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitiroptimizer/src/ir_optimizer.h:386: warning: parameters of member libiljitiroptimizerCompilationTime are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitiroptimizer/src/ir_optimizer.h:374: warning: return type of member libiljitiroptimizerVersion is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/loader.h:34: warning: return type of member loader is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/loader.h:44: warning: return type of member loader_shutdown is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/system_initializer.h:35: warning: parameters of member system_initializer are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/system_initializer.h:35: warning: return type of member system_initializer is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/system_manager.h:42: warning: parameters of member generator_bootstrapper are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/system_manager.h:42: warning: return type of member generator_bootstrapper is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/system_manager.h:48: warning: parameters of member system_bootstrapper_multiapp are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/system_manager.h:48: warning: return type of member system_bootstrapper_multiapp is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2532: warning: Found unknown command `\dest'
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2636: warning: Found unknown command `\cr'
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/ir_language.h:1257: warning: Found unknown command `\param1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/ir_language.h:1560: warning: unable to resolve reference to `t_ir_signature' for \ref command
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/ir_language.h:1474: warning: unable to resolve reference to `JITNFLOAT' for \ref command
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/ir_language.h:1410: warning: unable to resolve reference to `JITNINT' for \ref command
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitu/src/ir_language.h:1450: warning: unable to resolve reference to `JITNUINT' for \ref command
+/home/xan/Projects/ILDJIT/Src/ildjit/libirvirtualmachine/src/ir_virtual_machine.h:292: warning: The following parameters of IRVM_destroyFunction(IRVM_t *self, t_jit_function *function) are not documented:
+  parameter 'self'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirvirtualmachine/src/ir_virtual_machine.h:270: warning: The following parameters of IRVM_getEntryPoint(IRVM_t *self, t_jit_function *function) are not documented:
+  parameter 'self'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirvirtualmachine/src/ir_virtual_machine.h:157: warning: The following parameters of IRVM_init(IRVM_t *_this, t_running_garbage_collector *gc, IRVM_type *(*lookupValueType)(TypeDescriptor *type), ir_method_t *(*getIRMethod)(IR_ITEM_VALUE method), void(*leaveExecution)(JITINT32 exitCode), JITINT8 *leaveExecutionFunctionName, t_jit_function *(*getJITMethod)(IR_ITEM_VALUE method), JITINT32(*recompilerFunction)(void *ilmethod, void *caller, ir_instruction_t *inst)) are not documented:
+  parameter 'gc'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirvirtualmachine/src/ir_virtual_machine.h:261: warning: parameters of member IRVM_isANativeFunction are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirvirtualmachine/src/ir_virtual_machine.h:282: warning: The following parameters of IRVM_setNativeEntryPoint(IRVM_t *self, t_jit_function *function, void *nativeEntryPoint) are not documented:
+  parameter 'self'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirvirtualmachine/src/ir_virtual_machine.h:351: warning: The following parameters of IRVM_getIRVMTypeSize(IRVM_t *self, IRVM_type *irvmType) are not documented:
+  parameter 'self'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirvirtualmachine/src/ir_virtual_machine.h:447: warning: The following parameters of IRVM_hasTheSignatureBeenTranslated(IRVM_t *self, t_jit_function *backendFunction) are not documented:
+  parameter 'self'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirvirtualmachine/src/ir_virtual_machine.h:457: warning: parameters of member IRVM_isCompilationAvailable are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirvirtualmachine/src/ir_virtual_machine.h:361: warning: The following parameters of IRVM_setIRVMStructure(IRVM_t *self, IRVM_type *irvmType, JITNINT structureSize, JITNINT alignment) are not documented:
+  parameter 'self'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirvirtualmachine/src/ir_virtual_machine.h:185: warning: The following parameters of IRVM_run(IRVM_t *self, t_jit_function *jitFunction, void **args, void *returnArea) are not documented:
+  parameter 'self'
+  parameter 'args'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirvirtualmachine/src/ir_virtual_machine.h:185: warning: return type of member IRVM_run is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirvirtualmachine/src/ir_virtual_machine.h:312: warning: The following parameters of IRVM_throwBuiltinException(IRVM_t *self, JITUINT32 exceptionType) are not documented:
+  parameter 'self'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirvirtualmachine/src/ir_virtual_machine.h:303: warning: The following parameters of IRVM_throwException(IRVM_t *self, void *object) are not documented:
+  parameter 'self'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ildjit.h:79: warning: parameters of member ILDJIT_throwException are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ildjit.h:86: warning: parameters of member ILDJIT_throwExceptionWithName are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:4349: warning: return type of member IRMETHOD_getMaxLabelID is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:6909: warning: parameters of member IRMETHOD_getParameterType are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:6909: warning: return type of member IRMETHOD_getParameterType is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:6889: warning: parameters of member IRMETHOD_getResultILType are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:6889: warning: return type of member IRMETHOD_getResultILType is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:4543: warning: The following parameters of IRMETHOD_getVariableDefinitionsThatReachInstruction(ir_method_t *method, ir_instruction_t *inst, IR_ITEM_VALUE varID) are not documented:
+  parameter 'inst'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:3087: warning: parameters of member IRPROGRAM_getMethodsWithName are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:2626: warning: parameters of member IRPROGRAM_isInstructionTypeReachable are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:7987: warning: parameters of member IRLOOP_analyzeLoops are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:7997: warning: parameters of member IRLOOP_analyzeMethodLoops are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:8028: warning: parameters of member IRLOOP_computeLoopInformation are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:8007: warning: The following parameters of IRLOOP_getLoopFromInstruction(ir_method_t *method, ir_instruction_t *inst, XanHashTable *loops) are not documented:
+  parameter 'method'
+  parameter 'inst'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:8044: warning: parameters of member IRLOOP_refreshLoopsInformation are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:3733: warning: The following parameters of IRMETHOD_moveInstructionCallParameter(ir_method_t *method, ir_instruction_t *inst, JITUINT32 oldPos, JITUINT32 newPos) are not documented:
+  parameter 'newPos'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:4430: warning: The following parameters of IRMETHOD_newVariable(ir_method_t *method, ir_item_t *newVariable, JITUINT16 internal_type, TypeDescriptor *typeInfos) are not documented:
+  parameter 'newVariable'
+  parameter 'internal_type'
+  parameter 'typeInfos'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:6578: warning: The following parameters of IRMETHOD_setNumberOfVariablesNeededByMethod(ir_method_t *method, JITUINT32 var_max) are not documented:
+  parameter 'var_max'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:4706: warning: The following parameters of IRMETHOD_setInstructionAsNativeCall(ir_method_t *method, ir_instruction_t *i, char *functionToCallName, void *functionToCallPointer, ir_item_t *returnItem, XanList *callParameters) are not documented:
+  parameter 'i'
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:4187: warning: parameters of member IRMETHOD_scheduleInstructionBefore are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ir_method.h:2561: warning: return type of member IRMETHOD_getControlDependencesBitSet is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/iljit.h:237: warning: Found unknown command `\verb'
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/iljit.h:327: warning: end of comment block while expecting command </code>
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/iljit.h:327: warning: end of comment block while expecting command </code>
+/home/xan/Projects/ILDJIT/Src/ildjit/libirmanager/src/ildjit.h:93: warning: parameters of member ILDJIT_quit are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitiroptimizer/src/ir_optimizer.h:116: warning: return type of member IROPTIMIZER_optimizeMethod_checkpointable is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitiroptimizer/src/ir_optimizer.h:280: warning: return type of member IROPTIMIZER_optimizeMethodAtAOTLevel_checkpointable is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitiroptimizer/src/ir_optimizer.h:142: warning: return type of member IROPTIMIZER_optimizeMethodAtLevel_checkpointable is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libiljitiroptimizer/src/ir_optimizer.h:305: warning: return type of member IROPTIMIZER_optimizeMethodAtPostAOTLevel_checkpointable is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcompilermemorymanager/src/compiler_memory_manager.h:98: warning: parameters of member dynamicReallocFunction are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcompilermemorymanager/src/compiler_memory_manager.h:196: warning: parameters of member libcompilermemorymanagerCompilationFlags are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcompilermemorymanager/src/compiler_memory_manager.h:203: warning: parameters of member libcompilermemorymanagerCompilationTime are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcompilermemorymanager/src/compiler_memory_manager.h:189: warning: return type of member libcompilermemorymanagerVersion is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcompilermemorymanager/src/compiler_memory_manager.h:141: warning: parameters of member MEMORY_enablePrivateMemory are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcompilermemorymanager/src/compiler_memory_manager.h:113: warning: parameters of member MEMORY_enableSharedMemory are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcompilermemorymanager/src/compiler_memory_manager.h:173: warning: parameters of member MEMORY_initMemoryManager are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcompilermemorymanager/src/compiler_memory_manager.h:132: warning: parameters of member MEMORY_shareConditionVariable are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcompilermemorymanager/src/compiler_memory_manager.h:123: warning: parameters of member MEMORY_shareMutex are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libcompilermemorymanager/src/compiler_memory_manager.h:84: warning: The following parameters of reallocFunction(void *addr, size_t newSize) are not documented:
+  parameter 'newSize'
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/iljit.h:1414: warning: expected <tr> tag but found TK_COMMAND token instead!
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/iljit.h:2003: warning: unexpected command endverbatim
+/home/xan/Projects/ILDJIT/Src/ildjit/libcore/src/iljit.h:2012: warning: end of comment block while expecting command </code>
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:718: warning: argument 'path' of command @param is not found in the argument list of PLATFORM_chdir(const char *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:718: warning: The following parameters of PLATFORM_chdir(const char *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:409: warning: argument 'fileName' of command @param is not found in the argument list of PLATFORM_close(JITNINT arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:409: warning: The following parameters of PLATFORM_close(JITNINT arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:681: warning: argument 'dir' of command @param is not found in the argument list of PLATFORM_closeDir(DIR *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:681: warning: The following parameters of PLATFORM_closeDir(DIR *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:518: warning: argument 'filename' of command @param is not found in the argument list of PLATFORM_doesFileExist(JITINT8 *fileName)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:518: warning: The following parameters of PLATFORM_doesFileExist(JITINT8 *fileName) are not documented:
+  parameter 'fileName'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:502: warning: argument 'fileDescriptor' of command @param is not found in the argument list of PLATFORM_fflush(FILE *file)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:502: warning: The following parameters of PLATFORM_fflush(FILE *file) are not documented:
+  parameter 'file'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:600: warning: argument 'fileDescriptor' of command @param is not found in the argument list of PLATFORM_fstat(JITNINT arg1, struct stat *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:600: warning: argument 'buff' of command @param is not found in the argument list of PLATFORM_fstat(JITNINT arg1, struct stat *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:600: warning: The following parameters of PLATFORM_fstat(JITNINT arg1, struct stat *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:488: warning: argument 'fileDescriptor' of command @param is not found in the argument list of PLATFORM_fsync(FILE *file)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:488: warning: The following parameters of PLATFORM_fsync(FILE *file) are not documented:
+  parameter 'file'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:474: warning: argument 'fileDescriptor' of command @param is not found in the argument list of PLATFORM_ftruncate(JITNINT fd, off_t length)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:474: warning: The following parameters of PLATFORM_ftruncate(JITNINT fd, off_t length) are not documented:
+  parameter 'fd'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:528: warning: argument 'fileDescriptor' of command @param is not found in the argument list of PLATFORM_isatty(JITNINT arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:528: warning: The following parameters of PLATFORM_isatty(JITNINT arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:446: warning: argument 'fileDescriptor' of command @param is not found in the argument list of PLATFORM_lseek(JITNINT arg1, off_t arg2, JITNINT arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:446: warning: argument 'offset' of command @param is not found in the argument list of PLATFORM_lseek(JITNINT arg1, off_t arg2, JITNINT arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:446: warning: argument 'whence' of command @param is not found in the argument list of PLATFORM_lseek(JITNINT arg1, off_t arg2, JITNINT arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:446: warning: The following parameters of PLATFORM_lseek(JITNINT arg1, off_t arg2, JITNINT arg3) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+  parameter 'arg3'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:612: warning: argument 'fileDescriptor' of command @param is not found in the argument list of PLATFORM_lstat(const char *path, struct stat *stat)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:612: warning: argument 'buff' of command @param is not found in the argument list of PLATFORM_lstat(const char *path, struct stat *stat)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:612: warning: The following parameters of PLATFORM_lstat(const char *path, struct stat *stat) are not documented:
+  parameter 'path'
+  parameter 'stat'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:626: warning: argument 'path' of command @param is not found in the argument list of PLATFORM_mkdir(const char *arg1, mode_t arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:626: warning: argument 'mode' of command @param is not found in the argument list of PLATFORM_mkdir(const char *arg1, mode_t arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:626: warning: The following parameters of PLATFORM_mkdir(const char *arg1, mode_t arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:387: warning: argument 'fileName' of command @param is not found in the argument list of PLATFORM_open(const char *file, int modes, int permission)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:387: warning: The following parameters of PLATFORM_open(const char *file, int modes, int permission) are not documented:
+  parameter 'file'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:671: warning: argument 'path' of command @param is not found in the argument list of PLATFORM_openDir(const char *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:671: warning: The following parameters of PLATFORM_openDir(const char *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:420: warning: argument 'fileDescriptor' of command @param is not found in the argument list of PLATFORM_read(JITNINT arg1, void *arg2, size_t arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:420: warning: argument 'buff' of command @param is not found in the argument list of PLATFORM_read(JITNINT arg1, void *arg2, size_t arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:420: warning: argument 'nbytes' of command @param is not found in the argument list of PLATFORM_read(JITNINT arg1, void *arg2, size_t arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:420: warning: The following parameters of PLATFORM_read(JITNINT arg1, void *arg2, size_t arg3) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+  parameter 'arg3'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:692: warning: argument 'dir' of command @param is not found in the argument list of PLATFORM_readDir(DIR *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:692: warning: The following parameters of PLATFORM_readDir(DIR *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:651: warning: argument 'path' of command @param is not found in the argument list of PLATFORM_rmdir(const JITINT8 *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:651: warning: The following parameters of PLATFORM_rmdir(const JITINT8 *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:589: warning: argument 'path' of command @param is not found in the argument list of PLATFORM_stat(const char *arg1, struct stat *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:589: warning: argument 'buff' of command @param is not found in the argument list of PLATFORM_stat(const char *arg1, struct stat *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:589: warning: The following parameters of PLATFORM_stat(const char *arg1, struct stat *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:738: warning: argument 'filePath' of command @param is not found in the argument list of PLATFORM_symlink(const char *arg1, const char *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:738: warning: argument 'symlinkPathName' of command @param is not found in the argument list of PLATFORM_symlink(const char *arg1, const char *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:738: warning: The following parameters of PLATFORM_symlink(const char *arg1, const char *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:749: warning: argument 'symlinkPathName' of command @param is not found in the argument list of PLATFORM_unlink(const char *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:749: warning: The following parameters of PLATFORM_unlink(const char *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:554: warning: argument 'path' of command @param is not found in the argument list of PLATFORM_utime(const char *arg1, const struct utimbuf *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:554: warning: argument 'times' of command @param is not found in the argument list of PLATFORM_utime(const char *arg1, const struct utimbuf *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:554: warning: The following parameters of PLATFORM_utime(const char *arg1, const struct utimbuf *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:433: warning: argument 'fileDescriptor' of command @param is not found in the argument list of PLATFORM_write(JITNINT arg1, const void *arg2, size_t arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:433: warning: argument 'buff' of command @param is not found in the argument list of PLATFORM_write(JITNINT arg1, const void *arg2, size_t arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:433: warning: argument 'nbytes' of command @param is not found in the argument list of PLATFORM_write(JITNINT arg1, const void *arg2, size_t arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:433: warning: The following parameters of PLATFORM_write(JITNINT arg1, const void *arg2, size_t arg3) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+  parameter 'arg3'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:518: warning: argument 'filename' of command @param is not found in the argument list of PLATFORM_doesFileExist(JITINT8 *fileName)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:518: warning: The following parameters of PLATFORM_doesFileExist(JITINT8 *fileName) are not documented:
+  parameter 'fileName'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:600: warning: argument 'fileDescriptor' of command @param is not found in the argument list of PLATFORM_fstat(JITNINT arg1, struct stat *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:600: warning: argument 'buff' of command @param is not found in the argument list of PLATFORM_fstat(JITNINT arg1, struct stat *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:600: warning: The following parameters of PLATFORM_fstat(JITNINT arg1, struct stat *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:528: warning: argument 'fileDescriptor' of command @param is not found in the argument list of PLATFORM_isatty(JITNINT arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:528: warning: The following parameters of PLATFORM_isatty(JITNINT arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:612: warning: argument 'fileDescriptor' of command @param is not found in the argument list of PLATFORM_lstat(const char *path, struct stat *stat)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:612: warning: argument 'buff' of command @param is not found in the argument list of PLATFORM_lstat(const char *path, struct stat *stat)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:612: warning: The following parameters of PLATFORM_lstat(const char *path, struct stat *stat) are not documented:
+  parameter 'path'
+  parameter 'stat'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:589: warning: argument 'path' of command @param is not found in the argument list of PLATFORM_stat(const char *arg1, struct stat *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:589: warning: argument 'buff' of command @param is not found in the argument list of PLATFORM_stat(const char *arg1, struct stat *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:589: warning: The following parameters of PLATFORM_stat(const char *arg1, struct stat *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:554: warning: argument 'path' of command @param is not found in the argument list of PLATFORM_utime(const char *arg1, const struct utimbuf *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:554: warning: argument 'times' of command @param is not found in the argument list of PLATFORM_utime(const char *arg1, const struct utimbuf *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:554: warning: The following parameters of PLATFORM_utime(const char *arg1, const struct utimbuf *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:681: warning: argument 'dir' of command @param is not found in the argument list of PLATFORM_closeDir(DIR *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:681: warning: The following parameters of PLATFORM_closeDir(DIR *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:626: warning: argument 'path' of command @param is not found in the argument list of PLATFORM_mkdir(const char *arg1, mode_t arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:626: warning: argument 'mode' of command @param is not found in the argument list of PLATFORM_mkdir(const char *arg1, mode_t arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:626: warning: The following parameters of PLATFORM_mkdir(const char *arg1, mode_t arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:671: warning: argument 'path' of command @param is not found in the argument list of PLATFORM_openDir(const char *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:671: warning: The following parameters of PLATFORM_openDir(const char *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:692: warning: argument 'dir' of command @param is not found in the argument list of PLATFORM_readDir(DIR *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:692: warning: The following parameters of PLATFORM_readDir(DIR *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:651: warning: argument 'path' of command @param is not found in the argument list of PLATFORM_rmdir(const JITINT8 *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:651: warning: The following parameters of PLATFORM_rmdir(const JITINT8 *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:718: warning: argument 'path' of command @param is not found in the argument list of PLATFORM_chdir(const char *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:718: warning: The following parameters of PLATFORM_chdir(const char *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:738: warning: argument 'filePath' of command @param is not found in the argument list of PLATFORM_symlink(const char *arg1, const char *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:738: warning: argument 'symlinkPathName' of command @param is not found in the argument list of PLATFORM_symlink(const char *arg1, const char *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:738: warning: The following parameters of PLATFORM_symlink(const char *arg1, const char *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:749: warning: argument 'symlinkPathName' of command @param is not found in the argument list of PLATFORM_unlink(const char *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:749: warning: The following parameters of PLATFORM_unlink(const char *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:818: warning: argument 'buff' of command @param is not found in the argument list of PLATFORM_gethostname(char *arg1, size_t arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:818: warning: argument 'size' of command @param is not found in the argument list of PLATFORM_gethostname(char *arg1, size_t arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:818: warning: The following parameters of PLATFORM_gethostname(char *arg1, size_t arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:800: warning: Invalid list item found
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1020: warning: argument 'handle' of command @param is not found in the argument list of PLATFORM_dlclose(void *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1020: warning: The following parameters of PLATFORM_dlclose(void *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:992: warning: argument 'file' of command @param is not found in the argument list of PLATFORM_dlopen(const char *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:992: warning: argument 'mode' of command @param is not found in the argument list of PLATFORM_dlopen(const char *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:992: warning: The following parameters of PLATFORM_dlopen(const char *arg1, JITNINT arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1007: warning: argument 'file' of command @param is not found in the argument list of PLATFORM_dlsym(void *arg1, const char *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1007: warning: argument 'mode' of command @param is not found in the argument list of PLATFORM_dlsym(void *arg1, const char *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1007: warning: The following parameters of PLATFORM_dlsym(void *arg1, const char *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1103: warning: argument 'regex' of command @param is not found in the argument list of PLATFORM_re_compile_pattern(const char *arg1, size_t arg2, struct re_pattern_buffer *arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1103: warning: argument 'regex_size' of command @param is not found in the argument list of PLATFORM_re_compile_pattern(const char *arg1, size_t arg2, struct re_pattern_buffer *arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1103: warning: argument 'pattern_buffer' of command @param is not found in the argument list of PLATFORM_re_compile_pattern(const char *arg1, size_t arg2, struct re_pattern_buffer *arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1103: warning: The following parameters of PLATFORM_re_compile_pattern(const char *arg1, size_t arg2, struct re_pattern_buffer *arg3) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+  parameter 'arg3'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1124: warning: argument 'syntax' of command @param is not found in the argument list of PLATFORM_re_set_syntax(reg_syntax_t arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1124: warning: The following parameters of PLATFORM_re_set_syntax(reg_syntax_t arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1071: warning: argument 'preg' of command @param is not found in the argument list of PLATFORM_regcomp(regex_t *arg1, const char *arg2, JITNINT arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1071: warning: argument 'pattern' of command @param is not found in the argument list of PLATFORM_regcomp(regex_t *arg1, const char *arg2, JITNINT arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1071: warning: argument 'cflags' of command @param is not found in the argument list of PLATFORM_regcomp(regex_t *arg1, const char *arg2, JITNINT arg3)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1071: warning: The following parameters of PLATFORM_regcomp(regex_t *arg1, const char *arg2, JITNINT arg3) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+  parameter 'arg3'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1054: warning: argument 'preg' of command @param is not found in the argument list of PLATFORM_regexec(const regex_t *arg1, const char *arg2, size_t arg3, regmatch_t *arg4, JITNINT arg5)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1054: warning: argument 'string' of command @param is not found in the argument list of PLATFORM_regexec(const regex_t *arg1, const char *arg2, size_t arg3, regmatch_t *arg4, JITNINT arg5)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1054: warning: argument 'nmatch' of command @param is not found in the argument list of PLATFORM_regexec(const regex_t *arg1, const char *arg2, size_t arg3, regmatch_t *arg4, JITNINT arg5)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1054: warning: argument 'pmatch' of command @param is not found in the argument list of PLATFORM_regexec(const regex_t *arg1, const char *arg2, size_t arg3, regmatch_t *arg4, JITNINT arg5)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1054: warning: argument 'eflags' of command @param is not found in the argument list of PLATFORM_regexec(const regex_t *arg1, const char *arg2, size_t arg3, regmatch_t *arg4, JITNINT arg5)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1054: warning: The following parameters of PLATFORM_regexec(const regex_t *arg1, const char *arg2, size_t arg3, regmatch_t *arg4, JITNINT arg5) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+  parameter 'arg3'
+  parameter 'arg4'
+  parameter 'arg5'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1091: warning: argument 'preg' of command @param is not found in the argument list of PLATFORM_regfree(regex_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1091: warning: The following parameters of PLATFORM_regfree(regex_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1564: warning: argument 'condVar' of command @param is not found in the argument list of PLATFORM_broadcastCondVar(pthread_cond_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1564: warning: The following parameters of PLATFORM_broadcastCondVar(pthread_cond_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1149: warning: argument 'thread' of command @param is not found in the argument list of PLATFORM_createThread(pthread_t *arg1, const pthread_attr_t *arg2, void *(*thread_function)(void *), void *arg4)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1149: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_createThread(pthread_t *arg1, const pthread_attr_t *arg2, void *(*thread_function)(void *), void *arg4)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1149: warning: argument 'arg' of command @param is not found in the argument list of PLATFORM_createThread(pthread_t *arg1, const pthread_attr_t *arg2, void *(*thread_function)(void *), void *arg4)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1149: warning: The following parameters of PLATFORM_createThread(pthread_t *arg1, const pthread_attr_t *arg2, void *(*thread_function)(void *), void *arg4) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+  parameter 'arg4'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1579: warning: argument 'condVar' of command @param is not found in the argument list of PLATFORM_destroyCondVar(pthread_cond_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1579: warning: The following parameters of PLATFORM_destroyCondVar(pthread_cond_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1433: warning: argument 'mutex' of command @param is not found in the argument list of PLATFORM_destroyMutex(pthread_mutex_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1433: warning: The following parameters of PLATFORM_destroyMutex(pthread_mutex_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1420: warning: argument 'mutexAttr' of command @param is not found in the argument list of PLATFORM_destroyMutexAttr(pthread_mutexattr_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1420: warning: The following parameters of PLATFORM_destroyMutexAttr(pthread_mutexattr_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1202: warning: argument 'thread1' of command @param is not found in the argument list of PLATFORM_equalThread(pthread_t arg1, pthread_t arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1202: warning: argument 'thread2' of command @param is not found in the argument list of PLATFORM_equalThread(pthread_t arg1, pthread_t arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1202: warning: The following parameters of PLATFORM_equalThread(pthread_t arg1, pthread_t arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1488: warning: argument 'condVar' of command @param is not found in the argument list of PLATFORM_initCondVar(pthread_cond_t *arg1, const pthread_condattr_t *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1488: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_initCondVar(pthread_cond_t *arg1, const pthread_condattr_t *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1488: warning: The following parameters of PLATFORM_initCondVar(pthread_cond_t *arg1, const pthread_condattr_t *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1502: warning: argument 'condVar' of command @param is not found in the argument list of PLATFORM_initCondVarAttr(pthread_condattr_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1502: warning: The following parameters of PLATFORM_initCondVarAttr(pthread_condattr_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1361: warning: argument 'mutex' of command @param is not found in the argument list of PLATFORM_initMutex(pthread_mutex_t *arg1, const pthread_mutexattr_t *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1361: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_initMutex(pthread_mutex_t *arg1, const pthread_mutexattr_t *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1361: warning: The following parameters of PLATFORM_initMutex(pthread_mutex_t *arg1, const pthread_mutexattr_t *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1372: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_initMutexAttr(pthread_mutexattr_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1372: warning: The following parameters of PLATFORM_initMutexAttr(pthread_mutexattr_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1264: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_initThreadAttr(pthread_attr_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1264: warning: The following parameters of PLATFORM_initThreadAttr(pthread_attr_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1165: warning: argument 'thread' of command @param is not found in the argument list of PLATFORM_joinThread(pthread_t arg1, void **arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1165: warning: argument 'status' of command @param is not found in the argument list of PLATFORM_joinThread(pthread_t arg1, void **arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1165: warning: The following parameters of PLATFORM_joinThread(pthread_t arg1, void **arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1446: warning: argument 'mutex' of command @param is not found in the argument list of PLATFORM_lockMutex(pthread_mutex_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1446: warning: The following parameters of PLATFORM_lockMutex(pthread_mutex_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1187: warning: argument 'once_control' of command @param is not found in the argument list of PLATFORM_pthread_once(pthread_once_t *arg1, void(*thread_function)(void))
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1187: warning: The following parameters of PLATFORM_pthread_once(pthread_once_t *arg1, void(*thread_function)(void)) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1237: warning: argument 'policy' of command @param is not found in the argument list of PLATFORM_sched_get_priority_max(JITNINT arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1237: warning: The following parameters of PLATFORM_sched_get_priority_max(JITNINT arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1249: warning: argument 'policy' of command @param is not found in the argument list of PLATFORM_sched_get_priority_min(JITNINT arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1249: warning: The following parameters of PLATFORM_sched_get_priority_min(JITNINT arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1515: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setCondVarAttr_pshared(pthread_condattr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1515: warning: argument 'pshared' of command @param is not found in the argument list of PLATFORM_setCondVarAttr_pshared(pthread_condattr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1515: warning: The following parameters of PLATFORM_setCondVarAttr_pshared(pthread_condattr_t *arg1, JITNINT arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1383: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setMutexAttr_pshared(pthread_mutexattr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1383: warning: argument 'pshared' of command @param is not found in the argument list of PLATFORM_setMutexAttr_pshared(pthread_mutexattr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1383: warning: The following parameters of PLATFORM_setMutexAttr_pshared(pthread_mutexattr_t *arg1, JITNINT arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1402: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setMutexAttr_type(pthread_mutexattr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1402: warning: argument 'type' of command @param is not found in the argument list of PLATFORM_setMutexAttr_type(pthread_mutexattr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1402: warning: The following parameters of PLATFORM_setMutexAttr_type(pthread_mutexattr_t *arg1, JITNINT arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1307: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setThreadAttr_inheritsched(pthread_attr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1307: warning: argument 'inheritsched' of command @param is not found in the argument list of PLATFORM_setThreadAttr_inheritsched(pthread_attr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1307: warning: The following parameters of PLATFORM_setThreadAttr_inheritsched(pthread_attr_t *arg1, JITNINT arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1324: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setThreadAttr_schedparam(pthread_attr_t *arg1, const struct sched_param *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1324: warning: argument 'param' of command @param is not found in the argument list of PLATFORM_setThreadAttr_schedparam(pthread_attr_t *arg1, const struct sched_param *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1324: warning: The following parameters of PLATFORM_setThreadAttr_schedparam(pthread_attr_t *arg1, const struct sched_param *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1340: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setThreadAttr_schedpolicy(pthread_attr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1340: warning: argument 'policy' of command @param is not found in the argument list of PLATFORM_setThreadAttr_schedpolicy(pthread_attr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1340: warning: The following parameters of PLATFORM_setThreadAttr_schedpolicy(pthread_attr_t *arg1, JITNINT arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1274: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setThreadAttr_scope(pthread_attr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1274: warning: argument 'scope' of command @param is not found in the argument list of PLATFORM_setThreadAttr_scope(pthread_attr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1274: warning: The following parameters of PLATFORM_setThreadAttr_scope(pthread_attr_t *arg1, JITNINT arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1294: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setThreadAttr_stackSize(pthread_attr_t *arg1, size_t arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1294: warning: argument 'stacksize' of command @param is not found in the argument list of PLATFORM_setThreadAttr_stackSize(pthread_attr_t *arg1, size_t arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1294: warning: The following parameters of PLATFORM_setThreadAttr_stackSize(pthread_attr_t *arg1, size_t arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1549: warning: argument 'condVar' of command @param is not found in the argument list of PLATFORM_signalCondVar(pthread_cond_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1549: warning: The following parameters of PLATFORM_signalCondVar(pthread_cond_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1459: warning: argument 'mutex' of command @param is not found in the argument list of PLATFORM_trylockMutex(pthread_mutex_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1459: warning: The following parameters of PLATFORM_trylockMutex(pthread_mutex_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1472: warning: argument 'mutex' of command @param is not found in the argument list of PLATFORM_unlockMutex(pthread_mutex_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1472: warning: The following parameters of PLATFORM_unlockMutex(pthread_mutex_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1532: warning: argument 'condVar' of command @param is not found in the argument list of PLATFORM_waitCondVar(pthread_cond_t *arg1, pthread_mutex_t *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1532: warning: argument 'mutex' of command @param is not found in the argument list of PLATFORM_waitCondVar(pthread_cond_t *arg1, pthread_mutex_t *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1532: warning: The following parameters of PLATFORM_waitCondVar(pthread_cond_t *arg1, pthread_mutex_t *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1237: warning: argument 'policy' of command @param is not found in the argument list of PLATFORM_sched_get_priority_max(JITNINT arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1237: warning: The following parameters of PLATFORM_sched_get_priority_max(JITNINT arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1249: warning: argument 'policy' of command @param is not found in the argument list of PLATFORM_sched_get_priority_min(JITNINT arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1249: warning: The following parameters of PLATFORM_sched_get_priority_min(JITNINT arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1264: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_initThreadAttr(pthread_attr_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1264: warning: The following parameters of PLATFORM_initThreadAttr(pthread_attr_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1307: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setThreadAttr_inheritsched(pthread_attr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1307: warning: argument 'inheritsched' of command @param is not found in the argument list of PLATFORM_setThreadAttr_inheritsched(pthread_attr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1307: warning: The following parameters of PLATFORM_setThreadAttr_inheritsched(pthread_attr_t *arg1, JITNINT arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1324: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setThreadAttr_schedparam(pthread_attr_t *arg1, const struct sched_param *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1324: warning: argument 'param' of command @param is not found in the argument list of PLATFORM_setThreadAttr_schedparam(pthread_attr_t *arg1, const struct sched_param *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1324: warning: The following parameters of PLATFORM_setThreadAttr_schedparam(pthread_attr_t *arg1, const struct sched_param *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1340: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setThreadAttr_schedpolicy(pthread_attr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1340: warning: argument 'policy' of command @param is not found in the argument list of PLATFORM_setThreadAttr_schedpolicy(pthread_attr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1340: warning: The following parameters of PLATFORM_setThreadAttr_schedpolicy(pthread_attr_t *arg1, JITNINT arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1274: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setThreadAttr_scope(pthread_attr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1274: warning: argument 'scope' of command @param is not found in the argument list of PLATFORM_setThreadAttr_scope(pthread_attr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1274: warning: The following parameters of PLATFORM_setThreadAttr_scope(pthread_attr_t *arg1, JITNINT arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1294: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setThreadAttr_stackSize(pthread_attr_t *arg1, size_t arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1294: warning: argument 'stacksize' of command @param is not found in the argument list of PLATFORM_setThreadAttr_stackSize(pthread_attr_t *arg1, size_t arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1294: warning: The following parameters of PLATFORM_setThreadAttr_stackSize(pthread_attr_t *arg1, size_t arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1433: warning: argument 'mutex' of command @param is not found in the argument list of PLATFORM_destroyMutex(pthread_mutex_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1433: warning: The following parameters of PLATFORM_destroyMutex(pthread_mutex_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1420: warning: argument 'mutexAttr' of command @param is not found in the argument list of PLATFORM_destroyMutexAttr(pthread_mutexattr_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1420: warning: The following parameters of PLATFORM_destroyMutexAttr(pthread_mutexattr_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1361: warning: argument 'mutex' of command @param is not found in the argument list of PLATFORM_initMutex(pthread_mutex_t *arg1, const pthread_mutexattr_t *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1361: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_initMutex(pthread_mutex_t *arg1, const pthread_mutexattr_t *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1361: warning: The following parameters of PLATFORM_initMutex(pthread_mutex_t *arg1, const pthread_mutexattr_t *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1372: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_initMutexAttr(pthread_mutexattr_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1372: warning: The following parameters of PLATFORM_initMutexAttr(pthread_mutexattr_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1446: warning: argument 'mutex' of command @param is not found in the argument list of PLATFORM_lockMutex(pthread_mutex_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1446: warning: The following parameters of PLATFORM_lockMutex(pthread_mutex_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1383: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setMutexAttr_pshared(pthread_mutexattr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1383: warning: argument 'pshared' of command @param is not found in the argument list of PLATFORM_setMutexAttr_pshared(pthread_mutexattr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1383: warning: The following parameters of PLATFORM_setMutexAttr_pshared(pthread_mutexattr_t *arg1, JITNINT arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1402: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setMutexAttr_type(pthread_mutexattr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1402: warning: argument 'type' of command @param is not found in the argument list of PLATFORM_setMutexAttr_type(pthread_mutexattr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1402: warning: The following parameters of PLATFORM_setMutexAttr_type(pthread_mutexattr_t *arg1, JITNINT arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1459: warning: argument 'mutex' of command @param is not found in the argument list of PLATFORM_trylockMutex(pthread_mutex_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1459: warning: The following parameters of PLATFORM_trylockMutex(pthread_mutex_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1472: warning: argument 'mutex' of command @param is not found in the argument list of PLATFORM_unlockMutex(pthread_mutex_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1472: warning: The following parameters of PLATFORM_unlockMutex(pthread_mutex_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1564: warning: argument 'condVar' of command @param is not found in the argument list of PLATFORM_broadcastCondVar(pthread_cond_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1564: warning: The following parameters of PLATFORM_broadcastCondVar(pthread_cond_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1579: warning: argument 'condVar' of command @param is not found in the argument list of PLATFORM_destroyCondVar(pthread_cond_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1579: warning: The following parameters of PLATFORM_destroyCondVar(pthread_cond_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1488: warning: argument 'condVar' of command @param is not found in the argument list of PLATFORM_initCondVar(pthread_cond_t *arg1, const pthread_condattr_t *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1488: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_initCondVar(pthread_cond_t *arg1, const pthread_condattr_t *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1488: warning: The following parameters of PLATFORM_initCondVar(pthread_cond_t *arg1, const pthread_condattr_t *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1502: warning: argument 'condVar' of command @param is not found in the argument list of PLATFORM_initCondVarAttr(pthread_condattr_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1502: warning: The following parameters of PLATFORM_initCondVarAttr(pthread_condattr_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1515: warning: argument 'attr' of command @param is not found in the argument list of PLATFORM_setCondVarAttr_pshared(pthread_condattr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1515: warning: argument 'pshared' of command @param is not found in the argument list of PLATFORM_setCondVarAttr_pshared(pthread_condattr_t *arg1, JITNINT arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1515: warning: The following parameters of PLATFORM_setCondVarAttr_pshared(pthread_condattr_t *arg1, JITNINT arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1549: warning: argument 'condVar' of command @param is not found in the argument list of PLATFORM_signalCondVar(pthread_cond_t *arg1)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1549: warning: The following parameters of PLATFORM_signalCondVar(pthread_cond_t *arg1) are not documented:
+  parameter 'arg1'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1532: warning: argument 'condVar' of command @param is not found in the argument list of PLATFORM_waitCondVar(pthread_cond_t *arg1, pthread_mutex_t *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1532: warning: argument 'mutex' of command @param is not found in the argument list of PLATFORM_waitCondVar(pthread_cond_t *arg1, pthread_mutex_t *arg2)
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:1532: warning: The following parameters of PLATFORM_waitCondVar(pthread_cond_t *arg1, pthread_mutex_t *arg2) are not documented:
+  parameter 'arg1'
+  parameter 'arg2'
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:903: warning: parameters of member PLATFORM_getOptArg are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/libplatform/src/platform_API.h:955: warning: The following parameters of PLATFORM_posix_memalign(void **memptr, size_t alignment, size_t size) are not documented:
+  parameter 'alignment'
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2012: warning: parameters of member xanHashTable_setCloneFunction are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2063: warning: parameters of member xanHashTable_syncElementsInside are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2063: warning: return type of member xanHashTable_syncElementsInside is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2049: warning: return type of member xanHashTable_syncFirst is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2042: warning: The following parameters of xanHashTable_syncLookup(XanHashTable *table, void *key) are not documented:
+  parameter 'key'
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2056: warning: The following parameters of xanHashTable_syncNext(XanHashTable *table, XanHashTableItem *item) are not documented:
+  parameter 'item'
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2056: warning: return type of member xanHashTable_syncNext is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2129: warning: The following parameters of xanHashTable_syncSetCloneFunction(XanHashTable *table, void *(*cloneFunction)(void *data)) are not documented:
+  parameter 'cloneFunction'
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:1945: warning: parameters of member xanHashTable_cloneTable are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2112: warning: return type of member xanHashTable_syncCloneTable is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2035: warning: The following parameters of xanHashTable_syncInsert(XanHashTable *table, void *key, void *element) are not documented:
+  parameter 'key'
+  parameter 'element'
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2070: warning: The following parameters of xanHashTable_syncRemoveElement(XanHashTable *table, void *key) are not documented:
+  parameter 'key'
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2105: warning: return type of member XanHashTable_syncToItemList is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2091: warning: return type of member XanHashTable_syncToKeyList is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2084: warning: return type of member xanHashTable_syncToList is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2098: warning: return type of member xanHashTable_syncToSlotList is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:1937: warning: parameters of member xanHashTable_toDataArray are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:1916: warning: parameters of member xanHashTable_toItemList are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:1916: warning: return type of member xanHashTable_toItemList is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:1929: warning: parameters of member xanHashTable_toKeyArray are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:1898: warning: parameters of member xanHashTable_toKeyList are not (all) documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:1898: warning: return type of member xanHashTable_toKeyList is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:1906: warning: return type of member xanHashTable_toSlotList is not documented
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2241: warning: The following parameters of xanGraph_new(void *(*allocFunction)(size_t size), void(*freeFunction)(void *addr), void *(*reallocFunction)(void *addr, size_t newSize), void *data) are not documented:
+  parameter 'reallocFunction'
+  parameter 'data'
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2532: warning: Found unknown command `\dest'
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2636: warning: Found unknown command `\cr'
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2532: warning: Found unknown command `\dest'
+/home/xan/Projects/ILDJIT/Src/ildjit/xanlib/src/xanlib.h:2636: warning: Found unknown command `\cr'

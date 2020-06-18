@@ -1,0 +1,9 @@
+#!/bin/bash
+
+PACKAGES="libplatform xanlib libcompilermemorymanager libiljitu libpluginmanager libiljitsm libiljitmm libiljitil libilbinary libirmanager libiljitiroptimizer libiljitgc ` ls | grep libirvirtualmachine` libclimanager libdla libmanfred libcore ildjit iljit-ecmasoft libdominance libhelixexecutionmodel libchiara libspeculation libhwmodel libcam `ls | grep \"clr\"` `ls | grep \"iljit-gc-\"` `ls | grep \"optimization_levels-\"` `ls | grep \"optimizer-\"`  "
+
+rm  -f listOfAllModules
+
+for i in $PACKAGES ; do
+	echo "$i" >> listOfAllModules
+done

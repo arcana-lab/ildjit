@@ -1,0 +1,44 @@
+AIKA
+---------------------------------------------------
+AIKA -> AIKA: Ildjit Keeping Application |
+	Advanced Ildjit Keeper named AIKA
+---------------------------------------------------
+This is the installer for the ILDJIT system
+
+During the installation you will be requested to specify the path to some directories:
+
+1. Source Directory: the folder where you want to download the ILDJIT source code.
+
+2. PnetLib Installation Directory: the folder where you previously installed PnetLib
+(distributed inside the Portable.NET project).
+You can download it from: 
+
+http://www.dotgnu.org/pnet-packages.html
+
+3. Installation Directory: the folder where you want to install ILDJIT.
+
+Before the actual installation you can specify some configuration options.
+
+At the end of the installation you will be asked if you want to upgrade your .bashrc file
+with the new environment variables. The following lines will be appended:
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:ILDJIT_INSTALLATION_PATH:ILDJIT_INSTALLATION_PATH/lib:ILDJIT_INSTALLATION_PATH/lib/iljit
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:ILDJIT_INSTALLATION_PATH/lib/pkgconfig
+export PATH=$PATH:ILDJIT_INSTALLATION_PATH/bin
+export ILDJIT_PATH=PNET_INSTALLATION_PATH/lib/cscc/lib
+
+This modification is strongly recommended in order to have your ILDJIT immediately available.
+
+Please do not modify the source folder after the installation. In particular do not modify the
+names of the folders, in order to preserve the actual installed version.
+
+---------------------------------------------------
+
+While performing upgrade or rebuild be sure to specify the correct source and installation folders.
+During the upgrade please specify the same configure options of the previous installed version.
+You can obtain them with 'iljit -C'.
+
+---------------------------------------------------
+Author
+
+Alberto Magni     <alberto.magni86@gmail.com> 

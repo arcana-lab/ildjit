@@ -1,0 +1,5 @@
+optimizer-deadcode (0.2.1-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Leonardo Mino' <oaexpert@gmail.com>  Thu, 08 Jul 2010 16:24:17 +0200

@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@/iljit
+includedir=@includedir@/iljit
+
+Name: libchache
+Description: TODO
+Version: @VERSION@
+Libs: -L${libdir} -lhwmodel
+Cflags: -I${includedir}

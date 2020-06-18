@@ -1,0 +1,14 @@
+#!/bin/bash
+
+host=bzr+ssh://ildjit@rugen.eecs.harvard.edu/home/ildjit/bzr
+
+for i in `cat listOfAllModules`
+do
+	cd $i
+	if test -d .bzr ; then
+		echo "Pushing $i"
+		bzr push --remember $host/$i
+	fi
+	cd ..
+done
+echo All done

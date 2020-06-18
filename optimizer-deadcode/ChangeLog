@@ -1,0 +1,474 @@
+2014-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed end finally instructions if they are deadcode.
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy
+
+2014-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the algorithm by computing all possible changes before applying them to avoid recomputing data flow analyses.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2013-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new option
+
+2013-05-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved code.
+
+2013-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib.
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use IRMOVE instead of IRSTORE
+
+2012-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enabled deadmethod optimization only if the static compilation scheme is used
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the debug_deadmethods option
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed about deleting dead methods.
+
+2012-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable the dead methods for now
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the deadmethods algorithm
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Started the implementation of the dead methods elimination
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reorganize the code to add program deadcode
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-09-27  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link the plugin with libchiara
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the API to compute native type size
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapted the plugin to the new codetool API.
+
+2012-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the instructions cleaner
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the full API
+
+2012-03-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the internal type settings.
+	Code restructuring.
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-10-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove useless IRSTORE
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new APIs
+
+2011-08-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the algorithm by merging the labels.
+
+2011-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-13   Committer: Luca  <luca@turbo> 
+
+	adapt to new IR API
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean correctly the memory
+
+2010-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the deadcode elimination
+
+2010-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the remotion of unreachable code.
+
+2010-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the function internal_removeCatchBlocks: IRSTARTFINALLY should be considered as labels.
+	Bug fixing within the function internal_deleteCodeUnreachable: We cannot remove IRENDFINALLY instructions.
+
+2010-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use fields rather than calls to API of XanLib
+
+2010-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the type conversion
+
+2010-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of Libiljitir
+
+2010-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-24  Luca  <luca@ops-notebook>
+
+	Use the new API of Libiljitir
+
+2010-09-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add checking instructions after every code transformation
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Michy's work
+
+2010-09-22  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Merge with Simone's work
+
+2010-09-22  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Automatic dependency solving for optimizers
+
+2010-09-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing: do not delete instructions that can throw exception
+
+2010-09-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the case where the label refers to IRSTARTFINALLY
+
+2010-09-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improve the not useful conversions optimization.
+
+2010-09-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the optimization to remove every catch block that refer to a not anymore existing try block.
+
+2010-09-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-08-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of both Libiljitir and Libiljitiroptimizer
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-03  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-08-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with the debian package work.
+
+2010-07-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Consider also the result variable
+
+2010-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the transformation
+
+2010-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	merge works
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-05-09  Luca  <luca@ops-notebook>
+
+	set initial hashtable size to prime number
+
+2010-04-28  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Fix CFLAGS
+
+2010-04-27  Luca  <luca@ops-notebook>
+
+	adapt to new XanHashTable iterator
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt the code for the remotion of the 4-th IR parameter of IR instructions
+
+2010-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.1
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Michele Tartara 2010-02-09 Introduced support for a single exit node in the CFG
+
+2010-02-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Introduced support for a single exit node in the CFG
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the uses of the new IR instruction type IRLIBRARYCALL
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimization IDs 64 bits
+
+2010-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+	
+	
+	removed:
+	HACKING
+	configure.in
+	added:
+	configure.ac
+	modified:
+	ChangeLog
+	Makefile.am
+	src/optimizer_deadcode.c
+	unknown:
+	clean
+
+2010-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/optimizer_deadcode.c
+	unknown:
+	clean
+
+2010-01-14  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Initial commit
+

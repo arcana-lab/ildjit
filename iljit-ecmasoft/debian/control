@@ -1,0 +1,13 @@
+Source: iljit-ecmasoft-decoder
+Section: iljit-plugin
+Priority: extra
+Maintainer: Leonardo Mino' <oaexpert@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libiljitu-dev, libxan-dev, libglib2.0-0, libiljitsm-dev, libgl1-mesa-glx, mime-support, locales, libc6-i686, libasound2, pkg-config, libpcre3, libiljitmm-dev, gawk
+Standards-Version: 3.8.3
+Homepage: http://ildjit.sourceforge.net
+
+Package: iljit-ecmasoft-decoder-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: iljit-ecmasoft-decoder
+ This is the loader for the iljit project respect the standard ECMA 335

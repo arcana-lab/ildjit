@@ -1,0 +1,17 @@
+#!/bin/bash
+
+declare filename=$1
+declare num
+
+# Test the input
+if test $# -ne 1 ; then
+	echo "Usage `basename $0` FILENAME"
+	exit 1
+fi
+
+# Compute and print the frequencies of lines
+while read line
+do
+	num=$(echo "`cat $filename`" | grep -F -c "$line")
+	echo "($num) $line"
+done < <(sort -u $filename)

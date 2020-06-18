@@ -1,0 +1,11 @@
+Making install in src
+make[1]: Entering directory `/home/xan/Projects/ILDJIT/Src/ildjit/libcam/src'
+/bin/bash ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -std=c++0x -Wall -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/xan/System/include   -I/home/xan/System/include   -I ./intervaltree/    -O3 -DNDEBUG       -m32 -Wall -c -o MemoryTracer.lo MemoryTracer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -std=c++0x -Wall -I../include -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/xan/System/include -I/home/xan/System/include -I ./intervaltree/ -O3 -DNDEBUG -m32 -Wall -c MemoryTracer.cpp  -fPIC -DPIC -o .libs/MemoryTracer.o
+MemoryTracer.cpp:1:19: fatal error: bzlib.h: No such file or directory
+ #include <bzlib.h>
+                   ^
+compilation terminated.
+make[1]: *** [MemoryTracer.lo] Error 1
+make[1]: Leaving directory `/home/xan/Projects/ILDJIT/Src/ildjit/libcam/src'
+make: *** [install-recursive] Error 1

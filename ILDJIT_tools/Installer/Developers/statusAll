@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for i in `cat listOfAllModules`
+do
+	cd $i
+	echo "$i"
+	bzr status -V
+	cd ..
+done
+echo All done

@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@/iljit
+includedir=@includedir@/iljit
+
+Name: libpluginmanager
+Description: Plugin manager for ILDJIT framework
+Version: @VERSION@
+Libs: -L${libdir} -lpluginmanager
+Cflags: -I${includedir}

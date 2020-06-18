@@ -1,0 +1,179 @@
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a missed endif
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Declare the GNU source. This is necessary to avoid the limits.h problem.
+
+2014-02-17  Simone Campanoni  <xan@bubba.eecs.harvard.edu>
+
+	Removed the wrong inclusion of limits.h (_ISOC99_SOURCE has to be defined before it) because it is included by platform_API.h properly already.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use IRMOVE instead of IRSTORE
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapted the plugin to the new codetool API.
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-01-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implement the extended API
+
+2011-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix the name
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-10-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Include IRPOW 
+
+2011-02-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the limits.h include
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-24  Luca  <luca@ops-notebook>
+
+	Use the new API of Libiljitir
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Michy's work
+
+2010-09-22  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Automatic dependency solving for optimizers
+
+2010-09-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing.
+	Improve the optimization
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with the debian package work
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-07-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix CFLAGS
+
+2010-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.1
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move the optimization IDs to 64 bit
+
+2010-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+	
+	modified:
+	ChangeLog
+	configure.ac
+	unknown:
+	clean
+
+2010-01-14  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Initial commit
+

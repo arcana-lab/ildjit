@@ -1,0 +1,26 @@
+Making all in src
+make[1]: Entering directory `/home/mikyt/cvs/optimizer-copypropagation/src'
+make  all-am
+make[2]: Entering directory `/home/mikyt/cvs/optimizer-copypropagation/src'
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.    -I/home/mikyt/ildjit/include/iljit   -I/home/mikyt/ildjit/include   -I/home/mikyt/ildjit/include/iljit   -I/home/mikyt/ildjit/include/iljit      -DNDEBUG -O3 -Wall -MT misc.lo -MD -MP -MF ".deps/misc.Tpo" -c -o misc.lo misc.c; \
+	then mv -f ".deps/misc.Tpo" ".deps/misc.Plo"; else rm -f ".deps/misc.Tpo"; exit 1; fi
+if /bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.    -I/home/mikyt/ildjit/include/iljit   -I/home/mikyt/ildjit/include   -I/home/mikyt/ildjit/include/iljit   -I/home/mikyt/ildjit/include/iljit      -DNDEBUG -O3 -Wall -MT copy_propagation.lo -MD -MP -MF ".deps/copy_propagation.Tpo" -c -o copy_propagation.lo copy_propagation.c; \
+	then mv -f ".deps/copy_propagation.Tpo" ".deps/copy_propagation.Plo"; else rm -f ".deps/copy_propagation.Tpo"; exit 1; fi
+mkdir .libs
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -I/home/mikyt/ildjit/include/iljit -I/home/mikyt/ildjit/include -I/home/mikyt/ildjit/include/iljit -I/home/mikyt/ildjit/include/iljit -DNDEBUG -O3 -Wall -MT copy_propagation.lo -MD -MP -MF .deps/copy_propagation.Tpo -c copy_propagation.c  -fPIC -DPIC -o .libs/copy_propagation.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -I/home/mikyt/ildjit/include/iljit -I/home/mikyt/ildjit/include -I/home/mikyt/ildjit/include/iljit -I/home/mikyt/ildjit/include/iljit -DNDEBUG -O3 -Wall -MT misc.lo -MD -MP -MF .deps/misc.Tpo -c misc.c  -fPIC -DPIC -o .libs/misc.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -I/home/mikyt/ildjit/include/iljit -I/home/mikyt/ildjit/include -I/home/mikyt/ildjit/include/iljit -I/home/mikyt/ildjit/include/iljit -DNDEBUG -O3 -Wall -MT misc.lo -MD -MP -MF .deps/misc.Tpo -c misc.c -o misc.o >/dev/null 2>&1
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -I/home/mikyt/ildjit/include/iljit -I/home/mikyt/ildjit/include -I/home/mikyt/ildjit/include/iljit -I/home/mikyt/ildjit/include/iljit -DNDEBUG -O3 -Wall -MT copy_propagation.lo -MD -MP -MF .deps/copy_propagation.Tpo -c copy_propagation.c -o copy_propagation.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=link gcc -I/home/mikyt/ildjit/include/iljit   -I/home/mikyt/ildjit/include   -I/home/mikyt/ildjit/include/iljit   -I/home/mikyt/ildjit/include/iljit      -DNDEBUG -O3 -Wall   -o optimizer_copypropagation.la -rpath /home/mikyt/ildjit/lib/iljit/optimizers -module -avoid_version  copy_propagation.lo misc.lo -L/home/mikyt/ildjit/lib/iljit -liljitu   -L/home/mikyt/ildjit/lib -lxan   -L/home/mikyt/ildjit/lib/iljit -liljitiroptimizer   -L/home/mikyt/ildjit/lib/iljit -liljitir   
+gcc -shared  .libs/copy_propagation.o .libs/misc.o  -Wl,--rpath -Wl,/home/mikyt/ildjit/lib/iljit -Wl,--rpath -Wl,/home/mikyt/ildjit/lib -Wl,--rpath -Wl,/home/mikyt/ildjit/lib/iljit -Wl,--rpath -Wl,/home/mikyt/ildjit/lib -L/home/mikyt/ildjit/lib/iljit /home/mikyt/ildjit/lib/iljit/libiljitu.so -L/home/mikyt/ildjit/lib -L/usr/lib /home/mikyt/ildjit/lib/libxan.so /home/mikyt/ildjit/lib/iljit/libiljitiroptimizer.so /home/mikyt/ildjit/lib/iljit/libiljitir.so  -Wl,-soname -Wl,optimizer_copypropagation.so.0 -o .libs/optimizer_copypropagation.so.0.0.0
+(cd .libs && rm -f optimizer_copypropagation.so.0 && ln -s optimizer_copypropagation.so.0.0.0 optimizer_copypropagation.so.0)
+(cd .libs && rm -f optimizer_copypropagation.so && ln -s optimizer_copypropagation.so.0.0.0 optimizer_copypropagation.so)
+ar cru .libs/optimizer_copypropagation.a  copy_propagation.o misc.o
+ranlib .libs/optimizer_copypropagation.a
+creating optimizer_copypropagation.la
+(cd .libs && rm -f optimizer_copypropagation.la && ln -s ../optimizer_copypropagation.la optimizer_copypropagation.la)
+make[2]: Leaving directory `/home/mikyt/cvs/optimizer-copypropagation/src'
+make[1]: Leaving directory `/home/mikyt/cvs/optimizer-copypropagation/src'
+make[1]: Entering directory `/home/mikyt/cvs/optimizer-copypropagation'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/home/mikyt/cvs/optimizer-copypropagation'

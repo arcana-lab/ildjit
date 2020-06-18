@@ -1,0 +1,21 @@
+Source: libiljitir
+Priority: extra
+Maintainer: Leonardo Mino' <oaexpert@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libiljitu-dev, libxan-dev, libcompilermemorymanager-dev, libglib2.0-0, libgl1-mesa-glx, mime-support, locales, libc6-i686, libasound2, pkg-config, libpcre3, libiljitmm-dev, gawk
+Standards-Version: 3.8.3
+Section: libs
+Homepage: http://ildjit.sourceforge.net
+
+Package: libiljitir-dev
+Section: libdevel
+Architecture: any
+Depends: libiljitir (= ${binary:Version})
+Description: Libiljitir
+ This is the library which describes the IR language for the ILDJIT project.
+
+Package: libiljitir
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Libiljitir
+ This is the library which describes the IR language for the ILDJIT project.

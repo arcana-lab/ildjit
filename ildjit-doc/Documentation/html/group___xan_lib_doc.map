@@ -1,0 +1,12 @@
+<map id="Data structure API" name="Data structure API">
+<area shape="rect" id="node1" href="$group___xan_list.html" title="List" alt="" coords="309,5,353,32"/>
+<area shape="rect" id="node2" href="$group___xan_pipe.html" title="Pipe" alt="" coords="307,56,355,83"/>
+<area shape="rect" id="node4" href="$group___xan_graph.html" title="Graph" alt="" coords="303,107,360,133"/>
+<area shape="rect" id="node5" href="$group___xan_node.html" title="Tree" alt="" coords="307,157,355,184"/>
+<area shape="rect" id="node7" href="$group___xan_hash_table.html" title="Hash Table" alt="" coords="287,208,375,235"/>
+<area shape="rect" id="node8" href="$group___xan_bit_set.html" title="Bitset" alt="" coords="303,259,359,285"/>
+<area shape="rect" id="node9" href="$group___xan_queue.html" title="Priority Queue" alt="" coords="280,309,383,336"/>
+<area shape="rect" id="node10" href="$group___xan_var.html" title="Variable" alt="" coords="297,360,366,387"/>
+<area shape="rect" id="node11" href="$group___xan_stack.html" title="Stack" alt="" coords="303,411,359,437"/>
+<area shape="rect" id="node6" href="$group___a_p_is.html" title="APIs" alt="" coords="5,208,56,235"/>
+</map>

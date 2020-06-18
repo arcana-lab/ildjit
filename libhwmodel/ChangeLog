@@ -1,0 +1,28 @@
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a useless file
+
+2013-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Export bpred.h
+
+2013-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename the library.
+
+2013-07-03  kevin
+
+	Branch predictor and cache model partial implementation
+
+2013-07-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	First init
+
+2013-07-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

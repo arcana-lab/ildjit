@@ -1,0 +1,21 @@
+Source: libiljitu
+Priority: extra
+Maintainer: Leonardo Mino' <oaexpert@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libcompilermemorymanager-dev, libglib2.0-0, libgl1-mesa-glx, mime-support, locales, libc6-i686, libasound2, pkg-config, libpcre3, libxan-dev, gawk
+Standards-Version: 3.8.3
+Section: libs
+Homepage: http://ildjit.sourceforge.net/
+
+Package: libiljitu-dev
+Section: libdevel
+Architecture: any
+Depends: libiljitu (= ${binary:Version})
+Description: libiljitu utils
+ This is the utils library for the ILDJIT project
+
+Package: libiljitu
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: libiljitu utils
+ This is the utils library for the ILDJIT project

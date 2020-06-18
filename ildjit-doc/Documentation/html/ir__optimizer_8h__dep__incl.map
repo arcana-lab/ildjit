@@ -1,0 +1,18 @@
+<map id="ir_optimizer.h" name="ir_optimizer.h">
+<area shape="rect" id="node2" href="$ir__optimization__interface_8h.html" title="ir_optimization_interface.h" alt="" coords="5,87,177,114"/>
+<area shape="rect" id="node3" href="$optimizations__utilities_8h_source.html" title="optimizations_utilities.h" alt="" coords="137,169,293,196"/>
+<area shape="rect" id="node4" href="$ir__optimization__levels__interface_8h_source.html" title="ir_optimization_levels\l_interface.h" alt="" coords="253,80,399,121"/>
+<area shape="rect" id="node5" href="$optimization__levels_8h_source.html" title="optimization_levels.h" alt="" coords="424,87,567,114"/>
+<area shape="rect" id="node6" href="$ir__virtual__machine_8h_source.html" title="ir_virtual_machine.h" alt="" coords="591,87,728,114"/>
+<area shape="rect" id="node7" href="$ildjit__system_8h_source.html" title="ildjit_system.h" alt="" coords="607,169,711,196"/>
+<area shape="rect" id="node8" href="$clr__interface_8h_source.html" title="clr_interface.h" alt="" coords="412,244,515,271"/>
+<area shape="rect" id="node9" href="$general__tools_8h_source.html" title="general_tools.h" alt="" coords="539,244,649,271"/>
+<area shape="rect" id="node10" href="$ildjit__profiler_8h_source.html" title="ildjit_profiler.h" alt="" coords="673,244,773,271"/>
+<area shape="rect" id="node11" href="$system__manager_8h.html" title="system_manager.h" alt="" coords="797,244,927,271"/>
+<area shape="rect" id="node12" href="$cil__ir__translator_8h.html" title="CIL&#45;&gt;IR translator. " alt="" coords="366,319,486,345"/>
+<area shape="rect" id="node13" href="$code__generator_8h_source.html" title="code_generator.h" alt="" coords="511,319,632,345"/>
+<area shape="rect" id="node14" href="$garbage__collector__interactions_8h.html" title="garbage_collector_interactions.h" alt="" coords="657,319,865,345"/>
+<area shape="rect" id="node15" href="$iljit__plugin__manager_8h_source.html" title="iljit_plugin_manager.h" alt="" coords="889,319,1035,345"/>
+<area shape="rect" id="node16" href="$loader_8h.html" title="loader.h" alt="" coords="1059,319,1126,345"/>
+<area shape="rect" id="node17" href="$runtime_8h_source.html" title="runtime.h" alt="" coords="1150,319,1225,345"/>
+</map>

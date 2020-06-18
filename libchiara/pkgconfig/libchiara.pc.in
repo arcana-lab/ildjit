@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@/iljit
+includedir=@includedir@/iljit
+
+Name: libchiara
+Description: Library ables to analyze loops of programs (intra- and inter-procedural analysis are included).
+Version: @VERSION@
+Libs: -L${libdir} -lchiara
+Cflags: -I${includedir}

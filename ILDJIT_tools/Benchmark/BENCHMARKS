@@ -1,0 +1,24 @@
+--------------------------------------------------------------------------------
+BENCHMARK       FILE NAME                       UNIQUE METHODS DEFINED EXECUTED
+--------------------------------------------------------------------------------
+Heapsort        JGFheapsort.exe                 
+FFT             JGFFFT.exe
+SparseMatmult   JGFSparseMatmult.exe
+RayTracer       JGFRayTracer.exe
+Euler           Euler.exe                       658
+Moldyn          Moldyn.exe                      151
+LU              SciMarkLU.exe
+Montecarlo      SciMarkMONTECARLO.exe
+SOR             SciMarkSOR.exe
+Linpack         Linpack.exe
+
+Bucketsort      pgm03_05.exe
+Horner          pgm03_01.exe
+
+FannKuch        FannKuch.exe
+MandelBrot      MandelBrot.exe
+BinaryTree      BinaryTree.exe
+
+DES             des.exe
+
+CAVLC decoder   hhimod.exe                      300

@@ -1,0 +1,22 @@
+<map id="ir_method.h" name="ir_method.h">
+<area shape="rect" id="node2" href="$ir__optimization__interface_8h.html" title="ir_optimization_interface.h" alt="" coords="197,162,369,189"/>
+<area shape="rect" id="node3" href="$optimizations__utilities_8h_source.html" title="optimizations_utilities.h" alt="" coords="113,244,269,271"/>
+<area shape="rect" id="node4" href="$ir__optimization__levels__interface_8h_source.html" title="ir_optimization_levels\l_interface.h" alt="" coords="25,155,172,196"/>
+<area shape="rect" id="node5" href="$ir__optimizer_8h.html" title="ir_optimizer.h" alt="" coords="320,80,419,107"/>
+<area shape="rect" id="node6" href="$optimization__levels_8h_source.html" title="optimization_levels.h" alt="" coords="606,162,749,189"/>
+<area shape="rect" id="node19" href="$ildjit_8h_source.html" title="ildjit.h" alt="" coords="494,80,549,107"/>
+<area shape="rect" id="node20" href="$ir__data_8h_source.html" title="ir_data.h" alt="" coords="573,80,643,107"/>
+<area shape="rect" id="node21" href="$ir__symbol_8h_source.html" title="ir_symbol.h" alt="" coords="667,80,754,107"/>
+<area shape="rect" id="node7" href="$ir__virtual__machine_8h_source.html" title="ir_virtual_machine.h" alt="" coords="445,162,582,189"/>
+<area shape="rect" id="node8" href="$ildjit__system_8h_source.html" title="ildjit_system.h" alt="" coords="461,244,565,271"/>
+<area shape="rect" id="node9" href="$clr__interface_8h_source.html" title="clr_interface.h" alt="" coords="266,319,369,345"/>
+<area shape="rect" id="node10" href="$general__tools_8h_source.html" title="general_tools.h" alt="" coords="393,319,503,345"/>
+<area shape="rect" id="node11" href="$ildjit__profiler_8h_source.html" title="ildjit_profiler.h" alt="" coords="527,319,627,345"/>
+<area shape="rect" id="node12" href="$system__manager_8h.html" title="system_manager.h" alt="" coords="651,319,781,345"/>
+<area shape="rect" id="node13" href="$cil__ir__translator_8h.html" title="CIL&#45;&gt;IR translator. " alt="" coords="220,393,340,420"/>
+<area shape="rect" id="node14" href="$code__generator_8h_source.html" title="code_generator.h" alt="" coords="365,393,486,420"/>
+<area shape="rect" id="node15" href="$garbage__collector__interactions_8h.html" title="garbage_collector_interactions.h" alt="" coords="511,393,719,420"/>
+<area shape="rect" id="node16" href="$iljit__plugin__manager_8h_source.html" title="iljit_plugin_manager.h" alt="" coords="743,393,889,420"/>
+<area shape="rect" id="node17" href="$loader_8h.html" title="loader.h" alt="" coords="913,393,980,420"/>
+<area shape="rect" id="node18" href="$runtime_8h_source.html" title="runtime.h" alt="" coords="1004,393,1079,420"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="List" name="List">
+<area shape="rect" id="node3" href="$group___xan_list_remove.html" title="Removing elements from\l a list" alt="" coords="273,5,439,47"/>
+<area shape="rect" id="node4" href="$group___xan_list_add.html" title="Adding new elements\l to a list" alt="" coords="283,71,429,112"/>
+<area shape="rect" id="node5" href="$group___xan_list_allocate.html" title="Allocate a new list" alt="" coords="293,137,419,163"/>
+<area shape="rect" id="node6" href="$group___xan_list_destroy.html" title="Destroy a list" alt="" coords="308,187,404,214"/>
+<area shape="rect" id="node7" href="$group___xan_list_conversion.html" title="Converting a list" alt="" coords="299,238,413,265"/>
+<area shape="rect" id="node2" href="$group___xan_lib_doc.html" title="Data structures. " alt="" coords="5,137,133,163"/>
+</map>

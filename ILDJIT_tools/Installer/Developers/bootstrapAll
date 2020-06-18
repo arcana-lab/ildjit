@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# ---------- MAIN ---------------
+for i in `cat listOfModules`
+do
+	cd $i
+	
+	./bootstrap
+	
+	if test $? -ne 0  ; then
+          echo "ERROR while bootstrapping " $i;
+          exit 1;
+        fi;
+	
+	cd ..
+done
+echo All done

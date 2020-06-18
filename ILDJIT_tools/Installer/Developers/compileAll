@@ -1,0 +1,53 @@
+#!/bin/bash
+
+#---------- Configuration: modify this to adapt it to your system -------
+INSTALL_DIR=$HOME/ildjit
+#------------------------------------------------------------------------
+
+
+#---------- Set options -----------------
+if test $# -eq 1; then
+	if test $1 = "D" ; then
+		DEBUGFLAG="--enable-debug"
+		echo "DEBUG mode enabled"
+	elif test $1 = "P" ; then
+		DEBUGFLAG="--enable-profile"
+		echo "PROFILE mode enabled"
+	else 
+		DEBUGFLAG=""
+		echo "No extra options activated"
+	fi
+fi
+#----------------------------------------
+#----------- Platform auto-detection ----
+if test `uname -m` = "arm"; then
+	echo -e "\nARM platform detected"
+	#PLATFORM_CONFIG_OPTIONS="CFLAGS=\"-mcpu=arm920 -msoft-float -mapcs-frame \""
+	PLATFORM_CONFIG_OPTIONS="CFLAGS=\"-mcpu=arm920 -mapcs-frame -U__SOFTFP__\""
+elif test `uname -m` = "x86_64"; then
+	echo -e "\nx86_64 platform detected"
+	PLATFORM_CONFIG_OPTIONS="CFLAGS=\"-m32\" CXXFLAGS=\"-m32\""
+else
+	PLATFORM_CONFIG_OPTIONS=""
+fi
+#----------------------------------------
+
+CONFIGURE_OPTIONS="--prefix=$INSTALL_DIR $PLATFORM_CONFIG_OPTIONS $DEBUGFLAG"
+
+for i in `cat listOfModules`
+do
+	cd $i
+	make distclean
+	echo "Compiling $i..."
+	if ! test -e ./configure  ; then
+		./bootstrap &> /dev/null
+	fi
+	eval ./configure $CONFIGURE_OPTIONS && make -j5 && make install
+	if test $? -ne 0 ; then
+          echo "ERROR while compiling " $i;
+          exit 1;
+        fi;
+	echo "Done"
+	cd ..
+done
+echo All done

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for i in `cat listOfModules` ; do
+	echo "Cleaning $i"
+	cd $i
+	make clean &> /dev/null
+	cd ..
+done

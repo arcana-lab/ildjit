@@ -1,0 +1,14 @@
+<map id="private_memory_pool.h" name="private_memory_pool.h">
+<area shape="rect" id="node2" href="$compiler__memory__manager_8h.html" title="compiler_memory_manager.h" alt="" coords="202,80,393,107"/>
+<area shape="rect" id="node3" href="$ildjit__system_8h_source.html" title="ildjit_system.h" alt="" coords="245,155,349,181"/>
+<area shape="rect" id="node4" href="$clr__interface_8h_source.html" title="clr_interface.h" alt="" coords="51,229,154,256"/>
+<area shape="rect" id="node5" href="$general__tools_8h_source.html" title="general_tools.h" alt="" coords="179,229,288,256"/>
+<area shape="rect" id="node6" href="$ildjit__profiler_8h_source.html" title="ildjit_profiler.h" alt="" coords="313,229,413,256"/>
+<area shape="rect" id="node7" href="$system__manager_8h.html" title="system_manager.h" alt="" coords="436,229,567,256"/>
+<area shape="rect" id="node8" href="$cil__ir__translator_8h.html" title="CIL&#45;&gt;IR translator. " alt="" coords="5,304,125,331"/>
+<area shape="rect" id="node9" href="$code__generator_8h_source.html" title="code_generator.h" alt="" coords="150,304,271,331"/>
+<area shape="rect" id="node10" href="$garbage__collector__interactions_8h.html" title="garbage_collector_interactions.h" alt="" coords="296,304,504,331"/>
+<area shape="rect" id="node11" href="$iljit__plugin__manager_8h_source.html" title="iljit_plugin_manager.h" alt="" coords="528,304,675,331"/>
+<area shape="rect" id="node12" href="$loader_8h.html" title="loader.h" alt="" coords="699,304,765,331"/>
+<area shape="rect" id="node13" href="$runtime_8h_source.html" title="runtime.h" alt="" coords="789,304,864,331"/>
+</map>

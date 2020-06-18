@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<list>
+  <repository url="http://heanet.dl.sourceforge.net/sourceforge/xanlib/" version_url="/home/alberto/libxan.html">
+    <package name="libxan" pack_name="libxan" type="tar.gz"/>
+  </repository>
+  <repository url="http://heanet.dl.sourceforge.net/sourceforge/ildjit/" version_url="/home/alberto/ildjit.html">
+    <package name="libiljitu" pack_name="libiljitu" type="tar.gz" father="libxan"/>
+    <package name="libiljitsm" pack_name="libiljitsm" type="tar.gz" father="libiljitu"/>
+    <package name="libiljitmm" pack_name="libiljitmm" type="tar.gz" father="libiljitsm"/>
+    <package name="libiljitir" pack_name="libiljitir" type="tar.gz" father="libiljitmm"/>
+    <package name="libiljitiroptimizer" pack_name="libiljitiroptimizer" type="tar.gz" father="libiljitir"/>
+    <package name="libiljitirprofiler" pack_name="libiljitirprofiler" type="tar.gz" father="libiljitiroptimizer"/>
+    <package name="iljit" pack_name="iljit" type="tar.gz" father="libiljitirprofiler"/>
+    <package name="iljit-ecmasoft-decoder" pack_name="iljit-ecmasoft-decoder" type="tar.gz" father="iljit"/>
+    <package name="iljit-gc-markandsweep" pack_name="iljit-gc-markandsweep" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+   </repository>
+</list>

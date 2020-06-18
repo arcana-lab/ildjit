@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in `ls Optimizations | grep "opti"` ; do
+	if ! test -L $i ; then
+		ln -s Optimizations/$i
+	fi
+done

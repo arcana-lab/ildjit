@@ -1,0 +1,5 @@
+<map id="XanGraphEdge" name="XanGraphEdge">
+<area shape="rect" id="node2" href="$struct_xan_graph_node.html" title="Graph nodeThis structure describes a node in a graph. " alt="" coords="17,199,128,225"/>
+<area shape="rect" id="node3" href="$struct_xan_hash_table.html" title="Hash tableThis structure implements the closed hash table. The equals, hash functions can be customiz..." alt="" coords="19,95,127,121"/>
+<area shape="rect" id="node4" href="$struct_xan_hash_table_item.html" title="Element of the hash table. " alt="" coords="5,5,140,32"/>
+</map>

@@ -1,0 +1,5 @@
+optimizer-constantpropagation (0.3.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Leonardo Mino' <oaexpert@gmail.com>  Thu, 08 Jul 2010 16:49:41 +0200

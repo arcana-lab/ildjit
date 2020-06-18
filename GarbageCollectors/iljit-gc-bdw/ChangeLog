@@ -1,0 +1,17 @@
+2005-11-08  Campanoni Simone  <simone.campanoni@tin.it>
+
+	* iljit_dotgnu_loader: initial version.
+
+2007-10-05 Campanoni Simone <simo.xan@gmail.com>
+	* configure.in: Add checking instruction for the presence of iljit
+	module
+
+2007-10-07 Campanoni Simone <simo.xan@gmail.com>
+	* *.[ch]: Rewrite the entire plugin to use the new garbage collector
+	interface specified by the iljit module.
+
+-------------------------------- 0.0.1.2
+2007-10-07 Campanoni Simone <simo.xan@gmail.com>
+	* configure.in: Add the check instruction for the bdw shared library.
+
+-------------------------------- 0.0.1.3

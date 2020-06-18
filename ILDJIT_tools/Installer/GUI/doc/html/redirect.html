@@ -1,0 +1,38 @@
+<html><head><title>Epydoc Redirect Page</title>
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="pragma" content="no-cache" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+<!--
+var pages = ["PyQt4.QtGui.QAbstractItemView.DropIndicatorPosition-c", "PyQt4.QtGui.QAbstractItemView.SelectionBehavior-c", "PyQt4.QtGui.QAbstractItemView.SelectionMode-c", "PyQt4.QtGui.QAbstractItemView.CursorAction-c", "PyQt4.QtGui.QAbstractItemView.DragDropMode-c", "PyQt4.QtGui.QAbstractItemView.EditTriggers-c", "PyQt4.QtGui.QPaintDevice.PaintDeviceMetric-c", "PyQt4.QtGui.QAbstractItemView.EditTrigger-c", "PyQt4.QtGui.QAbstractItemView.ScrollHint-c", "PyQt4.QtGui.QAbstractItemView.ScrollMode-c", "ui.AboutILDJITDialog.AboutILDJITDialog-c", "PyQt4.QtGui.QAbstractItemView.State-c", "PyQt4.QtGui.QMainWindow.DockOptions-c", "config.ConfigManager.NetworkManager-c", "PyQt4.QtGui.QMainWindow.DockOption-c", "config.ReqPackParser.ReqPackParser-c", "ui.DownTableWidget.DownTableWidget-c", "config.ConfigManager.ConfigParser-c", "ui.ProgressDialog.ProgressDialog-c", "PyQt4.QtGui.QWidget.RenderFlags-c", "PyQt4.QtGui.QDialog.DialogCode-c", "PyQt4.QtGui.QLineEdit.EchoMode-c", "PyQt4.QtGui.QWidget.RenderFlag-c", "config.TableParser.TableParser-c", "ui.ClickLineEdit.ClickLineEdit-c", "ui.UpgradeDialog.UpgradeDialog-c", "PyQt4.QtCore.QThread.Priority-c", "PyQt4.QtGui.QFrame.StyleMask-c", "logic.Downloader.Downloader-c", "ui.AboutDialog.AboutDialog-c", "ui.DownloadWid.DownloadWid-c", "ui.ErrorDialog.ErrorDialog-c", "PyQt4.QtGui.QFrame.Shadow-c", "config.ConfigManager.Node-c", "config.ConfigManager.Tree-c", "logic.Installer.Installer-c", "PyQt4.QtGui.QFrame.Shape-c", "ui.InstallWid.InstallWid-c", "ui.MainWindow.MainWindow-c", "ui.PackDialog.PackDialog-c", "config.ConfigManager-m", "config.ReqPackParser-m", "ui.AboutILDJITDialog-m", "ui.FirstWid.FirstWid-c", "config.TableParser-m", "ui.DownTableWidget-m", "ui.BashWid.BashWid-c", "ui.LastWid.LastWid-c", "ui.ProgressDialog-m", "logic.Downloader-m", "ui.ClickLineEdit-m", "ui.UpgradeDialog-m", "logic.Installer-m", "ui.AboutDialog-m", "ui.DownloadWid-m", "ui.ErrorDialog-m", "InstallILDJIT-m", "ui.InstallWid-m", "ui.MainWindow-m", "ui.PackDialog-m", "ui.FirstWid-m", "ui.BashWid-m", "ui.LastWid-m"];
+var dottedName = get_anchor();
+if (dottedName) {
+    var target = redirect_url(dottedName);
+    if (target) window.location.replace(target);
+}
+// -->
+</script>
+
+<h3>Epydoc Auto-redirect page</h3>
+
+<p>When javascript is enabled, this page will redirect URLs of
+the form <tt>redirect.html#<i>dotted.name</i></tt> to the
+documentation for the object with the given fully-qualified
+dotted name.</p>
+<p><a id="message"> &nbsp; </a></p>
+
+<script type="text/javascript">
+<!--
+if (dottedName) {
+    var msg = document.getElementById("message");
+    msg.innerHTML = "No documentation found for <tt>"+
+                    dottedName+"</tt>";
+}
+// -->
+</script>
+
+</body>
+</html>

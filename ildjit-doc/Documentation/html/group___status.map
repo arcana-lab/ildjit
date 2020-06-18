@@ -1,0 +1,5 @@
+<map id="Current status" name="Current status">
+<area shape="rect" id="node2" href="$group___platforms_status.html" title="Supported platforms" alt="" coords="289,5,428,32"/>
+<area shape="rect" id="node4" href="$group___dependences_status.html" title="Software dependences" alt="" coords="281,56,436,83"/>
+<area shape="rect" id="node3" href="$group___overview.html" title="Overview" alt="" coords="5,31,83,57"/>
+</map>

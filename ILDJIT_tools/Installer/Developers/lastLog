@@ -1,0 +1,25 @@
+#!/bin/bash
+
+for i in `cat listOfAllModules`
+do
+	cd $i
+
+	echo "$i"
+	bzr log -l1
+	echo ""
+
+	cd ..
+done
+
+echo "Not released"
+for i in `cat listOfAllModules`
+do
+	cd $i
+
+	bzr log -l1 | grep Version &> /dev/null ;
+	if test $? -ne 0 ; then
+		echo "$i"
+	fi
+
+	cd ..
+done

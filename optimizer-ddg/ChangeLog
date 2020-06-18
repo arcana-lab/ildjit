@@ -1,0 +1,244 @@
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRCALLINDIRECTCCTOR
+
+2010-10-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-10-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt with the new API
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt with the new interface
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Leonardo's work
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Merge with upstream
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make static the functions.
+
+2010-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-05-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-04-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-04-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+
+2010-04-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	FLAGS fix
+
+2010-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt with the new IR interface
+
+2010-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/optimizer_ddg.c
+
+2010-03-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-03-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Michele's work
+
+2010-03-08  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* src/*.c: Added support for alias analisys for filtering out false data dependencies
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add uses of the new IR instruction type IRLIBRARYCALL
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimizations IDs 64 bits
+
+2010-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	removed:
+	configure.ac
+	added:
+	configure.ac
+	pending merges:
+	Simone Campanoni 2010-01-30 added:
+	Simone Campanoni 2010-01-30 removed:
+	Simone Campanoni 2010-01-26 [merge] modified:
+
+2010-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	added:
+	configure.ac
+	unknown:
+	clean
+
+2010-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	removed:
+	configure.in
+	modified:
+	ChangeLog
+	src/optimizer_ddg.c
+	unknown:
+	clean
+	configure.ac
+
+2010-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/optimizer_ddg.c
+	unknown:
+	clean
+	pending merges:
+	Michele Tartara 2010-01-25 * src/optimizer_ddg.c: Adapt to new t_ir_instruction interface
+	Michele Tartara 2009-11-26 Create dependency lists when needed
+
+2010-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+
+2010-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	added:
+	configure.ac
+
+2010-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	removed:
+	configure.in
+	modified:
+	src/optimizer_ddg.c
+	unknown:
+	configure.ac
+
+2010-01-25  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* src/optimizer_ddg.c: Adapt to new t_ir_instruction interface
+
+2009-11-26  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Create dependency lists when needed
+
+2009-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/optimizer_ddg.c
+	unknown:
+	clean
+
+2009-10-01  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Improved Data Dependency identification for functions calls
+
+2009-09-29  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* src/optimizer_ddg.c: each instruction is now considered as data dependent on every call instruction.
+
+2009-08-26  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Incorrect assertion removed
+
+2009-08-25  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* src/optimizer_ddg.c: direction of arrows of the graph modified
+
+2009-07-23  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* src/optimizer_ddg.c: instruction that use or def an escaped variable are now considered data dependent on calls
+
+2009-07-23  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* src/optimizer_ddg.c: instructions that access memory are now considered data dependent
+
+2009-07-23  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	ChangeLog
+
+2009-07-23  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Memory handling added
+
+2009-07-22  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Read After Write Dependendencies computed
+
+2009-07-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	removed:
+	src/system.h
+	src/tags
+	modified:
+	configure.in
+	src/Makefile.am
+	src/optimizer_ddg.c
+	src/set_ops.c
+	unknown:
+	clean
+
+2009-07-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	added:
+	AUTHORS
+	COPYING
+	ChangeLog
+	INSTALL
+	Makefile.am
+	NEWS
+	README
+	bootstrap
+	configure.in
+	src/
+	src/Makefile.am
+	src/TODO
+	src/ddg_printer.c
+	src/optimizer_ddg.c
+	src/optimizer_ddg.h
+	src/set_ops.c
+	src/system.h
+	src/tags
+

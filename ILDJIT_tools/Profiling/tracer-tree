@@ -1,0 +1,94 @@
+#!/usr/bin/ruby
+#
+# tracer-tree: show tracer output with a graphic gui.
+
+require 'gtk2'
+
+# Define a graphical widget that shows ildjit tracer log in a tree. Log lines
+# are read from standard input.
+class TracerTree < Gtk::Window
+
+  # Start a new TracerTree.
+  def TracerTree.run()
+
+    window = TracerTree.new()
+    Gtk.main()
+
+  end
+
+  # Constructor: build application.
+  def initialize()
+
+    super("Tracer tree")
+
+    load_model();
+    setup_gui()
+    setup_events()
+
+  end
+
+  # Load tracer log from standard input.
+  def load_model()
+
+    # We will store the data into an appropriate model.
+    @tree_model = Gtk::TreeStore.new(String)
+    parent = nil
+
+    # Parse each standard input line.
+    STDIN.each() { |line|
+      # Enter to method find: go down on the tree.
+      if line =~ /Enter to the /
+        child = @tree_model.append(parent)
+        child[0] = $'.chomp()
+	parent = child
+      # Exit from method: go up on the tree.
+      elsif line =~ /Exit from the /
+        if(parent != nil)
+          parent = parent.parent
+	end
+      end
+    }
+
+  end
+
+  # Build application window.
+  def setup_gui()
+
+    # Build a tree view to show call graph.
+    tree_view = Gtk::TreeView.new(@tree_model)
+    tree_view.selection.mode = Gtk::SELECTION_NONE
+
+    # Define a column to show the method name.
+    renderer = Gtk::CellRendererText.new()
+    column = Gtk::TreeViewColumn.new("Method", renderer, :text => 0)
+    tree_view.append_column(column)
+
+    # Build a scroller to easily show the call trace.
+    scroller = Gtk::ScrolledWindow.new()
+    scroller.add(tree_view)
+
+    # Add scroller to main window.
+    add(scroller)
+
+    # Set window appearance.
+    maximize()
+    show_all()
+
+  end
+
+  # Setup callbacks.
+  def setup_events()
+
+    # Exit when window is closed.
+    signal_connect("delete_event") {
+      Gtk.main_quit()
+    }
+
+  end
+
+  private :initialize, :load_model, :setup_gui, :setup_events
+
+end
+
+# Application entry point.
+TracerTree.run()

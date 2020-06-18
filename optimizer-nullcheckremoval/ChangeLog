@@ -1,0 +1,176 @@
+2014-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the IR*ELEM instructions
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use IRMOVE instead of IRSTORE
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed warnings
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapted the plugin to the new codetool API.
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanStack API
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRCALLINDIRECTCCTOR
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of xanlib
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of XanLib
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-11-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of XanLib
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Michy's work
+
+2010-09-22  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Merge with Simone's work
+
+2010-09-22  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Automatic dependency solving for optimizers
+
+2010-09-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of both Libiljitir and Libiljitiroptimizer
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-03  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-08-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with the debian package work.
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	merge works
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	fix warning
+
+2010-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the uses of the new IR instruction type IRLIBRARYCALL
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimization IDs 64 bits
+
+2010-01-14  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Initial commit
+

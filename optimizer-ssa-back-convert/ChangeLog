@@ -1,0 +1,4 @@
+2010-10-06  Michele Melchiori <mickey4fun@gmail.com>
+	* optimizer-ssa-back-convert: Initial version, based on optimizer-dummy v 0.3.0
+
+-------------------------------- 0.0.1

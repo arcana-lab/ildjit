@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<list>
+    <package name="check"/>
+    <package name="pkg-config"/>
+    <package name="bison"/>
+    <package name="flex"/>
+    <package name="glib"/>
+</list>

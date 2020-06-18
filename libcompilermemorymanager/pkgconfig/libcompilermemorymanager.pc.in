@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@/iljit
+includedir=@includedir@/iljit
+
+Name: libcompilermemorymanager
+Description: Memory Manager for the internal modules of the ILDJIT project
+Version: @VERSION@
+Libs: -L${libdir} -lcompilermemorymanager
+Cflags: -I${includedir}

@@ -1,0 +1,1816 @@
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a file
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled IRREALLOC
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the volatile information
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new ISA
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRCALLINDIRECTCCTOR
+
+2012-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove a useless case
+
+2012-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the tracer
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRTYPEDREF
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRTYPEDREF.
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed useless code
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented IRSIZEOF
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented IRSIZEOF
+
+2012-02-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the extension of the new API
+
+2012-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the new instruction
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimize the switch
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cleaned the code.
+	Use the new API
+
+2011-11-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-11-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-11-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Create variables and set their addressability at the beginning of the code translation
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Flush the output
+
+2011-09-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-08-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-08-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2011-08-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Functions renaming
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API 
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.6.0
+
+2011-08-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cleaned the public API.
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move out garbage collection code
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move backend-dependent code inside
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move backend-dependent stuff inside IRVM_t
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Simplify the API
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean the public API
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRVM_setNativeEntryPoint
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean the API
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean the API
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean the public API.
+
+2011-08-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API
+
+2011-08-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Normalized platform API header inclusion
+
+2011-07-14  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set profile mode at optimization level 0
+
+2011-07-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-06  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added (ILJITIROPTIMIZER_LIBS) in Makefile.am, needed by gcc for Win
+
+2011-07-06  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added (ILJITIROPTIMIZER_LIBS) in Makefile.am, needed by gcc for Win
+
+2011-07-03  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-14  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-05-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the last version of Libjit
+
+2011-06-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the code generation types.
+
+2011-06-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set first parameters of IRGETADDRESS as addressable
+
+2011-06-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not set every variable as not addressable 
+
+2011-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled the exit node
+
+2011-05-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Translate IREXIT
+
+2011-05-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Due to a bug in Libjit, we set every variable as addressable
+
+2011-05-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the case of empty methods
+
+2011-05-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Translate the method to assembly only if it was not empty.
+
+2011-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Print more information in case of error.
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Luca's work
+
+2011-04-15   Committer: Luca  <luca@turbo> 
+
+	Add support to profiler stack on trampoline
+
+2011-03-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Exploit the function allocAlignedMemoryFunction
+
+2011-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-03-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Removed all commented platform-dependent includes
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-13  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-12  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-10  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	merge
+
+2011-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump the function name in case of compilation error.
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link to libplatform.
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-11   Committer: Luca  <luca@turbo> 
+
+	adapt to new ir optimizer API
+
+2011-02-10   Committer: Luca  <luca@turbo> 
+
+	remove unused code for profiling
+
+2011-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initialize variables
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IRVM_dumpMachineCode
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the API to hide libjit details within the recompiler function.
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the functions IRVM_getRunningMethod and IRVM_getCallerOfMethodInExecution.
+
+2011-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-07  Luca  <luca@ops-notebook>
+
+	Remove unnecessary lock
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	Merge Xan's
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	Correct Wrong Name of function
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	fixed new warnings
+
+2011-02-04  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	fixed multi-PLATFORM support warnings. Renamed multi-PLATFORM Thread Functions.
+
+2011-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for functions pthread_create, pthread_join, pthread_self, pthread_once, pthread_equal, pthread_attr_init, pthread_attr_setscope, pthread_attr_setstacksize, pthread_attr_setinheritsched, pthread_attr_setschedparam, pthread_attr_setschedpolicy, pthread_mutex_init, pthread_mutexattr_init, pthread_mutexattr_settype, pthread_mutex_destroy, pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock, pthread_cond_init, pthread_cond_wait, pthread_cond_signal, pthread_cond_broadcast, pthread_cond_destroy (all in pthread.h)
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-01-17  Luca  <luca@ops-notebook>
+
+	Continue working on symbol
+
+2011-01-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful assertions
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-28  Luca  <luca@ops-notebook>
+
+	add support to IRSYMBOL
+
+2010-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2010-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-12-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-12  Luca  <luca@ops-notebook>
+
+	Remove useless compilation flags
+
+2010-12-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the lock/unlock of called methods, which can bring a deadlock in the system.
+
+2010-12-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the IRRET instruction
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the code.
+	Update the Libjit
+
+2010-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility to free objects.
+
+2010-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reduced the size of object headers.
+	Removed the function getLayoutOffset from the garbage collector interface.
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-11-24  Luca  <luca@ops-notebook>
+
+	update pthread lock init code
+	update tracer code
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed some assertions
+
+2010-11-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful assertion
+
+2010-11-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump the CFG if an error on compilation occur
+
+2010-11-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not used variables
+
+2010-11-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the new IR instruction IRFREE.
+
+2010-11-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a wrong assertion
+
+2010-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the NOPARAM as result for IRCALL
+
+2010-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-26  Luca  <luca@ops-notebook>
+
+	update to new metadata system
+
+2010-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed some memory leaks.
+
+2010-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing.
+	Implemented the IRALLOCALIGN instruction type.
+
+2010-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the new IR instruction IRALLOC
+
+2010-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful assertion
+
+2010-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove the previous commit
+
+2010-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Michele's work
+
+2010-10-13  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Fixed libjit bug
+	
+	* Expanding an int32 to a uint64 was handled incorrectly. Now it works
+
+2010-10-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-11  Luca  <luca@ops-notebook>
+
+	add support for IRSIGNATURE
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.4.0
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-08  Luca  <luca@ops-notebook>
+
+	resolve race condition
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRVM_getFunctionPointer
+
+2010-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with the last Libjit library
+
+2010-10-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added support for the new instructions
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the support for IRCOSH
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-01  Luca  <luca@ops-notebook>
+
+	adapt to t_ir_local
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the support for the new instructions.
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-28  Luca  <luca@ops-notebook>
+
+	update to support ldvirtftn
+
+2010-09-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-24  Luca  <luca@ops-notebook>
+
+	change API to support new internal call subsystem
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added files
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-20  Luca  <luca@ops-notebook>
+
+	support generic interface method in aot
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the Libjit library
+
+2010-09-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the Libjit optimizations only if the correspondent flag of Libiljitiroptimizer is set.
+
+2010-09-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IRVM_throwException to the public API.
+
+2010-09-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the minimum optimization level to start machine-code optimizations
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the new opcode IRCONVOVF
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new files of Libjit
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new files of Libjit
+
+2010-09-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing.
+	Merge with the new Libjit library
+
+2010-09-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing about header size of both array and objects.
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on the size of headers
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reducing the header size
+
+2010-08-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of both Libiljitir and Libiljitiroptimizer
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-03  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-08-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt with the new API
+
+2010-07-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Direct use of data
+
+2010-07-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Debian packages works
+
+2010-07-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the creation of IRVALUETYPES within the function make_variable
+
+2010-08-03  Luca  <luca@ops-notebook>
+
+	Change bool size to IRINT32
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	merge works
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Merge with upstream
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	Adapt to new TypeDescriptor
+
+2010-07-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Free deeply the labels list.
+
+2010-07-21  Luca  <luca@ops-notebook>
+
+	Update to new simply metadata interface
+
+2010-07-02  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-06-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-06-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Free the Libjit signature of the function called by IRNATIVECALL and IRICALL instruction type after their translation to assembly.
+
+2010-07-01  Luca  <luca@ops-notebook>
+
+	Update interface for new casting meccanism
+
+2010-06-18  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-06-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	API extension.
+
+2010-06-03  Luca  <luca@ops-notebook>
+
+	Change garbage collector interface to support interface method table
+
+2010-05-09  Luca  <luca@ops-notebook>
+
+	optimized IRNEWARR
+
+2010-04-28  Luca  <luca@ops-notebook>
+
+	re-enable jit function dumper
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release candidate 0.3.0
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	unknown:
+	src/libjit/INSTALL
+	src/libjit/config.guess
+	src/libjit/config.sub
+	src/libjit/doc/texinfo.tex
+	pending merges:
+	help 2010-04-25 CFLAGS forwarding
+
+2010-04-25  help
+
+	CFLAGS forwarding
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Francesco's work and CFLAGS fix
+
+2010-04-23  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Merge with upstream
+
+2010-04-19  Francesco Fiduccia  <crypt@ubuntu>
+
+	Memphis Release Finale
+
+2010-04-19  Francesco Fiduccia  <crypt@ubuntu>
+
+	Memphis Release, added the configure script --enable-memphis-single-thread
+
+2010-04-13  Francesco Fiduccia  <crypt@ubuntu>
+
+	memphis load
+
+2010-04-12  Francesco Fiduccia  <crypt@ubuntu>
+
+	Merge
+
+2010-04-08  Francesco Fiduccia  <crypt@ubuntu>
+
+	IRSTRING IRFPOINTER
+
+2010-04-01  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Merge
+
+2010-03-08  Francesco Fiduccia  <crypt@ubuntu>
+
+	Pelosi Push
+
+2010-03-05  Francesco Fiduccia  <crypt@ubuntu>
+
+	Debugging IRLOADREL
+
+2010-02-26  Francesco Fiduccia  <crypt@ubuntu>
+
+	Simone
+
+2010-02-26  Francesco Fiduccia  <crypt@ubuntu>
+
+	IR_VIRTUALMACHINE
+
+2010-02-18  Francesco Fiduccia  <crypt@ubuntu>
+
+	commit di simone
+
+2010-02-18  Francesco Fiduccia  <crypt@ubuntu>
+
+	Fixed irvirtualmachine
+
+2010-02-11  Francesco Fiduccia  <crypt@ubuntu>
+
+	IrVirtualMachine SinglePipeline
+
+2010-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	CFLAGS bug fixing
+
+2010-04-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Allow the IRNATIVECALL to method with return value without storing the result in a variable
+
+2010-04-14  Luca  <luca@ops-notebook>
+
+	add support for generic virtual call
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the IR parameter 4
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/ir_virtual_machine.c
+	pending merges:
+	Michele Tartara 2010-04-07 Added IRFPOINTER type
+	Michele Tartara 2010-04-07 Added IRFPOINTER type
+	Michele Tartara 2010-04-07 IRSTRING type added
+
+2010-04-07  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Added IRFPOINTER type
+
+2010-04-07  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Added IRFPOINTER type
+
+2010-04-07  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	IRSTRING type added
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the locks order.
+
+2010-03-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Interface change
+
+2010-03-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	removed:
+	src/libjit/INSTALL
+	src/libjit/config.guess
+	src/libjit/config.sub
+	src/libjit/doc/texinfo.tex
+	pending merges:
+	Michele Tartara 2010-03-31 Remove some autogenerated file from versioning
+
+2010-03-31  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Remove some autogenerated file from versioning
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Micky's work
+
+2010-03-30  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Merge with Michele's Libjit bugfix
+
+2010-03-16  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Libjit bug solved
+
+2010-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/ir_virtual_machine.c
+	unknown:
+	clean
+	src/libjit/.git/
+	src/libjitARM/config.guess
+	src/libjitARM/config.sub
+	src/libjitARM/install-sh
+	src/libjitARM/missing
+
+2010-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	removed:
+	src/libjitARM/config.guess
+	src/libjitARM/config.sub
+	src/libjitARM/install-sh
+	src/libjitARM/missing
+	unknown:
+	clean
+	src/libjit/.git/
+	src/libjitARM/Makefile
+	src/libjitARM/config.h
+	src/libjitARM/doc/Makefile
+	src/libjitARM/dpas/.deps/
+	src/libjitARM/dpas/Makefile
+	src/libjitARM/include/Makefile
+	src/libjitARM/include/jit/Makefile
+	src/libjitARM/include/jit/jit-arch.h@
+	src/libjitARM/include/jit/jit-defs.h
+	src/libjitARM/jit/.deps/
+	src/libjitARM/jit/Makefile
+	src/libjitARM/jitdynamic/.deps/
+	src/libjitARM/jitdynamic/Makefile
+	src/libjitARM/jitplus/.deps/
+	src/libjitARM/jitplus/Makefile
+	src/libjitARM/tests/Makefile
+	src/libjitARM/tools/.deps/
+	src/libjitARM/tools/Makefile
+	src/libjitARM/tutorial/.deps/
+	src/libjitARM/tutorial/Makefile
+
+2010-02-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.1
+
+2010-02-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Deleted a wrong assertion
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add uses of IRLIBRARYPATH and IRNATIVECALL instructions.
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/ir_virtual_machine.c
+	unknown:
+	clean
+	src/libjit/.git/
+	src/libjitARM/Makefile
+	src/libjitARM/aclocal.m4
+	src/libjitARM/autom4te.cache/
+	src/libjitARM/config.h
+	src/libjitARM/config.status
+	src/libjitARM/libtool
+	src/libjitARM/doc/Makefile
+	src/libjitARM/dpas/.deps/
+	src/libjitARM/dpas/Makefile
+	src/libjitARM/include/Makefile
+	src/libjitARM/include/jit/Makefile
+	src/libjitARM/include/jit/jit-arch.h@
+	src/libjitARM/include/jit/jit-defs.h
+	src/libjitARM/jit/.deps/
+	src/libjitARM/jit/Makefile
+	src/libjitARM/jitdynamic/.deps/
+	src/libjitARM/jitdynamic/Makefile
+	src/libjitARM/jitplus/.deps/
+	src/libjitARM/jitplus/Makefile
+	src/libjitARM/tests/Makefile
+	src/libjitARM/tools/.deps/
+	src/libjitARM/tools/Makefile
+	src/libjitARM/tutorial/.deps/
+	src/libjitARM/tutorial/Makefile
+	pending merges:
+	Michele Tartara 2010-02-09 support for having a single exit node in CFGs
+
+2010-02-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	support for having a single exit node in CFGs
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/ir_virtual_machine.c
+	unknown:
+	clean
+	src/libjit/.git/
+	src/libjitARM/Makefile
+	src/libjitARM/aclocal.m4
+	src/libjitARM/autom4te.cache/
+	src/libjitARM/config.h
+	src/libjitARM/config.status
+	src/libjitARM/libtool
+	src/libjitARM/doc/Makefile
+	src/libjitARM/dpas/.deps/
+	src/libjitARM/dpas/Makefile
+	src/libjitARM/include/Makefile
+	src/libjitARM/include/jit/Makefile
+	src/libjitARM/include/jit/jit-arch.h@
+	src/libjitARM/include/jit/jit-defs.h
+	src/libjitARM/jit/.deps/
+	src/libjitARM/jit/Makefile
+	src/libjitARM/jitdynamic/.deps/
+	src/libjitARM/jitdynamic/Makefile
+	src/libjitARM/jitplus/.deps/
+	src/libjitARM/jitplus/Makefile
+	src/libjitARM/tests/Makefile
+	src/libjitARM/tools/.deps/
+	src/libjitARM/tools/Makefile
+	src/libjitARM/tutorial/.deps/
+	src/libjitARM/tutorial/Makefile
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/ir_virtual_machine.c
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/ir_virtual_machine.c
+
+2010-03-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Luca's work
+
+2010-03-29  Luca  <luca@ops-notebook>
+
+	#
+
+2010-03-24  Luca  <luca@ops-notebook>
+
+	#Adapt code to new metadata manager
+
+2010-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+	
+	
+	modified:
+	ChangeLog
+	configure.ac
+	src/ir_virtual_machine.c
+	unknown:
+	clean
+	src/libjit/.git/
+
+2010-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/ir_virtual_machine.c
+	unknown:
+	clean
+	src/libjit/.git/
+
+2010-01-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed warnings
+	
+	
+	modified:
+	ChangeLog
+	src/ir_virtual_machine.c
+	unknown:
+	clean
+	src/libjit/.git/
+
+2010-01-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+	
+	
+	modified:
+	src/ir_virtual_machine.c
+	src/libjit/jit/jit-function.c
+	unknown:
+	clean
+	src/libjit/.git/
+
+2010-01-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/ir_virtual_machine.c
+	src/ir_virtual_machine.h
+	unknown:
+	clean
+	src/libjit/.git/
+
+2010-01-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	added:
+	src/libjitARM/
+	src/libjitARM/.gitignore
+	src/libjitARM/AUTHORS
+	src/libjitARM/COPYING
+	src/libjitARM/COPYING.LESSER
+	src/libjitARM/ChangeLog
+	src/libjitARM/INSTALL
+	src/libjitARM/Makefile.am
+	src/libjitARM/NEWS
+	src/libjitARM/README
+	src/libjitARM/README.alpha
+	src/libjitARM/TODO
+	src/libjitARM/auto_gen.sh
+	src/libjitARM/config.guess
+	src/libjitARM/config.sub
+	src/libjitARM/configure.ac
+	src/libjitARM/doc/
+	src/libjitARM/doc/.gitignore
+	src/libjitARM/doc/Makefile.am
+	src/libjitARM/doc/README
+	src/libjitARM/doc/extract-docs.sh
+	src/libjitARM/doc/libjit.3
+	src/libjitARM/doc/libjit.texi
+	src/libjitARM/doc/mangling_rules.txt
+	src/libjitARM/doc/mkhtml.sh
+	src/libjitARM/doc/mkpdf.sh
+	src/libjitARM/doc/texinfo.tex
+	src/libjitARM/dpas/
+	src/libjitARM/dpas/.gitignore
+	src/libjitARM/dpas/Makefile.am
+	src/libjitARM/dpas/README
+	src/libjitARM/dpas/dpas-builtin.c
+	src/libjitARM/dpas/dpas-function.c
+	src/libjitARM/dpas/dpas-internal.h
+	src/libjitARM/dpas/dpas-main.c
+	src/libjitARM/dpas/dpas-parser.y
+	src/libjitARM/dpas/dpas-scanner.l
+	src/libjitARM/dpas/dpas-scope.c
+	src/libjitARM/dpas/dpas-scope.h
+	src/libjitARM/dpas/dpas-semantics.h
+	src/libjitARM/dpas/dpas-types.c
+	src/libjitARM/dpas/dpas-types.h
+	src/libjitARM/include/
+	src/libjitARM/include/.gitignore
+	src/libjitARM/include/Makefile.am
+	src/libjitARM/include/jit/
+	src/libjitARM/include/jit/.gitignore
+	src/libjitARM/include/jit/Makefile.am
+	src/libjitARM/include/jit/jit-apply.h
+	src/libjitARM/include/jit/jit-arch-arm.h
+	src/libjitARM/include/jit/jit-arch-generic.h
+	src/libjitARM/include/jit/jit-arch-x86-64.h
+	src/libjitARM/include/jit/jit-arch-x86.h
+	src/libjitARM/include/jit/jit-block.h
+	src/libjitARM/include/jit/jit-common.h
+	src/libjitARM/include/jit/jit-context.h
+	src/libjitARM/include/jit/jit-debugger.h
+	src/libjitARM/include/jit/jit-defs.h.in
+	src/libjitARM/include/jit/jit-dump.h
+	src/libjitARM/include/jit/jit-dynamic.h
+	src/libjitARM/include/jit/jit-elf.h
+	src/libjitARM/include/jit/jit-except.h
+	src/libjitARM/include/jit/jit-function.h
+	src/libjitARM/include/jit/jit-init.h
+	src/libjitARM/include/jit/jit-insn.h
+	src/libjitARM/include/jit/jit-intrinsic.h
+	src/libjitARM/include/jit/jit-meta.h
+	src/libjitARM/include/jit/jit-objmodel-private.h
+	src/libjitARM/include/jit/jit-objmodel.h
+	src/libjitARM/include/jit/jit-opcode.h
+	src/libjitARM/include/jit/jit-plus.h
+	src/libjitARM/include/jit/jit-type.h
+	src/libjitARM/include/jit/jit-unwind.h
+	src/libjitARM/include/jit/jit-util.h
+	src/libjitARM/include/jit/jit-value.h
+	src/libjitARM/include/jit/jit-walk.h
+	src/libjitARM/include/jit/jit.h
+	src/libjitARM/install-sh
+	src/libjitARM/jit/
+	src/libjitARM/jit/.gitignore
+	src/libjitARM/jit/Makefile.am
+	src/libjitARM/jit/jit-alloc.c
+	src/libjitARM/jit/jit-apply-alpha.c
+	src/libjitARM/jit/jit-apply-alpha.h
+	src/libjitARM/jit/jit-apply-arm.c
+	src/libjitARM/jit/jit-apply-arm.h
+	src/libjitARM/jit/jit-apply-func.h
+	src/libjitARM/jit/jit-apply-x86-64.c
+	src/libjitARM/jit/jit-apply-x86-64.h
+	src/libjitARM/jit/jit-apply-x86.c
+	src/libjitARM/jit/jit-apply-x86.h
+	src/libjitARM/jit/jit-apply.c
+	src/libjitARM/jit/jit-bitset.c
+	src/libjitARM/jit/jit-bitset.h
+	src/libjitARM/jit/jit-block.c
+	src/libjitARM/jit/jit-cache.c
+	src/libjitARM/jit/jit-cache.h
+	src/libjitARM/jit/jit-cfg.c
+	src/libjitARM/jit/jit-cfg.h
+	src/libjitARM/jit/jit-compile.c
+	src/libjitARM/jit/jit-context.c
+	src/libjitARM/jit/jit-cpuid-x86.c
+	src/libjitARM/jit/jit-cpuid-x86.h
+	src/libjitARM/jit/jit-debugger.c
+	src/libjitARM/jit/jit-dump.c
+	src/libjitARM/jit/jit-elf-defs.h
+	src/libjitARM/jit/jit-elf-read.c
+	src/libjitARM/jit/jit-elf-write.c
+	src/libjitARM/jit/jit-except.c
+	src/libjitARM/jit/jit-function.c
+	src/libjitARM/jit/jit-gen-alpha.h
+	src/libjitARM/jit/jit-gen-arm.c
+	src/libjitARM/jit/jit-gen-arm.h
+	src/libjitARM/jit/jit-gen-x86-64.h
+	src/libjitARM/jit/jit-gen-x86.h
+	src/libjitARM/jit/jit-init.c
+	src/libjitARM/jit/jit-insn.c
+	src/libjitARM/jit/jit-internal.h
+	src/libjitARM/jit/jit-interp.c
+	src/libjitARM/jit/jit-interp.h
+	src/libjitARM/jit/jit-intrinsic.c
+	src/libjitARM/jit/jit-live.c
+	src/libjitARM/jit/jit-memory.c
+	src/libjitARM/jit/jit-memory.h
+	src/libjitARM/jit/jit-meta.c
+	src/libjitARM/jit/jit-objmodel.c
+	src/libjitARM/jit/jit-opcode.c
+	src/libjitARM/jit/jit-pool.c
+	src/libjitARM/jit/jit-reg-alloc.c
+	src/libjitARM/jit/jit-reg-alloc.h
+	src/libjitARM/jit/jit-reg-class.c
+	src/libjitARM/jit/jit-reg-class.h
+	src/libjitARM/jit/jit-rules-alpha.c
+	src/libjitARM/jit/jit-rules-alpha.h
+	src/libjitARM/jit/jit-rules-alpha.ins
+	src/libjitARM/jit/jit-rules-arm.c
+	src/libjitARM/jit/jit-rules-arm.h
+	src/libjitARM/jit/jit-rules-arm.ins
+	src/libjitARM/jit/jit-rules-interp.c
+	src/libjitARM/jit/jit-rules-interp.h
+	src/libjitARM/jit/jit-rules-x86-64.c
+	src/libjitARM/jit/jit-rules-x86-64.h
+	src/libjitARM/jit/jit-rules-x86-64.ins
+	src/libjitARM/jit/jit-rules-x86.c
+	src/libjitARM/jit/jit-rules-x86.h
+	src/libjitARM/jit/jit-rules-x86.ins
+	src/libjitARM/jit/jit-rules.c
+	src/libjitARM/jit/jit-rules.h
+	src/libjitARM/jit/jit-setjmp.h
+	src/libjitARM/jit/jit-signal.c
+	src/libjitARM/jit/jit-string.c
+	src/libjitARM/jit/jit-symbol.c
+	src/libjitARM/jit/jit-thread.c
+	src/libjitARM/jit/jit-thread.h
+	src/libjitARM/jit/jit-type.c
+	src/libjitARM/jit/jit-unwind.c
+	src/libjitARM/jit/jit-value.c
+	src/libjitARM/jit/jit-walk.c
+	src/libjitARM/jit/mklabel.sh
+	src/libjitARM/jitdynamic/
+	src/libjitARM/jitdynamic/.gitignore
+	src/libjitARM/jitdynamic/Makefile.am
+	src/libjitARM/jitdynamic/jit-cpp-mangle.c
+	src/libjitARM/jitdynamic/jit-dynlib.c
+	src/libjitARM/jitplus/
+	src/libjitARM/jitplus/.gitignore
+	src/libjitARM/jitplus/Makefile.am
+	src/libjitARM/jitplus/jit-plus-context.cpp
+	src/libjitARM/jitplus/jit-plus-function.cpp
+	src/libjitARM/jitplus/jit-plus-jump-table.cpp
+	src/libjitARM/jitplus/jit-plus-value.cpp
+	src/libjitARM/jitruby/
+	src/libjitARM/jitruby/README
+	src/libjitARM/jitruby/ext/
+	src/libjitARM/jitruby/ext/extconf.rb
+	src/libjitARM/jitruby/ext/insns.inc.rpp
+	src/libjitARM/jitruby/ext/jit.c
+	src/libjitARM/jitruby/ext/method_data.c.rpp
+	src/libjitARM/jitruby/ext/method_data.h
+	src/libjitARM/jitruby/ext/minimal_node.c
+	src/libjitARM/jitruby/ext/minimal_node.h
+	src/libjitARM/jitruby/ext/rubyjit.h
+	src/libjitARM/jitruby/ext/rubypp.rb
+	src/libjitARM/jitruby/generate_rdoc.rb
+	src/libjitARM/jitruby/lib/
+	src/libjitARM/jitruby/lib/jit/
+	src/libjitARM/jitruby/lib/jit.rb
+	src/libjitARM/jitruby/lib/jit/array.rb
+	src/libjitARM/jitruby/lib/jit/function.rb
+	src/libjitARM/jitruby/lib/jit/pointer.rb
+	src/libjitARM/jitruby/lib/jit/struct.rb
+	src/libjitARM/jitruby/lib/jit/value.rb
+	src/libjitARM/jitruby/metaconfig
+	src/libjitARM/jitruby/post-install.rb
+	src/libjitARM/jitruby/post-setup.rb
+	src/libjitARM/jitruby/ruby-libjit.gemspec
+	src/libjitARM/jitruby/run_tests.rb
+	src/libjitARM/jitruby/sample/
+	src/libjitARM/jitruby/sample/fib.rb
+	src/libjitARM/jitruby/sample/gcd_benchmark.rb
+	src/libjitARM/jitruby/sample/simple.rb
+	src/libjitARM/jitruby/setup.rb
+	src/libjitARM/jitruby/test/
+	src/libjitARM/jitruby/test/assertions.rb
+	src/libjitARM/jitruby/test/test_jit_array.rb
+	src/libjitARM/jitruby/test/test_jit_function.rb
+	src/libjitARM/jitruby/test/test_jit_pointer.rb
+	src/libjitARM/jitruby/test/test_jit_struct.rb
+	src/libjitARM/jitruby/test/test_jit_value.rb
+	src/libjitARM/missing
+	src/libjitARM/samples/
+	src/libjitARM/samples/hellovm.c
+	src/libjitARM/tests/
+	src/libjitARM/tests/.gitignore
+	src/libjitARM/tests/Makefile.am
+	src/libjitARM/tests/README
+	src/libjitARM/tests/coerce.pas
+	src/libjitARM/tests/cond.pas
+	src/libjitARM/tests/loop.pas
+	src/libjitARM/tests/math.pas
+	src/libjitARM/tests/param.pas
+	src/libjitARM/tools/
+	src/libjitARM/tools/.gitignore
+	src/libjitARM/tools/Makefile.am
+	src/libjitARM/tools/gen-apply-macosx.h
+	src/libjitARM/tools/gen-apply.c
+	src/libjitARM/tools/gen-rules-parser.y
+	src/libjitARM/tools/gen-rules-scanner.l
+	src/libjitARM/tutorial/
+	src/libjitARM/tutorial/.gitignore
+	src/libjitARM/tutorial/Makefile.am
+	src/libjitARM/tutorial/README
+	src/libjitARM/tutorial/t1.c
+	src/libjitARM/tutorial/t2.c
+	src/libjitARM/tutorial/t3.c
+	src/libjitARM/tutorial/t4.cpp
+	src/libjitARM/tutorial/t5.c
+	unknown:
+	clean
+	src/libjit/.git/
+
+2010-01-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed thread race conditions.
+	Fixed memory bugs within the Libjit library.
+	
+	
+	removed:
+	src/libjit.tar.bz2
+	modified:
+	bootstrap
+	src/ir_virtual_machine.c
+	src/libjit/jit/jit-insn.c
+	unknown:
+	clean
+	src/libjitARM/
+	src/libjit/.git/
+
+2010-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	configure.ac
+	src/Makefile.am
+	src/ir_virtual_machine.c
+	src/ir_virtual_machine.h
+	unknown:
+	clean
+	src/libjitNew/
+	src/libjit/.git/
+
+2010-01-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	AOT fix.
+	
+	
+	modified:
+	ChangeLog
+	src/Makefile.am
+	src/ir_virtual_machine.c
+	unknown:
+	clean
+
+2010-01-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/ir_virtual_machine.c
+	src/ir_virtual_machine.h
+	unknown:
+	clean
+
+2010-01-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	added:
+	src/libjit/
+	src/libjit/.gitignore
+	src/libjit/AUTHORS
+	src/libjit/COPYING
+	src/libjit/COPYING.LESSER
+	src/libjit/ChangeLog
+	src/libjit/INSTALL
+	src/libjit/Makefile.am
+	src/libjit/NEWS
+	src/libjit/README
+	src/libjit/README.alpha
+	src/libjit/TODO
+	src/libjit/auto_gen.sh
+	src/libjit/config.guess
+	src/libjit/config.sub
+	src/libjit/configure.ac
+	src/libjit/doc/
+	src/libjit/doc/.gitignore
+	src/libjit/doc/Makefile.am
+	src/libjit/doc/README
+	src/libjit/doc/extract-docs.sh
+	src/libjit/doc/libjit.3
+	src/libjit/doc/libjit.texi
+	src/libjit/doc/mangling_rules.txt
+	src/libjit/doc/mkhtml.sh
+	src/libjit/doc/mkpdf.sh
+	src/libjit/doc/texinfo.tex
+	src/libjit/dpas/
+	src/libjit/dpas/.gitignore
+	src/libjit/dpas/Makefile.am
+	src/libjit/dpas/README
+	src/libjit/dpas/dpas-builtin.c
+	src/libjit/dpas/dpas-function.c
+	src/libjit/dpas/dpas-internal.h
+	src/libjit/dpas/dpas-main.c
+	src/libjit/dpas/dpas-parser.y
+	src/libjit/dpas/dpas-scanner.l
+	src/libjit/dpas/dpas-scope.c
+	src/libjit/dpas/dpas-scope.h
+	src/libjit/dpas/dpas-semantics.h
+	src/libjit/dpas/dpas-types.c
+	src/libjit/dpas/dpas-types.h
+	src/libjit/include/
+	src/libjit/include/.gitignore
+	src/libjit/include/Makefile.am
+	src/libjit/include/jit/
+	src/libjit/include/jit/.gitignore
+	src/libjit/include/jit/Makefile.am
+	src/libjit/include/jit/jit-apply.h
+	src/libjit/include/jit/jit-arch-arm.h
+	src/libjit/include/jit/jit-arch-generic.h
+	src/libjit/include/jit/jit-arch-x86-64.h
+	src/libjit/include/jit/jit-arch-x86.h
+	src/libjit/include/jit/jit-block.h
+	src/libjit/include/jit/jit-common.h
+	src/libjit/include/jit/jit-context.h
+	src/libjit/include/jit/jit-debugger.h
+	src/libjit/include/jit/jit-defs.h.in
+	src/libjit/include/jit/jit-dump.h
+	src/libjit/include/jit/jit-dynamic.h
+	src/libjit/include/jit/jit-elf.h
+	src/libjit/include/jit/jit-except.h
+	src/libjit/include/jit/jit-function.h
+	src/libjit/include/jit/jit-init.h
+	src/libjit/include/jit/jit-insn.h
+	src/libjit/include/jit/jit-intrinsic.h
+	src/libjit/include/jit/jit-meta.h
+	src/libjit/include/jit/jit-objmodel-private.h
+	src/libjit/include/jit/jit-objmodel.h
+	src/libjit/include/jit/jit-opcode.h
+	src/libjit/include/jit/jit-plus.h
+	src/libjit/include/jit/jit-type.h
+	src/libjit/include/jit/jit-unwind.h
+	src/libjit/include/jit/jit-util.h
+	src/libjit/include/jit/jit-value.h
+	src/libjit/include/jit/jit-walk.h
+	src/libjit/include/jit/jit.h
+	src/libjit/install-sh
+	src/libjit/jit/
+	src/libjit/jit/.gitignore
+	src/libjit/jit/Makefile.am
+	src/libjit/jit/jit-alloc.c
+	src/libjit/jit/jit-apply-alpha.c
+	src/libjit/jit/jit-apply-alpha.h
+	src/libjit/jit/jit-apply-arm.c
+	src/libjit/jit/jit-apply-arm.h
+	src/libjit/jit/jit-apply-func.h
+	src/libjit/jit/jit-apply-x86-64.c
+	src/libjit/jit/jit-apply-x86-64.h
+	src/libjit/jit/jit-apply-x86.c
+	src/libjit/jit/jit-apply-x86.h
+	src/libjit/jit/jit-apply.c
+	src/libjit/jit/jit-bitset.c
+	src/libjit/jit/jit-bitset.h
+	src/libjit/jit/jit-block.c
+	src/libjit/jit/jit-cache.c
+	src/libjit/jit/jit-cache.h
+	src/libjit/jit/jit-cfg.c
+	src/libjit/jit/jit-cfg.h
+	src/libjit/jit/jit-compile.c
+	src/libjit/jit/jit-context.c
+	src/libjit/jit/jit-cpuid-x86.c
+	src/libjit/jit/jit-cpuid-x86.h
+	src/libjit/jit/jit-debugger.c
+	src/libjit/jit/jit-dump.c
+	src/libjit/jit/jit-elf-defs.h
+	src/libjit/jit/jit-elf-read.c
+	src/libjit/jit/jit-elf-write.c
+	src/libjit/jit/jit-except.c
+	src/libjit/jit/jit-function.c
+	src/libjit/jit/jit-gen-alpha.h
+	src/libjit/jit/jit-gen-arm.c
+	src/libjit/jit/jit-gen-arm.h
+	src/libjit/jit/jit-gen-x86-64.h
+	src/libjit/jit/jit-gen-x86.h
+	src/libjit/jit/jit-init.c
+	src/libjit/jit/jit-insn.c
+	src/libjit/jit/jit-internal.h
+	src/libjit/jit/jit-interp.c
+	src/libjit/jit/jit-interp.h
+	src/libjit/jit/jit-intrinsic.c
+	src/libjit/jit/jit-live.c
+	src/libjit/jit/jit-memory.c
+	src/libjit/jit/jit-memory.h
+	src/libjit/jit/jit-meta.c
+	src/libjit/jit/jit-objmodel.c
+	src/libjit/jit/jit-opcode.c
+	src/libjit/jit/jit-pool.c
+	src/libjit/jit/jit-reg-alloc.c
+	src/libjit/jit/jit-reg-alloc.h
+	src/libjit/jit/jit-reg-class.c
+	src/libjit/jit/jit-reg-class.h
+	src/libjit/jit/jit-rules-alpha.c
+	src/libjit/jit/jit-rules-alpha.h
+	src/libjit/jit/jit-rules-alpha.ins
+	src/libjit/jit/jit-rules-arm.c
+	src/libjit/jit/jit-rules-arm.h
+	src/libjit/jit/jit-rules-arm.ins
+	src/libjit/jit/jit-rules-interp.c
+	src/libjit/jit/jit-rules-interp.h
+	src/libjit/jit/jit-rules-x86-64.c
+	src/libjit/jit/jit-rules-x86-64.h
+	src/libjit/jit/jit-rules-x86-64.ins
+	src/libjit/jit/jit-rules-x86.c
+	src/libjit/jit/jit-rules-x86.h
+	src/libjit/jit/jit-rules-x86.ins
+	src/libjit/jit/jit-rules.c
+	src/libjit/jit/jit-rules.h
+	src/libjit/jit/jit-setjmp.h
+	src/libjit/jit/jit-signal.c
+	src/libjit/jit/jit-string.c
+	src/libjit/jit/jit-symbol.c
+	src/libjit/jit/jit-thread.c
+	src/libjit/jit/jit-thread.h
+	src/libjit/jit/jit-type.c
+	src/libjit/jit/jit-unwind.c
+	src/libjit/jit/jit-value.c
+	src/libjit/jit/jit-walk.c
+	src/libjit/jit/mklabel.sh
+	src/libjit/jitdynamic/
+	src/libjit/jitdynamic/.gitignore
+	src/libjit/jitdynamic/Makefile.am
+	src/libjit/jitdynamic/jit-cpp-mangle.c
+	src/libjit/jitdynamic/jit-dynlib.c
+	src/libjit/jitplus/
+	src/libjit/jitplus/.gitignore
+	src/libjit/jitplus/Makefile.am
+	src/libjit/jitplus/jit-plus-context.cpp
+	src/libjit/jitplus/jit-plus-function.cpp
+	src/libjit/jitplus/jit-plus-jump-table.cpp
+	src/libjit/jitplus/jit-plus-value.cpp
+	src/libjit/jitruby/
+	src/libjit/jitruby/README
+	src/libjit/jitruby/ext/
+	src/libjit/jitruby/ext/extconf.rb
+	src/libjit/jitruby/ext/insns.inc.rpp
+	src/libjit/jitruby/ext/jit.c
+	src/libjit/jitruby/ext/method_data.c.rpp
+	src/libjit/jitruby/ext/method_data.h
+	src/libjit/jitruby/ext/minimal_node.c
+	src/libjit/jitruby/ext/minimal_node.h
+	src/libjit/jitruby/ext/rubyjit.h
+	src/libjit/jitruby/ext/rubypp.rb
+	src/libjit/jitruby/generate_rdoc.rb
+	src/libjit/jitruby/lib/
+	src/libjit/jitruby/lib/jit/
+	src/libjit/jitruby/lib/jit.rb
+	src/libjit/jitruby/lib/jit/array.rb
+	src/libjit/jitruby/lib/jit/function.rb
+	src/libjit/jitruby/lib/jit/pointer.rb
+	src/libjit/jitruby/lib/jit/struct.rb
+	src/libjit/jitruby/lib/jit/value.rb
+	src/libjit/jitruby/metaconfig
+	src/libjit/jitruby/post-install.rb
+	src/libjit/jitruby/post-setup.rb
+	src/libjit/jitruby/ruby-libjit.gemspec
+	src/libjit/jitruby/run_tests.rb
+	src/libjit/jitruby/sample/
+	src/libjit/jitruby/sample/fib.rb
+	src/libjit/jitruby/sample/gcd_benchmark.rb
+	src/libjit/jitruby/sample/simple.rb
+	src/libjit/jitruby/setup.rb
+	src/libjit/jitruby/test/
+	src/libjit/jitruby/test/assertions.rb
+	src/libjit/jitruby/test/test_jit_array.rb
+	src/libjit/jitruby/test/test_jit_function.rb
+	src/libjit/jitruby/test/test_jit_pointer.rb
+	src/libjit/jitruby/test/test_jit_struct.rb
+	src/libjit/jitruby/test/test_jit_value.rb
+	src/libjit/missing
+	src/libjit/samples/
+	src/libjit/samples/hellovm.c
+	src/libjit/tests/
+	src/libjit/tests/.gitignore
+	src/libjit/tests/Makefile.am
+	src/libjit/tests/README
+	src/libjit/tests/coerce.pas
+	src/libjit/tests/cond.pas
+	src/libjit/tests/loop.pas
+	src/libjit/tests/math.pas
+	src/libjit/tests/param.pas
+	src/libjit/tools/
+	src/libjit/tools/.gitignore
+	src/libjit/tools/Makefile.am
+	src/libjit/tools/gen-apply-macosx.h
+	src/libjit/tools/gen-apply.c
+	src/libjit/tools/gen-rules-parser.y
+	src/libjit/tools/gen-rules-scanner.l
+	src/libjit/tutorial/
+	src/libjit/tutorial/.gitignore
+	src/libjit/tutorial/Makefile.am
+	src/libjit/tutorial/README
+	src/libjit/tutorial/t1.c
+	src/libjit/tutorial/t2.c
+	src/libjit/tutorial/t3.c
+	src/libjit/tutorial/t4.cpp
+	src/libjit/tutorial/t5.c
+	unknown:
+	clean
+
+2010-01-04  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Merge with Simone's work
+
+2009-12-10  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Release 0.1.4
+
+2009-12-08  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	New ARM opcodes implemented.
+	
+	* JIT_OP_STORE_RELATIVE_FLOAT64
+	* JIT_OP_LOAD_RELATIVE_FLOAT64
+
+2009-11-26  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Better support for real ARM hardware in Libjit
+
+2009-11-18  Speziale Ettore  <ettore@mars>
+
+	Initial import into Bazaar.
+

@@ -1,0 +1,181 @@
+2014-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed useless conversions.
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-08-19  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Remove unused variable.
+
+2013-08-19  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	When constructing lists of conversions to merge, stop if the previous
+	target variable is redefined.
+
+2013-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Applied a patch to fix a problem in testLoadsStores12
+
+2013-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib.
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use IRMOVE instead of IRSTORE
+
+2012-09-27  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapted the plugin to the new codetool API.
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2012-03-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the full API
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitir.
+	Removed warnings when it is compiled for 64 bits architectures.
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new APIs
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-13  
+Committer:
+Luca  <luca@turbo>
+
+
+	adapt to new IR API
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-20  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	- Removed the return statement from within do_job so that the plugin runs!
+
+2010-12-20  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	* Fixed bug with changing to unsigned type at smallest type size
+	
+	Now we use the smallest type when it is smaller than the start type or
+	a different sign to the start type (it is guaranteed never to be bigger).
+	Another type takes care of a change from small signed type to larger
+	unsigned type between the smallest type and end type.
+
+2010-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean correctly the memory
+
+2010-12-14  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	* Fixed a bug with conversion result usage.
+	
+	When a sequence of conversions is merged, we must check all instructions
+	within the method between the first and last conversion to ensure that
+	the final variable is not defined or used.  If it is, then this final
+	conversion cannot be included in the sequence so it is removed and the
+	check is performed again until no more conversions are removed.  This fix
+	adds the check for variable usage which was missing previously.
+
+2010-12-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

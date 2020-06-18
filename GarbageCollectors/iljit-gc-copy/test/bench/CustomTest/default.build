@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<project name="Custom Test" default="build" basedir=".">
+
+  <target name="build" description="compile source code">
+    <compile target="exe" output="CustomTest.exe">
+      <sources>
+        <includes name="Sources/**/*.cs"/>
+      </sources>
+    </compile>
+  </target>
+  
+  <target name="clean" description="remove all generated files">
+    <delete file="CustomTest.exe"/>
+  </target>
+
+</project>

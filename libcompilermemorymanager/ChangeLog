@@ -1,0 +1,267 @@
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2012-01-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Merged with multi-platform support.
+
+2012-01-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Applied patch for multi-platform support.
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the C++ users
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixing documentation
+
+2011-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the inline keywords for exported functions
+
+2011-08-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a file
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Renamed some functions
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added MEMORY_shareMutex and MEMORY_shareConditionVariable
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Diego's work.
+	Cleaned the API
+
+2011-08-03  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-08-02  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch + added a new mutex for private memory pool
+
+2011-07-29  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Moved obtainPrivateAddress() from function to macro when multi application support is not enabled
+
+2011-07-26  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Added conditional compilation for multi application support
+
+2011-07-15  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-07-11  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-06-15  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-05-23  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Merge with main branch
+
+2011-04-13  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Fixed a bug in smp_realloc()
+
+2011-04-10  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Enabled CIL->IR translation to be performed by a different instance of iljit
+
+2011-03-11  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Added private memory pool
+
+2011-01-25  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Added shared and private memory pool and generator behavior of iljit
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.6.0
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Normalized platform API header inclusion
+
+2011-07-14  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-05-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set profile mode at optimization level 0
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.5.0
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added Pposix_memalign() support in libplatform API (Linux only)
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function allocAlignedMemoryFunction.
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link to libplatform.
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-16  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	removed all PLATFORM-dependent headers.
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.4.0
+
+2010-09-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-24  Luca  <luca@ops-notebook>
+
+	update API
+
+2010-08-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-08-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the minimum release of the library libxan
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Update the documentation and change the version to 0.3.0 (Release candidate)
+
+2010-03-24  Luca  <luca@ops-notebook>
+
+	#
+
+2010-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	added:
+	configure.ac
+	unknown:
+	clean
+
+2010-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	removed:
+	configure.in
+	modified:
+	ChangeLog
+	src/compiler_memory_manager.c
+	src/compiler_memory_manager.h
+	unknown:
+	clean
+	configure.ac
+
+2010-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/Makefile.am
+	unknown:
+	clean
+
+2009-11-18  Speziale Ettore  <ettore@mars>
+
+	Initial import into Bazaar.
+

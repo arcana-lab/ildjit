@@ -1,0 +1,112 @@
+2014-04-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Close files
+
+2014-03-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion.
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-01-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warnings
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: properly notify if the requested method does not exist.
+
+2013-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the new function
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed a name of a function
+
+2013-12-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cached the string array arguments
+
+2013-12-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used externally linked t_system.
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Abort if the exception didn't work.
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new CLI API
+
+2013-12-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warnings
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-06-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a useless include
+
+2013-05-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed.
+
+2013-05-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing.
+
+2013-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2013-05-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Several bugs fixed about uses of RuntimeTypeHandle objects.
+
+2013-05-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Abort if exception didn't work
+
+2013-05-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed.
+
+2013-05-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented new functions.
+
+2013-05-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented getName
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the internal_calls* files
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the API
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

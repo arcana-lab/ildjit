@@ -1,0 +1,21 @@
+Source: libiljitmm
+Priority: extra
+Maintainer: Leonardo Mino' <oaexpert@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libiljitu-dev, libxan-dev, libcompilermemorymanager-dev, libglib2.0-0, libiljitsm-dev, libgl1-mesa-glx, mime-support, locales, libc6-i686, libasound2, pkg-config, libpcre3, gawk
+Standards-Version: 3.8.3
+Section: libs
+Homepage: http://ildjit.sourceforge.net
+
+Package: libiljitmm-dev
+Section: libdevel
+Architecture: any
+Depends: libiljitmm (= ${binary:Version})
+Description: Libiljitmm
+ This is the metadata manager respecting the ECMA 335 standard
+
+Package: libiljitmm
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Libiljitmm
+ <This is the metadata manager respecting the ECMA 335 standard

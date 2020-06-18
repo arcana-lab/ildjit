@@ -1,0 +1,5 @@
+<map id="ir_static_memory_t" name="ir_static_memory_t">
+<area shape="rect" id="node2" href="$struct__ir__symbol__t.html" title="An IR symbol. " alt="" coords="5,109,100,136"/>
+<area shape="rect" id="node3" href="$unionir__value__t.html" title="An ir value holds either a float or non&#45;float value. " alt="" coords="13,5,92,32"/>
+<area shape="rect" id="node4" href="$structir__global__t.html" title="A single global. " alt="" coords="124,109,205,136"/>
+</map>

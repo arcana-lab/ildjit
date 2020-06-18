@@ -1,0 +1,313 @@
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generate the static library as well.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Diego's work
+
+2011-07-26  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-05-23  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Merge with main branch
+
+2011-04-10   Committer: Luca  <luca@turbo> 
+
+	Merge Diego's Works
+
+2011-04-10  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	merge xan's works
+
+2011-04-10   Committer: Luca  <luca@turbo> 
+
+	Merge Xan's Works
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.6.0
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set profile mode at optimization level 0
+
+2011-07-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-06  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added (ILJITIROPTIMIZER_LIBS) in Makefile.am, needed by gcc for Win
+
+2011-05-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-13  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-12  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-10  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	merge
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.5.0
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link to libplatform.
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-11   Committer: Luca  <luca@turbo> 
+
+	adapt to new ir optimizer API
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful includes
+
+2011-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-07  Luca  <luca@ops-notebook>
+
+	fix compilation warning
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the code.
+
+2010-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix the compilation flags for profile
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-11-24  Luca  <luca@ops-notebook>
+
+	Update to new version of DLA
+
+2010-11-04  Luca  <luca@ops-notebook>
+
+	update DLA to new priority based pipeline
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-11  Luca  <luca@ops-notebook>
+
+	Reimplement DLA
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.4.0
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-02  Luca  <luca@ops-notebook>
+
+	improve DLA on virtual method
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-29  Luca  <luca@ops-notebook>
+
+	reduce number of abstract method inserted into translation pipeline
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of both Libiljitir and Libiljitiroptimizer
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	pending merges:
+	help 2010-04-25 Bug fixing
+
+2010-04-25  help
+
+	Bug fixing
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	CFLAGS fixed
+
+2010-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+	
+	
+	modified:
+	ChangeLog
+	configure.ac
+	src/dla.c
+	unknown:
+	clean
+
+2010-01-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete the glib instruction
+	
+	modified:
+	ChangeLog
+	configure.ac
+	src/Makefile.am
+	unknown:
+	clean
+
+2010-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/dla.c
+	unknown:
+	clean
+	pending merges:
+	Michele Tartara 2010-01-18 Wrong assertion removed
+	Michele Tartara 2010-01-18 Wrong assertion removed
+
+2010-01-18  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Wrong assertion removed
+
+2010-01-18  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Wrong assertion removed
+
+2010-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adjust with the new libiljitu metadata macros
+	
+	
+	modified:
+	src/dla.c
+
+2010-01-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	configure.ac
+	src/Makefile.am
+	src/dla.c
+	src/dla.h
+	unknown:
+	clean
+
+2009-11-18  Speziale Ettore  <ettore@mars>
+
+	Initial import into Bazaar.
+

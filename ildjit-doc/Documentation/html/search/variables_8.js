@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['i',['i',['../structinduction__variable__t.html#a03b44f5c64107a0e5403da3e64ae4205',1,'induction_variable_t']]],
+  ['id',['ID',['../structinduction__variable__t.html#a01f6523abaf6a7d7269e1f3f76be22fb',1,'induction_variable_t::ID()'],['../structir__instruction__t.html#a01f6523abaf6a7d7269e1f3f76be22fb',1,'ir_instruction_t::ID()'],['../struct__ir__symbol__t.html#afc886c791dd49e506d03aeaf26ec3ef8',1,'_ir_symbol_t::id()']]],
+  ['ilparamsdescriptor',['ilParamsDescriptor',['../structir__signature__t.html#abca815eee84b7c164a8a5778269d0269',1,'ir_signature_t']]],
+  ['ilparamstypes',['ilParamsTypes',['../structir__signature__t.html#aa5d41aa25548de0acacbb7f47d3307de',1,'ir_signature_t']]],
+  ['ilresulttype',['ilResultType',['../structir__signature__t.html#a0bd5ec20bbf82def73330a572febce0b',1,'ir_signature_t']]],
+  ['incomingedges',['incomingEdges',['../struct_xan_graph_node.html#a872c925f3016623fe6d7e72b0740d3a2',1,'XanGraphNode']]],
+  ['induction_5fbitmap',['induction_bitmap',['../structcircuit__t.html#ae77ebc8467da1963cce0db6ba75d21c7',1,'circuit_t']]],
+  ['induction_5ftable',['induction_table',['../structcircuit__t.html#ab7ddcd9a84d1f02d464e9215b16f6933',1,'circuit_t']]],
+  ['inductionvariables',['inductionVariables',['../structloop__t.html#a8ea091ab40d82f22bfab2251fcb2e4f5',1,'loop_t']]],
+  ['init',['init',['../structir__optimization__interface__t.html#a9ebcecba61a00ef9fffac8fbcc8502f4',1,'ir_optimization_interface_t::init()'],['../structir__optimization__levels__interface__t.html#a33abc245abe23746341d8b3ee7079dac',1,'ir_optimization_levels_interface_t::init()'],['../structclr__interface__t.html#a684d034daa1df2e026941b129f33e105',1,'clr_interface_t::init()']]],
+  ['initialvalue',['initialValue',['../structir__global__t.html#a76da3498ef345f99a79c563909bf681e',1,'ir_global_t']]],
+  ['inst',['inst',['../structdata__dep__arc__list__t.html#a005dcf54b987d57b9fb7981e237120c3',1,'data_dep_arc_list_t']]],
+  ['instructions',['instructions',['../structir__method__t.html#aad67ef78c2c39babc1ae636ddcd54924',1,'ir_method_t::instructions()'],['../structloop__t.html#a766d2a20e9c1118f6a334edbf152f05d',1,'loop_t::instructions()']]],
+  ['instructionsallocated',['instructionsAllocated',['../structir__method__t.html#a711f69bcdada3fa16c722993c6b0b4d6',1,'ir_method_t']]],
+  ['instructionsbasicblocksmap',['instructionsBasicBlocksMap',['../structir__method__t.html#a86e5f71f49845b1fab57133d92537acb',1,'ir_method_t']]],
+  ['instructionstop',['instructionsTop',['../structir__method__t.html#aad53af5e933b2ffc6c6b71fb5125e7be',1,'ir_method_t']]],
+  ['internal_5ftype',['internal_type',['../structir__item__t.html#a6654a224489ff302daed290b50bee3bc',1,'ir_item_t::internal_type()'],['../structir__local__t.html#a9e2f905f66c2cb5e63c7bf1be494ab37',1,'ir_local_t::internal_type()']]],
+  ['invariants',['invariants',['../structcircuit__t.html#abb41848ce1d6d464f013231907e21d5d',1,'circuit_t::invariants()'],['../structloop__t.html#ab6617971ffb9fe875d9012407ae710ac',1,'loop_t::invariants()']]],
+  ['ir_5fmachine_5fcode_5ftranslation_5ftime',['ir_machine_code_translation_time',['../structt__profiler.html#a8ab579e195fefffe1f8b129f4852eb25',1,'t_profiler']]],
+  ['ir_5foptimization_5ftime',['ir_optimization_time',['../structt__profiler.html#a697998c030ecf1956a8dd2574c304d64',1,'t_profiler']]],
+  ['ir_5fsystem',['ir_system',['../struct_i_r_v_m__t.html#a478fa30357fdcf367b48d4da0ce68a37',1,'IRVM_t']]],
+  ['irtype',['IRType',['../structir__global__t.html#a97155884b1895bb48f603b6162aebfa9',1,'ir_global_t']]],
+  ['irvm',['IRVM',['../structt__system.html#ac6c6b63ae67a682e2429806567c81f3c',1,'t_system']]],
+  ['isconstant',['isConstant',['../structir__global__t.html#aebfba700c8e724461529ad59ce10db4d',1,'ir_global_t']]]
+];

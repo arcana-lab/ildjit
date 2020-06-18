@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@/iljit
+includedir=@includedir@/iljit
+
+Name: libirmanager
+Description: Manager of the IR language
+Version: @VERSION@
+Libs: -L${libdir} -lirmanager
+Cflags: -I${includedir}

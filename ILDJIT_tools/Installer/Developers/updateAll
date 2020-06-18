@@ -1,0 +1,37 @@
+#!/bin/bash
+BZRREPO=bzr+ssh://compilergroup-srv.elet.polimi.it/repositories/ildjit
+
+# Verify whether an element is in a list
+# $1 = element
+# $2 = list
+# return: 0 if found, 1 if not found, 2 if error
+function isInList {
+	grep -q ^\\s*$1\\s*$ $2
+	return $(($?))
+}
+
+
+# ---------- MAIN ---------------
+for i in `cat listOfModules`
+do
+	isInList $i listOfBzrModules	
+	inList=$?
+
+	cd $i
+	
+	if test $inList -eq 0; then
+		echo "Updating $i from Bazaar"
+		bzr merge --pull $BZRREPO/$i
+	else
+		echo "Updating $i from CVS"
+		cvs update -d  
+	fi
+	
+	if test $? -ne 0  ; then
+          echo "ERROR while updating " $i;
+          exit 1;
+        fi
+	
+	cd ..
+done
+echo All done

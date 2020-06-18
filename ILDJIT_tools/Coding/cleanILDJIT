@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for i in `cat listOfAllModules` ; do
+	echo "Cleaning $i"
+	cd $i
+	../clean
+	cd ..
+done
+
+rm -f `find ./ -name \.exrc`
+cd libcompilermemorymanager
+rm -rf src/libgc

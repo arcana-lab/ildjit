@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for i in `cat listOfAllModules`
+do
+	cd $i
+	if test -d .bzr ; then
+		echo "Revert $i"
+		bzr revert
+	fi
+	cd ..
+done
+echo All done

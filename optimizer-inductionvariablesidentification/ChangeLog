@@ -1,0 +1,256 @@
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed. Now testInductiveVariables15 works.
+
+2013-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed. Now testInductiveVariables14 works
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API.
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Switch to the new name circuit_t
+
+2013-09-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some printing
+
+2013-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved comments.
+
+2013-06-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed. Now testInducitonVariables12 works.
+
+2013-05-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed. Handle negative induction variables.
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks
+
+2012-09-28  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-07-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed. A variable potentially defined before an induction variable cannot be induction as well simply by copying its value.
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapted the plugin to the new codetool API.
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2012-01-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-01-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2011-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Induction variables cannot escape
+
+2011-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing for cases where "b" is not a constant, but a loop-invariant variable.
+
+2011-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-11-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the analysis
+
+2011-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cleaned the code
+
+2011-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-10-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the induction variables identification by including IRPOW
+
+2011-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean the code.
+	Improved the analysis.
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not use system.h file
+
+2011-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean the code
+
+2011-03-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-03-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2010-12-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-11-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on the induction variable identification
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt the plugin with the new interface
+
+2010-09-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-08-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-08-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with the debian package work.
+
+2010-07-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Free memory used in the past call
+
+2010-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	CFLAGS fixing
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Michy's work
+
+2010-03-06  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Adapt to the new ir_method interface
+
+2010-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	unknown:
+	clean
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimization IDs 64 bits
+
+2010-01-15  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Initial commit
+

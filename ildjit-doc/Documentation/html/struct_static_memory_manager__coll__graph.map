@@ -1,0 +1,6 @@
+<map id="StaticMemoryManager" name="StaticMemoryManager">
+<area shape="rect" id="node2" href="$struct_xan_hash_table.html" title="Hash tableThis structure implements the closed hash table. The equals, hash functions can be customiz..." alt="" coords="33,127,141,153"/>
+<area shape="rect" id="node3" href="$struct_xan_hash_table_item.html" title="Element of the hash table. " alt="" coords="5,7,140,33"/>
+<area shape="rect" id="node4" href="$struct_xan_list.html" title="Doubly linked listDoubly linked list containing pointers to user data with the ability to iterate ove..." alt="" coords="229,127,295,153"/>
+<area shape="rect" id="node5" href="$struct_xan_list_item.html" title="List elementElement stored inside the XanList list. " alt="" coords="217,7,310,33"/>
+</map>

@@ -1,0 +1,22 @@
+#!/bin/sh
+#
+# Run benchmark suite
+
+BENCHMARKS=(@BENCHMARKS@)
+HEAP_SIZES=(@HEAP_SIZES@)
+ILJIT=@ILJIT@
+
+# Check that BENCHMARSK and HEAP_SIZES length are equals
+if [ ${#BENCHMARKS[*]} != ${#HEAP_SIZES[*]} ]; then
+  echo "BENCHMARKS and HEAPSIZES must have equals length"
+  exit -1
+fi
+# Run all benchmarks
+for((i = 0;i < ${#BENCHMARKS[$i]};i++)); do
+  echo Running ${BENCHMARKS[$i]} ...
+  $ILJIT -H${HEAP_SIZES[$i]} -GCopy ${BENCHMARKS[$i]}
+  if [ $? -ne 255 ]; then
+    echo "${BENCHMARKS[$i]} failed"
+    exit -1
+  fi
+done

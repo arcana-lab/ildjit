@@ -1,0 +1,7 @@
+<map id="Plugins" name="Plugins">
+<area shape="rect" id="node1" href="$group___c_l_rtools.html" title="CLR tools" alt="" coords="144,5,223,32"/>
+<area shape="rect" id="node2" href="$group___backendtools.html" title="Backend tools" alt="" coords="131,56,235,83"/>
+<area shape="rect" id="node3" href="$group___optimizationleveltools.html" title="Optimization level\l tools" alt="" coords="121,107,245,149"/>
+<area shape="rect" id="node4" href="$group___g_ctools.html" title="Garbage collection\l tools" alt="" coords="119,173,248,214"/>
+<area shape="rect" id="node6" href="$group___i_r_code_optimization.html" title="Codetools" alt="" coords="143,239,223,265"/>
+</map>

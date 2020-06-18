@@ -1,0 +1,15 @@
+#!/bin/bash
+
+rm -rf NEW_ILDJIT NEW_ILDJIT.tar.bz2
+
+mkdir NEW_ILDJIT
+
+for i in `cat listOfModules`
+do
+	echo "$i"
+	bzr branch $i NEW_ILDJIT/$i
+done
+tar cfj NEW_ILDJIT.tar.bz2 NEW_ILDJIT
+rm -rf NEW_ILDJIT
+
+echo "All done in NEW_ILDJIT.tar.bz2"

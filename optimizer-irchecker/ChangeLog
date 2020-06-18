@@ -1,0 +1,144 @@
+2014-07-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Check the parameters of the method.
+
+2014-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the IR*ELEM instructions
+
+2014-03-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change an error to a warning.
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-01-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Check initialization of variables. Remove the output file if it is empty.
+
+2013-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IRLOG10
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled the new instructions
+
+2013-04-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle new instructions
+
+2013-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib.
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not create the file
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use IRMOVE instead of IRSTORE
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new instruction
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the IRCEIL
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IREXP
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Check the new instructions
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the output
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable instructions
+
+2012-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the checking
+
+2012-10-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Inhibit checks for variable usages
+
+2012-10-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added checking for variables to make sure they are defined
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new ISA
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRCALLINDIRECTCCTOR
+
+2011-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-13   Committer: Luca  <luca@turbo> 
+
+	adapt to new IR API
+
+2011-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

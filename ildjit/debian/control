@@ -1,0 +1,13 @@
+Source: iljit
+Section: unknown
+Priority: extra
+Maintainer: Leonardo Mino' <oaexpert@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libirvirtualmachine-dev, libgl1-mesa-glx, mime-support, m4, libc6-i686, flex, libdla-dev, libiljitir-dev, libiljitirprofiler-dev, libxan-dev, libiljitu-dev, libglib2.0-dev, libcompilermemorymanager-dev, libiljitiroptimizer-dev, libiljitsm-dev, locales, libasound2, libclimanager-dev, libiljitmm-dev, gawk
+Standards-Version: 3.8.3
+Homepage: http://ildjit.sourceforge.net
+
+Package: iljit
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: iljit - Just-in-time compiler of the ILDJIT project
+ This is a Just-in-time compiler of the ILDJIT project for the CIL language specified with the ECMA-335

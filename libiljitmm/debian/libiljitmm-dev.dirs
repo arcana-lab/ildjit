@@ -1,0 +1,7 @@
+usr/lib
+usr/include
+usr/lib/iljit
+usr/include/iljit
+usr/include/iljit/metadata
+usr/include/iljit/metadata/streams
+usr/include/iljit/metadata/tables

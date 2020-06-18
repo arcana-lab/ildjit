@@ -1,0 +1,25 @@
+#!/bin/bash
+
+host=bzr+ssh://bubba.eecs.harvard.edu/home/xan/Softwares/ILDJIT/src/bzr
+
+declare localModules;
+localModules="" ;
+if test -f listOfModulesToKeepLocal ; then
+	localModules=`cat listOfModulesToKeepLocal`
+fi
+
+for i in `cat listOfAllModules`
+do
+	if test -e $i ; then
+		cd $i
+		if test -d .bzr ; then
+			echo "Pulling $i"
+			bzr pull --remember $host/$i
+		fi
+		cd ..
+	else
+		echo "Branching $i"
+		bzr branch $host/$i
+	fi
+done
+echo All done

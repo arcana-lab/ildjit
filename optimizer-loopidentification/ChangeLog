@@ -1,0 +1,281 @@
+2014-05-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used bitmap rather than hash table
+
+2014-05-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Buffered previous searches.
+
+2014-05-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cache memory rather than allocating new ones.
+
+2014-05-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Swap the conditions for the conditional branch to start with the fastest one to check
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API.
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Switch to the new name circuit_t
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-10-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Print the tree.
+
+2012-10-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed in the computation of the loop nesting tree.
+
+2012-09-27  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed within an assertion
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the speed of the analysis by relying on basic blocks instead of instructions.
+
+2012-08-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the speed of the algorithm.
+
+2012-08-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the compilation options
+
+2012-07-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean up the code a little.
+
+2012-04-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed assertions.
+	Remove warnings
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2010-12-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the ottimization
+
+2010-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Insert the right symbols to the plugins for profile purposes.
+
+2010-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cache the successors relation
+
+2010-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove some memory leaks
+
+2010-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on creating loop nesting tree.
+	Free completely the memory
+
+2010-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on computing the loop nesting tree.
+
+2010-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-10-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on computation of loops nesting tree.
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt the plugin with the new interface
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with the debian package work.
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Merge with upstream
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-07-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/loop_identification.c
+
+2010-07-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add print instructions
+
+2010-06-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.0
+
+2010-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixing CFLAGS
+
+2010-04-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	pending merges:
+	Michele Tartara 2010-04-09 [merge] Simone's work
+	Michele Tartara 2010-03-16 Plugin interface updated to 64 bits
+
+2010-04-09  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Simone's work
+
+2010-03-16  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Plugin interface updated to 64 bits
+
+2010-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.1
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimization IDs 64 bits
+
+2010-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+	
+	
+	modified:
+	ChangeLog
+	configure.ac
+	src/loop_identification.c
+	unknown:
+	clean
+
+2010-01-15  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Initial commit
+

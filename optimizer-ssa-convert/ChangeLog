@@ -1,0 +1,169 @@
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with dummy.
+
+2013-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove memory leaks
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warning messages.
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-10-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the authors
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Replaced IRSTORE with IRMOVE
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-09-28  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-07-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2012-06-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks
+
+2012-06-21  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Don't try to alter variables in the basic block containing the exit node.
+
+2012-03-26  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanStack API
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitir.
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the API instead of direct fields access
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of xanlib
+
+2011-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge from Tim's work
+
+2011-09-28  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Restore the original dot printer filename when leaving this pass.
+
+2011-09-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-09-01  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Fix this optimiser to work when compiled in 64bit.  When shifting a 1 by
+	the size of a pointer, first cast it to a JITNUINT so that it can be
+	shifted by the correct amount, otherwise it can only be shifted up to 32
+	bits.
+	
+	In addition, remove some dead code that was commented out.
+
+2011-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitir
+
+2011-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR API
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-01-16  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Initial commit
+

@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@/iljit
+includedir=@includedir@/iljit
+
+Name: libiljitil
+Description: Input language API for ILDJIT framework
+Version: @VERSION@
+Libs: -L${libdir} -liljitil
+Cflags: -I${includedir}

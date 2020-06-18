@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@/iljit
+includedir=@includedir@/iljit
+
+Name: libilbinary
+Description: Library to handle input-Language binaries.
+Version: @VERSION@
+Libs: -L${libdir} -lilbinary
+Cflags: -I${includedir}/iljit

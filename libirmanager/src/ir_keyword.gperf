@@ -1,0 +1,156 @@
+%{
+
+/*
+ * Copyright (C) 2006 Campanoni Simone
+ *
+ * iljit - This is a Just-in-time for the CIL language specified with the ECMA-335
+ * 
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+
+#include <ir_language.h>
+#include <ir_method.h>
+
+typedef struct _IRKeyword{
+	char *name;
+	JITINT32 value;
+} IRKeyword;
+
+%}
+%define hash-function-name irKeywordHash
+%define lookup-function-name irKeywordLookUp
+%struct-type
+%readonly-tables
+%global-table
+%enum
+%includes
+%null-strings
+%omit-struct-type
+IRKeyword
+%%
+move, IRMOVE
+add, IRADD
+add_ovf, IRADDOVF
+sub, IRSUB
+sub_ovf, IRSUBOVF
+mul, IRMUL
+mul_ovf, IRMULOVF
+div, IRDIV
+div_noexception, IRDIV_NOEXCEPTION
+rem, IRREM
+rem_noexception, IRREM_NOEXCEPTION
+and, IRAND
+neg, IRNEG
+or, IROR
+not, IRNOT
+xor, IRXOR
+shl, IRSHL
+shr, IRSHR
+sizeof, IRSIZEOF
+conv, IRCONV
+conv_ovf, IRCONVOVF
+bitcast, IRBITCAST
+branch, IRBRANCH
+branch_if, IRBRANCHIF
+branch_if_not, IRBRANCHIFNOT
+label, IRLABEL
+less_than, IRLT
+greater_than, IRGT
+equal, IREQ
+call, IRCALL
+library_call, IRLIBRARYCALL
+virtual_call, IRVCALL
+indirect_call, IRICALL
+native_call, IRNATIVECALL
+new_object, IRNEWOBJ
+new_array, IRNEWARR
+free_object, IRFREEOBJ
+load_relative, IRLOADREL
+store_relative, IRSTOREREL
+get_address, IRGETADDRESS
+return, IRRET
+call_finally, IRCALLFINALLY
+throw, IRTHROW
+start_filter, IRSTARTFILTER
+end_filter, IRENDFILTER
+start_finally, IRSTARTFINALLY
+end_finally, IRENDFINALLY
+start_catcher, IRSTARTCATCHER
+branch_if_pc_not_in_range, IRBRANCHIFPCNOTINRANGE
+call_filter, IRCALLFILTER
+is_nan, IRISNAN
+is_inf, IRISINF
+init_memory, IRINITMEMORY
+fence, IRFENCE
+alloca, IRALLOCA
+memcpy, IRMEMCPY
+memcmp, IRMEMCMP
+check_null, IRCHECKNULL
+nop, IRNOP
+cosh, IRCOSH
+ceil, IRCEIL
+sin, IRSIN
+cos, IRCOS
+acos, IRACOS
+sqrt, IRSQRT
+floor, IRFLOOR
+pow, IRPOW
+exp, IREXP
+log10, IRLOG10
+alloc, IRALLOC
+alloc_align, IRALLOCALIGN
+realloc, IRREALLOC
+calloc, IRCALLOC
+free, IRFREE
+exitnode, IREXITNODE			
+array_length, IRARRAYLENGTH
+string_length, IRSTRINGLENGTH
+string_cmp, IRSTRINGCMP
+string_chr, IRSTRINGCHR
+exit, IREXIT
+INT8, IRINT8
+INT16, IRINT16
+INT32, IRINT32
+INT64, IRINT64
+NINT, IRNINT
+UINT8, IRUINT8
+UINT16, IRUINT16
+UINT32, IRUINT32
+UINT64, IRUINT64
+NUINT, IRNUINT
+FLOAT32, IRFLOAT32
+FLOAT64, IRFLOAT64
+NFLOAT, IRNFLOAT
+VOID, IRVOID
+CLASSID, IRCLASSID
+METHODID, IRMETHODID
+METHODENTRYPOINT, IRMETHODENTRYPOINT
+MPOINTER, IRMPOINTER
+TPOINTER, IRTPOINTER
+FPOINTER, IRFPOINTER
+OBJECT, IROBJECT
+VALUETYPE, IRVALUETYPE
+STRING, IRSTRING
+SIGNATURE, IRSIGNATURE
+VAR, IROFFSET
+LABELITEM, IRLABELITEM
+%%
+
+JITINT32 IRMETHOD_getValueFromIRKeyword(JITINT8 *name){
+	assert(name != NULL);
+	const IRKeyword *keyword=irKeywordLookUp((char *)name,STRLEN(name));
+	assert(keyword != NULL);
+	return keyword->value;
+}

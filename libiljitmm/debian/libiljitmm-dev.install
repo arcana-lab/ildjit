@@ -1,0 +1,7 @@
+usr/include/iljit/*
+usr/include/iljit/metadata/*
+usr/include/iljit/metadata/streams/*
+usr/include/iljit/metadata/tables/*
+usr/lib/iljit/lib*.so
+usr/lib/pkgconfig/*
+usr/lib/iljit/*.la

@@ -1,0 +1,1064 @@
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-01-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed useless assertions
+
+2014-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimized the decoding of some tables.
+
+2014-01-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warnings
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Speedup the decoding of some tables.
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generate the static library as well.
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory corruption
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-12-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the decoder symbol
+
+2013-12-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-05-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed wrong assertions
+
+2013-05-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed.
+
+2013-04-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Print an error message if a class is not found
+
+2013-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed an alias
+
+2013-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed about parsing parameters or result of CIL signatures when CMOD options are used.
+
+2013-04-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2012-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks.
+
+2012-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the Visual studio CIL
+
+2012-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed several memory leaks.
+
+2012-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed several memory leaks
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed compilation warnings
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the documentation
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed an empty section in the documentation
+
+2012-10-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the copyright
+
+2012-09-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Minor changes
+
+2012-09-27  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-09-24  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Remove function pointers from xanHashTable for lookup and insert.
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-02-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IRFPOINTER
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRTYPEDREF.
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Making the library platform independent
+
+2012-02-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle multiple types
+
+2012-02-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IRFPOINTER
+
+2012-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2012-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2012-01-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Merged with multi-platform patch
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the direct calls
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new symbols
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the API for C++ programs
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libcompilermemorymanager
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Diego's work
+
+2011-08-03  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-08-02  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-07-29  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Mutexes and conditional variables are now process shared only if multi application support is enabled
+
+2011-07-26  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Added conditional compilation for multi application support
+
+2011-07-11  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-06-15  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-05-23  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Merge with main branch
+
+2011-04-15  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Added a missing PTHREAD_PROCESS_SHARED attribute
+
+2011-03-12  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Adaptation to work with shared/private memory pool
+
+2011-01-25  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Added shared and private memory pool and generator behavior of iljit
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.6.0
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Normalized platform API header inclusion
+
+2011-07-14  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-06  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-03  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-05-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set profile mode at optimization level 0
+
+2011-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2011-07-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled 64 bits CIL files.
+
+2011-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle both ELEMENT_TYPE_CMOD_OPT and ELEMENT_TYPE_CMOD_REQD by skipping them.
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the t_binary_information structure
+
+2011-06-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-05-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Relaxed an assertion
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.5.0
+
+2011-04-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle not portable CIL code.
+
+2011-03-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Fixed some mingw-compiling problems with reserved keyword 'interface' 
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Fixed compiling errors with MinGW (name confilcts). This lib can be compiled with minGW from now.
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-03-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Removed all commented platform-dependent includes
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link to libplatform.
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-16  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	removed all PLATFORM-dependent headers.
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	merge
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	Merge Xan's
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	General BugFix
+	Removed unused imt data structure
+
+2011-02-04  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	fixed multi-PLATFORM support warnings. Renamed multi-PLATFORM Thread Functions.
+
+2011-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for functions pthread_create, pthread_join, pthread_self, pthread_once, pthread_equal, pthread_attr_init, pthread_attr_setscope, pthread_attr_setstacksize, pthread_attr_setinheritsched, pthread_attr_setschedparam, pthread_attr_setschedpolicy, pthread_mutex_init, pthread_mutexattr_init, pthread_mutexattr_settype, pthread_mutex_destroy, pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock, pthread_cond_init, pthread_cond_wait, pthread_cond_signal, pthread_cond_broadcast, pthread_cond_destroy (all in pthread.h)
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2010-12-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-12  Luca  <luca@ops-notebook>
+
+	Reduce Virtual Table Size
+
+2010-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing for the System.Char type
+
+2010-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-12-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-03  Luca  <luca@ops-notebook>
+
+	increase thread safety
+
+2010-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the code.
+
+2010-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rollback to version 56
+
+2010-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-11-30  Luca  <luca@ops-notebook>
+
+	Thread Safefy bugfix
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-11-24  Luca  <luca@ops-notebook>
+
+	update pthread lock init code
+	bugfix implementsMethod
+
+2010-10-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-27  Luca  <luca@ops-notebook>
+
+	implement method used in AOT compilation
+
+2010-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-26  Luca  <luca@ops-notebook>
+
+	update to new metadata system
+
+2010-10-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-13  Luca  <luca@ops-notebook>
+
+	bugfix in symbol decoding
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-11  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-10-11  Luca  <luca@ops-notebook>
+
+	BugFix of nested class discovery method
+
+2010-10-09  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-10-08  Luca  <luca@ops-notebook>
+
+	use global variable for manager pointer
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.4.0
+
+2010-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-08  Luca  <luca@ops-notebook>
+
+	thread safety of symbol decoding
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-07  Luca  <luca@ops-notebook>
+
+	remove recursive pthread
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-02  Luca  <luca@ops-notebook>
+
+	bugfix wrong attributes in array type
+
+2010-10-01  Luca  <luca@ops-notebook>
+
+	add field info BasicTypeAttributes
+
+2010-09-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-24  Luca  <luca@ops-notebook>
+
+	implement new method used by new internal call subsystem
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-20  Luca  <luca@ops-notebook>
+
+	fix warning
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-08-16  Luca  <luca@ops-notebook>
+
+	change name from canCastTo to assignableTo
+
+2010-08-15  Luca  <luca@ops-notebook>
+
+	speed-up cast check
+
+2010-08-10  Luca  <luca@ops-notebook>
+
+	Bugfix decoding of generic method having byref params
+
+2010-08-04  Luca  <luca@ops-notebook>
+
+	Bugfix GetName from TypeDescriptor for byref types
+
+2010-08-03  Luca  <luca@ops-notebook>
+
+	change system.bool size to IRINT32
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	merge works
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-07-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/class_descriptor.c
+	pending merges:
+	Luca 2010-07-23 Fix bug in on event and property discovery
+
+2010-07-23  Luca  <luca@ops-notebook>
+
+	Fix bug in on event and property discovery
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	API improvement for TypeDescriptor
+
+2010-07-13  Luca  <luca@ops-notebook>
+
+	#
+
+2010-05-31  Luca  <luca@ops-notebook>
+
+	Remove Unused field in VtableSlot record
+
+2010-05-09  Luca  <luca@ops-notebook>
+
+	add opaque metadata caching system
+
+2010-04-29  Luca  <luca@ops-notebook>
+
+	Fix Problem with incorrect makefile
+
+2010-04-27  Luca  <luca@ops-notebook>
+
+	Correct problem with erroneus header inclusion
+
+2010-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix a missing file
+
+2010-04-27  Luca  <luca@ops-notebook>
+
+	Clean up & optimized function
+	Reimplement VTable computation
+	Memory Tuning
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release candidate 0.3.0
+
+2010-04-19  Francesco Fiduccia  <crypt@ubuntu>
+
+	Memphis Release Finale
+
+2010-04-16  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Fixed bug in decoding MethodSpec and GenericParam table
+
+2010-04-14  Luca  <luca@ops-notebook>
+
+	Add support for generic virtual call
+
+2010-04-12  Francesco Fiduccia  <crypt@ubuntu>
+
+	merge
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/metadata_types_manager.c
+
+2010-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Luca's work
+
+2010-04-09  Luca  <luca@ops-notebook>
+
+	clean up & optimized function
+
+2010-04-07  Luca  <luca@ops-notebook>
+
+	Optimize some function && TypeSpecDescriptor ref counting bugfixing
+
+2010-04-06  Luca  <luca@ops-notebook>
+
+	Merge change
+
+2010-04-05  Luca  <luca@ops-notebook>
+
+	Add inline to all function of new Metadata library
+
+2010-03-30  Luca  <luca@ops-notebook>
+
+	Added Object mutex for usage in future
+
+2010-04-07  Francesco Fiduccia  <crypt@ubuntu>
+
+	Merge Bug Fix
+
+2010-04-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Print file offset in printdebug mode
+
+2010-04-07  Francesco Fiduccia  <crypt@ubuntu>
+
+	Bug Hunting
+
+2010-03-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-03-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reduction of public interface
+
+2010-03-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Luca's work
+
+2010-03-29  Luca  <luca@ops-notebook>
+
+	#
+
+2010-03-29  Luca  <luca@ops-notebook>
+
+	Fix bug in array descriptor equals
+
+2010-03-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete unusefull file.
+
+2010-03-24  Luca  <luca@ops-notebook>
+
+	Add new metadata manager with initial generics support
+
+2010-03-24  Luca  <luca@ops-notebook>
+
+	Add new metadata manager with initial generics support
+
+2010-01-29  Luca  <luca@ops-notebook>
+
+	removed:
+	configure.in
+	added:
+	configure.ac
+	modified:
+	ChangeLog
+	src/decoding_tools.c
+	unknown:
+	Makefile.in
+	aclocal.m4
+	autom4te.cache/
+	build-aux/
+	configure
+	doc/Makefile.in
+	include/Makefile.in
+	include/decoder.h@
+	include/decoding_tools.h@
+	include/metadata_manager.h@
+	include/metadata_manager_support.h@
+	include/type_checker.h@
+	include/metadata/Makefile.in
+	include/metadata/metadata_types.h@
+	include/metadata/streams/Makefile.in
+	include/metadata/streams/metadata_blob_stream_manager.h@
+	include/metadata/streams/metadata_guid_stream_manager.h@
+	include/metadata/streams/metadata_not_stream_manager.h@
+	include/metadata/streams/metadata_streams_manager.h@
+	include/metadata/streams/metadata_string_stream_manager.h@
+	include/metadata/streams/metadata_us_stream_manager.h@
+	include/metadata/tables/Makefile.in
+	include/metadata/tables/assembly_ref_table_metadata.h@
+	include/metadata/tables/assembly_table_metadata.h@
+	include/metadata/tables/class_layout_table_metadata.h@
+	include/metadata/tables/constant_table_metadata.h@
+	include/metadata/tables/custom_attribute_table_metadata.h@
+	include/metadata/tables/decl_security_table_metadata.h@
+	include/metadata/tables/event_map_table_metadata.h@
+	include/metadata/tables/event_table_metadata.h@
+	include/metadata/tables/exported_type_table_metadata.h@
+	include/metadata/tables/field_layout_table_metadata.h@
+	include/metadata/tables/field_marshal_table_metadata.h@
+	include/metadata/tables/field_rva_table_metadata.h@
+	include/metadata/tables/field_table_metadata.h@
+	include/metadata/tables/file_table_metadata.h@
+	include/metadata/tables/generic_param_constraint_table_metadata.h@
+	include/metadata/tables/generic_param_table_metadata.h@
+	include/metadata/tables/impl_map_table_metadata.h@
+	include/metadata/tables/interface_impl_table_metadata.h@
+	include/metadata/tables/manifest_resource_table_metadata.h@
+	include/metadata/tables/member_ref_table_metadata.h@
+	include/metadata/tables/metadata_table_manager.h@
+	include/metadata/tables/method_def_table_metadata.h@
+	include/metadata/tables/method_impl_table_metadata.h@
+	include/metadata/tables/method_semantics_table_metadata.h@
+	include/metadata/tables/method_spec_table_metadata.h@
+	include/metadata/tables/module_ref_table_metadata.h@
+	include/metadata/tables/module_table_metadata.h@
+	include/metadata/tables/nested_class_table_metadata.h@
+	include/metadata/tables/param_table_metadata.h@
+	include/metadata/tables/property_map_table_metadata.h@
+	include/metadata/tables/property_table_metadata.h@
+	include/metadata/tables/standalone_sig_table_metadata.h@
+	include/metadata/tables/type_def_table_metadata.h@
+	include/metadata/tables/type_ref_table_metadata.h@
+	include/metadata/tables/type_spec_table_metadata.h@
+	pkgconfig/Makefile.in
+	src/Makefile.in
+	src/config.h.in
+	src/generic_param_constraint_table_metadata.c
+	src/generic_param_constraint_table_metadata.h
+	src/generic_param_table_metadata.c
+	src/generic_param_table_metadata.h
+	src/method_spec_table_metadata.c
+	src/method_spec_table_metadata.h
+	pending merges:
+	Simone Campanoni 2010-01-28 Release 0.2.0
+
+2010-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+	
+	
+	removed:
+	configure.in
+	added:
+	configure.ac
+	modified:
+	ChangeLog
+	src/decoding_tools.c
+	unknown:
+	clean
+
+2010-01-28  Luca  <luca@ops-notebook>
+
+	modified:
+	include/metadata/tables/Makefile.am
+	src/Makefile.am
+	src/decoding_tools.c
+	src/decoding_tools.h
+	src/metadata_table_manager.c
+	src/metadata_table_manager.h
+	src/metadata_types.c
+	src/metadata_types.h
+	src/mtm_utils.c
+	src/mtm_utils.h
+	unknown:
+	Makefile.in
+	aclocal.m4
+	autom4te.cache/
+	build-aux/
+	configure
+	doc/Makefile.in
+	include/Makefile.in
+	include/decoder.h@
+	include/decoding_tools.h@
+	include/metadata_manager.h@
+	include/metadata_manager_support.h@
+	include/type_checker.h@
+	include/metadata/Makefile.in
+	include/metadata/metadata_types.h@
+	include/metadata/streams/Makefile.in
+	include/metadata/streams/metadata_blob_stream_manager.h@
+	include/metadata/streams/metadata_guid_stream_manager.h@
+	include/metadata/streams/metadata_not_stream_manager.h@
+	include/metadata/streams/metadata_streams_manager.h@
+	include/metadata/streams/metadata_string_stream_manager.h@
+	include/metadata/streams/metadata_us_stream_manager.h@
+	include/metadata/tables/Makefile.in
+	include/metadata/tables/assembly_ref_table_metadata.h@
+	include/metadata/tables/assembly_table_metadata.h@
+	include/metadata/tables/class_layout_table_metadata.h@
+	include/metadata/tables/constant_table_metadata.h@
+	include/metadata/tables/custom_attribute_table_metadata.h@
+	include/metadata/tables/decl_security_table_metadata.h@
+	include/metadata/tables/event_map_table_metadata.h@
+	include/metadata/tables/event_table_metadata.h@
+	include/metadata/tables/exported_type_table_metadata.h@
+	include/metadata/tables/field_layout_table_metadata.h@
+	include/metadata/tables/field_marshal_table_metadata.h@
+	include/metadata/tables/field_rva_table_metadata.h@
+	include/metadata/tables/field_table_metadata.h@
+	include/metadata/tables/file_table_metadata.h@
+	include/metadata/tables/generic_param_constraint_table_metadata.h@
+	include/metadata/tables/generic_param_table_metadata.h@
+	include/metadata/tables/impl_map_table_metadata.h@
+	include/metadata/tables/interface_impl_table_metadata.h@
+	include/metadata/tables/manifest_resource_table_metadata.h@
+	include/metadata/tables/member_ref_table_metadata.h@
+	include/metadata/tables/metadata_table_manager.h@
+	include/metadata/tables/method_def_table_metadata.h@
+	include/metadata/tables/method_impl_table_metadata.h@
+	include/metadata/tables/method_semantics_table_metadata.h@
+	include/metadata/tables/method_spec_table_metadata.h@
+	include/metadata/tables/module_ref_table_metadata.h@
+	include/metadata/tables/module_table_metadata.h@
+	include/metadata/tables/nested_class_table_metadata.h@
+	include/metadata/tables/param_table_metadata.h@
+	include/metadata/tables/property_map_table_metadata.h@
+	include/metadata/tables/property_table_metadata.h@
+	include/metadata/tables/standalone_sig_table_metadata.h@
+	include/metadata/tables/type_def_table_metadata.h@
+	include/metadata/tables/type_ref_table_metadata.h@
+	include/metadata/tables/type_spec_table_metadata.h@
+	pkgconfig/Makefile.in
+	src/Makefile.in
+	src/config.h.in
+	src/generic_param_constraint_table_metadata.c
+	src/generic_param_constraint_table_metadata.h
+	src/generic_param_table_metadata.c
+	src/generic_param_table_metadata.h
+	src/method_spec_table_metadata.c
+	src/method_spec_table_metadata.h
+
+2010-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove the IRUPOINTER type
+	
+	
+	modified:
+	ChangeLog
+	src/decoding_tools.c
+	src/type_checker.c
+	unknown:
+	clean
+
+2010-01-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Memory errors fixed.
+	
+	
+	modified:
+	ChangeLog
+	src/decoding_tools.c
+	src/decoding_tools.h
+	src/type_checker.c
+	unknown:
+	clean
+
+2010-01-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimization of some functions.
+	
+	
+	modified:
+	ChangeLog
+	src/type_checker.c
+	src/type_checker.h
+	unknown:
+	clean
+
+2010-01-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	added:
+	src/metadata_types.c
+	unknown:
+	clean
+
+2010-01-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adjust for the new library libclimanager
+	
+	
+	modified:
+	ChangeLog
+	src/Makefile.am
+	src/decoding_tools.c
+	src/metadata_types.h
+	unknown:
+	clean
+	src/metadata_types.c
+
+2010-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/Makefile.am
+	unknown:
+	clean
+
+2010-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean the code. Delete uses of the char type (use JITINT8 instead).
+	
+	
+	modified:
+	ChangeLog
+	configure.in
+	src/assembly_ref_table_metadata.c
+	src/assembly_ref_table_metadata.h
+	src/decoding_tools.c
+	src/member_ref_table_metadata.c
+	src/metadata_manager.c
+	src/metadata_manager_support.c
+	src/metadata_table_manager.h
+	src/metadata_us_stream_manager.h
+	src/type_checker.c
+	src/type_checker.h
+	src/type_def_table_metadata.c
+	src/type_def_table_metadata.h
+	src/type_ref_table_metadata.c
+	src/type_ref_table_metadata.h
+
+2010-01-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/metadata_string_stream_manager.c
+	src/metadata_string_stream_manager.h
+	unknown:
+	clean
+
+2010-01-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Type conversion bug fix
+	
+	
+	modified:
+	ChangeLog
+	src/type_checker.c
+	unknown:
+	clean
+
+2010-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/metadata_guid_stream_manager.c
+	src/metadata_string_stream_manager.c
+
+2009-12-10  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Release 0.1.4
+
+2009-12-07  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Modifications to reduce memory footprint
+	
+	* String stream manager rewritten
+
+2009-11-24  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* Alignment-related modifications to let the compiler work correctly on ARM hardware
+
+2009-11-10  Speziale Ettore  <ettore@mars>
+
+	Initial import into bazaar.
+

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+PACKAGES="libplatform xanlib libcompilermemorymanager libiljitu libpluginmanager libiljitsm libiljitmm libiljitil libilbinary libirmanager libiljitiroptimizer libiljitgc ` ls | grep libirvirtualmachine` libclimanager libdla libmanfred libcore ildjit iljit-ecmasoft libdominance libhelixexecutionmodel libchiara libspeculation libhwmodel libcam `ls | grep \"clr\"` `ls | grep \"iljit-gc-\"` `ls | grep \"optimization_levels-\"` `ls | grep \"optimizer-\"`  "
+
+rm  -f listOfModules
+
+for i in $PACKAGES ; do
+
+	toNotInstall="0"
+	if test -f listOfModulesToNotInstall ; then
+		toNotInstall=`awk -v n=$i '
+			BEGIN {
+				found = 0;
+			} {
+				if ($0 == n) {
+					found = 1;
+					exit ;
+				}
+			} END {
+				print found;
+			} ' listOfModulesToNotInstall` ;
+	fi
+
+	if test "$toNotInstall" == "0" ; then
+		echo "$i" >> listOfModules
+	fi 
+done

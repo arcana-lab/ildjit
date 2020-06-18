@@ -1,0 +1,77 @@
+2014-04-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2014-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Declare the GNU source. This is necessary to avoid the limits.h problem.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new options
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the full API
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove useless parameters
+
+2011-04-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2010-10-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2010-10-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix the authors
+
+2010-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	CFLAGS fixed
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	CFLAGS fixed
+
+2010-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.1
+
+2010-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+	
+	
+	modified:
+	configure.ac
+	src/optimizer_dummy.h
+
+2010-01-15  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Initial commit
+

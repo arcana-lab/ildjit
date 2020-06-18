@@ -1,0 +1,28 @@
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2013-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link with the new library libilbinary
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	initial version
+
+2012-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

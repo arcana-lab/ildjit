@@ -1,0 +1,23 @@
+Source: libdominance
+Priority: extra
+Maintainer: Leonardo Mino' <oaexpert@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libiljitu-dev, libxan-dev, libglib2.0-0, libiljitsm-dev, libgl1-mesa-glx, mime-support, locales, libc6-i686, libasound2, pkg-config, libpcre3, libiljitmm-dev, gawk, libiljitir-dev
+Standards-Version: 3.8.3
+Section: libs
+Homepage: http://ildjit.sourceforge.net
+
+Package: libdominance-dev
+Section: libdevel
+Architecture: any
+Depends: libdominance (= ${binary:Version})
+Description: libdominance
+ This library provides the dominance relation
+ among instructions of a given method.
+
+Package: libdominance
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: libdominance
+ This library provides the dominance relation
+ among instructions of a given method.

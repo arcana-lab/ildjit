@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<project name="Java Grande Forum Create Bench" default="build" basedir=".">
+
+  <target name="build" description="compile source code">
+    <compile target="exe" output="JGFCreateBench.exe">
+      <sources>
+        <includes name="Sources/*.cs"/>
+      </sources>
+    </compile>
+  </target>
+  
+  <target name="clean" description="remove all generated files">
+    <delete file="JGFCreateBench.exe"/>
+  </target>
+
+</project>

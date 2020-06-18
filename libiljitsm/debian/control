@@ -1,0 +1,21 @@
+Source: libiljitsm
+Priority: extra
+Maintainer: Leonardo Mino' <oaexpert@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libiljitu-dev, libxan-dev, libcompilermemorymanager-dev, libglib2.0-0, libgl1-mesa-glx, mime-support, locales, libc6-i686, libasound2, pkg-config, libpcre3, gawk
+Standards-Version: 3.8.3
+Section: libs
+Homepage: http://ildjit.sourceforge.net
+
+Package: libiljitsm-dev
+Section: libdevel
+Architecture: any
+Depends: libiljitsm (= ${binary:Version})
+Description: Libiljitsm
+ This is the section manager respecting the ECMA 335 standard
+
+Package: libiljitsm
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Libiljitsm
+ This is the section manager respecting the ECMA 335 standard

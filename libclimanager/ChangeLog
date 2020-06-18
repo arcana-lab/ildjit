@@ -1,0 +1,1494 @@
+2014-07-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a stub for dumping static layouts
+
+2014-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the IR*ELEM instructions
+
+2014-04-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2014-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cached invocations to LAYOUT_getMethodTables
+
+2014-03-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the message error.
+
+2014-03-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-01-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Deserialize symbols from memory rather than from files.
+
+2014-01-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API to serialize symbols in memory instead of in files.
+
+2014-01-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed deadcode
+
+2014-01-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed deadcode
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Performs the layout of requested types during initialization.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function: LAYOUT_getMethodTables
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cleaned the code.
+
+2013-12-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved outside the data structure a function.
+
+2013-12-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Abort if exceptions do not work
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Generate the static library as well.
+
+2013-12-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the virtual table symbols.
+
+2013-12-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cleaned the comments
+
+2013-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions. Created new functions
+
+2013-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved functions outside data structures.
+
+2013-12-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved a function outside the data structure.
+
+2013-12-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2013-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2013-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new feature to allow caching the creation of method tables.
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Abort if an error will occur.
+
+2013-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the output
+
+2013-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not set names of callees
+
+2013-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remap pinvoke to exit.
+
+2013-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Abort if an error occurs.
+
+2013-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Forwards the signature in string as a parameter.
+
+2013-09-08  Svilen Kanev  <skanev@eecs.harvard.edu>
+
+	Fix minor hiccups with pinvoke symbols.
+	
+	A memory leak (lib_pinvoke.c:178).
+	A hash conflict due to comparing pointers on the stack.
+
+2013-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed.
+
+2013-05-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2013-04-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2013-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed error
+
+2013-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the error message
+
+2013-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the error message
+
+2013-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle ILDJIT_MACHINECODE_PATH
+
+2013-04-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump in a smarter way
+
+2013-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle IRVOID for native calls
+
+2013-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the output messages
+
+2013-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed about PInvokes. Now we handle varargscd libclimanager/cd libclimanager/
+
+2013-04-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2013-02-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib.
+
+2012-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks.
+
+2012-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2012-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak
+
+2012-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-11-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initialize delegates
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new Manfred API
+
+2012-10-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Replaced IRSTORE with IRMOVE
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-10-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clone the name of the method
+
+2012-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Clean the code
+
+2012-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable root set
+
+2012-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added Platform invokaction manager
+
+2012-10-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixed related to ilParamsDescriptor
+
+2012-10-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed memory leaks
+
+2012-09-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2012-09-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added initialization of variables
+
+2012-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Declare the code linking of IR methods
+
+2012-09-27  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.
+
+2012-09-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the shutdown function to the layour manager.
+
+2012-09-24  Timothy M. Jones  <tjones1@inf.ed.ac.uk>
+
+	Removed function pointers from XanHashTable.  Removed all references to
+	insert and lookup, and many to lock and unlock.
+
+2012-09-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API of xanlib
+
+2012-07-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Memory memory leaks.
+
+2012-07-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing.
+
+2012-03-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Check the method attribute
+
+2012-03-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the API of xanlib in assertions
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-02-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the threads initialization
+
+2012-02-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new interface to create methods
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IRLOADREL
+
+2012-02-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new IR ISA
+
+2012-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new ISA
+
+2012-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRCALLINDIRECTCCTOR
+
+2012-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix an error assertion
+
+2012-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2012-02-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an assertion
+
+2012-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the assertions
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing on object layout
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed IRTYPEDREF
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitu
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove platform-dependent code
+
+2012-02-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2012-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2012-01-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Merged with multi-platform patch
+
+2012-01-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Applied patch for multi-platform support.
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set the parameter descriptor.
+
+2012-01-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2011-11-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-11-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-08-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-08-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-08-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new APIs
+
+2011-08-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the static compilation scheme
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libcompilermemorymanager
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libcompilermemorymanager
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Diego's work
+
+2011-08-03  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-08-02  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-07-29  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Mutexes and conditional variables are now process shared only if multi application support is enabled
+
+2011-07-26  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Added conditional compilation for multi application support
+
+2011-07-11  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-06-15  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-05-23  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Merge with main branch
+
+2011-04-20  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Enhanced ilmethod globalstates
+
+2011-04-10  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Enabled CIL->IR translation to be performed by a different instance of iljit
+
+2011-03-12  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Adaptation to work with shared/private memory pool
+
+2011-01-25  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Added shared and private memory pool and generator behavior of iljit
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libiljitir
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.6.0
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-08-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine.
+
+2011-08-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libirvirtualmachine
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Normalized platform API header inclusion
+
+2011-07-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-14  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Check if the table exist
+
+2011-07-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-07-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented move threads to CPU functions
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set profile mode at optimization level 0
+
+2011-07-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-07-06  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added (ILJITIROPTIMIZER_LIBS) in Makefile.am, needed by gcc for Win
+
+2011-07-06  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added (ILJITIROPTIMIZER_LIBS) in Makefile.am, needed by gcc for Win
+
+2011-07-03  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-07-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle the default BCL
+
+2011-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-07-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Andrea's work
+
+2011-07-05  andrea  <andrea.cazzaniga15@gmail.com>
+
+	Handle parameterized thread start
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Call the delegate function to start a new thread by giving the parameters array.
+
+2011-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Pietro's work
+
+2011-06-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Moved platform specific header defines (related to network api) in platform_api.h
+
+2011-06-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Moved platform specific header defines (related to network api) in platform_api.h
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-05-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed completely dependences with Libjit.
+
+2011-06-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use IRVM API instead of Libjit API.
+
+2011-06-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing inside the function internal_destroyILMethod.
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the threads manager.
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the delegates manager.
+
+2011-06-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2011-06-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the CIL dumper
+
+2011-05-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing during destroying CIL methods.
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the networking work
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Luca's work
+
+2011-04-15   Committer: Luca  <luca@turbo> 
+
+	Add support to profiler stack on trampoline
+
+2011-04-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimized the deleteMethod function
+
+2011-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable for now the unregistration process
+
+2011-04-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility to unregister methods
+
+2011-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-03-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Removed all commented platform-dependent includes
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link to libplatform.
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-16  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	removed all PLATFORM-dependent headers.
+
+2011-02-12  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-10   Committer: Luca  <luca@turbo> 
+
+	update symbols
+
+2011-02-10  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	merge
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved the culture manager from iljit to here.
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved some functions from iljit here
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved the t_methods structure from iljit to here.
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-08  Luca  <luca@ops-notebook>
+
+	Fix Type de/serialization check binary name
+
+2011-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-07  Luca  <luca@ops-notebook>
+
+	fix ser/deserialization problem for generic types and methods
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	Merge Xan's
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	Add new Serdes per CLI descriptor and Method structure
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-04  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	fixed multi-PLATFORM support warnings. Renamed multi-PLATFORM Thread Functions.
+
+2011-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for functions pthread_create, pthread_join, pthread_self, pthread_once, pthread_equal, pthread_attr_init, pthread_attr_setscope, pthread_attr_setstacksize, pthread_attr_setinheritsched, pthread_attr_setschedparam, pthread_attr_setschedpolicy, pthread_mutex_init, pthread_mutexattr_init, pthread_mutexattr_settype, pthread_mutex_destroy, pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock, pthread_cond_init, pthread_cond_wait, pthread_cond_signal, pthread_cond_broadcast, pthread_cond_destroy (all in pthread.h)
+
+2011-01-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-01-17  Luca  <luca@ops-notebook>
+
+	Continue working on symbol
+
+2011-01-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the forwarding of CIL data types.
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-28  Luca  <luca@ops-notebook>
+
+	Add support to Anonymous Methods
+
+2010-12-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the field callGraph from the structure Method.
+
+2010-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed not useful functions
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the code.
+
+2010-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-01  Luca  <luca@ops-notebook>
+
+	remove thread unsafe method
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-11-24  Luca  <luca@ops-notebook>
+
+	update pthread lock init code
+	update Method for DLA
+
+2010-11-04  Luca  <luca@ops-notebook>
+
+	Remove useless mutex
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed some not useful functions
+
+2010-10-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-26  Luca  <luca@ops-notebook>
+
+	update to new metadata system
+
+2010-10-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-24  Luca  <luca@ops-notebook>
+
+	change API
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-11  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-10-11  Luca  <luca@ops-notebook>
+
+	cleanup
+
+2010-10-09  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-10-09  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-10-08  Luca  <luca@ops-notebook>
+
+	remove unsed file
+
+2010-10-08  Luca  <luca@ops-notebook>
+
+	use global variable for manager pointer
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.4.0
+
+2010-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful lock and unlock calls
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed not useful locks
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Exploit the function IRVM_getFunctionPointer
+
+2010-10-07  Luca  <luca@ops-notebook>
+
+	resolve race condition
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Delete race condition on callGraph field of Method 
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-07  Luca  <luca@ops-notebook>
+
+	remove recursive pthread
+
+2010-10-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-10-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove not useful thread synchronizations
+
+2010-10-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/lib_vararg.c
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-02  Luca  <luca@ops-notebook>
+
+	Bugfixing structure for DLA
+	remove useless vtable init for abstract type
+
+2010-10-01  Luca  <luca@ops-notebook>
+
+	Add support to t_ir_local
+
+2010-09-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the usage of the third parameter of IRCONV instructions.
+
+2010-09-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-29  Luca  <luca@ops-notebook>
+
+	update layout Manager
+
+2010-09-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-28  Luca  <luca@ops-notebook>
+
+	update method structure
+
+2010-09-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-24  Luca  <luca@ops-notebook>
+
+	Update internal call subsystem
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing by Luca
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-09-20  Luca  <luca@ops-notebook>
+
+	support generic interface method in aot
+	remove useless valuetype manager
+
+2010-09-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improve the merging of stackes
+
+2010-09-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change some assertions
+
+2010-09-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-09-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rename the runtimeChecks field
+
+2010-09-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the flag to disable runtime checks.
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning
+
+2010-09-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change to the new API of Libiljitir
+
+2010-08-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the profile option of the configure script
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fix bug
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-03  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-08-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt with the new API of Libiljitir
+
+2010-08-03  Luca  <luca@ops-notebook>
+
+	change bool size to IRINT32
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	Merge work
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Merge with upstream
+
+2010-07-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove the unuseless lock/unlock within the setID function of ILMethod structure.
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	Adapt to new TypeDescriptor
+
+2010-06-06  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-06-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some assertions
+
+2010-06-03  Luca  <luca@ops-notebook>
+
+	Change layout manager to support interface method table
+
+2010-05-31  Luca  <luca@ops-notebook>
+
+	Speed Up interface Call
+
+2010-05-13  Luca  <luca@ops-notebook>
+
+	Various work
+
+2010-05-09  Luca  <luca@ops-notebook>
+
+	convert to new metadata cache system
+
+2010-04-27  Luca  <luca@ops-notebook>
+
+	adapt to new XanHashTable iterator
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release candidate 0.3.0
+
+2010-04-19  Francesco Fiduccia  <crypt@ubuntu>
+
+	Memphis Release Finale
+
+2010-04-15  Luca  <luca@ops-notebook>
+
+	Bugfix in vtable computation for generic virtual methods
+
+2010-04-15  Luca  <luca@ops-notebook>
+
+	bugfix vtable initialization for generic method slot
+
+2010-04-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Usages of hash tables fixed
+
+2010-04-14  Luca  <luca@ops-notebook>
+
+	add support for generic virtual call
+
+2010-04-01  crypt  <crypt@soya>
+
+	Merge
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Previous work
+
+2010-03-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Luca's work
+
+2010-03-29  Luca  <luca@ops-notebook>
+
+	#
+
+2010-03-29  Luca  <luca@ops-notebook>
+
+	#
+
+2010-03-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	removed:
+	clean
+
+2010-03-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	clean
+
+2010-03-24  Luca  <luca@ops-notebook>
+
+	#Adapt code to new metadata manager
+
+2010-03-26  crypt  <crypt@soya>
+
+	Removed a lock that prevented Memphis to work
+
+2010-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the method states
+
+2010-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code cleaning.
+
+2010-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+	
+	
+	modified:
+	ChangeLog
+	configure.ac
+	src/cil_stack.c
+	src/cli_manager.c
+	src/cli_manager.h
+	src/ilmethod.c
+	src/layout_manager.c
+	src/lib_reflect.c
+	src/lib_string.c
+	src/value_type_manager.c
+
+2010-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/layout_manager.c
+
+2010-01-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/cli_manager.c
+	src/layout_manager.c
+
+2010-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move from glib to xanlib
+	
+	
+	modified:
+	ChangeLog
+	configure.ac
+	src/Makefile.am
+	src/ilmethod.c
+	src/ilmethod.h
+
+2010-01-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings.
+	
+	
+	modified:
+	ChangeLog
+	src/cli_manager.h
+	src/lib_array.c
+	src/lib_decimal.c
+	src/lib_reflect.c
+	src/lib_stringBuilder.c
+
+2010-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+
+2010-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move some code to libclimanager from iljit
+	
+	
+	added:
+	src/generic_manager.c
+	src/generic_manager.h
+	src/lib_decimal.c
+	src/lib_decimal.h
+	modified:
+	include/Makefile.am
+	src/Makefile.am
+	src/cli_manager.c
+	src/cli_manager.h
+	src/lib_runtimehandle.h
+
+2010-01-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	added:
+	src/lib_stringBuilder.c
+	src/lib_stringBuilder.h
+	src/lib_vararg.c
+	src/lib_vararg.h
+
+2010-01-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	removed:
+	include/cil_stack.h@
+	include/cli_manager.h@
+	include/ilmethod.h@
+	include/layout_manager.h@
+	include/lib_array.h@
+	include/lib_reflect.h@
+	include/lib_runtimehandle.h@
+	include/lib_string.h@
+	include/lib_typedReference.h@
+	include/value_type_manager.h@
+	modified:
+	ChangeLog
+	clean
+	include/Makefile.am
+	src/Makefile.am
+	src/cli_manager.h
+	unknown:
+	src/lib_stringBuilder.c
+	src/lib_stringBuilder.h
+	src/lib_vararg.c
+	src/lib_vararg.h
+
+2010-01-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	added:
+	AUTHORS
+	COPYING
+	ChangeLog
+	Doxyfile
+	INSTALL
+	Makefile.am
+	NEWS
+	README
+	bootstrap
+	clean
+	configure.ac
+	include/
+	include/Makefile.am
+	include/cil_stack.h@
+	include/cli_manager.h@
+	include/ilmethod.h@
+	include/layout_manager.h@
+	include/lib_array.h@
+	include/lib_reflect.h@
+	include/lib_runtimehandle.h@
+	include/lib_string.h@
+	include/lib_typedReference.h@
+	include/value_type_manager.h@
+	pkgconfig/
+	pkgconfig/Makefile.am
+	pkgconfig/libclimanager.pc.in
+	src/
+	src/Makefile.am
+	src/cil_stack.c
+	src/cil_stack.h
+	src/cli_manager.c
+	src/cli_manager.h
+	src/climanager_system.c
+	src/climanager_system.h
+	src/ilmethod.c
+	src/ilmethod.h
+	src/layout_manager.c
+	src/layout_manager.h
+	src/lib_array.c
+	src/lib_array.h
+	src/lib_reflect.c
+	src/lib_reflect.h
+	src/lib_runtimehandle.c
+	src/lib_runtimehandle.h
+	src/lib_string.c
+	src/lib_string.h
+	src/lib_typedReference.c
+	src/lib_typedReference.h
+	src/value_type_manager.c
+	src/value_type_manager.h
+

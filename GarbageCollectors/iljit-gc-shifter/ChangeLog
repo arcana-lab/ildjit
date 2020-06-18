@@ -1,0 +1,36 @@
+2006-11-08  Campanoni Simone  <simo.xan@gmail.com>
+
+	* iljit-gc-shifter: initial version.
+
+2007-10-05 Campanoni Simone <simo.xan@gmail.com>
+	* configure.in: Add checking instruction for the presence of iljit
+	module
+
+2007-10-07 Campanoni Simone <simo.xan@gmail.com>
+	* *.[ch]: Rewrite the entire plugin to use the new garbage collector
+	interface specified by the iljit module.
+
+-------------------------------- 0.0.1.2
+2007-10-12 Campanoni Simone <simo.xan@gmail.com>
+	* *.[ch]: Adjust the entire plugin to use the new garbage collector
+	interface specified by the iljit module.
+
+-------------------------------- 0.0.1.3
+2007-10-14 Campanoni Simone <simo.xan@gmail.com>
+	* *.[ch]: Adjust the entire plugin to use the new garbage collector
+	interface specified by the iljit module.
+
+2007-10-15 Campanoni Simone <simo.xan@gmail.com>
+	* memory_manager.[ch]: Move the bitmap to compute the marking phase of
+	the heap from the method to the memory structure to buffer it among
+	different collections.
+	* internal_memory_manager.[ch]: Rewrite the functions using signature
+	likes malloc,realloc,free
+
+-------------------------------- 0.0.1.4
+2007-11-25 Campanoni Simone <simo.xan@gmail.com>
+	* src/memory_manager.c: Implementation of the compacting phase of the heap
+	during the sweep phase of the memory collection.
+	* src/sweeper.[ch]: Add these files.
+	* src/sweeper.c: Add an additional implementation of the sweep phase
+	of the heap (from top to bottom).

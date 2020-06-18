@@ -1,0 +1,38 @@
+<map id="platform_API.h" name="platform_API.h">
+<area shape="rect" id="node2" href="$gc__root__sets_8h_source.html" title="gc_root_sets.h" alt="" coords="475,80,581,107"/>
+<area shape="rect" id="node3" href="$iljit-utils_8h.html" title="iljit&#45;utils.h" alt="" coords="606,80,682,107"/>
+<area shape="rect" id="node27" href="$private__memory__pool_8h.html" title="private_memory_pool.h" alt="" coords="1368,80,1523,107"/>
+<area shape="rect" id="node29" href="$shared__memory__pool_8h.html" title="shared_memory_pool.h" alt="" coords="1189,80,1344,107"/>
+<area shape="rect" id="node30" href="$lib__lock_8h_source.html" title="lib_lock.h" alt="" coords="2009,162,2085,189"/>
+<area shape="rect" id="node31" href="$lib__lock__os_8h_source.html" title="lib_lock_os.h" alt="" coords="1819,80,1917,107"/>
+<area shape="rect" id="node32" href="$static__memory_8h_source.html" title="static_memory.h" alt="" coords="1501,162,1619,189"/>
+<area shape="rect" id="node33" href="$translation__pipeline_8h_source.html" title="translation_pipeline.h" alt="" coords="1617,80,1759,107"/>
+<area shape="rect" id="node36" href="$xanlib_8h.html" title="Structure of the XanLib. " alt="" coords="1010,80,1075,107"/>
+<area shape="rect" id="node4" href="$ildjit__locale_8h_source.html" title="ildjit_locale.h" alt="" coords="5,162,101,189"/>
+<area shape="rect" id="node5" href="$ir__method_8h.html" title="ir_method.h" alt="" coords="599,162,689,189"/>
+<area shape="rect" id="node26" href="$initial__checker_8h.html" title="initial_checker.h" alt="" coords="125,162,240,189"/>
+<area shape="rect" id="node6" href="$ir__optimization__interface_8h.html" title="ir_optimization_interface.h" alt="" coords="621,326,793,353"/>
+<area shape="rect" id="node7" href="$optimizations__utilities_8h_source.html" title="optimizations_utilities.h" alt="" coords="445,408,601,435"/>
+<area shape="rect" id="node8" href="$ir__optimization__levels__interface_8h_source.html" title="ir_optimization_levels\l_interface.h" alt="" coords="449,319,596,360"/>
+<area shape="rect" id="node9" href="$ir__optimizer_8h.html" title="ir_optimizer.h" alt="" coords="755,244,853,271"/>
+<area shape="rect" id="node10" href="$optimization__levels_8h_source.html" title="optimization_levels.h" alt="" coords="869,326,1011,353"/>
+<area shape="rect" id="node23" href="$ildjit_8h_source.html" title="ildjit.h" alt="" coords="478,244,533,271"/>
+<area shape="rect" id="node24" href="$ir__data_8h_source.html" title="ir_data.h" alt="" coords="609,244,679,271"/>
+<area shape="rect" id="node25" href="$ir__symbol_8h_source.html" title="ir_symbol.h" alt="" coords="315,244,402,271"/>
+<area shape="rect" id="node11" href="$ir__virtual__machine_8h_source.html" title="ir_virtual_machine.h" alt="" coords="1235,326,1373,353"/>
+<area shape="rect" id="node12" href="$ildjit__system_8h_source.html" title="ildjit_system.h" alt="" coords="1417,408,1521,435"/>
+<area shape="rect" id="node13" href="$clr__interface_8h_source.html" title="clr_interface.h" alt="" coords="1517,483,1619,509"/>
+<area shape="rect" id="node14" href="$general__tools_8h_source.html" title="general_tools.h" alt="" coords="1644,483,1753,509"/>
+<area shape="rect" id="node15" href="$ildjit__profiler_8h_source.html" title="ildjit_profiler.h" alt="" coords="1238,483,1338,509"/>
+<area shape="rect" id="node16" href="$system__manager_8h.html" title="system_manager.h" alt="" coords="1361,483,1492,509"/>
+<area shape="rect" id="node17" href="$cil__ir__translator_8h.html" title="CIL&#45;&gt;IR translator. " alt="" coords="988,557,1108,584"/>
+<area shape="rect" id="node18" href="$code__generator_8h_source.html" title="code_generator.h" alt="" coords="1493,557,1614,584"/>
+<area shape="rect" id="node19" href="$garbage__collector__interactions_8h.html" title="garbage_collector_interactions.h" alt="" coords="1639,557,1847,584"/>
+<area shape="rect" id="node20" href="$iljit__plugin__manager_8h_source.html" title="iljit_plugin_manager.h" alt="" coords="1132,557,1279,584"/>
+<area shape="rect" id="node21" href="$loader_8h.html" title="loader.h" alt="" coords="1303,557,1369,584"/>
+<area shape="rect" id="node22" href="$runtime_8h_source.html" title="runtime.h" alt="" coords="1393,557,1468,584"/>
+<area shape="rect" id="node28" href="$compiler__memory__manager_8h.html" title="compiler_memory_manager.h" alt="" coords="1286,162,1477,189"/>
+<area shape="rect" id="node34" href="$translation__pipeline__parallel_8h_source.html" title="translation_pipeline\l_parallel.h" alt="" coords="1693,155,1827,196"/>
+<area shape="rect" id="node35" href="$translation__pipeline__sequential_8h_source.html" title="translation_pipeline\l_sequential.h" alt="" coords="1851,155,1984,196"/>
+<area shape="rect" id="node37" href="$system__initializer_8h.html" title="system_initializer.h" alt="" coords="1029,162,1160,189"/>
+</map>

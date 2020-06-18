@@ -1,0 +1,1054 @@
+2014-05-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixed: properly handle LOOP_PROFILE codetool.
+
+2014-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Changed the verbose output
+
+2013-12-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Destroy memory only if it has been allocated
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new function
+
+2013-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handle reaching instructions
+
+2013-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the global table
+
+2013-11-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new codetool
+
+2013-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Cache a pointer
+
+2013-05-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimized the invocation of codetools.
+
+2013-05-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initialize everything at the beginning.
+
+2013-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new functions to test the availability of code tools.
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added DDG_PROFILE
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dependences of enabled optimization are enabled
+
+2012-10-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed calls to ir_checker
+
+2012-10-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the documentation
+
+2012-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added checks about enabled optimizations 
+
+2012-09-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed useless structure
+
+2012-07-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added IROPTIMIZER_startExecution
+
+2012-06-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a memory leak.
+
+2012-04-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the function IROPTIMIZER_isInformationValid
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reduce the verbose output
+
+2012-03-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a field
+
+2012-03-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the possibility of choosing the optimizationleveltool by the command line.
+
+2012-03-08  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanVar API
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-07  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Using new XanList API
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove codetool types definition
+
+2012-02-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Call the init function to plugins
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove any pre-policy
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixed the documentation
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Fixing the documentation
+
+2012-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2012-01-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-01-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Increased the API
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Include every string version of codetools
+
+2011-12-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some codetools type
+
+2011-12-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2011-12-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the binding between codetools type and their names
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Move a function outside the data structure
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed a function
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-12-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved API 
+
+2011-12-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Extended the API
+
+2011-12-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Tim's work
+
+2011-12-03  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Added more documentation.
+
+2011-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed names conflict
+
+2011-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the API
+
+2011-11-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libxan.
+
+2011-08-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Exporting the API to C++ modules
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Diego's work
+
+2011-08-03  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-07-29  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-07-26  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Small fixes
+
+2011-07-12  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-07-11  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-06-15  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-05-23  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Merge with main branch
+
+2011-04-20  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Adaptation to new plugin interface
+
+2011-03-11  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Merge with upstream
+
+2011-01-25  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Added shared and private memory pool and generator behavior of iljit
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.6.0
+
+2011-08-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the job THREADS_EXTRACTION
+
+2011-07-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Check the availability of plugins
+
+2011-07-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed useless macros
+
+2011-07-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a file
+
+2011-07-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Loaded and unloaded the optimization levels plugins.
+
+2011-07-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the dependences
+
+2011-07-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Rely on the library libpluginmanager
+
+2011-07-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new library libpluginmanager to handle external plugins.
+
+2011-07-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Set profile mode at optimization level 0
+
+2011-07-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Tim's work
+
+2011-07-08  Timothy M Jones  <timothy.jones@cl.cam.ac.uk>
+
+	Put ENV_VAR_SEPERATOR in the path strings correctly.
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2011-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Pietro's work
+
+2011-06-26  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Wrapped optimizers path for Windows. Moved ENV_VAR_SEPARATOR define in jitsystem.h
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-19  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-05-25  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-06-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the file ir_optimization_levels.h
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Call O1 at the end of O2
+
+2011-06-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Restructured the optimization levels
+
+2011-06-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the loop peeling
+
+2011-05-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change AOT
+
+2011-05-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimize the code at the correct level in AOT mode.
+
+2011-05-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Check if a method has a body before running any plugin
+
+2011-05-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-04-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-04-20  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Added plugins loading capabiliy for WIN
+
+2011-03-24  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merged with Luca's work
+
+2011-04-15   Committer: Luca  <luca@turbo> 
+
+	Add support to checkpointing
+
+2011-04-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Erase validation optimizations when we start an optimization level from an outside call
+
+2011-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-03-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	Removed all commented platform-dependent includes
+
+2011-03-02  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-17  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Restore the modified methods flag after the optimization levels.
+
+2011-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Reset correctly the method flags
+
+2011-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Optimize more aggressively the methods in AOT.
+	Remove ESCAPES_ELIMINATION from O2 because the computation of the dominance relation is not parallelizable due to use of global memory of libdominance
+
+2011-02-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the escapes optimization to the optimization level 2.
+	Added the possibility to enable/disable the escapes optimization.
+
+2011-02-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Link to libplatform.
+
+2011-02-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-02-16  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	removed all PLATFORM-dependent headers.
+
+2011-02-15  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added multi PLATFORM support for dlopen, dlclose, dlsym, dlerror (dlfcn.h);
+
+2011-02-14  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	changed PLATFORM_* names for functions PLATFORM_getPlatformInfo (ex uname)
+
+2011-02-12  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-11   Committer: Luca  <luca@turbo> 
+
+	remove unused IR library
+
+2011-02-10  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	[Merge]
+
+2011-02-05  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	merge
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation.
+
+2011-02-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the string version of ESCAPES_ELIMINATION
+
+2011-02-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Call correctly the PostAOT level
+
+2011-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the call to CUSTOM as pre-serializzation optimization
+
+2011-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2011-02-05  Luca  <luca@ops-notebook>
+
+	Add new optimization level used by memphis
+
+2011-02-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for functions pthread_create, pthread_join, pthread_self, pthread_once, pthread_equal, pthread_attr_init, pthread_attr_setscope, pthread_attr_setstacksize, pthread_attr_setinheritsched, pthread_attr_setschedparam, pthread_attr_setschedpolicy, pthread_mutex_init, pthread_mutexattr_init, pthread_mutexattr_settype, pthread_mutex_destroy, pthread_mutex_lock, pthread_mutex_trylock, pthread_mutex_unlock, pthread_cond_init, pthread_cond_wait, pthread_cond_signal, pthread_cond_broadcast, pthread_cond_destroy (all in pthread.h)
+
+2011-01-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Pietro's work
+
+2011-01-31  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for functions regfree, regcomp (regex.h); sched_get_priority_max, sched_get_priority_min (in sched.h); uname (in sys/utsname.h);utime (in utime.h); opendir, closedir, readdir (in dirent.h); dirname (in libgen.h)
+
+2011-01-30  Pietro Malossi  <pietro.malossi@gmail.com>
+
+	added PLATFORM_ support for functions chdir, close, cuserid, ftruncate, geteuid, gethostname, isatty, lseek, rmdir, write, unlink, symlink, readlink (all in unistd.h), getpwuid (in pwd.h)
+
+2011-01-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Forwarded the time spent by the execution of the input program to the codetools.
+
+2011-01-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the optimization level 2
+
+2011-01-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed the usage of the field hasPhi
+
+2011-01-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Michy's work
+
+2011-01-05  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-12-24  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-12-20  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-12-17  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-12-15  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-12-14  mickey85  <mickey4fun@gmail.com>
+
+	changed the XanList used by SSA conversion plugin into one JITBOOLEAN
+
+2010-12-09  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-12-06  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-11-29  mickey85  <mickey4fun@gmail.com>
+
+	merge
+
+2010-11-22  mickey85  <mickey4fun@gmail.com>
+
+	test commit
+
+2010-11-22  mickey85  <mickey4fun@gmail.com>
+
+	added the two plugins for converting the method code in Static Single Assignment form
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2010-12-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove the call to IR_CHECKER after every invocation of any codetool
+
+2010-12-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Allocate space for memory for codetools when necessary.
+
+2010-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the string for CALL_DISTANCE_COMPUTER
+
+2010-12-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Allocate and free the memory needed in AOT mode before calling any codetools.
+
+2010-12-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-12-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed deadcode
+
+2010-12-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-12-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the optimization level 2
+
+2010-12-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable/disable the conversion merging code optimization by command line.
+
+2010-12-13  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-12-13  Luca  <luca@ops-notebook>
+
+	add missing flag to disable native method inliner
+
+2010-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the O2 to run optimizations till the fixed point is reached.
+
+2010-12-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the job CONVERSION_MERGING
+
+2010-12-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the code.
+
+2010-11-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-11-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the checking of the IR code generated only by command line.
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-11-24  Luca  <luca@ops-notebook>
+
+	add new optimization id
+
+2010-11-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable/disable the native method inline by command line.
+
+2010-11-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove the methods inlining from the AOT level
+
+2010-11-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the order of the plugins of the list
+
+2010-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added some info on error
+
+2010-10-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.4.0
+
+2010-10-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added new code transformations
+
+2010-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-10-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the loading of plugins from different locations, which can be specified by the optional environment variable ILDJIT_PLUGINS.
+
+2010-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the DUMPCODE within jobToString function
+
+2010-10-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the DUMPCODE job
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-10-01  Luca  <luca@ops-notebook>
+
+	add missing headers
+
+2010-10-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on optimization levels that work till the fixed point.
+
+2010-10-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the NATIVE_METHOD to jobToString
+
+2010-10-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the NATIVE_METHODS_ELIMINATION
+
+2010-09-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disabled the optimizations in AOT if ILDJIT was runned at the optimization level 0.
+
+2010-09-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the calls to the IR_CHECKER plugin after any code transformation
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing within the new way to call plugins
+
+2010-09-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Micky's work
+
+2010-09-22  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Merge with Simone's work
+
+2010-09-22  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Automatic dependency solving for optimizers
+
+2010-09-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the field enableMachineCodeOptimization.
+
+2010-09-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Moved the CSE after the deadcode elimination
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed dead-code
+
+2010-09-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the checking instructions for AOT methods
+
+2010-09-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the checking of produced IR code
+
+2010-09-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the inline methods inside the list of code optimizations that can be disabled or enabled by command line arguments.
+
+2010-09-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-09-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the AOT optimization level.
+
+2010-09-08  Simone Campanoni  <simo.xan@gmail.com>
+
+	Memory corruption bug fixed
+
+2010-09-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code fixing
+
+2010-08-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Make possible the disability of code optimizations
+
+2010-08-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Updated the documentation.
+
+2010-08-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the CSE optimization
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Code alignment
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improve the API
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Update the documentation
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Luca's work
+
+2010-08-08  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-08-03  Luca  <luca@ops-notebook>
+
+	Xan works
+
+2010-07-31  Luca  <luca@ops-notebook>
+
+	add missing headers
+
+2010-08-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of Libiljitir
+
+2010-08-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Enable the variables renaming and custom plugins to command line.
+
+2010-08-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Adapt with the new API of Libiljitir
+
+2010-07-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Debian packages work
+
+2010-07-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Debian packages work merged
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Merge with upstream
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Removed dependence on the PREFIX compile-time variable
+
+2010-07-29  Simone Campanoni  <simo.xan@gmail.com>
+
+	Job added
+
+2010-06-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	API extension
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release candidate 0.3.0
+
+2010-04-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	pending merges:
+	Francesco Fiduccia 2010-04-23 [merge] Merge with upstream
+	Francesco Fiduccia 2010-04-01 [merge] Merge
+	Simone Campanoni 2010-02-23 Release 0.2.1
+	Simone Campanoni 2010-02-18 Change optimizations IDs type
+
+2010-04-23  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Merge with upstream
+
+2010-04-01  Francesco Fiduccia  <crypt@pc-pelosi>
+
+	Merge
+
+2010-02-23  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.1
+
+2010-02-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change optimizations IDs type
+
+2010-04-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/optimization_levels.c
+
+2010-04-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Add the live range splitting optimization kind
+
+2010-04-14  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/optimization_levels.c
+
+2010-03-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/optimization_levels.c
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.1
+
+2010-03-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Change the type of IDs of optimization algorithms is from JITUINT32 to JITUINT64
+
+2010-03-24  Luca  <luca@ops-notebook>
+
+	#
+
+2010-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	added:
+	configure.ac
+	unknown:
+	clean
+	src/just_for_fann.c
+	src/just_for_fann.c_orig
+	src/just_for_fann.h
+	src/just_for_fann.h_orig
+
+2010-01-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.2.0
+	
+	removed:
+	configure.in
+	modified:
+	ChangeLog
+	src/ir_optimizer.c
+	src/optimization_levels.c
+	unknown:
+	clean
+	configure.ac
+	src/just_for_fann.c
+	src/just_for_fann.c_orig
+	src/just_for_fann.h
+	src/just_for_fann.h_orig
+
+2010-01-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/Makefile.am
+	src/ir_optimizer.c
+	src/optimization_levels.c
+	src/optimizations_utilities.c
+	unknown:
+	clean
+	include/ir_optimization_interface.h@
+	include/ir_optimizer.h@
+	src/just_for_fann.c
+	src/just_for_fann.c_orig
+	src/just_for_fann.h
+	src/just_for_fann.h_orig
+	pending merges:
+	Michele Tartara 2009-12-20 * src/ir_optimizer.c: Fixed a bug in the tokenization of the parameter string
+
+2009-12-20  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* src/ir_optimizer.c: Fixed a bug in the tokenization of the parameter string
+
+2009-12-10  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Release 0.1.2
+
+2009-12-10  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Merged modifications received from Simone
+
+2009-11-18  Speziale Ettore  <ettore@mars>
+
+	Initial import into Bazaar.
+

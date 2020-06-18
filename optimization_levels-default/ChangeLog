@@ -1,0 +1,204 @@
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2014-01-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Saved the program at the end
+
+2014-01-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-10-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump with different names
+
+2013-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable the option after using it.
+
+2013-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove dead methods only at the end
+
+2013-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2013-07-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not rerun DDG unless it is absolutely necessary.
+
+2013-05-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed O2 from DDG
+
+2013-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the O3 level
+
+2013-03-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2013-01-22  Simone Campanoni  <simo.xan@gmail.com>
+
+	Check the IR even if optimizations are not invoked.
+
+2012-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.1
+
+2012-11-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-11-06  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2012-10-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new IR API
+
+2012-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Do not run expensive optimizations for methods in the library
+
+2012-10-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	remove checks about enabled optimizations: libiljitiroptimizer already does it
+
+2012-09-20  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the indirect call elimination optimization
+
+2012-09-19  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added an option
+
+2012-04-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove useless output
+
+2012-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the inlining
+
+2012-04-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.1
+
+2012-04-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Removed method inlining
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2012-03-17  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the new API
+
+2012-03-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of xanlib
+
+2012-03-09  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved the optimizations
+
+2012-03-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge
+
+2012-03-03  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added ILDJIT_ITERATIVE_OPTIMIZATIONS_SAVE_PROGRAM
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bugs fixing
+
+2012-03-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the aggressive optimizations
+
+2012-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Call once in PostAOT
+
+2012-03-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the custom optimization
+
+2012-02-27  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2012-02-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Improved
+
+2012-02-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Disable inlining in O0
+
+2012-02-05  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump the IR code
+
+2012-01-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove the call to custom
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Nothing
+
+2011-11-30  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API of libxan
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Name fixed
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.6.0
+
+2011-07-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the plugin
+
+2011-07-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Initial version
+

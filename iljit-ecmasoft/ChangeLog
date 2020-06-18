@@ -1,0 +1,159 @@
+2014-03-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Used the new API
+
+2014-02-21  Simone Campanoni  <simo.xan@gmail.com>
+
+	Uniform the code style with the tool astyle.
+
+2013-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Use the new API
+
+2013-12-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Dump the archive as well
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2013-11-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added a new autotool requirement
+
+2012-10-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 1.0.0
+
+2012-04-07  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.8.0
+
+2011-12-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.7.0
+
+2011-12-02  Simone Campanoni  <simo.xan@gmail.com>
+
+	Remove warnings
+
+2011-08-15  Simone Campanoni  <simo.xan@gmail.com>
+
+	Merge with Diego's work
+
+2011-07-26  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-07-11  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-06-15  Diego Mereghetti  <diego.mereghetti@gmail.com>
+
+	Merge with main branch
+
+2011-05-23  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Merge with main branch
+
+2011-04-10  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	merge xan's works
+
+2011-01-25  Diego Mereghetti  <diego.mereghetti@dresd.org>
+
+	Added shared and private memory pool and generator behavior of iljit
+
+2011-08-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.6.0
+
+2011-07-04  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the code
+
+2011-07-01  Simone Campanoni  <simo.xan@gmail.com>
+
+	Handled 64 bit CIL files.
+
+2011-06-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Added the compiler memory manager
+
+2011-06-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalized the sources
+
+2011-06-12  Simone Campanoni  <simo.xan@gmail.com>
+
+	Implemented the function load_IAT and load_Relocation_table.
+
+2011-06-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing to load the CIL header
+
+2011-06-10  Simone Campanoni  <simo.xan@gmail.com>
+
+	Bug fixing on reading the MS-DOS header.
+
+2011-04-18  Simone Campanoni  <simo.xan@gmail.com>
+
+	Version 0.5.0
+
+2011-04-16  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.5.0
+
+2010-12-28  Simone Campanoni  <simo.xan@gmail.com>
+
+	Normalize the sources
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	ILDJIT-alize
+
+2010-10-11  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.4.0
+
+2010-08-24  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release 0.3.1
+
+2010-07-29  Leonardo  <leo@archibuntu>
+
+	Added files to build Debian packages
+
+2010-04-26  Simone Campanoni  <simo.xan@gmail.com>
+
+	Release candidate 0.3.0
+
+2010-03-31  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	ChangeLog
+	src/iljit_ecmasoft_decoder.c
+
+2010-03-24  Luca  <luca@ops-notebook>
+
+	#Adapt code to new metadata manager
+
+2010-01-25  Simone Campanoni  <simo.xan@gmail.com>
+
+	modified:
+	src/iljit_ecmasoft_decoder.c
+
+2009-12-10  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	Release 0.1.2
+
+2009-11-24  Michele Tartara  <mikyt@users.sourceforge.net>
+
+	* Aligment-related modifications to let the compiler work on ARM hardware
+
+2009-11-18  Speziale Ettore  <ettore@mars>
+
+	Initial import into Bazaar.
+

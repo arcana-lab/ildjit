@@ -1,0 +1,41 @@
+#!/bin/sh
+#
+# bootstrap: setup a build environment
+
+echo 'Creating build-aux...'
+rm -rf build-aux
+mkdir build-aux
+if [ $? -ne 0 ]; then
+  echo 'Failed creating build-aux.'
+  exit 1
+fi
+
+echo 'Running aclocal...'
+aclocal -I config
+if [ $? -ne 0 ]; then
+  echo 'aclocal failed'
+  exit 1
+fi
+
+echo 'Running libtoolize...'
+libtoolize --automake --copy
+if [ $? -ne 0 ]; then
+  echo 'libtoolize failed'
+  exit 1
+fi
+
+echo 'Running automake...'
+automake -a -c
+if [ $? -ne 0 ]; then
+  echo 'automake failed'
+  exit 1
+fi
+
+echo 'Running autoconf...'
+autoconf
+if [ $? -ne 0 ]; then
+  echo 'autoconf failed'
+  exit 1
+fi
+
+echo 'Build system initialized'

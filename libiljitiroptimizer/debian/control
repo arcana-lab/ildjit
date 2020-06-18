@@ -1,0 +1,23 @@
+Source: libiljitiroptimizer
+Priority: extra
+Maintainer: Leonardo Mino' <oaexpert@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libiljitu-dev, libxan-dev, libcompilermemorymanager-dev, libglib2.0-0, libgl1-mesa-glx, mime-support, locales, libc6-i686, libasound2, pkg-config, libpcre3, gawk, libiljitir-dev
+Standards-Version: 3.8.3
+Section: libs
+Homepage: http://ildjit.sourceforge.net
+
+Package: libiljitiroptimizer-dev
+Section: libdevel
+Architecture: any
+Depends: libiljitiroptimizer (= ${binary:Version})
+Description: Libiljitiroptimizer
+ This is the utility library for the optimization of the
+ IR methods done by ILDJIT dynamic compiler
+
+Package: libiljitiroptimizer
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Libiljitiroptimizer
+ This is the utility library for the optimization of the
+ IR methods done by ILDJIT dynamic compiler

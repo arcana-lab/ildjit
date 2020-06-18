@@ -1,0 +1,870 @@
+%{
+/*
+ * Copyright (C) 2006 - 2012 Campanoni Simone
+ *
+ * 
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+#include <compiler_memory_manager.h>
+#include <lib_internalCall.h>
+#include <ildjit_system.h>
+
+#include <internal_calls_misc.h>
+#include <internal_calls_reflection.h>
+#include <internal_calls_string.h>
+#include <internal_calls_array.h>
+#include <internal_calls_environment.h>
+#include <internal_calls_math.h>
+#include <internal_calls_IO.h>
+#include <internal_calls_decimal.h>
+#include <internal_calls_charinfo.h>
+#include <internal_calls_thread.h>
+#include <internal_calls_enum.h>
+#include <internal_calls_runtime.h>
+#include <internal_calls_vararg.h>
+#include <internal_calls_net.h>
+#include <internal_calls_numberformatter.h>
+#include <internal_calls_object.h>
+#include <internal_calls_gc.h>
+#include <internal_calls_security.h>
+#include <internal_calls_datetime.h>
+#include <internal_calls_currentsystemtimezone.h>
+#include <internal_calls_char.h>
+#include <internal_calls_delegate.h>
+
+JITBOOLEAN CLRBASE_buildMethod (Method method);
+void CLRBASE_getNameAndFunctionPointerOfMethod (JITINT8 *internalName, JITINT8 **cFunctionName, void **cFunctionPointer);
+
+static inline void * translateInternalDummyFunction (IRVM_t *this, Method method, JITINT8 *errorMsg);
+static inline void internalDummyFunction();
+static inline void internalDummyFunctionPrinter (JITINT8 *errorMsg);
+
+typedef struct _InternalCall{
+	char *name;
+	void *pointer;
+	char *cFunctionName;
+} InternalCall;
+
+%}
+%define hash-function-name internalCallHash
+%define lookup-function-name internalCallLookUp
+%struct-type
+%readonly-tables
+%enum
+%includes
+%null-strings
+%omit-struct-type
+InternalCall
+%%
+#Platform.CryptoMethods.AlgorithmSupported_Int32
+#Platform.CryptoMethods.DecryptCreate_Int32_Byte[]
+#Platform.CryptoMethods.Decrypt_IntPtr_Byte[]_Int32_Byte[]_Int32
+#Platform.CryptoMethods.EncryptCreate_Int32_Byte[]
+#Platform.CryptoMethods.Encrypt_IntPtr_Byte[]_Int32_Byte[]_Int32
+#Platform.CryptoMethods.GenerateRandom_Byte[]_Int32_Int32
+#Platform.CryptoMethods.GetKey_Int32_String_CspProviderFlags_Int32
+#Platform.CryptoMethods.HashFinal_IntPtr_Byte[]
+#Platform.CryptoMethods.HashFree_IntPtr
+#Platform.CryptoMethods.HashNew_Int32
+#Platform.CryptoMethods.HashReset_IntPtr
+#Platform.CryptoMethods.HashUpdate_IntPtr_Byte[]_Int32_Int32
+#Platform.CryptoMethods.IsSemiWeakKey_Byte[]_Int32
+#Platform.CryptoMethods.IsWeakKey_Byte[]_Int32
+#Platform.CryptoMethods.NumAdd_Byte[]_Byte[]_Byte[]
+#Platform.CryptoMethods.NumEq_Byte[]_Byte[]
+#Platform.CryptoMethods.NumInv_Byte[]_Byte[]
+#Platform.CryptoMethods.NumMod_Byte[]_Byte[]
+#Platform.CryptoMethods.NumMul_Byte[]_Byte[]_Byte[]
+#Platform.CryptoMethods.NumPow_Byte[]_Byte[]_Byte[]
+#Platform.CryptoMethods.NumSub_Byte[]_Byte[]_Byte[]
+#Platform.CryptoMethods.NumZero_Byte[]
+#Platform.CryptoMethods.SameKey_Byte[]_Int32_Byte[]_Int32
+#Platform.CryptoMethods.StoreKey_Int32_String_Byte[]
+#Platform.CryptoMethods.SymmetricFree_IntPtr
+Platform.DirMethods.ChangeDirectory_String, Platform_DirMethods_ChangeDirectory, "Platform_DirMethods_ChangeDirectory"
+Platform.DirMethods.CreateDirectory_String, Platform_DirMethods_CreateDirectory, "Platform_DirMethods_CreateDirectory"
+Platform.DirMethods.Delete_String, Platform_DirMethods_Delete, "Platform_DirMethods_Delete"
+Platform.DirMethods.GetCreationTime_String_Int64, Platform_DirMethods_GetCreationTime, "Platform_DirMethods_GetCreationTime"
+Platform.DirMethods.GetCurrentDirectory, Platform_DirMethods_GetCurrentDirectory, "Platform_DirMethods_GetCurrentDirectory"
+#Platform.DirMethods.GetFilesInDirectory_String_InternalFileInfo[]
+System.ModuleHandle.ResolveMethodHandle_Int32, System_ModuleHandle_ResolveMethodHandle_Int32, "System_ModuleHandle_ResolveMethodHandle_Int32"
+System.RuntimeMethodHandle.GetFunctionPointer, System_RuntimeMethodHandle_GetFunctionPointer, "System_RuntimeMethodHandle_GetFunctionPointer"
+Platform.DirMethods.GetLastAccess_String_Int64, Platform_DirMethods_GetLastAccess, "Platform_DirMethods_GetLastAccess"
+Platform.DirMethods.GetLastModification_String_Int64, Platform_DirMethods_GetLastModification, "Platform_DirMethods_GetLastModification"
+Platform.DirMethods.GetLogicalDrives, Platform_DirMethods_GetLogicalDrives, "Platform_DirMethods_GetLogicalDrives"
+Platform.DirMethods.GetPathInfo, Platform_DirMethods_GetPathInfo, "Platform_DirMethods_GetPathInfo"
+Platform.DirMethods.GetSystemDirectory, Platform_DirMethods_GetSystemDirectory, "Platform_DirMethods_GetSystemDirectory"
+Platform.DirMethods.Rename_String_String, Platform_DirMethods_Rename, "Platform_DirMethods_Rename"
+Platform.DnsMethods.InternalGetHostByName_String_String_String[]_Int64[], Platform_DnsMethods_InternalGetHostByName, "Platform_DnsMethods_InternalGetHostByName"
+Platform.DnsMethods.InternalGetHostByAddr_Int64_String_String[]_Int64[], Platform_DnsMethods_InternalGetHostByAddr, "Platform_DnsMethods_InternalGetHostByAddr"
+Platform.DnsMethods.InternalGetHostName, Platform_DnsMethods_InternalGetHostName, "Platform_DnsMethods_InternalGetHostName"
+Platform.FileMethods.CanSeek_IntPtr, Platform_FileMethods_CanSeek, "Platform_FileMethods_CanSeek"
+Platform.FileMethods.CheckHandleAccess_IntPtr_FileAccess, Platform_FileMethods_CheckHandleAccess, "Platform_FileMethods_CheckHandleAccess"
+Platform.FileMethods.Close_IntPtr, Platform_FileMethods_Close, "Platform_FileMethods_Close"
+Platform.FileMethods.Copy_String_String, Platform_FileMethods_Copy, "Platform_FileMethods_Copy"
+Platform.FileMethods.CreateLink_String_String, Platform_FileMethods_CreateLink, "Platform_FileMethods_CreateLink"
+Platform.FileMethods.FlushWrite_IntPtr, Platform_FileMethods_FlushWrite, "Platform_FileMethods_FlushWrite"
+Platform.FileMethods.GetAttributes_String_Int32, Platform_FileMethods_GetAttributes, "Platform_FileMethods_GetAttributes"
+Platform.FileMethods.GetErrno, Platform_FileMethods_GetErrno, "Platform_FileMethods_GetErrno"
+#Platform.FileMethods.GetErrnoMessage_Errno
+Platform.FileMethods.GetFileType_String, Platform_FileMethods_GetFileType, "Platform_FileMethods_GetFileType"
+Platform.FileMethods.GetInvalidHandle, Platform_FileMethods_GetInvalidHandle, "Platform_FileMethods_GetInvalidHandle"
+Platform.FileMethods.GetLength_String_Int64, Platform_FileMethods_GetLength, "Platform_FileMethods_GetLength"
+Platform.FileMethods.HasAsync, Platform_FileMethods_HasAsync, "Platform_FileMethods_HasAsync"
+Platform.FileMethods.Lock_IntPtr_Int64_Int64, Platform_FileMethods_Lock, "Platform_FileMethods_Lock"
+Platform.FileMethods.Open_String_FileMode_FileAccess_FileShare_IntPtr, Platform_FileMethods_Open, "Platform_FileMethods_Open"
+Platform.FileMethods.Read_IntPtr_Byte[]_Int32_Int32, Platform_FileMethods_Read, "Platform_FileMethods_Read"
+Platform.FileMethods.ReadLink_String_String, Platform_FileMethods_ReadLink, "Platform_FileMethods_ReadLink"
+Platform.FileMethods.Seek_IntPtr_Int64_SeekOrigin, Platform_FileMethods_Seek, "Platform_FileMethods_Seek"
+Platform.FileMethods.SetAttributes_String_Int32, Platform_FileMethods_SetAttributes, "Platform_FileMethods_SetAttributes"
+Platform.FileMethods.SetCreationTime_String_Int64, Platform_FileMethods_SetCreationTime, "Platform_FileMethods_SetCreationTime"
+Platform.FileMethods.SetLastAccessTime_String_Int64, Platform_FileMethods_SetLastAccessTime, "Platform_FileMethods_SetLastAccessTime"
+Platform.FileMethods.SetLastWriteTime_String_Int64, Platform_FileMethods_SetLastWriteTime, "Platform_FileMethods_SetLastWriteTime"
+Platform.FileMethods.SetLength_IntPtr_Int64, Platform_FileMethods_SetLength, "Platform_FileMethods_SetLength"
+Platform.FileMethods.Unlock_IntPtr_Int64_Int64, Platform_FileMethods_Unlock, "Platform_FileMethods_Unlock"
+Platform.FileMethods.ValidatePathname_String, Platform_FileMethods_ValidatePathname, "Platform_FileMethods_ValidatePathname"
+Platform.FileMethods.Write_IntPtr_Byte[]_Int32_Int32, Platform_FileMethods_Write, "Platform_FileMethods_Write"
+Platform.InfoMethods.GetGlobalConfigDir, Platform_InfoMethods_GetGlobalConfigDir, "Platform_InfoMethods_GetGlobalConfigDir"
+Platform.InfoMethods.GetNetBIOSMachineName, Platform_InfoMethods_GetNetBIOSMachineName, "Platform_InfoMethods_GetNetBIOSMachineName"
+Platform.InfoMethods.GetPlatformID, Platform_InfoMethods_GetPlatformID, "Platform_InfoMethods_GetPlatformID"
+Platform.InfoMethods.GetPlatformName, Platform_InfoMethods_GetPlatformName, "Platform_InfoMethods_GetPlatformName"
+Platform.InfoMethods.GetProcessorCount, Platform_InfoMethods_GetProcessorCount, "Platform_InfoMethods_GetProcessorCount"
+Platform.InfoMethods.GetRuntimeVersion, Platform_InfoMethods_GetRuntimeVersion, "Platform_InfoMethods_GetRuntimeVersion"
+#Platform.InfoMethods.GetUserDomainName
+Platform.InfoMethods.GetUserName, Platform_InfoMethods_GetUserName, "Platform_InfoMethods_GetUserName"
+Platform.InfoMethods.GetUserStorageDir, Platform_InfoMethods_GetUserStorageDir, "Platform_InfoMethods_GetUserStorageDir"
+Platform.InfoMethods.GetWorkingSet, Platform_InfoMethods_GetWorkingSet, "Platform_InfoMethods_GetWorkingSet"
+Platform.InfoMethods.IsUserInteractive, Platform_InfoMethods_IsUserInteractive, "Platform_InfoMethods_IsUserInteractive"
+Platform.PortMethods.IsValid_Int32_Int32, Platform_PortMethods_IsValid, "Platform_PortMethods_IsValid"
+Platform.PortMethods.IsAccessible_Int32_Int32, Platform_PortMethods_IsAccessible, "Platform_PortMethods_IsAccessible"
+Platform.PortMethods.Open_Int32_Int32_Parameters, Platform_PortMethods_Open, "Platform_PortMethods_Open"
+Platform.PortMethods.Close_IntPtr, Platform_PortMethods_Close, "Platform_PortMethods_Close"
+Platform.PortMethods.Modify_IntPtr_Parameters, Platform_PortMethods_Modify, "Platform_PortMethods_Modify"
+Platform.PortMethods.GetBytesToRead_IntPtr, Platform_PortMethods_GetBytesToRead, "Platform_PortMethods_GetBytesToRead"
+Platform.PortMethods.GetBytesToWrite_IntPtr, Platform_PortMethods_GetBytesToWrite, "Platform_PortMethods_GetBytesToWrite"
+Platform.PortMethods.ReadPins_IntPtr, Platform_PortMethods_ReadPins, "Platform_PortMethods_ReadPins"
+Platform.PortMethods.WritePins_IntPtr_Int32_Int32, Platform_PortMethods_WritePins, "Platform_PortMethods_WritePins"
+Platform.PortMethods.GetRecommendedBufferSizes_Int32_Int32_Int32, Platform_PortMethods_GetRecommendedBufferSizes, "Platform_PortMethods_GetRecommendedBufferSizes"
+Platform.PortMethods.DiscardInBuffer_IntPtr, Platform_PortMethods_DiscardInBuffer, "Platform_PortMethods_DiscardInBuffer"
+Platform.PortMethods.DiscardOutBuffer_IntPtr, Platform_PortMethods_DiscardOutBuffer, "Platform_PortMethods_DiscardOutBuffer"
+Platform.PortMethods.DrainOutBuffer_IntPtr, Platform_PortMethods_DrainOutBuffer, "Platform_PortMethods_DrainOutBuffer"
+Platform.PortMethods.Read_IntPtr_Byte[]_Int32_Int32, Platform_PortMethods_Read, "Platform_PortMethods_Read"
+Platform.PortMethods.Write_IntPtr_Byte[]_Int32_Int32, Platform_PortMethods_Write, "Platform_PortMethods_Write"
+Platform.PortMethods.WaitForPinChange_IntPtr, Platform_PortMethods_WaitForPinChange, "Platform_PortMethods_WaitForPinChange"
+Platform.PortMethods.WaitForInput_IntPtr_Int32, Platform_PortMethods_WaitForInput, "Platform_PortMethods_WaitForInput"
+Platform.PortMethods.Interrupt_Thread, Platform_PortMethods_Interrupt, "Platform_PortMethods_Interrupt"
+Platform.RegexpMethods.CompileInternal_String_Int32, Platform_RegexpMethods_CompileInternal, "Platform_RegexpMethods_CompileInternal"
+Platform.RegexpMethods.CompileWithSyntaxInternal_String_Int32, Platform_RegexpMethods_CompileWithSyntaxInternal, "Platform_RegexpMethods_CompileWithSyntaxInternal"
+Platform.RegexpMethods.ExecInternal_IntPtr_String_Int32, Platform_RegexpMethods_ExecInternal, "Platform_RegexpMethods_ExecInternal"
+Platform.RegexpMethods.FreeInternal_IntPtr, Platform_RegexpMethods_FreeInternal, "Platform_RegexpMethods_FreeInternal"
+Platform.RegexpMethods.MatchInternal_IntPtr_String_Int32_Int32_Type, Platform_RegexpMethods_MatchInternal, "Platform_RegexpMethods_MatchInternal"
+Platform.SocketMethods.GetInvalidHandle, Platform_SocketMethods_GetInvalidHandle, "Platform_SocketMethods_GetInvalidHandle"
+Platform.SocketMethods.AddressFamilySupported_Int32, Platform_SocketMethods_AddressFamilySupported, "Platform_SocketMethods_AddressFamilySupported"
+Platform.SocketMethods.Create_Int32_Int32_Int32_IntPtr, Platform_SocketMethods_Create, "Platform_SocketMethods_Create"
+Platform.SocketMethods.Bind_IntPtr_Byte[], Platform_SocketMethods_Bind, "Platform_SocketMethods_Bind"
+Platform.SocketMethods.Shutdown_IntPtr_Int32, Platform_SocketMethods_Shutdown, "Platform_SocketMethods_Shutdown"
+Platform.SocketMethods.Listen_IntPtr_Int32, Platform_SocketMethods_Listen, "Platform_SocketMethods_Listen"
+Platform.SocketMethods.Accept_IntPtr_Byte[]_IntPtr, Platform_SocketMethods_Accept, "Platform_SocketMethods_Accept"
+Platform.SocketMethods.Connect_IntPtr_Byte[], Platform_SocketMethods_Connect, "Platform_SocketMethods_Connect"
+Platform.SocketMethods.Receive_IntPtr_Byte[]_Int32_Int32_Int32, Platform_SocketMethods_Receive, "Platform_SocketMethods_Receive"
+Platform.SocketMethods.ReceiveFrom_IntPtr_Byte[]_Int32_Int32_Int32_Byte[], Platform_SocketMethods_ReceiveFrom, "Platform_SocketMethods_ReceiveFrom"
+Platform.SocketMethods.Send_IntPtr_Byte[]_Int32_Int32_Int32, Platform_SocketMethods_Send, "Platform_SocketMethods_Send"
+Platform.SocketMethods.SendTo_IntPtr_Byte[]_Int32_Int32_Int32_Byte[], Platform_SocketMethods_SendTo, "Platform_SocketMethods_SendTo"
+Platform.SocketMethods.Close_IntPtr, Platform_SocketMethods_Close, "Platform_SocketMethods_Close"
+Platform.SocketMethods.Select_IntPtr[]_IntPtr[]_IntPtr[]_Int64, Platform_SocketMethods_Select, "Platform_SocketMethods_Select"
+Platform.SocketMethods.SetBlocking_IntPtr_Boolean, Platform_SocketMethods_SetBlocking, "Platform_SocketMethods_SetBlocking"
+Platform.SocketMethods.GetAvailable_IntPtr, Platform_SocketMethods_GetAvailable, "Platform_SocketMethods_GetAvailable"
+Platform.SocketMethods.GetSockName_IntPtr_Byte[], Platform_SocketMethods_GetSockName, "Platform_SocketMethods_GetSockName"
+Platform.SocketMethods.SetSocketOption_IntPtr_Int32_Int32_Int32, Platform_SocketMethods_SetSocketOption, "Platform_SocketMethods_SetSocketOption"
+Platform.SocketMethods.GetSocketOption_IntPtr_Int32_Int32_Int32, Platform_SocketMethods_GetSocketOption, "Platform_SocketMethods_GetSocketOption"
+Platform.SocketMethods.SetLingerOption_IntPtr_Boolean_Int32, Platform_SocketMethods_SetLingerOption, "Platform_SocketMethods_SetLingerOption"
+Platform.SocketMethods.GetLingerOption_IntPtr_Boolean_Int32, Platform_SocketMethods_GetLingerOption, "Platform_SocketMethods_GetLingerOption"
+Platform_SocketMethods_SetMulticastOption_IntPtr_Int32_Int32_Byte[]_Byte[], Platform_SocketMethods_SetMulticastOption, "Platform_SocketMethods_SetMulticastOption"
+Platform_SocketMethods_GetMulticastOption_IntPtr_Int32_Int32_Byte[]_Byte[], Platform_SocketMethods_GetMulticastOption, "Platform_SocketMethods_GetMulticastOption"
+Platform.SocketMethods.CanStartThreads, Platform_SocketMethods_CanStartThreads, "Platform_SocketMethods_CanStartThreads"
+Platform.SocketMethods.DiscoverIrDADevices_IntPtr_Byte[], Platform_SocketMethods_DiscoverIrDADevices, "Platform_SocketMethods_DiscoverIrDADevices"
+Platform.SocketMethods.GetErrno, Platform_SocketMethods_GetErrno, "Platform_SocketMethods_GetErrno"
+Platform.SocketMethods.GetErrnoMessage_Errno, Platform_SocketMethods_GetErrnoMessage, "Platform_SocketMethods_GetErrnoMessage"
+Platform.SocketMethods.QueueCompletionItem_AsyncCallback_IAsyncResult, Platform_SocketMethods_QueueCompletionItem, "Platform_SocketMethods_QueueCompletionItem"
+Platform.SocketMethods.CreateManualResetEvent, Platform_SocketMethods_CreateManualResetEvent, "Platform_SocketMethods_CreateManualResetEvent"
+Platform.SocketMethods.WaitHandleSet_WaitHandle, Platform_SocketMethods_WaitHandleSet, "Platform_SocketMethods_WaitHandleSet"
+#Platform.Stdio.Beep_Int32_Int32
+#Platform.Stdio.Clear
+#Platform.Stdio.GetBufferSize_Int32_Int32
+#Platform.Stdio.GetCursorPosition_Int32_Int32
+#Platform.Stdio.GetCursorSize
+#Platform.Stdio.GetCursorVisible
+#Platform.Stdio.GetLargestWindowSize_Int32_Int32
+#Platform.Stdio.GetLockState
+#Platform.Stdio.GetTextAttributes
+#Platform.Stdio.GetWindowSize_Int32_Int32_Int32_Int32
+#Platform.Stdio.KeyAvailable
+#Platform.Stdio.MoveBufferArea_Int32_Int32_Int32_Int32_Int32_Int32_Char_Int32
+#Platform.Stdio.ReadKey_Char_Int32_Int32
+#Platform.Stdio.SetBufferSize_Int32_Int32
+#Platform.Stdio.SetConsoleMode_Int32
+#Platform.Stdio.SetConsoleTitle_String
+#Platform.Stdio.SetCursorPosition_Int32_Int32
+#Platform.Stdio.SetCursorSize_Int32
+#Platform.Stdio.SetCursorVisible_Boolean
+#Platform.Stdio.SetTextAttributes_Int32
+#Platform.Stdio.SetWindowSize_Int32_Int32_Int32_Int32
+Platform.Stdio.StdClose_Int32, Platform_Stdio_StdClose, "Platform_Stdio_StdClose"
+Platform.Stdio.StdFlush_Int32, Platform_Stdio_StdFlush, "Platform_Stdio_StdFlush"
+#Platform.Stdio.StdPeek_Int32
+Platform.Stdio.StdRead_Int32, Platform_Stdio_StdRead_i, "Platform_Stdio_StdRead_i"
+Platform.Stdio.StdRead_Int32_Byte[]_Int32_Int32, Platform_Stdio_StdRead_iacii, "Platform_Stdio_StdRead_iacii"
+Platform.Stdio.StdRead_Int32_Char[]_Int32_Int32, Platform_Stdio_StdRead_iacii, "Platform_Stdio_StdRead_iacii"
+Platform.Stdio.StdWrite_Int32_Byte[]_Int32_Int32, Platform_Stdio_StdWrite_iabii, "Platform_Stdio_StdWrite_iabii"
+#Platform.Stdio.StdWrite_Int32_Char
+Platform.Stdio.StdWrite_Int32_Char[]_Int32_Int32, Platform_Stdio_StdWrite_iacii, "Platform_Stdio_StdWrite_iacii"
+#Platform.Stdio.StdWrite_Int32_String
+Platform.SysCharInfo.GetNewLine, Platform_SysCharInfo_GetNewLine, "Platform_SysCharInfo_GetNewLine"
+#Platform.SysCharInfo.GetNumericValue_Char
+Platform.SysCharInfo.GetUnicodeCategory_Char, Platform_SysCharInfo_GetUnicodeCategory, "Platform_SysCharInfo_GetUnicodeCategory"
+Platform.TaskMethods.Exit_Int32, Platform_TaskMethods_Exit, "Platform_TaskMethods_Exit"
+Platform.TaskMethods.GetCommandLineArgs, Platform_TaskMethods_GetCommandLineArgs, "Platform_TaskMethods_GetCommandLineArgs"
+Platform.TaskMethods.GetEnvironmentCount, Platform_TaskMethods_GetEnvironmentCount, "Platform_TaskMethods_GetEnvironmentCount"
+Platform.TaskMethods.GetEnvironmentKey_Int32, Platform_TaskMethods_GetEnvironmentKey, "Platform_TaskMethods_GetEnvironmentKey"
+Platform.TaskMethods.GetEnvironmentValue_Int32, Platform_TaskMethods_GetEnvironmentValue, "Platform_TaskMethods_GetEnvironmentValue"
+Platform.TaskMethods.GetEnvironmentVariable_String, Platform_TaskMethods_GetEnvironmentVariable, "Platform_TaskMethods_GetEnvironmentVariable"
+#Platform.TaskMethods.SetExitCode_Int32
+Platform.TimeMethods.GetCurrentTime, Platform_TimeMethods_GetCurrentTime, "Platform_TimeMethods_GetCurrentTime"
+Platform.TimeMethods.GetCurrentUtcTime, Platform_TimeMethods_GetCurrentUtcTime, "Platform_TimeMethods_GetCurrentUtcTime"
+#Platform.TimeMethods.GetDaylightName
+#Platform.TimeMethods.GetDaylightRules_Int32_Int64_Int64_Int64
+#Platform.TimeMethods.GetStandardName
+Platform.TimeMethods.GetTimeZoneAdjust_Int64, Platform_TimeMethods_GetTimeZoneAdjust, "Platform_TimeMethods_GetTimeZoneAdjust"
+Platform.TimeMethods.GetUpTime, Platform_TimeMethods_GetUpTime, "Platform_TimeMethods_GetUpTime"
+System.Environment.GetOSVersionString, System_Environment_GetOSVersionString, "System_Environment_GetOSVersionString"
+System.Environment.GetNewLine, System_Environment_get_NewLine, "System_Environment_get_NewLine"
+#System.Activator.CreateValueTypeInstance_Type
+#System.AppDomain.GetAssemblies
+System.ArgIterator..ctor_RuntimeArgumentHandle, System_ArgIterator_ctor_RuntimeArgumentHandle, "System_ArgIterator_ctor_RuntimeArgumentHandle"
+System.ArgIterator..ctor_RuntimeArgumentHandle_Void*, System_ArgIterator_ctor_RuntimeArgumentHandlepV, "System_ArgIterator_ctor_RuntimeArgumentHandlepV"
+System.ArgIterator.End, System_ArgIterator_End, "System_ArgIterator_End"
+System.ArgIterator.GetNextArg, System_ArgIterator_GetNextArg, "System_ArgIterator_GetNextArg"
+System.ArgIterator.GetNextArg_RuntimeTypeHandle, System_ArgIterator_GetNextArg_RuntimeTypeHandle, "System_ArgIterator_GetNextArg_RuntimeTypeHandle"
+System.ArgIterator.GetNextArgType, System_ArgIterator_GetNextArgType, "System_ArgIterator_GetNextArgType"
+System.ArgIterator.GetRemainingCount, System_ArgIterator_GetRemainingCount, "System_ArgIterator_GetRemainingCount"
+System.Array.Clear_Array_Int32_Int32, System_Array_Clear, "System_Array_Clear"
+System.Array.CreateArray_IntPtr_Int32[]_Int32[], System_Array_CreateArrayi, "System_Array_CreateArrayi"
+System.Array.CreateArray_IntPtr_Int32_Int32_Int32_Int32, System_Array_CreateArray, "System_Array_CreateArray"
+System.Array.Get_Int32[], System_Array_Geti, "System_Array_Geti"
+System.Array.Get_Int32_Int32_Int32, System_Array_Get, "System_Array_Get"
+System.Array.GetLength, System_Array_GetLength, "System_Array_GetLength"
+System.Array.GetLength_Int32, System_Array_GetLengthi, "System_Array_GetLengthi"
+System.Array.GetLowerBound_Int32, System_Array_GetLowerBound, "System_Array_GetLowerBound"
+System.Array.GetRank, System_Array_GetRank, "System_Array_GetRank"
+System.Array.GetRelative_Int32, System_Array_GetRelative, "System_Array_GetRelative"
+System.Array.GetUpperBound_Int32, System_Array_GetUpperBound, "System_Array_GetUpperBound"
+System.Array.Initialize, System_Array_Initialize, "System_Array_Initialize"
+System.Array.InternalCopy_Array_Int32_Array_Int32_Int32, System_Array_InternalCopy, "System_Array_InternalCopy"
+System.Array.Set_Object_Int32[], System_Array_Seti, "System_Array_Seti"
+System.Array.Set_Object_Int32_Int32_Int32, System_Array_Set, "System_Array_Set"
+System.Array.SetRelative_Object_Int32, System_Array_SetRelative, "System_Array_SetRelative"
+System.BitConverter.DoubleToInt64Bits_Double, System_BitConverter_DoubleToInt64Bits, "System_BitConverter_DoubleToInt64Bits"
+System.BitConverter.FloatToInt32Bits_Single, System_BitConverter_FloatToInt32Bits, "System_BitConverter_FloatToInt32Bits"
+System.BitConverter.GetLittleEndian, System_BitConverter_GetLittleEndian, "System_BitConverter_GetLittleEndian"
+#System.BitConverter.GetLittleEndianBytes_Double
+#System.BitConverter.GetLittleEndianBytes_Single
+System.BitConverter.Int32BitsToFloat_Int32, System_BitConverter_Int32BitsToFloat, "System_BitConverter_Int32BitsToFloat"
+System.BitConverter.Int64BitsToDouble_Int64, System_BitConverter_Int64BitsToDouble, "System_BitConverter_Int64BitsToDouble"
+System.Buffer.Copy_Array_Int32_Array_Int32_Int32, System_Buffer_Copy, "System_Buffer_Copy"
+System.Buffer.GetElement_Array_Int32, System_Buffer_GetElement, "System_Buffer_GetElement"
+System.Buffer.GetLength_Array, System_Buffer_GetLength, "System_Buffer_GetLength"
+System.Buffer.SetElement_Array_Int32_Byte, System_Buffer_SetElement, "System_Buffer_SetElement"
+System.ConsoleDriver.Isatty_IntPtr, System_ConsoleDriver_Isatty, "System_ConsoleDriver_Isatty"
+System.CurrentSystemTimeZone.GetTimeZoneData_Int32_Int64[]_String[], System_CurrentSystemTimeZone_GetTimeZoneData, "System_CurrentSystemTimeZone_GetTimeZoneData"
+System.DateTime.GetNow, System_DateTime_GetNow, "System_DateTime_GetNow"
+System.Decimal.Add_Decimal_Decimal, System_Decimal_Add, "System_Decimal_Add"
+System.Decimal.Compare_Decimal_Decimal, System_Decimal_Compare, "System_Decimal_Compare"
+System.Decimal..ctor_Double, System_Decimal_ctor_d, "System_Decimal_ctor_d"
+System.Decimal..ctor_Single, System_Decimal_ctor_f, "System_Decimal_ctor_f"
+System.Decimal.Divide_Decimal_Decimal, System_Decimal_Divide, "System_Decimal_Divide"
+System.Decimal.Floor_Decimal, System_Decimal_Floor, "System_Decimal_Floor"
+System.Decimal.Multiply_Decimal_Decimal, System_Decimal_Multiply, "System_Decimal_Multiply"
+System.Decimal.Negate_Decimal, System_Decimal_Negate, "System_Decimal_Negate"
+System.Decimal.Remainder_Decimal_Decimal, System_Decimal_Remainder, "System_Decimal_Remainder"
+System.Decimal.Round_Decimal_Int32, System_Decimal_Round, "System_Decimal_Round"
+System.Decimal.Subtract_Decimal_Decimal, System_Decimal_Subtract, "System_Decimal_Subtract"
+System.Decimal.ToDouble_Decimal, System_Decimal_ToDouble, "System_Decimal_ToDouble"
+System.Decimal.ToSingle_Decimal, System_Decimal_ToSingle, "System_Decimal_ToSingle"
+System.Decimal.Truncate_Decimal, System_Decimal_Truncate, "System_Decimal_Truncate"
+#System.Delegate.CreateBlankDelegate_Type_ClrMethod
+#System.Diagnostics.Debugger.Break
+#System.Diagnostics.Debugger.InternalIsAttached
+#System.Diagnostics.Debugger.InternalLaunch
+#System.Diagnostics.Debugger.IsLogging
+#System.Diagnostics.Debugger.Log_Int32_String_String
+#System.Diagnostics.StackFrame.GetExceptionStackTrace
+#System.Diagnostics.StackFrame.InternalGetDebugInfo_RuntimeMethodHandle_Int32_Int32_Int32
+#System.Diagnostics.StackFrame.InternalGetILOffset_Int32
+#System.Diagnostics.StackFrame.InternalGetMethod_Int32
+#System.Diagnostics.StackFrame.InternalGetNativeOffset_Int32
+#System.Diagnostics.StackFrame.InternalGetTotalFrames
+System.Double.IsNaN_Double, System_Double_IsNaN, "System_Double_IsNaN"
+System.Double.TestInfinity_Double, System_Double_TestInfinity, "System_Double_TestInfinity"
+#System.Enum.EnumIntToObject_Type_Int32
+#System.Enum.EnumLongToObject_Type_Int64
+#System.Enum.EnumValueOr_Object_Object
+#System.Enum.FormatEnumWithFlags_Type_Object
+#System.Enum.GetEnumName_Type_Object
+#System.Enum.GetEnumValue
+#System.Enum.GetEnumValueFromName_Type_String_Boolean
+#System.Enum.IsEnumValue_Type_Object
+System.Environment.get_Platform, System_Environment_get_Platform, "System_Environment_get_Platform"
+System.Environment.internalGetEnvironmentVariable_String, System_Environment_internalGetEnvironmentVariable, "System_Environment_internalGetEnvironmentVariable"
+System.GC.Collect, System_GC_Collect, "System_GC_Collect"
+#System.GC.GetTotalMemory_Boolean
+#System.GC.KeepAlive_Object
+System.GC.ReRegisterForFinalize_Object
+System.GC.SuppressFinalize_Object, System_GC_SuppressFinalize, "System_GC_SuppressFinalize"
+System.GC.WaitForPendingFinalizers, System_GC_WaitForPendingFinalizers, "System_GC_WaitForPendingFinalizers"
+System.Globalization.CultureInfo.InternalCultureID, System_Globalization_CultureInfo_InternalCultureID, "System_Globalization_CultureInfo_InternalCultureID"
+System.Globalization.CultureInfo.InternalCultureName, System_Globalization_CultureInfo_InternalCultureName, "System_Globalization_CultureInfo_InternalCultureName"
+#System.Globalization.TextInfo.ToLower_Char
+#System.Globalization.TextInfo.ToLower_String
+#System.Globalization.TextInfo.ToUpper_Char
+#System.Globalization.TextInfo.ToUpper_String
+#System.Guid.NewGuid
+System.IO.MonoIO.get_ConsoleOutput, System_IO_MonoIO_get_ConsoleOutput, "System_IO_MonoIO_get_ConsoleOutput"
+System.IO.MonoIO.get_ConsoleInput, System_IO_MonoIO_get_ConsoleInput, "System_IO_MonoIO_get_ConsoleInput"
+System.IO.MonoIO.get_ConsoleError, System_IO_MonoIO_get_ConsoleError, "System_IO_MonoIO_get_ConsoleError"
+#System_IO_MonoIO_GetFileType
+#System_IO_MonoIO_Seek
+#System_IO_MonoIO_Write
+#System_IO_MonoIO_get_VolumeSeparatorChar
+#System_IO_MonoIO_get_DirectorySeparatorChar
+#System_IO_MonoIO_get_AltDirectorySeparatorChar
+#System_IO_MonoIO_get_PathSeparator
+#System_IO_MonoIO_Close
+#System_IO_MonoIO_GetCurrentDirectory
+#System_IO_MonoIO_SetCurrentDirectory
+#System_IO_MonoIO_GetFileAttributes
+#System.IO.MonoIO.CreateDirectory_String_Int32, System_IO_MonoIO_CreateDirectory, "System_IO_MonoIO_CreateDirectory"
+#System_IO_MonoIO_GetFileStat
+#System_IO_MonoIO_DeleteFile
+#System_IO_MonoIO_RemoveDirectory
+#System_IO_MonoIO_MoveFile
+#System_IO_MonoIO_Open
+#System_IO_MonoIO_SetLength
+#System_IO_MonoIO_GetLength
+#System_IO_MonoIO_Read
+System.Math.Acos_Double, System_Math_Acos, "System_Math_Acos"
+System.Math.Asin_Double, System_Math_Asin, "System_Math_Asin"
+System.Math.Atan2_Double_Double, System_Math_Atan2, "System_Math_Atan2"
+System.Math.Atan_Double, System_Math_Atan, "System_Math_Atan"
+System.Math.Ceiling_Double, System_Math_Ceiling, "System_Math_Ceiling"
+System.Math.Cos_Double, System_Math_Cos, "System_Math_Cos"
+System.Math.Cosh_Double, System_Math_Cosh, "System_Math_Cosh"
+System.Math.Exp_Double, System_Math_Exp, "System_Math_Exp"
+System.Math.Floor_Double, System_Math_Floor, "System_Math_Floor"
+System.Math.IEEERemainder_Double_Double, System_Math_IEEERemainder, "System_Math_IEEERemainder"
+System.Math.Log10_Double, System_Math_Log10, "System_Math_Log10"
+System.Math.Log_Double, System_Math_Log, "System_Math_Log"
+System.Math.Pow_Double_Double, System_Math_Pow, "System_Math_Pow"
+System.Math.Round_Double, System_Math_Round, "System_Math_Round"
+System.Math.RoundDouble_Double_Int32, System_Math_RoundDouble, "System_Math_RoundDouble"
+System.Math.Sin_Double, System_Math_Sin, "System_Math_Sin"
+System.Math.Sinh_Double, System_Math_Sinh, "System_Math_Sinh"
+System.Math.Sqrt_Double, System_Math_Sqrt, "System_Math_Sqrt"
+System.Math.Tan_Double, System_Math_Tan, "System_Math_Tan"
+System.Math.Tanh_Double, System_Math_Tanh, "System_Math_Tanh"
+System.NumberFormatter.GetFormatterTables_UInt64*_Int32*_Char*_Char*_Int64*_Int32*, System_NumberFormatter_GetFormatterTables, "System_NumberFormatter_GetFormatterTables"
+System.Object.Equals_Object, System_Object_Equals, "System_Object_Equals"
+System.Object.GetHashCode, System_Object_GetHashCode, "System_Object_GetHashCode"
+System.Object.GetType, System_Object_GetType, "System_Object_GetType"
+System.Object.MemberwiseClone, System_Object_MemberwiseClone, "System_Object_MemberwiseClone"
+#System.Reflection.Assembly.FillAssemblyName_AssemblyName
+System.Reflection.Assembly.GetCallingAssembly, System_Reflection_Assembly_GetCallingAssembly, "System_Reflection_Assembly_GetCallingAssembly"
+System.Reflection.Assembly.GetEntryAssembly, System_Reflection_Assembly_GetEntryAssembly, "System_Reflection_Assembly_GetEntryAssembly"
+System.Reflection.Assembly.GetEntryPoint, System_Reflection_Assembly_GetEntryPoint, "System_Reflection_Assembly_GetEntryPoint"
+System.Reflection.Assembly.GetExecutingAssembly, System_Reflection_Assembly_GetExecutingAssembly, "System_Reflection_Assembly_GetExecutingAssembly"
+System.Reflection.Assembly.GetExportedTypes, System_Reflection_Assembly_GetExportedTypes, "System_Reflection_Assembly_GetExportedTypes"
+#System.Reflection.Assembly.GetFiles_Boolean
+#System.Reflection.Assembly.GetFile_String
+System.Reflection.Assembly.GetFullName, System_Reflection_Assembly_GetFullName, "System_Reflection_Assembly_GetFullName"
+#System.Reflection.Assembly.GetImageRuntimeVersion
+#System.Reflection.Assembly.GetLocation
+#System.Reflection.Assembly.GetManifestResourceInfo_String
+#System.Reflection.Assembly.GetManifestResourceNames
+System.Reflection.Assembly.GetManifestResourceStream_String, System_Reflection_Assembly_GetManifestResourceStream, "System_Reflection_Assembly_GetManifestResourceStream"
+System.Reflection.Assembly.GetModuleInternal_String, System_Reflection_Assembly_GetModuleInternal, "System_Reflection_Assembly_GetModuleInternal"
+#System.Reflection.Assembly.GetModules_Boolean
+#System.Reflection.Assembly.GetReferencedAssembliesInternal
+System.Reflection.Assembly.GetSatellitePath_String, System_Reflection_Assembly_GetSatellitePath, "System_Reflection_Assembly_GetSatellitePath"
+System.Reflection.Assembly.GetTypes, System_Reflection_Assembly_GetTypes, "System_Reflection_Assembly_GetTypes"
+System.Reflection.Assembly.GetType_String_Boolean_Boolean, System_Reflection_Assembly_GetType, "System_Reflection_Assembly_GetType"
+#System.Reflection.Assembly.LoadFromBytes_Byte[]_Int32_Assembly
+System.Reflection.Assembly.LoadFromFile_String_Int32_Assembly, System_Reflection_Assembly_LoadFromFile, "System_Reflection_Assembly_LoadFromFile"
+System.Reflection.Assembly.LoadFromName_String_Int32_Assembly, System_Reflection_Assembly_LoadFromName, "System_Reflection_Assembly_LoadFromName"
+#System.Reflection.AssemblyName.FillAssemblyNameFromFile_AssemblyName_String_Assembly
+System.Reflection.ClrConstructor.Invoke_BindingFlags_Binder_Object[]_CultureInfo, System_Reflection_ClrConstructor_Invoke, "System_Reflection_ClrConstructor_Invoke"
+#System.Reflection.ClrConstructor.InvokeOnEmpty_Object_BindingFlags_Binder_Object[]_CultureInfo
+System.Reflection.ClrField.GetFieldType_IntPtr, System_Reflection_ClrField_GetFieldType, "System_Reflection_ClrField_GetFieldType"
+#System.Reflection.ClrField.GetValueDirect_TypedReference
+System.Reflection.ClrField.GetValueInternal_Object, System_Reflection_ClrField_GetValueInternal, "System_Reflection_ClrField_GetValueInternal"
+#System.Reflection.ClrField.SetValueDirect_TypedReference_Object
+#System.Reflection.ClrField.SetValueInternal_Object_Object_BindingFlags_Binder_CultureInfo
+System.Reflection.ClrHelpers.CanAccess_IntPtr, System_Reflection_ClrHelpers_CanAccess, "System_Reflection_ClrHelpers_CanAccess"
+System.Reflection.ClrHelpers.GetCallConv_IntPtr, System_Reflection_ClrHelpers_GetCallConv, "System_Reflection_ClrHelpers_GetCallConv"
+System.Reflection.ClrHelpers.GetCustomAttributes_IntPtr_IntPtr_Boolean, System_Reflection_ClrHelpers_GetCustomAttributes, "System_Reflection_ClrHelpers_GetCustomAttributes"
+System.Reflection.ClrHelpers.GetDeclaringType_IntPtr, System_Reflection_ClrHelpers_GetDeclaringType, "System_Reflection_ClrHelpers_GetDeclaringType"
+System.Reflection.ClrHelpers.GetImplAttrs_IntPtr, System_Reflection_ClrHelpers_GetImplAttrs, "System_Reflection_ClrHelpers_GetImplAttrs"
+System.Reflection.ClrHelpers.GetMemberAttrs_IntPtr, System_Reflection_ClrHelpers_GetMemberAttrs, "System_Reflection_ClrHelpers_GetMemberAttrs"
+System.Reflection.ClrHelpers.GetName_IntPtr, System_Reflection_ClrHelpers_GetName, "System_Reflection_ClrHelpers_GetName"
+System.Reflection.ClrHelpers.GetNumParameters_IntPtr, System_Reflection_ClrHelpers_GetNumParameters, "System_Reflection_ClrHelpers_GetNumParameters"
+#System.Reflection.ClrHelpers.GetParameter_IntPtr_Int32
+System.Reflection.ClrHelpers.GetParameterType_IntPtr_Int32, System_Reflection_ClrHelpers_GetParameterType, "System_Reflection_ClrHelpers_GetParameterType"
+System.Reflection.ClrHelpers.GetSemantics_IntPtr_MethodSemanticsAttributes_Boolean, System_Reflection_ClrHelpers_GetSemantics, "System_Reflection_ClrHelpers_GetSemantics"
+System.Reflection.ClrHelpers.HasSemantics_IntPtr_MethodSemanticsAttributes_Boolean, System_Reflection_ClrHelpers_HasSemantics, "System_Reflection_ClrHelpers_HasSemantics"
+#System.Reflection.ClrHelpers.IsDefined_IntPtr_IntPtr_Boolean
+#System.Reflection.ClrMethod.BindGenericParametersImpl_Type[]
+#System.Reflection.ClrMethod.GetArity, System_Reflection_ClrMethod_GetArity, "System_Reflection_ClrMethod_GetArity"
+System.Reflection.ClrMethod.GetBaseDefinition, System_Reflection_ClrMethod_GetBaseDefinition, "System_Reflection_ClrMethod_GetBaseDefinition"
+#System.Reflection.ClrMethod.GetGenericArgumentsImpl
+#System.Reflection.ClrMethod.GetGenericMethodDefinitionImpl
+#System.Reflection.ClrMethod.HasGenericArgumentsImpl
+#System.Reflection.ClrMethod.HasGenericParametersImpl
+System.Reflection.ClrMethod.Invoke_Object_BindingFlags_Binder_Object[]_CultureInfo, System_Reflection_ClrMethod_Invoke, "System_Reflection_ClrMethod_Invoke"
+#System.Reflection.ClrParameter.GetDefault_IntPtr
+System.Reflection.ClrParameter.GetParamAttrs_IntPtr, System_Reflection_ClrParameter_GetParamAttrs, "System_Reflection_ClrParameter_GetParamAttrs"
+System.Reflection.ClrParameter.GetParamName_IntPtr, System_Reflection_ClrParameter_GetParamName, "System_Reflection_ClrParameter_GetParamName"
+System.Reflection.ClrProperty.GetPropertyType_IntPtr, System_Reflection_ClrProperty_GetPropertyType, "System_Reflection_ClrProperty_GetPropertyType"
+#System.Reflection.ClrResourceStream.ResourceGetAddress_IntPtr_Int64
+#System.Reflection.ClrResourceStream.ResourceReadByte_IntPtr_Int64
+System.Reflection.ClrResourceStream.ResourceRead_IntPtr_Int64_Byte[]_Int32_Int32, System_Reflection_ClrResourceStream_ResourceRead, "System_Reflection_ClrResourceStream_ResourceRead"
+#System.Reflection.ClrType.BindGenericParameters_Type[]
+System.Reflection.ClrType.GetAttributeFlagsImpl, System_Reflection_ClrType_GetAttributeFlagsImpl, "System_Reflection_ClrType_GetAttributeFlagsImpl"
+System.Reflection.ClrType.GetClrArrayRank, System_Reflection_ClrType_GetClrArrayRank, "System_Reflection_ClrType_GetClrArrayRank"
+System.Reflection.ClrType.GetClrAssembly, System_Reflection_ClrType_GetClrAssembly, "System_Reflection_ClrType_GetClrAssembly"
+System.Reflection.ClrType.GetClrBaseType, System_Reflection_ClrType_GetClrBaseType, "System_Reflection_ClrType_GetClrBaseType"
+System.Reflection.ClrType.GetClrFullName, System_Reflection_ClrType_GetClrFullName, "System_Reflection_ClrType_GetClrFullName"
+System.Reflection.ClrType.GetClrGUID, System_Reflection_ClrType_GetClrGUID, "System_Reflection_ClrType_GetClrGUID"
+System.Reflection.ClrType.GetClrModule, System_Reflection_ClrType_GetClrModule, "System_Reflection_ClrType_GetClrModule"
+System.Reflection.ClrType.GetClrName, System_Reflection_ClrType_GetClrName, "System_Reflection_ClrType_GetClrName"
+System.Reflection.ClrType.GetClrNamespace, System_Reflection_ClrType_GetClrNamespace, "System_Reflection_ClrType_GetClrNamespace"
+System.Reflection.ClrType.GetClrNestedDeclaringType, System_Reflection_ClrType_GetClrNestedDeclaringType, "System_Reflection_ClrType_GetClrNestedDeclaringType"
+#System.Reflection.ClrType.GetClrTypeCategory
+System.Reflection.ClrType.GetElementType, System_Reflection_ClrType_GetElementType, "System_Reflection_ClrType_GetElementType"
+#System.Reflection.ClrType.GetGenericArguments
+#System.Reflection.ClrType.GetGenericTypeDefinition
+System.Reflection.ClrType.GetInterfaces, System_Reflection_ClrType_GetInterfaces, "System_Reflection_ClrType_GetInterfaces"
+#System.Reflection.ClrType.GetInterface_String_Boolean
+System.Reflection.ClrType.GetMemberImpl_String_MemberTypes_BindingFlags_Binder_CallingConventions_Type[]_ParameterModifier[], System_Reflection_ClrType_GetMemberImpl, "System_Reflection_ClrType_GetMemberImpl"
+System.Reflection.ClrType.GetMembersImpl_MemberTypes_BindingFlags_Type_String, System_Reflection_ClrType_GetMembersImpl, "System_Reflection_ClrType_GetMembersImpl"
+#System.Reflection.ClrType.HasGenericArgumentsImpl
+#System.Reflection.ClrType.HasGenericParametersImpl
+System.Reflection.ClrType.IsClrNestedType, System_Reflection_ClrType_IsClrNestedType, "System_Reflection_ClrType_IsClrNestedType"
+System.Reflection.ClrType.IsSubclassOf_Type, System_Reflection_ClrType_IsSubclassOf, "System_Reflection_ClrType_IsSubclassOf"
+#System.Reflection.Emit.AssemblyBuilder.ClrAssemblyCreate_String_Int32_Int32_Int32_Int32_AssemblyBuilderAccess_IntPtr
+#System.Reflection.Emit.AssemblyBuilder.ClrAttributeAddToItem_IntPtr_IntPtr
+#System.Reflection.Emit.AssemblyBuilder.ClrAttributeCreate_IntPtr_IntPtr_Byte[]
+#System.Reflection.Emit.AssemblyBuilder.ClrGetItemFromToken_IntPtr_Int32
+#System.Reflection.Emit.AssemblyBuilder.ClrGetItemToken_IntPtr
+#System.Reflection.Emit.AssemblyBuilder.ClrSave_IntPtr_IntPtr_String_IntPtr_PEFileKinds
+#System.Reflection.Emit.AssemblyBuilder.ClrWriteMethod_IntPtr_IntPtr_Byte[]_Byte[]_IntPtr[]_Int32[]_Byte[][]_IntPtr[]_Int32[]
+#System.Reflection.Emit.EventBuilder.ClrEventAddSemantics_IntPtr_MethodSemanticsAttributes_MethodToken
+#System.Reflection.Emit.EventBuilder.ClrEventCreate_IntPtr_String_IntPtr_EventAttributes
+#System.Reflection.Emit.FieldBuilder.ClrFieldCreate_IntPtr_String_IntPtr_FieldAttributes
+#System.Reflection.Emit.FieldBuilder.ClrFieldSetConstant_IntPtr_Object
+#System.Reflection.Emit.FieldBuilder.ClrFieldSetMarshal_IntPtr_Byte[]
+#System.Reflection.Emit.FieldBuilder.ClrFieldSetOffset_IntPtr_Int32
+#System.Reflection.Emit.FieldBuilder.ClrFieldSetRVA_IntPtr_Int32
+#System.Reflection.Emit.MethodBuilder.ClrMethodAddPInvoke_IntPtr_Int32_String_String
+#System.Reflection.Emit.MethodBuilder.ClrMethodCreate_IntPtr_String_MethodAttributes_IntPtr
+#System.Reflection.Emit.MethodBuilder.ClrMethodCreateVarArgRef_IntPtr_Int32_IntPtr
+#System.Reflection.Emit.MethodBuilder.ClrMethodSetImplAttrs_IntPtr_MethodImplAttributes
+#System.Reflection.Emit.MethodBuilder.ClrMethodSetRVA_IntPtr_Int32
+#System.Reflection.Emit.ModuleBuilder.ClrModuleCreate_IntPtr_String
+#System.Reflection.Emit.ModuleBuilder.ClrModuleCreateString_IntPtr_String
+#System.Reflection.Emit.ModuleBuilder.ClrModuleWriteData_IntPtr_Byte[]
+#System.Reflection.Emit.ModuleBuilder.ClrModuleWriteGap_IntPtr_Int32
+#System.Reflection.Emit.ParameterBuilder.ClrParameterCreate_IntPtr_Int32_ParameterAttributes_String
+#System.Reflection.Emit.ParameterBuilder.ClrParameterGetAttrs_IntPtr
+#System.Reflection.Emit.ParameterBuilder.ClrParameterGetName_IntPtr
+#System.Reflection.Emit.ParameterBuilder.ClrParameterGetPosition_IntPtr
+#System.Reflection.Emit.PropertyBuilder.ClrPropertyAddSemantics_IntPtr_MethodSemanticsAttributes_MethodToken
+#System.Reflection.Emit.PropertyBuilder.ClrPropertyCreate_IntPtr_String_PropertyAttributes_IntPtr
+#System.Reflection.Emit.SignatureHelper.ClrSigAddArgument_IntPtr_IntPtr_IntPtr
+#System.Reflection.Emit.SignatureHelper.ClrSigAddSentinel_IntPtr_IntPtr
+#System.Reflection.Emit.SignatureHelper.ClrSigCreateArray_IntPtr_Int32_IntPtr
+#System.Reflection.Emit.SignatureHelper.ClrSigCreateByRef_IntPtr_IntPtr
+#System.Reflection.Emit.SignatureHelper.ClrSigCreateClass_IntPtr_Int32
+#System.Reflection.Emit.SignatureHelper.ClrSigCreateLocal_IntPtr
+#System.Reflection.Emit.SignatureHelper.ClrSigCreateMethodCopy_IntPtr_IntPtr_Int32
+#System.Reflection.Emit.SignatureHelper.ClrSigCreateMethod_IntPtr_Int32_IntPtr
+#System.Reflection.Emit.SignatureHelper.ClrSigCreatePointer_IntPtr_IntPtr
+#System.Reflection.Emit.SignatureHelper.ClrSigCreatePrimitive_IntPtr_Type
+#System.Reflection.Emit.SignatureHelper.ClrSigCreateProperty_IntPtr_IntPtr
+#System.Reflection.Emit.SignatureHelper.ClrSigCreateValueType_IntPtr_Int32
+#System.Reflection.Emit.SignatureHelper.ClrSigFinalize_IntPtr_IntPtr_Boolean
+#System.Reflection.Emit.SignatureHelper.ClrSigGetBytes_IntPtr_Int64
+#System.Reflection.Emit.SignatureHelper.ClrSigGetHashCode_IntPtr
+#System.Reflection.Emit.SignatureHelper.ClrSigIdentical_IntPtr_IntPtr
+#System.Reflection.Emit.SignatureHelper.ClrSigModuleToContext_IntPtr
+#System.Reflection.Emit.SignatureHelper.ClrStandAloneToken_IntPtr_IntPtr
+#System.Reflection.Emit.TypeBuilder.ClrTypeAddInterface_IntPtr_TypeToken
+#System.Reflection.Emit.TypeBuilder.ClrTypeAddOverride_IntPtr_Int32_Int32
+#System.Reflection.Emit.TypeBuilder.ClrTypeCreate_IntPtr_IntPtr_String_String_TypeAttributes_TypeToken
+#System.Reflection.Emit.TypeBuilder.ClrTypeGetClassSize_IntPtr
+#System.Reflection.Emit.TypeBuilder.ClrTypeGetPackingSize_IntPtr
+#System.Reflection.Emit.TypeBuilder.ClrTypeImport_IntPtr_IntPtr
+#System.Reflection.Emit.TypeBuilder.ClrTypeImportMember_IntPtr_IntPtr
+#System.Reflection.Emit.TypeBuilder.ClrTypeSetClassSize_IntPtr_Int32
+#System.Reflection.Emit.TypeBuilder.ClrTypeSetPackingSize_IntPtr_Int32
+#System.Reflection.Emit.TypeBuilder.ClrTypeSetParent_IntPtr_TypeToken
+#System.Reflection.FieldInfo.GetFieldFromHandle_RuntimeFieldHandle
+System.Reflection.MethodBase.GetCurrentMethod, System_Reflection_MethodBase_GetCurrentMethod, "System_Reflection_MethodBase_GetCurrentMethod"
+System.Reflection.MethodBase.GetMethodFromHandle_RuntimeMethodHandle, System_Reflection_MethodBase_GetMethodFromHandle, "System_Reflection_MethodBase_GetMethodFromHandle"
+System.Reflection.Module.GetAssembly, System_Reflection_Module_GetAssembly, "System_Reflection_Module_GetAssembly"
+#System.Reflection.Module.GetFullName
+System.Reflection.Module.GetModuleType, System_Reflection_Module_GetModuleType, "System_Reflection_Module_GetModuleType"
+System.Reflection.Module.GetTypes, System_Reflection_Module_GetTypes, "System_Reflection_Module_GetTypes"
+System.Reflection.Module.GetType_String_Boolean_Boolean, System_Reflection_Module_GetType, "System_Reflection_Module_GetType"
+#System.Reflection.Module.IsResource
+#System.Runtime.CompilerServices.RuntimeHelpers.Equals_Object_Object
+#System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode_Object
+#System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue_Object
+System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor_RuntimeTypeHandle, System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor, "System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor"
+System.Runtime.CompilerServices.RuntimeHelpers.InitializeArray_Array_IntPtr, System_Runtime_CompilerServices_RuntimeHelpers_InitializeArray_ap, "System_Runtime_CompilerServices_RuntimeHelpers_InitializeArray_ap"
+System.Runtime.CompilerServices.RuntimeHelpers.InitializeArray_Array_RuntimeFieldHandle, System_Runtime_CompilerServices_RuntimeHelpers_InitializeArray, "System_Runtime_CompilerServices_RuntimeHelpers_InitializeArray"
+#System.Runtime.CompilerServices.RuntimeHelpers.InternalOffsetToStringData
+#System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor_RuntimeTypeHandle
+#System.Runtime.InteropServices.GCHandle.GCAddrOfPinnedObject_Int32
+#System.Runtime.InteropServices.GCHandle.GCAlloc_Object_GCHandleType
+#System.Runtime.InteropServices.GCHandle.GCFree_Int32
+#System.Runtime.InteropServices.GCHandle.GCGetTarget_Int32
+#System.Runtime.InteropServices.GCHandle.GCSetTarget_Int32_Object
+#System.Runtime.InteropServices.GCHandle.GCValidate_Int32
+System.Runtime.InteropServices.Marshal.AllocHGlobal_IntPtr, System_Runtime_InteropServices_Marshal_AllocHGlobal, "System_Runtime_InteropServices_Marshal_AllocHGlobal"
+#System.Runtime.InteropServices.Marshal.CopyMU_Array_Int32_IntPtr_Int32
+#System.Runtime.InteropServices.Marshal.CopyUM_IntPtr_Array_Int32_Int32
+#System.Runtime.InteropServices.Marshal.DestroyStructureInternal_IntPtr_Type
+System.Runtime.InteropServices.Marshal.FreeHGlobal_IntPtr, System_Runtime_InteropServices_Marshal_FreeHGlobal, "System_Runtime_InteropServices_Marshal_FreeHGlobal"
+#System.Runtime.InteropServices.Marshal.ObjectToPtr_Object
+#System.Runtime.InteropServices.Marshal.OffsetOfInternal_Type_String
+System.Runtime.InteropServices.Marshal.PtrToStringAnsiInternal_IntPtr_Int32, System_Runtime_InteropServices_Marshal_PtrToStringAnsiInternal, "System_Runtime_InteropServices_Marshal_PtrToStringAnsiInternal"
+S#ystem.Runtime.InteropServices.Marshal.PtrToStringAutoInternal_IntPtr_Int32
+S#ystem.Runtime.InteropServices.Marshal.PtrToStringUniInternal_IntPtr_Int32
+S#ystem.Runtime.InteropServices.Marshal.PtrToStructureInternal_IntPtr_Object_Boolean
+#System.Runtime.InteropServices.Marshal.ReadByte_IntPtr_Int32
+#System.Runtime.InteropServices.Marshal.ReadInt16_IntPtr_Int32
+#System.Runtime.InteropServices.Marshal.ReadInt32_IntPtr_Int32
+#System.Runtime.InteropServices.Marshal.ReadInt64_IntPtr_Int32
+#System.Runtime.InteropServices.Marshal.ReadIntPtr_IntPtr_Int32
+System.Runtime.InteropServices.Marshal.ReAllocHGlobal_IntPtr_IntPtr, System_Runtime_InteropServices_Marshal_ReAllocHGlobal, "System_Runtime_InteropServices_Marshal_ReAllocHGlobal"
+System.Runtime.InteropServices.Marshal.SizeOfInternal_Type, System_Runtime_InteropServices_Marshal_SizeOf, "System_Runtime_InteropServices_Marshal_SizeOf"
+System.Runtime.InteropServices.Marshal.StringToHGlobalAnsi_String, System_Runtime_InteropServices_Marshal_StringToHGlobalAnsi, "System_Runtime_InteropServices_Marshal_StringToHGlobalAnsi"
+S#ystem.Runtime.InteropServices.Marshal.StringToHGlobalAuto_String
+S#ystem.Runtime.InteropServices.Marshal.StringToHGlobalUni_String
+S#ystem.Runtime.InteropServices.Marshal.StructureToPtrInternal_Object_IntPtr
+S#ystem.Runtime.InteropServices.Marshal.UnsafeAddrOfPinnedArrayElement_Array_Int32
+#System.Runtime.InteropServices.Marshal.WriteByte_IntPtr_Int32_Byte
+#System.Runtime.InteropServices.Marshal.WriteInt16_IntPtr_Int32_Int16
+#System.Runtime.InteropServices.Marshal.WriteInt32_IntPtr_Int32_Int32
+#System.Runtime.InteropServices.Marshal.WriteInt64_IntPtr_Int32_Int64
+System.Runtime.InteropServices.Marshal.WriteIntPtr_IntPtr_Int32_IntPtr, System_Runtime_InteropServices_Marshal_WriteIntPtr, "System_Runtime_InteropServices_Marshal_WriteIntPtr"
+#System.RuntimeMethodHandle.GetFunctionPointer
+System.Runtime.Remoting.Messaging.AsyncResult.SetOutParams_Delegate_Object[]_Object[], System_Runtime_Remoting_Messaging_AsyncResult_SetOutParams, "System_Runtime_Remoting_Messaging_AsyncResult_SetOutParams"
+#System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers_Type
+#System.Runtime.Serialization.FormatterServices.InternalGetUninitializedObject_Type
+System.Security.ClrSecurity.GetPermissionsFrom_Int32, System_Security_ClrSecurity_GetPermissionsFrom, "System_Security_ClrSecurity_GetPermissionsFrom"
+System.Security.SecurityManager.get_SecurityEnabled, System_Security_SecurityManager_get_SecurityEnabled, "System_Security_SecurityManager_get_SecurityEnabled"
+#System.Security.ClrSecurity.GetPermissions_Int32
+#System.Security.ClrSecurity.SetPermissions_ClrPermissions_Int32
+System.Single.IsNaN_Single, System_Single_IsNaN, "System_Single_IsNaN"
+System.Single.TestInfinity_Single, System_Single_TestInfinity, "System_Single_TestInfinity"
+System.Char.GetDataTablePointers_Byte*_Byte*_Double*_UInt16*_UInt16*_UInt16*_UInt16*, System_Char_GetDataTablePointers, "System_Char_GetDataTablePointers"
+System.String.CharFill_String_Int32_Char[]_Int32_Int32, System_String_CharFill_siacii, "System_String_CharFill_siacii"
+System.String.CharFill_String_Int32_Int32_Char, System_String_CharFill_siic, "System_String_CharFill_siic"
+System.String.CompareInternal_String_Int32_Int32_String_Int32_Int32_Boolean, System_String_CompareInternal, "System_String_CompareInternal"
+System.String.Compare_String_String, System_String_Compare, "System_String_Compare"
+System.String.Concat_String_String, System_String_Concat, "System_String_Concat"
+System.String.Concat_String_String_String, System_String_ConcatString3, "System_String_ConcatString3"
+System.String.Copy_String_Int32_String, System_String_Copy_StringiString, "System_String_Copy_StringiString"
+System.String.Copy_String_Int32_String_Int32_Int32, System_String_Copy_StringiStringii, "System_String_Copy_StringiStringii"
+System.String.CopyToChecked_Int32_Char[]_Int32_Int32, System_String_CopyToChecked, "System_String_CopyToChecked"
+System.String..ctor_Char[], System_String_ctor_ac, "System_String_ctor_ac"
+System.String..ctor_Char*, System_String_ctor_pc, "System_String_ctor_pc"
+System.String..ctor_Char_Int32, System_String_ctor_ci, "System_String_ctor_ci"
+System.String..ctor_Char[]_Int32_Int32, System_String_ctor_acii, "System_String_ctor_acii"
+System.String..ctor_Char*_Int32_Int32, System_String_ctor_pcii, "System_String_ctor_pcii"
+System.String..ctor_SByte*, System_String_ctor_pb, "System_String_ctor_pb"
+System.String..ctor_SByte*_Int32_Int32, System_String_ctor_pbii, "System_String_ctor_pbii"
+#System.String..ctor_SByte*_Int32_Int32_Encoding
+System.String.Equals_String_String, System_String_Equals, "System_String_Equals"
+System.String.FindInRange_Int32_Int32_Int32_String, System_String_FindInRange, "System_String_FindInRange"
+System.String.GetChar_Int32, System_String_GetChar, "System_String_GetChar"
+System.String.GetHashCode, System_String_GetHashCode, "System_String_GetHashCode"
+System.String.GetLOSLimit, System_String_GetLOSLimit, "System_String_GetLOSLimit"
+System.String.IndexOfAny_Char[]_Int32_Int32, System_String_IndexOfAny, "System_String_IndexOfAny"
+System.String.IndexOf_Char_Int32_Int32, System_String_IndexOf, "System_String_IndexOf"
+System.String.InsertSpace_String_Int32_Int32, System_String_InsertSpace, "System_String_InsertSpace"
+System.String.InternalOrdinal_String_Int32_Int32_String_Int32_Int32, System_String_InternalOrdinal, "System_String_InternalOrdinal"
+System.String.Intern_String, System_String_Intern, "System_String_Intern"
+System.String.IsInterned_String, System_String_IsInterned, "System_String_IsInterned"
+System.String.LastIndexOfAny_Char[]_Int32_Int32, System_String_LastIndexOfAny, "System_String_LastIndexOfAny"
+System.String.LastIndexOf_Char_Int32_Int32, System_String_LastIndexOf, "System_String_LastIndexOf"
+System.String.NewBuilder_String_Int32, System_String_NewBuilder, "System_String_NewBuilder"
+System.String.NewString_Int32, System_String_NewString, "System_String_NewString"
+System.String.RemoveSpace_String_Int32_Int32, System_String_RemoveSpace, "System_String_RemoveSpace"
+System.String.Replace_Char_Char, System_String_Replace, "System_String_Replace"
+System.String.Replace_String_String, System_String_ReplaceStringString, "System_String_ReplaceStringString"
+System.String.SetChar_Int32_Char, System_String_SetChar, "System_String_SetChar"
+System.String.Trim_Char[]_Int32, System_String_Trim, "System_String_Trim"
+System.Text.DefaultEncoding.InternalCodePage, System_Text_DefaultEncoding_InternalCodePage, "System_Text_DefaultEncoding_InternalCodePage"
+System.Text.DefaultEncoding.InternalGetByteCount_Char[]_Int32_Int32, System_Text_DefaultEncoding_InternalGetByteCount_acii, "System_Text_DefaultEncoding_InternalGetByteCount_acii"
+System.Text.DefaultEncoding.InternalGetByteCount_String_Int32_Int32, System_Text_DefaultEncoding_InternalGetByteCount_Stringii, "System_Text_DefaultEncoding_InternalGetByteCount_Stringii"
+System.Text.DefaultEncoding.InternalGetBytes_Char[]_Int32_Int32_Byte[]_Int32, System_Text_DefaultEncoding_InternalGetBytes_aciiaBi1, "System_Text_DefaultEncoding_InternalGetBytes_aciiaBi1"
+System.Text.DefaultEncoding.InternalGetBytes_String_Int32_Int32_Byte[]_Int32, System_Text_DefaultEncoding_InternalGetBytes_StringiiaBi, "System_Text_DefaultEncoding_InternalGetBytes_StringiiaBi"
+System.Text.DefaultEncoding.InternalGetCharCount_Byte[]_Int32_Int32, System_Text_DefaultEncoding_InternalGetCharCount, "System_Text_DefaultEncoding_InternalGetCharCount"
+System.Text.DefaultEncoding.InternalGetChars_Byte[]_Int32_Int32_Char[]_Int32, System_Text_DefaultEncoding_InternalGetChars, "System_Text_DefaultEncoding_InternalGetChars"
+System.Text.DefaultEncoding.InternalGetMaxByteCount_Int32, System_Text_DefaultEncoding_InternalGetMaxByteCount, "System_Text_DefaultEncoding_InternalGetMaxByteCount"
+System.Text.DefaultEncoding.InternalGetMaxCharCount_Int32, System_Text_DefaultEncoding_InternalGetMaxCharCount, "System_Text_DefaultEncoding_InternalGetMaxCharCount"
+System.Text.DefaultEncoding.InternalGetString_Byte[]_Int32_Int32, System_Text_DefaultEncoding_InternalGetString, "System_Text_DefaultEncoding_InternalGetString"
+System.Text.StringBuilder.Append_Char, System_Text_StringBuilder_Append_c, "System_Text_StringBuilder_Append_c"
+System.Text.StringBuilder.Append_Char[], System_Text_StringBuilder_Append_ac1, "System_Text_StringBuilder_Append_ac1"
+System.Text.StringBuilder.Append_Char_Int32, System_Text_StringBuilder_Append_ci, "System_Text_StringBuilder_Append_ci"
+System.Text.StringBuilder.Append_Char[]_Int32_Int32, System_Text_StringBuilder_Append_acii1, "System_Text_StringBuilder_Append_acii1"
+System.Text.StringBuilder.Append_String, System_Text_StringBuilder_Append_String, "System_Text_StringBuilder_Append_String"
+System.Text.StringBuilder.Append_String_Int32_Int32, System_Text_StringBuilder_Append_Stringii, "System_Text_StringBuilder_Append_Stringii"
+System.Text.StringBuilder.EnsureCapacity_Int32, System_Text_StringBuilder_EnsureCapacity, "System_Text_StringBuilder_EnsureCapacity"
+System.Text.StringBuilder.Insert_Int32_Char, System_Text_StringBuilder_Insert_ic, "System_Text_StringBuilder_Insert_ic"
+System.Text.StringBuilder.Insert_Int32_Char[], System_Text_StringBuilder_Insert_iac1, "System_Text_StringBuilder_Insert_iac1"
+System.Text.StringBuilder.Insert_Int32_Char[]_Int32_Int32, System_Text_StringBuilder_Insert_iacii, "System_Text_StringBuilder_Insert_iacii"
+System.Text.StringBuilder.Insert_Int32_String, System_Text_StringBuilder_Insert_iString, "System_Text_StringBuilder_Insert_iString"
+System.Text.StringBuilder.Insert_Int32_String_Int32, System_Text_StringBuilder_Insert_iStringi, "System_Text_StringBuilder_Insert_iStringi"
+System.Text.StringBuilder.Replace_Char_Char, System_Text_StringBuilder_Replace_cc, "System_Text_StringBuilder_Replace_cc"
+System.Text.StringBuilder.Replace_Char_Char_Int32_Int32, System_Text_StringBuilder_Replace_ccii, "System_Text_StringBuilder_Replace_ccii"
+System.Threading.Thread.CurrentThread_internal, System_Threading_Thread_CurrentThread_internal, "System_Threading_Thread_CurrentThread_internal"
+System.Threading.Interlocked.CompareExchange_Int32_Int32_Int32, System_Threading_Interlocked_CompareExchange, "System_Threading_Interlocked_CompareExchange"
+#System.Threading.Interlocked.CompareExchange_Object_Object_Object
+#System.Threading.Interlocked.CompareExchange_Single_Single_Single
+System.Threading.Interlocked.Decrement_Int32, System_Threading_Interlocked_Decrement, "System_Threading_Interlocked_Decrement"
+#System.Threading.Interlocked.Decrement_Int64
+System.Threading.Interlocked.Exchange_Int32_Int32, System_Threading_Interlocked_Exchange, "System_Threading_Interlocked_Exchange"
+#System.Threading.Interlocked.Exchange_Object_Object
+#System.Threading.Interlocked.Exchange_Single_Single
+System.Threading.Interlocked.Increment_Int32, System_Threading_Interlocked_Increment, "System_Threading_Interlocked_Increment"
+#System.Threading.Interlocked.Increment_Int64
+System.Threading.Monitor.Enter_Object, System_Threading_Monitor_Enter, "System_Threading_Monitor_Enter"
+System.Threading.Monitor.Exit_Object, System_Threading_Monitor_Exit, "System_Threading_Monitor_Exit"
+System.Threading.Monitor.InternalTryEnter_Object_Int32, System_Threading_Monitor_InternalTryEnter, "System_Threading_Monitor_InternalTryEnter"
+System.Threading.Monitor.InternalWait_Object_Int32, System_Threading_Monitor_InternalWait, "System_Threading_Monitor_InternalWait"
+System.Threading.Monitor.PulseAll_Object, System_Threading_Monitor_PulseAll, "System_Threading_Monitor_PulseAll"
+System.Threading.Monitor.Pulse_Object, System_Threading_Monitor_Pulse, "System_Threading_Monitor_Pulse"
+System.Threading.Mutex.InternalCreateMutex_Boolean_String_Boolean, System_Threading_Mutex_InternalCreateMutex, "System_Threading_Mutex_InternalCreateMutex"
+System.Threading.Mutex.InternalReleaseMutex_IntPtr, System_Threading_Mutex_InternalReleaseMutex, "System_Threading_Mutex_InternalReleaseMutex"
+#System.Threading.Thread.Abort
+System.Threading.Thread.CanStartThreads, System_Threading_Thread_CanStartThreads, "System_Threading_Thread_CanStartThreads"
+System.Threading.Thread.FinalizeThread, System_Threading_Thread_FinalizeThread, "System_Threading_Thread_FinalizeThread"
+System.Threading.Thread.InitializeThread, System_Threading_Thread_InitializeThread, "System_Threading_Thread_InitializeThread"
+System.Threading.Thread.InternalCurrentThread, System_Threading_Thread_InternalCurrentThread, "System_Threading_Thread_InternalCurrentThread"
+#System.Threading.Thread.InternalGetPriority
+System.Threading.Thread.InternalGetState, System_Threading_Thread_InternalGetState, "System_Threading_Thread_InternalGetState"
+#System.Threading.Thread.InternalGetThreadId
+System.Threading.Thread.InternalJoin_Int32, System_Threading_Thread_InternalJoin, "System_Threading_Thread_InternalJoin"
+#System.Threading.Thread.InternalSetBackground_Boolean
+#System.Threading.Thread.InternalSetPriority_ThreadPriority
+System.Threading.Thread.InternalSleep_Int32, System_Threading_Thread_InternalSleep, "System_Threading_Thread_InternalSleep"
+#System.Threading.Thread.Interrupt
+System.Threading.Thread.MemoryBarrier, System_Threading_Thread_MemoryBarrier, "System_Threading_Thread_MemoryBarrier"
+#System.Threading.Thread.ResetAbort
+#System.Threading.Thread.Resume
+#System.Threading.Thread.SpinWait_Int32
+System.Threading.Thread.Start, System_Threading_Thread_Start, "System_Threading_Thread_Start"
+#System.Threading.Thread.Suspend
+#System.Threading.Thread.VolatileRead_Byte
+#System.Threading.Thread.VolatileRead_Double
+#System.Threading.Thread.VolatileRead_Int16
+System.Threading.Thread.VolatileRead_Int32, System_Threading_Thread_VolatileRead_i, "System_Threading_Thread_VolatileRead_i"
+#System.Threading.Thread.VolatileRead_Int64
+#System.Threading.Thread.VolatileRead_IntPtr
+#System.Threading.Thread.VolatileRead_Object
+#System.Threading.Thread.VolatileRead_SByte
+#System.Threading.Thread.VolatileRead_Single
+#System.Threading.Thread.VolatileRead_UInt16
+#System.Threading.Thread.VolatileRead_UInt32
+#System.Threading.Thread.VolatileRead_UInt64
+#System.Threading.Thread.VolatileRead_UIntPtr
+#System.Threading.Thread.VolatileWrite_Byte_Byte
+#System.Threading.Thread.VolatileWrite_Double_Double
+#System.Threading.Thread.VolatileWrite_Int16_Int16
+System.Threading.Thread.VolatileWrite_Int32_Int32, System_Threading_Thread_VolatileWrite_i, "System_Threading_Thread_VolatileWrite_i"
+#System.Threading.Thread.VolatileWrite_Int64_Int64
+#System.Threading.Thread.VolatileWrite_IntPtr_IntPtr
+#System.Threading.Thread.VolatileWrite_Object_Object
+#System.Threading.Thread.VolatileWrite_SByte_SByte
+#System.Threading.Thread.VolatileWrite_Single_Single
+#System.Threading.Thread.VolatileWrite_UInt16_UInt16
+#System.Threading.Thread.VolatileWrite_UInt32_UInt32
+#System.Threading.Thread.VolatileWrite_UInt64_UInt64
+#System.Threading.Thread.VolatileWrite_UIntPtr_UIntPtr
+System.Threading.WaitEvent.InternalCreateEvent_Boolean_Boolean, System_Threading_WaitEvent_InternalCreateEvent, "System_Threading_WaitEvent_InternalCreateEvent"
+#System.Threading.WaitEvent.InternalResetEvent_IntPtr
+System.Threading.WaitEvent.InternalSetEvent_IntPtr, System_Threading_WaitEvent_InternalSetEvent, "System_Threading_WaitEvent_InternalSetEvent"
+System.Threading.WaitHandle.InternalClose_IntPtr, System_Threading_WaitHandle_InternalClose, "System_Threading_WaitHandle_InternalClose"
+System.Threading.WaitHandle.InternalWaitAll_IntPtr[]_Int32_Boolean, System_Threading_WaitHandle_InternalWaitAll, "System_Threading_WaitHandle_InternalWaitAll"
+#System.Threading.WaitHandle.InternalWaitAny_IntPtr[]_Int32_Boolean
+System.Threading.WaitHandle.InternalWaitOne_IntPtr_Int32, System_Threading_WaitHandle_InternalWaitOne, "System_Threading_WaitHandle_InternalWaitOne"
+#System.TypedReference.ClrMakeTypedReference_Object_FieldInfo[]
+#System.TypedReference.ClrSetTypedReference_TypedReference_Object
+System.TypedReference.ToObject_TypedReference, System_TypedReference_ToObject, "System_TypedReference_ToObject"
+System.Type.GetTypeFromHandle_RuntimeTypeHandle, System_Type_GetTypeFromHandle, "System_Type_GetTypeFromHandle"
+#System.Type.GetTypeHandle_Object
+System.Type.GetType_String_Boolean_Boolean, System_Type_GetType, "System_Type_GetType"
+System.Net.IPAddress.HostToNetworkOrder_Int16, System_Net_IPAddress_HostToNetworkOrderS, "System_Net_IPAddress_HostToNetworkOrderS"
+System.Net.IPAddress.HostToNetworkOrder_Int32, System_Net_IPAddress_HostToNetworkOrderI, "System_Net_IPAddress_HostToNetworkOrderI"
+System.Net.IPAddress.HostToNetworkOrder_Int64, System_Net_IPAddress_HostToNetworkOrderL, "System_Net_IPAddress_HostToNetworkOrderL"
+System.Net.IPAddress.NetworkToHostOrder_Int16, System_Net_IPAddress_NetworkToHostOrderS, "System_Net_IPAddress_NetworkToHostOrderS"
+System.Net.IPAddress.NetworkToHostOrder_Int32, System_Net_IPAddress_NetworkToHostOrderI, "System_Net_IPAddress_NetworkToHostOrderI"
+System.Net.IPAddress.NetworkToHostOrder_Int64, System_Net_IPAddress_NetworkToHostOrderL, "System_Net_IPAddress_NetworkToHostOrderL"
+%%
+
+extern t_system *ildjitSystem;
+
+void CLRBASE_getNameAndFunctionPointerOfMethod (JITINT8 *internalName, JITINT8 **cFunctionName, void **cFunctionPointer){
+	const InternalCall *call=internalCallLookUp((char *)internalName,STRLEN(internalName));
+	if (call == NULL){
+		return ;
+	}
+	(*cFunctionName)	= (JITINT8 *)call->cFunctionName;
+	(*cFunctionPointer)	= call->pointer;
+
+	return ;
+}
+
+JITBOOLEAN CLRBASE_buildMethod (Method method){
+	JITBOOLEAN error=JITFALSE;
+	MethodDescriptor *methodID=method->getID(method);
+	JITINT8 *internalName=methodID->getInternalName(methodID);
+	const InternalCall *call=internalCallLookUp((char *)internalName,STRLEN(internalName));
+	if (call==NULL){
+		error=JITTRUE;
+	}else{
+		if (call->pointer==NULL){
+			error=JITTRUE;
+		} else {
+			IRVM_setNativeEntryPoint(&(ildjitSystem->IRVM), *(method->jit_function), call->pointer);
+		}
+	}
+	
+	if (error){
+		#ifdef DEBUG
+			JITINT8 buf[1024];
+			SNPRINTF(buf, sizeof(buf), "Internal call %s (%s) is not implemented.", (char *)IRMETHOD_getSignatureInString(method->getIRMethod(method)), internalName);
+			IRVM_setNativeEntryPoint(&(ildjitSystem->IRVM), *(method->jit_function), translateInternalDummyFunction(&(ildjitSystem->IRVM), method, buf));
+		#else
+			IRVM_setNativeEntryPoint(&(ildjitSystem->IRVM), *(method->jit_function), internalDummyFunction);
+		#endif
+	}
+	
+	/* Set the state of the method.
+	 */
+	method->lock(method);
+	method->setState(method, EXECUTABLE_STATE);
+	method->unlock(method);
+
+	return (error == JITFALSE);
+}
+
+static inline void internalDummyFunction(){
+	print_err("Internal call is not implemented.",0);
+	abort();
+}
+
+static inline void internalDummyFunctionPrinter (JITINT8 *errorMsg){
+        print_err((char*) errorMsg, 0);
+        abort();
+}
+
+static inline void * translateInternalDummyFunction (IRVM_t *this, Method method, JITINT8 *errorMsg){
+	ir_method_t 		*temp;
+	ir_method_t		*fromMethod;
+	void 			*pointer;
+	ir_item_t		param1;
+	size_t 			size;
+	JITINT8 		*message;
+	ir_instruction_t	*retInst;
+	JITINT8			buf[1024];
+	JITINT8			*methodName;
+	static JITUINT32	suffix = 0;
+
+	/* Assertions				*/
+	assert(this != NULL);
+
+	/* Copy the message			*/
+	size 		= STRLEN(errorMsg) + 1;
+	message 	= allocFunction(sizeof(JITINT8) * size);
+	memcpy(message, errorMsg, sizeof(JITINT8) * size);
+
+	/* Fetch the source IR method		*/
+	fromMethod	= &(method->IRMethod);
+
+	/* Create the name of the method	*/
+	SNPRINTF(buf, 1024, "Trampoline_%u", suffix);
+	methodName	= allocFunction(sizeof(JITINT8) * (STRLEN(buf) + 1));
+	SNPRINTF(methodName, STRLEN(buf) + 1, "%s", buf);
+	suffix++;
+
+	/* Create a new method			*/
+	temp	= IRMETHOD_newMethod(methodName);
+	assert(temp != NULL);
+	if (!IRMETHOD_hasMethodInstructions(temp)){
+		XanList			*param_values;
+
+		/* Create the signature			*/
+		temp->signature						= (fromMethod->signature);
+		if (IRMETHOD_getMethodParametersNumber(temp) > 0){
+			(temp->signature).parameterTypes 			= allocFunction(sizeof(JITUINT32) * ((temp->signature).parametersNumber));
+			(temp->signature).ilParamsTypes		 		= allocFunction(sizeof(TypeDescriptor *) * ((temp->signature).parametersNumber));
+			(temp->signature).ilParamsDescriptor	 		= allocFunction(sizeof(ParamDescriptor *) * ((temp->signature).parametersNumber));
+			memcpy((temp->signature).parameterTypes, (fromMethod->signature).parameterTypes, sizeof(JITUINT32) * ((temp->signature).parametersNumber));
+			memcpy((temp->signature).ilParamsTypes, (fromMethod->signature).ilParamsTypes, sizeof(TypeDescriptor *) * ((temp->signature).parametersNumber));
+			memcpy((temp->signature).ilParamsDescriptor, (fromMethod->signature).ilParamsDescriptor, sizeof(ParamDescriptor *) * ((temp->signature).parametersNumber));
+		}
+		IRMETHOD_addMethodDummyInstructions(temp);
+		IRMETHOD_updateNumberOfVariablesNeededByMethod(temp);
+
+		/* Insert the call to the native 	*
+		 * function				*/
+		param_values 			= xanList_new(allocFunction, freeFunction, NULL);
+		memset(&param1, 0, sizeof(ir_item_t));
+		param1.value.v			= (IR_ITEM_VALUE)(JITNUINT)message;
+		param1.type			= IRNUINT;
+		param1.internal_type		= IRNUINT;
+		xanList_append(param_values, &param1);
+		IRMETHOD_newNativeCallInstruction(temp, NULL, internalDummyFunctionPrinter, NULL, param_values);
+
+		/* Insert the return			*/
+		retInst					= IRMETHOD_newInstructionOfType(temp, IREXIT);
+		(retInst->param_1).type			= IRINT32;
+		(retInst->param_1).internal_type	= (retInst->param_1).type;
+
+		/* Produce the machine code		*/
+		IRMETHOD_translateMethodToMachineCode(temp);
+
+		/* Free the memory			*/
+		xanList_destroyList(param_values);
+	}
+
+	/* Get the function pointer		*/
+	pointer 	= IRMETHOD_getFunctionPointer(temp);
+	assert(pointer != NULL);
+
+	return pointer;
+}

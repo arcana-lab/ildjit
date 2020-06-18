@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="xx.xsd">
+  <repository url="http://prdownloads.sourceforge.net/xanlib/" version_url="http://sourceforge.net/project/showfiles.php?group_id=190463">
+    <package name="libxan" pack_name="libxan" type="tar.gz"/>
+  </repository>
+  <repository url="http://prdownloads.sourceforge.net/ildjit/" version_url="http://sourceforge.net/project/showfiles.php?group_id=196259">
+    <package name="libcompilermemorymanager" pack_name="libcompilermemorymanager" type="tar.gz" father="libxan"/>
+    <package name="libiljitu" pack_name="libiljitu" type="tar.gz" father="libcompilermemorymanager"/>
+    <package name="libiljitsm" pack_name="libiljitsm" type="tar.gz" father="libiljitu"/>
+    <package name="libiljitmm" pack_name="libiljitmm" type="tar.gz" father="libiljitsm"/>
+    <package name="libiljitir" pack_name="libiljitir" type="tar.gz" father="libiljitmm"/>
+    <package name="libiljitiroptimizer" pack_name="libiljitiroptimizer" type="tar.gz" father="libiljitir"/>
+    <package name="libiljitirprofiler" pack_name="libiljitirprofiler" type="tar.gz" father="libiljitiroptimizer"/>
+    <package name="libdla" pack_name="libdla" type="tar.gz" father="libiljitirprofiler"/>
+    <package name="libirvirtualmachine" pack_name="libirvirtualmachine" type="tar.gz" father="libdla"/>
+    <package name="iljit-ecmasoft-decoder" pack_name="iljit-ecmasoft-decoder" type="tar.gz" father="iljit"/>
+    <package name="iljit-gc-markandsweep" pack_name="iljit-gc-markandsweep" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-algebraic_simply" pack_name="optimizer-algebraic_simplification" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-basicblockidentifier" pack_name="optimizer-basicblockidentifier" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-branchpredictor" pack_name="optimizer-branchpredictors" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-constantpropagation" pack_name="optimizer-constantpropagation" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-copypropagation" pack_name="optimizer-copypropagation" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-deadcode" pack_name="optimizer-deadcode" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-escapes" pack_name="optimizer-escapes" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-inductionvariablesid" pack_name="optimizer-inductionvariablesidentification" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-liveness" pack_name="optimizer-liveness" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-loopidentificator" pack_name="optimizer-loopidentificator" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-loopinvariantsidenti" pack_name="optimizer-loopinvariantsidentification" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-nullcheckremoval" pack_name="optimizer-nullcheckremoval" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-reachingdefinitions" pack_name="optimizer-reachingdefinitions" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="libdominance" pack_name="libdominance" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-predominators" pack_name="optimizer-predominator" type="tar.gz" father="libdominance"/>
+    <package name="iljit" pack_name="iljit" type="tar.gz" father="libdla"/>
+    <!-- <package name="optimizer-basicblock" pack_name="optimizer-basicblock" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-postdominators" pack_name="optimizer-postdominator" type="tar.gz" father="libdominance"/>
+    <package name="optimizer-optimizer-loopinvariantcodemot" pack_name="optimizer-optimizer-loopinvariantcodemotion" type="tar.gz" father="iljit-ecmasoft-decoder"/>
+    <package name="optimizer-dummy" pack_name="optimizer-dummy" type="tar.gz" father="iljit-ecmasoft-decoder"/> -->
+   </repository>
+</list>
